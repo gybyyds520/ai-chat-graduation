@@ -1,27 +1,6 @@
-# 依赖与构建产物
+# GitHub 无法承载（单文件>100MB / 依赖二进制）
 node_modules/
-dist/
-build/
-
-# 运行期监控组件（二进制与数据）
 ops/
-
-# 日志
-*.log
-logs/
-
-# 临时与缓存目录
-_elf_test/
-_frame_tmp/
-_word_tmp/
-.tmp-elf-ref/
-tmp_assets/
-perf/
-qa-results/
-backups/
-.vscode/
-__pycache__/
-*.pyc
 
 # 环境与敏感配置
 .env

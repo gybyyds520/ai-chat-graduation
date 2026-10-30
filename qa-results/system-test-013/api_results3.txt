@@ -1,0 +1,19 @@
+==== TC-003c demo_alice login ====
+{"code":200,"msg":"success","data":{"tokenType":"Bearer","user":{"id":82,"username":"demo_alice","nickname":"爱丽丝","avatar":null,"avatarUrl":null,"email":null,"bio":"这是 爱丽丝 的自我介绍，热爱生活与科技。","interests":null,"location":null,"website":null,"gender":null,"birthday":null,"versionType":"FREE","versionExpireTime":null,"accountStatus":"ACTIVE","membershipLevel":"FREE","membershipExpireAt":null,"phone":null,"phoneVerified":null,"emailVerified":null,"mfaEnabled":null,"lastLoginIp":null,"lastLoginTime":null,"failedLoginCount":null,"lockTime":null,"securityQuestion":null,"createTime":null,"createdAt":"2026-09-14T20:07:48","updatedAt":"2026-09-14T20:07:48","age":25,"isMinor":false,"minorModeEnabled":null,"minorModeUpdatedAt":null,"voicePreference":"default"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkwNzkwMDc4NTU3IiwidXNlcklkIjoiODIiLCJpYXQiOiIxNzkwNzAzNjc4NTU3IiwidXNlcm5hbWUiOiJkZW1vX2FsaWNlIn0=.mFI1fdrYKSsLk1ptw_uku0nNGKkslg30OocH32dbaUw="}}
+@@HTTP:200 T:0.070485
+
+==== TC-membership with fresh token ====
+{"code":200,"msg":"success","data":{"userId":88,"membershipLevel":"FREE","membershipLabel":"免费版","advanced":false,"membershipExpireAt":null,"resetDate":"2026-09-30","checkinBonus":0,"features":{"ai_chat":{"used":0,"limit":20,"available":true,"remaining":20},"voice_call":{"used":0,"limit":5,"available":true,"remaining":5},"image_gen":{"used":0,"limit":0,"available":false,"remaining":0},"doc_upload":{"used":0,"limit":0,"available":false,"remaining":0},"deep_research":{"used":0,"limit":1,"available":true,"remaining":1}}}}
+@@HTTP:200 T:0.005119
+
+==== TC-010 normal-user badge award ====
+{"code":403,"msg":"权限不足，需要管理员权限","data":null}
+@@HTTP:403 T:0.018902
+
+==== TC-010b normal-user admin users ====
+{"code":403,"msg":"权限不足，无法访问该资源","data":null}
+@@HTTP:403 T:0.003573
+
+==== TC-objauthz alice GET /api/user/1 ====
+{"code":200,"msg":"success","data":{"id":1,"username":"test","nickname":"????","avatar":null,"avatarUrl":null,"email":null,"bio":null,"interests":null,"location":null,"website":null,"gender":null,"birthday":null,"versionType":"PRO","versionExpireTime":"2026-08-07T09:15:22","accountStatus":null,"membershipLevel":"FREE","membershipExpireAt":null,"phone":null,"phoneVerified":null,"emailVerified":null,"mfaEnabled":null,"lastLoginIp":null,"lastLoginTime":null,"failedLoginCount":null,"lockTime":null,"securityQuestion":null,"createTime":null,"createdAt":"2026-07-08T09:08:57","updatedAt":"2026-07-08T10:30:32","age":null,"isMinor":false,"minorModeEnabled":null,"minorModeUpdatedAt":null,"voicePreference":"default"}}
+@@HTTP:200 T:0.004968

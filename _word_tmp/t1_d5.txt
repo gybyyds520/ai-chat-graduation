@@ -1,0 +1,213 @@
+# Dimension 5: table structure
+source: C:\Users\郭耀彬\Desktop\gybct\ai-chat-graduation\3.2301132013-XXX-题目审核表（填写版）.docx
+location_base: /word/document.xml/w:body/
+syntax: [T<n>] starts a table, [R<n>] a row, and [C<n>] a cell; listed defaults apply when omitted; null means unset/inherited.
+table_defaults: cell_margin=w:tblCellMar(w:top(w:w="0",w:type="dxa"),w:left(w:w="108",w:type="dxa"),w:bottom(w:w="0",w:type="dxa"),w:right(w:w="108",w:type="dxa")), grid=[{"w":"851"},{"w":"709"},{"w":"1305"},{"w":"226"},{"w":"254"},{"w":"757"},{"w":"818"},{"w":"720"},{"w":"1401"},{"w":"234"},{"w":"694"},{"w":"86"},{"w":"811"},{"w":"1605"}], nesting_level=0, part="word/document.xml", section_index=1, style="7", width={"w":"10471","type":"dxa"}
+row_defaults: height={"val":"312","hRule":"atLeast"}
+cell_defaults: paragraphs=1, shading={"val":"clear","color":"auto","fill":"auto"}, valign="center"
+definitions: @v1 cell.borders=w:tcBorders(w:top(w:val="nil"),w:left(w:val="nil"),w:bottom(w:val="nil"),w:right(w:val="nil")); @v2 cell.width={"w":"851","type":"dxa"}; @v3 cell.borders=w:tcBorders(w:top(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:left(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:bottom(w:val="single",w:color="000000",w:sz="4",w:space="0"),w:right(w:val="single",w:color="auto",w:sz="4",w:space="0")); @v4 cell.width={"w":"709","type":"dxa"}; @v5 cell.borders=w:tcBorders(w:top(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:left(w:val="nil"),w:bottom(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:right(w:val="single",w:color="auto",w:sz="4",w:space="0")); @v6 cell.width={"w":"8911","type":"dxa"}; @v7 cell.borders=w:tcBorders(w:top(w:val="nil"),w:left(w:val="nil"),w:bottom(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:right(w:val="single",w:color="auto",w:sz="4",w:space="0")); @v8 cell.borders=w:tcBorders(w:top(w:val="nil"),w:left(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:bottom(w:val="nil"),w:right(w:val="single",w:color="auto",w:sz="4",w:space="0")); @v9 cell.width={"w":"6495","type":"dxa"}; @v10 cell.borders=w:tcBorders(w:top(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:left(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:bottom(w:val="single",w:color="000000",w:sz="4",w:space="0"),w:right(w:val="single",w:color="000000",w:sz="4",w:space="0")); @v11 cell.width={"w":"811","type":"dxa"}; @v12 cell.width={"w":"1605","type":"dxa"}; @v13 cell.borders=w:tcBorders(w:top(w:val="nil"),w:left(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:bottom(w:val="single",w:color="000000",w:sz="4",w:space="0"),w:right(w:val="single",w:color="auto",w:sz="4",w:space="0")); @v14 cell.borders=w:tcBorders(w:top(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:left(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:bottom(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:right(w:val="single",w:color="auto",w:sz="4",w:space="0")); @v15 cell.borders=w:tcBorders(w:top(w:val="nil"),w:left(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:bottom(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:right(w:val="single",w:color="auto",w:sz="4",w:space="0")); @v16 cell.width={"w":"9620","type":"dxa"}
+text_policy: full text is emitted without truncation.
+omitted: record_type=table; repeated defaults; table text because it is the ordered concatenation of cell text; raw table XML.
+normalized: loc is relative to location_base; @v references definitions; border and margin XML are losslessly compacted by tag and attributes.
+
+[T1 loc=1]
+
+[R1 height={"val":"645","hRule":"atLeast"}]
+[C1 width={"w":"10471","type":"dxa"} colspan="14" borders=@v1]
+福州理工学院本科生毕业论文（设计）题目审核表
+
+[R2 height={"val":"585","hRule":"atLeast"}]
+[C1 width=@v2 borders=@v1]
+学院：
+[C2 width={"w":"2240","type":"dxa"} colspan="3" borders=@v1]
+计算与信息科学学院
+[C3 width={"w":"1011","type":"dxa"} colspan="2" borders=@v1]
+专业：
+[C4 width={"w":"2939","type":"dxa"} colspan="3" borders=@v1]
+Xxxx
+[C5 width={"w":"928","type":"dxa"} colspan="2" borders=@v1]
+时间：
+[C6 width={"w":"2502","type":"dxa"} colspan="3" borders=@v1]
+2026年8月13日
+
+[R3 height={"val":"675","hRule":"atLeast"}]
+[C1 paragraphs=4 width=@v2 vmerge="restart" borders=@v3]
+课
+题
+情
+况
+[C2 width=@v4 borders=@v5]
+题目名称
+[C3 width=@v6 colspan="12" borders=@v5]
+<empty/>
+
+[R4 height={"val":"600","hRule":"atLeast"}]
+[C1 width=@v2 vmerge="continue" borders=@v3 shading=null]
+<empty/>
+[C2 width=@v4 borders=@v7]
+教师姓名
+[C3 width={"w":"1305","type":"dxa"} borders=@v7]
+张三
+[C4 width={"w":"480","type":"dxa"} colspan="2" borders=@v7]
+职称
+[C5 width={"w":"1575","type":"dxa"} colspan="2" borders=@v7]
+副教授
+[C6 width={"w":"720","type":"dxa"} borders=@v7]
+学位学历
+[C7 paragraphs=2 width={"w":"1635","type":"dxa"} colspan="2" borders=@v7]
+硕士
+研究生
+[C8 width={"w":"780","type":"dxa"} colspan="2" borders=@v7]
+研究方向
+[C9 width={"w":"2416","type":"dxa"} colspan="2" borders=@v7]
+网络架构创新
+
+[R5]
+[C1 width=@v2 vmerge="continue" borders=@v3 shading=null]
+<empty/>
+[C2 width=@v4 vmerge="restart" borders=@v8]
+课题类型
+[C3 paragraphs=2 width=@v9 colspan="10" vmerge="restart" borders=@v10]
+☑工程设计   □实（试）验研究  □观察研究   
+□计算机软件 □经济管理及文科  □艺术设计   □其他
+[C4 width=@v11 vmerge="restart" borders=@v8]
+成果类别
+[C5 paragraphs=2 width=@v12 vmerge="restart" borders=@v13]
+□设计
+☑论文
+
+[R6]
+[C1 width=@v2 vmerge="continue" borders=@v3 shading=null]
+<empty/>
+[C2 width=@v4 vmerge="continue" borders=@v8 shading=null]
+<empty/>
+[C3 width=@v9 colspan="10" vmerge="continue" borders=@v10 shading=null]
+<empty/>
+[C4 width=@v11 vmerge="continue" borders=@v8 shading=null]
+<empty/>
+[C5 width=@v12 vmerge="continue" borders=@v13 shading=null]
+<empty/>
+
+[R7]
+[C1 width=@v2 vmerge="continue" borders=@v3 shading=null]
+<empty/>
+[C2 width=@v4 vmerge="restart" borders=@v14]
+结合实际情况
+[C3 paragraphs=2 width=@v6 colspan="12" vmerge="restart" borders=@v10]
+□社会实践（实（试）验、实习、工程实践和社会调查等各类社会实践）
+□科研    □其他
+
+[R8]
+[C1 width=@v2 vmerge="continue" borders=@v3 shading=null]
+<empty/>
+[C2 width=@v4 vmerge="continue" borders=@v14 shading=null]
+<empty/>
+[C3 width=@v6 colspan="12" vmerge="continue" borders=@v10 shading=null]
+<empty/>
+
+[R9]
+[C1 width=@v2 borders=@v15]
+课题应具备的条件
+[C2 paragraphs=11 width=@v16 colspan="13" borders=@v14 valign=null]
+1.学生知识储备要求（说明需要具备的理论知识、技能知识、相关技术等）
+（1）
+（2）
+（3）
+2.实验设备等软硬件条件要求（完成设计需要的设备、仪器、电脑配置、运行环境等软硬件要求）
+（1）
+（2）
+3.工作要求
+（1）时间要求：2026年9月至2027年4月（时间已固定，不要修改）
+（2）工作难度：（难度等级分为：难、偏难、适中、偏易、易）
+（3）工作任务量：（任务量等级：适中、饱满、较大等，根据实际情况填写）
+
+[R10]
+[C1 width=@v2 vmerge="restart" borders=@v15]
+课题意义、主要研究内容/设计目标
+[C2 paragraphs=10 width=@v16 colspan="13" vmerge="restart" borders=@v14 valign="bottom"]
+1.课题意义（主要说明课题目的、创新点，要解决哪些问题、能实现什么功能等）
+
+XXXX
+
+2.主要研究内容（与课题相关的理论、技术原理、实现方法等；可从系统总体设计、各功能模块实现、重点问题解决等角度说明）
+XXXX
+
+3.主要设计目标（简要叙述应实现的功能、呈现形式、达到的效果等）
+XXXX
+
+
+[R11]
+[C1 width=@v2 vmerge="continue" borders=@v15 shading=null]
+<empty/>
+[C2 width=@v16 colspan="13" vmerge="continue" borders=@v14 shading=null]
+<empty/>
+
+[R12]
+[C1 width=@v2 vmerge="continue" borders=@v15 shading=null]
+<empty/>
+[C2 width=@v16 colspan="13" vmerge="continue" borders=@v14 shading=null]
+<empty/>
+
+[R13]
+[C1 width=@v2 vmerge="continue" borders=@v15 shading=null]
+<empty/>
+[C2 width=@v16 colspan="13" vmerge="continue" borders=@v14 shading=null]
+<empty/>
+
+[R14]
+[C1 width=@v2 vmerge="continue" borders=@v15 shading=null]
+<empty/>
+[C2 width=@v16 colspan="13" vmerge="continue" borders=@v14 shading=null]
+<empty/>
+
+[R15]
+[C1 width=@v2 vmerge="continue" borders=@v15 shading=null]
+<empty/>
+[C2 width=@v16 colspan="13" vmerge="continue" borders=@v14 shading=null]
+<empty/>
+
+[R16 height={"val":"1173","hRule":"atLeast"}]
+[C1 width=@v2 vmerge="continue" borders=@v15 shading=null]
+<empty/>
+[C2 width=@v16 colspan="13" vmerge="continue" borders=@v14 shading=null]
+<empty/>
+
+[R17 height={"val":"85","hRule":"exact"}]
+[C1 width=@v2 vmerge="restart" borders=@v15]
+专业审核意见
+[C2 paragraphs=3 width=@v16 colspan="13" vmerge="restart" borders=@v10 valign="bottom"]
+毕业设计题目和设计目标符合应用型高校本科毕业设计的难度，工作量适合，符合专业人才培养目标，同意该课题作为毕业设计题目。
+
+负责人签字：              2026年 8月15日
+
+[R18]
+[C1 width=@v2 vmerge="continue" borders=@v15 shading=null]
+<empty/>
+[C2 width=@v16 colspan="13" vmerge="continue" borders=@v10 shading=null]
+<empty/>
+
+[R19 height={"val":"611","hRule":"atLeast"}]
+[C1 width=@v2 vmerge="continue" borders=@v15 shading=null]
+<empty/>
+[C2 width=@v16 colspan="13" vmerge="continue" borders=@v10 shading=null]
+<empty/>
+
+[R20]
+[C1 width=@v2 vmerge="restart" borders=@v15]
+学院审核意见
+[C2 paragraphs=3 width=@v16 colspan="13" vmerge="restart" borders=@v10 valign="bottom"]
+
+
+负责人签字（盖章）：              2026年 8月15日
+
+[R21]
+[C1 width=@v2 vmerge="continue" borders=@v15 shading=null]
+<empty/>
+[C2 width=@v16 colspan="13" vmerge="continue" borders=@v10 shading=null]
+<empty/>
+
+[R22 height={"val":"417","hRule":"atLeast"}]
+[C1 width=@v2 vmerge="continue" borders=@v15 shading=null]
+<empty/>
+[C2 width=@v16 colspan="13" vmerge="continue" borders=@v10 shading=null]
+<empty/>

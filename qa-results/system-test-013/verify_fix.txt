@@ -1,0 +1,16 @@
+==== health ====
+{"status":"UP","db":"UP","timestamp":1790733541863}
+@@HTTP:200 t:0.006131
+
+==== admin user-login ====
+{"code":200,"msg":"success","data":{"tokenType":"Bearer","user":{"id":63,"username":"admin","nickname":"管理员","avatar":null,"avatarUrl":null,"email":null,"bio":null,"interests":null,"location":null,"website":null,"gender":null,"birthday":null,"versionType":"FREE","versionExpireTime":null,"accountStatus":"ACTIVE","membershipLevel":"FREE","membershipExpireAt":null,"phone":null,"phoneVerified":null,"emailVerified":null,"mfaEnabled":null,"lastLoginIp":null,"lastLoginTime":null,"failedLoginCount":null,"lockTime":null,"securityQuestion":null,"createTime":null,"createdAt":"2026-07-08T09:08:57","update
+
+==== admin admin-login ====
+{"code":200,"msg":"success","data":{"admin":{"id":63,"username":"admin","nickname":"管理员","avatar":null,"avatarUrl":null,"email":null,"bio":null,"interests":null,"location":null,"website":null,"gender":null,"birthday":null,"versionType":"FREE","versionExpireTime":null,"accountStatus":"ACTIVE","membershipLevel":"FREE","membershipExpireAt":null,"phone":null,"phoneVerified":null,"emailVerified":null,"mfaEnabled":null,"lastLoginIp":null,"lastLoginTime":null,"failedLoginCount":null,"lockTime":null,"securityQuestion":null,"createTime":null,"createdAt":"2026-07-08T09:08:57","updatedAt":"2026-09-30T09:
+
+==== admin wrong ====
+{"code":10101,"msg":"用户名或密码错误","data":null}
+@@HTTP:401 t:0.369859
+
+==== demo_alice ====
+{"code":200,"msg":"success","data":{"tokenType":"Bearer","user":{"id":82,"username":"demo_alice","nickname":"爱丽丝","avatar":null,"avatarUrl":null,"email":null,"bio":"这是 爱丽丝 的自我介绍，热爱生活与科技。","interests":null,"location":null,"website":null,"gender":null,"birthday":null,"versionType":"FREE","versionExpireTime":null,"accountStatus":"ACTIVE","membershipLevel":"FREE","membershipExpireAt":null,"phone":null,"phoneVerified":null,"emailVerified":null,"mfaEnabled":null,"lastLoginIp":null,"lastLoginTime":null,"failedLoginCount":null,"lockTime":null,"securityQuestion":null,"createTime":null,"createdAt":"2026

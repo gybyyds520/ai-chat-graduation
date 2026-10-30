@@ -1,0 +1,99 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:aichat >-------------------------
+[INFO] Building aichat 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ aichat ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 58 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ aichat ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ aichat ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ aichat ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 129 source files with javac [debug deprecation release 17] to target\test-classes
+[INFO] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupChatServiceTest.java: ĳЩ�����ļ�ʹ����δ�����򲻰�ȫ�Ĳ�����
+[INFO] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupChatServiceTest.java: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] û�д������Ҫʹ�������κ�ע��: /org.junit.jupiter.api.AfterAll,/org.junit.jupiter.api.extension.ExtendWith,/org.mockito.Mock,/org.mockito.InjectMocks,/org.springframework.web.bind.annotation.DeleteMapping,/org.springframework.web.bind.annotation.PostMapping,/org.junit.jupiter.api.BeforeEach,/org.springframework.web.bind.annotation.PutMapping,/org.mockito.Spy,/org.springframework.web.bind.annotation.GetMapping,/org.springframework.context.annotation.Bean,/org.springframework.test.context.web.WebAppConfiguration,/org.junit.jupiter.api.Test,/org.springframework.web.bind.annotation.RestController,/org.springframework.context.annotation.Import,/org.junit.jupiter.api.BeforeAll,/org.junit.jupiter.api.AfterEach,/org.springframework.web.bind.annotation.PathVariable,/org.springframework.boot.autoconfigure.ImportAutoConfiguration,/org.springframework.boot.test.context.SpringBootTest,/org.springframework.test.context.ContextConfiguration,/org.springframework.context.annotation.Configuration,/org.springframework.beans.factory.annotation.Autowired,/org.junit.jupiter.api.Disabled,/org.junit.jupiter.api.io.TempDir
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerAuthTest.java:[33,22] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[41,9] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[41,37] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[57,9] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[57,37] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[80,9] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[80,37] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[81,9] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[89,9] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[89,37] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,39] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/config/PasswordEncoderTest.java:[38,30] org.springframework.security.crypto.password�е�org.springframework.security.crypto.password.NoOpPasswordEncoder�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/SoulEngineServiceImplTest.java:[214,69] ���һ������ʹ���˲�׼ȷ�ı������͵� varargs �����ķ� varargs ����; 
+  ���� varargs ����, Ӧʹ�� com.example.aichat.entity.AiSoulState
+  ���ڷ� varargs ����, Ӧʹ�� com.example.aichat.entity.AiSoulState[], ����Ҳ�������ƴ˾���
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AdminDeleteUserSoftTest.java:[54,35] ��������ĵ�com.example.aichat.entity.User��ת��
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AdminDeleteUserSoftTest.java:[55,29] ��������ĵ�com.example.aichat.entity.User��ת��
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AdminDeleteUserSoftTest.java:[56,29] ��������ĵ�com.example.aichat.entity.User��ת��
+[INFO] 23 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/FriendFileTraversalTest.java:[40,28] ��insert�����ò���ȷ
+  com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(T) �� com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(java.util.Collection<T>) ��ƥ��
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/FriendFileTraversalTest.java:[52,28] ��insert�����ò���ȷ
+  com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(T) �� com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(java.util.Collection<T>) ��ƥ��
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/FriendFileTraversalTest.java:[60,16] ��insert�����ò���ȷ
+  com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(T) �� com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(java.util.Collection<T>) ��ƥ��
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/FriendFileTraversalTest.java:[65,19] ��insert�����ò���ȷ
+  com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(T) �� com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(java.util.Collection<T>) ��ƥ��
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PaymentReviewCasTest.java:[91,36] ��updateById�����ò���ȷ
+  com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� updateById(T) �� com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� updateById(java.util.Collection<T>) ��ƥ��
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AdminDeleteUserSoftTest.java:[47,36] ��deleteById�����ò���ȷ
+  com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� deleteById(java.io.Serializable) �� com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� deleteById(T) ��ƥ��
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AdminDeleteUserSoftTest.java:[53,27] ��updateById�����ò���ȷ
+  com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� updateById(T) �� com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� updateById(java.util.Collection<T>) ��ƥ��
+[INFO] 7 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23.659 s
+[INFO] Finished at: 2026-09-30T00:41:10+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:testCompile (default-testCompile) on project aichat: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/FriendFileTraversalTest.java:[40,28] ��insert�����ò���ȷ
+[ERROR]   com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(T) �� com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(java.util.Collection<T>) ��ƥ��
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/FriendFileTraversalTest.java:[52,28] ��insert�����ò���ȷ
+[ERROR]   com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(T) �� com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(java.util.Collection<T>) ��ƥ��
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/FriendFileTraversalTest.java:[60,16] ��insert�����ò���ȷ
+[ERROR]   com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(T) �� com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(java.util.Collection<T>) ��ƥ��
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/FriendFileTraversalTest.java:[65,19] ��insert�����ò���ȷ
+[ERROR]   com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(T) �� com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� insert(java.util.Collection<T>) ��ƥ��
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PaymentReviewCasTest.java:[91,36] ��updateById�����ò���ȷ
+[ERROR]   com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� updateById(T) �� com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� updateById(java.util.Collection<T>) ��ƥ��
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AdminDeleteUserSoftTest.java:[47,36] ��deleteById�����ò���ȷ
+[ERROR]   com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� deleteById(java.io.Serializable) �� com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� deleteById(T) ��ƥ��
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AdminDeleteUserSoftTest.java:[53,27] ��updateById�����ò���ȷ
+[ERROR]   com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� updateById(T) �� com.baomidou.mybatisplus.core.mapper.BaseMapper �еķ��� updateById(java.util.Collection<T>) ��ƥ��
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

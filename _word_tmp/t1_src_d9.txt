@@ -1,0 +1,309 @@
+# Dimension 9: special nodes and parts
+source: C:\Users\郭耀彬\Desktop\3.学号-姓名-题目审核表（由指导老师填写，一题一表）.docx
+syntax: [NODE<n>] is an inline special node, [RUN<n>] its semantic Run reference, [PART<n>] a comments/notes part, [ENTRY<n>] one part entry, [PROPERTY<n>] document metadata, and [MACRO<n>] a VBA payload.
+text_policy: full text is emitted without truncation.
+omitted: record_type; enclosing part XML duplicated by entry structures; raw Run and drawing XML.
+normalized: OOXML structures use compact prefix:tag(attribute,child) notation.
+
+[NODE1 tag="w:bookmarkStart" part="word/comments.xml" loc="/w:comments/w:comment[5]/w:p/w:bookmarkStart" attrs={"w:id":"0","w:name":"_GoBack"}]
+structure=w:bookmarkStart(w:id="0",w:name="_GoBack")
+
+[NODE2 tag="w:bookmarkEnd" part="word/comments.xml" loc="/w:comments/w:comment[5]/w:p/w:bookmarkEnd" attrs={"w:id":"0"}]
+structure=w:bookmarkEnd(w:id="0")
+
+[NODE3 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[1]/w:tc/w:p/w:r[4]/w:commentReference" attrs={"w:id":"0"}]
+structure=w:commentReference(w:id="0")
+
+[NODE4 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[2]/w:tc[4]/w:p/w:r[2]/w:commentReference" attrs={"w:id":"1"}]
+structure=w:commentReference(w:id="1")
+
+[NODE5 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[4]/w:tc[3]/w:p/w:r[2]/w:commentReference" attrs={"w:id":"2"}]
+structure=w:commentReference(w:id="2")
+
+[NODE6 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[4]/w:tc[4]/w:p/w:r[2]/w:commentReference" attrs={"w:id":"3"}]
+structure=w:commentReference(w:id="3")
+
+[NODE7 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[4]/w:tc[9]/w:p/w:r[2]/w:commentReference" attrs={"w:id":"4"}]
+structure=w:commentReference(w:id="4")
+
+[NODE8 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[5]/w:tc[3]/w:p[2]/w:r[6]/w:commentReference" attrs={"w:id":"5"}]
+structure=w:commentReference(w:id="5")
+
+[NODE9 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[5]/w:tc[5]/w:p[1]/w:r[2]/w:commentReference" attrs={"w:id":"6"}]
+structure=w:commentReference(w:id="6")
+
+[NODE10 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[7]/w:tc[3]/w:p[2]/w:r[4]/w:commentReference" attrs={"w:id":"7"}]
+structure=w:commentReference(w:id="7")
+
+[NODE11 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[9]/w:tc[2]/w:p[1]/w:r[1]/w:commentReference" attrs={"w:id":"8"}]
+structure=w:commentReference(w:id="8")
+
+[NODE12 tag="w:commentRangeStart" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[9]/w:tc[2]/w:p[2]/w:commentRangeStart" attrs={"w:id":"9"}]
+structure=w:commentRangeStart(w:id="9")
+
+[NODE13 tag="w:commentRangeEnd" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[9]/w:tc[2]/w:p[4]/w:commentRangeEnd" attrs={"w:id":"9"}]
+structure=w:commentRangeEnd(w:id="9")
+
+[NODE14 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[9]/w:tc[2]/w:p[4]/w:r[4]/w:commentReference" attrs={"w:id":"9"}]
+structure=w:commentReference(w:id="9")
+
+[NODE15 tag="w:commentRangeStart" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[9]/w:tc[2]/w:p[6]/w:commentRangeStart" attrs={"w:id":"10"}]
+structure=w:commentRangeStart(w:id="10")
+
+[NODE16 tag="w:commentRangeEnd" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[9]/w:tc[2]/w:p[7]/w:commentRangeEnd" attrs={"w:id":"10"}]
+structure=w:commentRangeEnd(w:id="10")
+
+[NODE17 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[9]/w:tc[2]/w:p[7]/w:r[3]/w:commentReference" attrs={"w:id":"10"}]
+structure=w:commentReference(w:id="10")
+
+[NODE18 tag="w:commentRangeStart" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[9]/w:tc[2]/w:p[9]/w:commentRangeStart" attrs={"w:id":"11"}]
+structure=w:commentRangeStart(w:id="11")
+
+[NODE19 tag="w:commentRangeEnd" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[9]/w:tc[2]/w:p[11]/w:commentRangeEnd" attrs={"w:id":"11"}]
+structure=w:commentRangeEnd(w:id="11")
+
+[NODE20 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[9]/w:tc[2]/w:p[11]/w:r[3]/w:commentReference" attrs={"w:id":"11"}]
+structure=w:commentReference(w:id="11")
+
+[NODE21 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[10]/w:tc[2]/w:p[1]/w:r[1]/w:commentReference" attrs={"w:id":"12"}]
+structure=w:commentReference(w:id="12")
+
+[NODE22 tag="w:commentRangeStart" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[10]/w:tc[2]/w:p[3]/w:commentRangeStart" attrs={"w:id":"13"}]
+structure=w:commentRangeStart(w:id="13")
+
+[NODE23 tag="w:commentRangeEnd" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[10]/w:tc[2]/w:p[3]/w:commentRangeEnd" attrs={"w:id":"13"}]
+structure=w:commentRangeEnd(w:id="13")
+
+[NODE24 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[10]/w:tc[2]/w:p[3]/w:r[2]/w:commentReference" attrs={"w:id":"13"}]
+structure=w:commentReference(w:id="13")
+
+[NODE25 tag="w:commentRangeStart" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[10]/w:tc[2]/w:p[6]/w:commentRangeStart" attrs={"w:id":"14"}]
+structure=w:commentRangeStart(w:id="14")
+
+[NODE26 tag="w:commentRangeEnd" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[10]/w:tc[2]/w:p[6]/w:commentRangeEnd" attrs={"w:id":"14"}]
+structure=w:commentRangeEnd(w:id="14")
+
+[NODE27 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[10]/w:tc[2]/w:p[6]/w:r[2]/w:commentReference" attrs={"w:id":"14"}]
+structure=w:commentReference(w:id="14")
+
+[NODE28 tag="w:commentRangeStart" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[10]/w:tc[2]/w:p[9]/w:commentRangeStart" attrs={"w:id":"15"}]
+structure=w:commentRangeStart(w:id="15")
+
+[NODE29 tag="w:commentRangeEnd" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[10]/w:tc[2]/w:p[9]/w:commentRangeEnd" attrs={"w:id":"15"}]
+structure=w:commentRangeEnd(w:id="15")
+
+[NODE30 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[10]/w:tc[2]/w:p[9]/w:r[2]/w:commentReference" attrs={"w:id":"15"}]
+structure=w:commentReference(w:id="15")
+
+[NODE31 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[17]/w:tc[2]/w:p[1]/w:r[1]/w:commentReference" attrs={"w:id":"16"}]
+structure=w:commentReference(w:id="16")
+
+[NODE32 tag="w:commentRangeStart" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[17]/w:tc[2]/w:p[3]/w:commentRangeStart" attrs={"w:id":"17"}]
+structure=w:commentRangeStart(w:id="17")
+
+[NODE33 tag="w:commentRangeEnd" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[17]/w:tc[2]/w:p[3]/w:commentRangeEnd" attrs={"w:id":"17"}]
+structure=w:commentRangeEnd(w:id="17")
+
+[NODE34 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[17]/w:tc[2]/w:p[3]/w:r[2]/w:commentReference" attrs={"w:id":"17"}]
+structure=w:commentReference(w:id="17")
+
+[NODE35 tag="w:commentRangeStart" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[20]/w:tc[2]/w:p[3]/w:commentRangeStart" attrs={"w:id":"18"}]
+structure=w:commentRangeStart(w:id="18")
+
+[NODE36 tag="w:commentRangeEnd" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[20]/w:tc[2]/w:p[3]/w:commentRangeEnd" attrs={"w:id":"18"}]
+structure=w:commentRangeEnd(w:id="18")
+
+[NODE37 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl/w:tr[20]/w:tc[2]/w:p[3]/w:r[2]/w:commentReference" attrs={"w:id":"18"}]
+structure=w:commentReference(w:id="18")
+
+[PART1 part="word/comments.xml" entries=19]
+由第一指导教师填写该表，一题一表；
+尽量控制在一页内，必须2页的双面打印，不能超过2页，正式提交的版本红色字体需要删除
+专升本专业在专业名称后面加上（专升本）
+只填写第一指导老师姓名、职称、学历学位
+指导老师的研究方向
+职称、学历以当前时间节点的职称为准填写
+注意：该研究方向为论文题目研究方向，不是教师研究方向，且研究方向不能和专业名称一样
+课题类型：工科通常在工程设计、计算机软件、实（试）验研究中选一个，通常做纯软件的选计算机软件，其他的比如嵌入软件选工程设计
+（只能二选一，成果通常为论文，计算机软件或工程设计类如果最终提交的是论文，那么成果类别就是“论文”，如果是设计说明书，则选择“设计”）
+结合实际情况（只能选一个）
+1、科研：毕业设计(论文)来源于导师的某个科研项目
+2、实习：毕业设计(论文)结合自己的实习工作经历
+3、实验：毕业设计(论文)结合某项实验成果(可以指学生论文中有数据建模，
+用到相关建模软件，有数据来源)
+4、社会调查：毕业设计(论文)结合某项社会调查、或该论文的成果是基于某项
+社会调查得出，(社会调查包含的访谈、问卷、调查报告、来源于上市公司的数
+据等资料作为论文的附录，论文的正文部分引用调查结果)
+5、其他：除以上外的课题来源
+至少包含以下几个条件，字数建议500字以内：
+1.学生知识储备要求；
+2.实验设备等软硬件条件要求；
+3.工作要求（包含时间要求、工作难度及任务量）
+4.本栏不够写请自行续页，并双面打印
+缩进2个字符
+缩进2个字符
+缩进2个字符
+本栏不够写请自行续页，并双面打印，应包含课题意义、主要研究内容或设计目标，字数建议800字以内
+缩进2个字符
+缩进2个字符
+缩进2个字符
+专业审核意见由各个专业的带头人统一给出（已固定，不要修改）；
+学院审核意见同。
+签字电子版电子签、纸质版手签
+签字电子版电子签、纸质版手签，电子版无需盖章，纸质版盖章
+root=w:comments attrs={"mc:Ignorable":"w14 w15 wp14"}
+[ENTRY1 tag="w:comment" loc="/w:comments/w:comment[1]" attrs={"w:id":"0","w:author":"Serenity_张","w:date":"2025-07-20T10:44:06Z"}]
+由第一指导教师填写该表，一题一表；
+尽量控制在一页内，必须2页的双面打印，不能超过2页，正式提交的版本红色字体需要删除
+structure=w:comment(w:id="0",w:author="Serenity_张",w:date="2025-07-20T10:44:06Z",w:initials="",w:p(w14:paraId="008FB8F3",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:highlight(w:val="yellow"),w:lang(w:eastAsia="zh-CN")),w:t(text="由第一指导教师填写该表")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="，一题一表；"))),w:p(w14:paraId="711D8DEC",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="default"),w:lang(w:val="en-US"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="尽量控制在一页内，必须")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="2页的双面打印，不能超过2页，正式提交的版本红色字体需要删除"))))
+[ENTRY2 tag="w:comment" loc="/w:comments/w:comment[2]" attrs={"w:id":"1","w:author":"Serenity_张","w:date":"2025-07-20T10:44:25Z"}]
+专升本专业在专业名称后面加上（专升本）
+structure=w:comment(w:id="1",w:author="Serenity_张",w:date="2025-07-20T10:44:25Z",w:initials="",w:p(w14:paraId="68F1D012",w:pPr(w:pStyle(w:val="2")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="专升本专业在专业名称后面加上（专升本）"))))
+[ENTRY3 tag="w:comment" loc="/w:comments/w:comment[3]" attrs={"w:id":"2","w:author":"Serenity_张","w:date":"2025-07-20T10:45:48Z"}]
+只填写第一指导老师姓名、职称、学历学位
+指导老师的研究方向
+structure=w:comment(w:id="2",w:author="Serenity_张",w:date="2025-07-20T10:45:48Z",w:initials="",w:p(w14:paraId="6C4B4DF4",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="只填写第一指导老师姓名、职称、学历学位"))),w:p(w14:paraId="04429AFC",w:pPr(w:pStyle(w:val="2")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="指导老师的")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="研究方向"))))
+[ENTRY4 tag="w:comment" loc="/w:comments/w:comment[4]" attrs={"w:id":"3","w:author":"Serenity_张","w:date":"2025-07-20T10:46:02Z"}]
+职称、学历以当前时间节点的职称为准填写
+structure=w:comment(w:id="3",w:author="Serenity_张",w:date="2025-07-20T10:46:02Z",w:initials="",w:p(w14:paraId="71DDCBD6",w:pPr(w:pStyle(w:val="2")),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="职称、学历以当前时间节点的职称为准填写"))))
+[ENTRY5 tag="w:comment" loc="/w:comments/w:comment[5]" attrs={"w:id":"4","w:author":"无为。","w:date":"2026-09-07T11:17:40Z"}]
+注意：该研究方向为论文题目研究方向，不是教师研究方向，且研究方向不能和专业名称一样
+structure=w:comment(w:id="4",w:author="无为。",w:date="2026-09-07T11:17:40Z",w:initials="",w:p(w14:paraId="33864B4C",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="default",w:eastAsiaTheme="minorEastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="注意：该研究方向为论文")),w:bookmarkStart(w:id="0",w:name="_GoBack"),w:bookmarkEnd(w:id="0"),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="题目研究方向，不是教师研究方向，且研究方向不能和专业名称一样"))))
+[ENTRY6 tag="w:comment" loc="/w:comments/w:comment[6]" attrs={"w:id":"5","w:author":"Serenity_张","w:date":"2025-07-20T10:58:05Z"}]
+课题类型：工科通常在工程设计、计算机软件、实（试）验研究中选一个，通常做纯软件的选计算机软件，其他的比如嵌入软件选工程设计
+structure=w:comment(w:id="5",w:author="Serenity_张",w:date="2025-07-20T10:58:05Z",w:initials="",w:p(w14:paraId="301AB711",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="default",w:eastAsiaTheme="minorEastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="课题类型：工科通常在")),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="工程")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="设计")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="、")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="计算机软件、实（试）验研究中选一个，通常做纯软件的选计算机软件，其他的比如嵌入软件选工程设计"))))
+[ENTRY7 tag="w:comment" loc="/w:comments/w:comment[7]" attrs={"w:id":"6","w:author":"Serenity_张","w:date":"2025-07-20T10:55:54Z"}]
+（只能二选一，成果通常为论文，计算机软件或工程设计类如果最终提交的是论文，那么成果类别就是“论文”，如果是设计说明书，则选择“设计”）
+structure=w:comment(w:id="6",w:author="Serenity_张",w:date="2025-07-20T10:55:54Z",w:initials="",w:p(w14:paraId="74144306",w:pPr(w:pStyle(w:val="2")),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="（只能二选一")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="，")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="成果通常为论文，计算机软件或工程设计类如果最终提交的是论文，那么成果类别就是“论文”，如果是设计说明书，则选择“设计”")),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="）"))))
+[ENTRY8 tag="w:comment" loc="/w:comments/w:comment[8]" attrs={"w:id":"7","w:author":"Administrator","w:date":"2023-08-29T14:20:18Z","w:initials":"A"}]
+结合实际情况（只能选一个）
+1、科研：毕业设计(论文)来源于导师的某个科研项目
+2、实习：毕业设计(论文)结合自己的实习工作经历
+3、实验：毕业设计(论文)结合某项实验成果(可以指学生论文中有数据建模，
+用到相关建模软件，有数据来源)
+4、社会调查：毕业设计(论文)结合某项社会调查、或该论文的成果是基于某项
+社会调查得出，(社会调查包含的访谈、问卷、调查报告、来源于上市公司的数
+据等资料作为论文的附录，论文的正文部分引用调查结果)
+5、其他：除以上外的课题来源
+structure=w:comment(w:id="7",w:author="Administrator",w:date="2023-08-29T14:20:18Z",w:initials="A",w:p(w14:paraId="1B3D282A",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="eastAsia"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="结合实际情况")),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="（只能选一")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="个")),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="）"))),w:p(w14:paraId="10281BD0",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="default",w:eastAsiaTheme="minorEastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="1、科研：毕业设计(论文)来源于导师的某个科研项目"))),w:p(w14:paraId="47C3069A",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="eastAsia"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="2、实习：毕业设计(论文)结合自己的实习工作经历"))),w:p(w14:paraId="18A979FC",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="eastAsia"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="3、实验：毕业设计(论文)结合某项实验成果(可以指学生论文中有数据建模，"))),w:p(w14:paraId="4B58194B",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="eastAsia"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="用到相关建模软件，有数据来源)"))),w:p(w14:paraId="31607B88",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="eastAsia"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="4、社会调查：毕业设计(论文)结合某项社会调查、或该论文的成果是基于某项"))),w:p(w14:paraId="371B304C",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="eastAsia"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="社会调查得出，(社会调查包含的访谈、问卷、调查报告、来源于上市公司的数"))),w:p(w14:paraId="4C0D2926",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="eastAsia"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="据等资料作为论文的附录，论文的正文部分引用调查结果)"))),w:p(w14:paraId="590246FF",w:pPr(w:pStyle(w:val="2")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="5")),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="、其他：除以上外的课题来源"))))
+[ENTRY9 tag="w:comment" loc="/w:comments/w:comment[9]" attrs={"w:id":"8","w:author":"Administrator","w:date":"2023-08-27T15:46:43Z","w:initials":"A"}]
+至少包含以下几个条件，字数建议500字以内：
+1.学生知识储备要求；
+2.实验设备等软硬件条件要求；
+3.工作要求（包含时间要求、工作难度及任务量）
+4.本栏不够写请自行续页，并双面打印
+structure=w:comment(w:id="8",w:author="Administrator",w:date="2023-08-27T15:46:43Z",w:initials="A",w:p(w14:paraId="7DB379D5",w:pPr(w:pStyle(w:val="2"),w:numPr(w:ilvl(w:val="0"),w:numId(w:val="0")),w:rPr(w:rFonts(w:hint="eastAsia",w:eastAsiaTheme="minorEastAsia"),w:lang(w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="至少包含以下几个条件，字数")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="建议500字以内")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="："))),w:p(w14:paraId="5A723E47",w:pPr(w:pStyle(w:val="2"),w:numPr(w:ilvl(w:val="0"),w:numId(w:val="0")),w:rPr(w:rFonts(w:hint="eastAsia"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="1.")),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="学生知识储备要求；"))),w:p(w14:paraId="7E7964EC",w:pPr(w:pStyle(w:val="2"),w:numPr(w:ilvl(w:val="0"),w:numId(w:val="0")),w:ind(w:leftChars="0"),w:rPr(w:rFonts(w:hint="eastAsia"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="2.")),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="实验设备等软硬件条件要求；"))),w:p(w14:paraId="3CEC4514",w:pPr(w:pStyle(w:val="2"),w:numPr(w:ilvl(w:val="0"),w:numId(w:val="0")),w:ind(w:leftChars="0"),w:rPr(w:rFonts(w:hint="eastAsia"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="3.")),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="工作要求（包含时间要求、工作难度及任务量）"))),w:p(w14:paraId="3D5A221A",w:pPr(w:pStyle(w:val="2"),w:numPr(w:ilvl(w:val="0"),w:numId(w:val="0")),w:ind(w:leftChars="0"),w:rPr(w:rFonts(w:hint="eastAsia"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="4.")),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="本栏不够写请自行续页，并双面打印"))))
+[ENTRY10 tag="w:comment" loc="/w:comments/w:comment[10]" attrs={"w:id":"9","w:author":"姨咆拘诩角","w:date":"2025-08-27T21:36:36Z"}]
+缩进2个字符
+structure=w:comment(w:id="9",w:author="姨咆拘诩角",w:date="2025-08-27T21:36:36Z",w:initials="",w:p(w14:paraId="42858894",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="default",w:eastAsiaTheme="minorEastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="缩进2个字符"))))
+[ENTRY11 tag="w:comment" loc="/w:comments/w:comment[11]" attrs={"w:id":"10","w:author":"姨咆拘诩角","w:date":"2025-08-27T21:36:43Z"}]
+缩进2个字符
+structure=w:comment(w:id="10",w:author="姨咆拘诩角",w:date="2025-08-27T21:36:43Z",w:initials="",w:p(w14:paraId="0AF3D36F",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="default",w:eastAsiaTheme="minorEastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="缩进2个字符"))))
+[ENTRY12 tag="w:comment" loc="/w:comments/w:comment[12]" attrs={"w:id":"11","w:author":"姨咆拘诩角","w:date":"2025-08-27T21:36:50Z"}]
+缩进2个字符
+structure=w:comment(w:id="11",w:author="姨咆拘诩角",w:date="2025-08-27T21:36:50Z",w:initials="",w:p(w14:paraId="4A5C9540",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="default",w:eastAsiaTheme="minorEastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="缩进2个字符"))))
+[ENTRY13 tag="w:comment" loc="/w:comments/w:comment[13]" attrs={"w:id":"12","w:author":"Administrator","w:date":"2023-08-27T15:50:17Z","w:initials":"A"}]
+本栏不够写请自行续页，并双面打印，应包含课题意义、主要研究内容或设计目标，字数建议800字以内
+structure=w:comment(w:id="12",w:author="Administrator",w:date="2023-08-27T15:50:17Z",w:initials="A",w:p(w14:paraId="19233870",w:pPr(w:pStyle(w:val="2"),w:numPr(w:ilvl(w:val="0"),w:numId(w:val="0")),w:ind(w:leftChars="0"),w:rPr(w:rFonts(w:hint="default",w:eastAsiaTheme="minorEastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="本栏不够写请自行续页，并双面打印")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="，")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="应包含课题意义、主要研究内容或设计目标，字数建议800字以内"))))
+[ENTRY14 tag="w:comment" loc="/w:comments/w:comment[14]" attrs={"w:id":"13","w:author":"姨咆拘诩角","w:date":"2025-08-27T21:37:36Z"}]
+缩进2个字符
+structure=w:comment(w:id="13",w:author="姨咆拘诩角",w:date="2025-08-27T21:37:36Z",w:initials="",w:p(w14:paraId="43B0E48A",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="default",w:eastAsiaTheme="minorEastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="缩进2个字符"))))
+[ENTRY15 tag="w:comment" loc="/w:comments/w:comment[15]" attrs={"w:id":"14","w:author":"姨咆拘诩角","w:date":"2025-08-27T21:37:46Z"}]
+缩进2个字符
+structure=w:comment(w:id="14",w:author="姨咆拘诩角",w:date="2025-08-27T21:37:46Z",w:initials="",w:p(w14:paraId="327D6A72",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="default",w:eastAsiaTheme="minorEastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="缩进2个字符"))))
+[ENTRY16 tag="w:comment" loc="/w:comments/w:comment[16]" attrs={"w:id":"15","w:author":"姨咆拘诩角","w:date":"2025-08-27T21:37:52Z"}]
+缩进2个字符
+structure=w:comment(w:id="15",w:author="姨咆拘诩角",w:date="2025-08-27T21:37:52Z",w:initials="",w:p(w14:paraId="30748568",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="default",w:eastAsiaTheme="minorEastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="缩进2个字符"))))
+[ENTRY17 tag="w:comment" loc="/w:comments/w:comment[17]" attrs={"w:id":"16","w:author":"Administrator","w:date":"2023-08-28T14:19:26Z","w:initials":"A"}]
+专业审核意见由各个专业的带头人统一给出（已固定，不要修改）；
+学院审核意见同。
+structure=w:comment(w:id="16",w:author="Administrator",w:date="2023-08-28T14:19:26Z",w:initials="A",w:p(w14:paraId="353E17D8",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="专业审核意见")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="由各个专业的带头人统一给出（已固定，不要修改）")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="；"))),w:p(w14:paraId="42F05CAC",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="学院审核意见同。"))))
+[ENTRY18 tag="w:comment" loc="/w:comments/w:comment[18]" attrs={"w:id":"17","w:author":"Administrator","w:date":"2023-08-27T15:51:27Z","w:initials":"A"}]
+签字电子版电子签、纸质版手签
+structure=w:comment(w:id="17",w:author="Administrator",w:date="2023-08-27T15:51:27Z",w:initials="A",w:p(w14:paraId="67712826",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="eastAsia",w:eastAsiaTheme="minorEastAsia"),w:lang(w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="签字电子版电子签、纸质版手签"))))
+[ENTRY19 tag="w:comment" loc="/w:comments/w:comment[19]" attrs={"w:id":"18","w:author":"Administrator","w:date":"2023-08-27T15:52:12Z","w:initials":"A"}]
+签字电子版电子签、纸质版手签，电子版无需盖章，纸质版盖章
+structure=w:comment(w:id="18",w:author="Administrator",w:date="2023-08-27T15:52:12Z",w:initials="A",w:p(w14:paraId="7E053FC4",w:pPr(w:pStyle(w:val="2"),w:rPr(w:rFonts(w:hint="eastAsia",w:eastAsiaTheme="minorEastAsia"),w:lang(w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="签字电子版电子签、纸质版手签，电子版无需盖章，纸质版盖章"))))
+
+[PART2 part="word/commentsExtended.xml" entries=19]
+root=w15:commentsEx attrs={"mc:Ignorable":"w14 w15 wp14"}
+[ENTRY1 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[1]" attrs={"w15:paraId":"711D8DEC","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="711D8DEC",w15:done="0")
+[ENTRY2 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[2]" attrs={"w15:paraId":"68F1D012","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="68F1D012",w15:done="0")
+[ENTRY3 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[3]" attrs={"w15:paraId":"04429AFC","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="04429AFC",w15:done="0")
+[ENTRY4 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[4]" attrs={"w15:paraId":"71DDCBD6","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="71DDCBD6",w15:done="0")
+[ENTRY5 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[5]" attrs={"w15:paraId":"33864B4C","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="33864B4C",w15:done="0")
+[ENTRY6 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[6]" attrs={"w15:paraId":"301AB711","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="301AB711",w15:done="0")
+[ENTRY7 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[7]" attrs={"w15:paraId":"74144306","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="74144306",w15:done="0")
+[ENTRY8 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[8]" attrs={"w15:paraId":"590246FF","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="590246FF",w15:done="0")
+[ENTRY9 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[9]" attrs={"w15:paraId":"3D5A221A","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="3D5A221A",w15:done="0")
+[ENTRY10 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[10]" attrs={"w15:paraId":"42858894","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="42858894",w15:done="0")
+[ENTRY11 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[11]" attrs={"w15:paraId":"0AF3D36F","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="0AF3D36F",w15:done="0")
+[ENTRY12 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[12]" attrs={"w15:paraId":"4A5C9540","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="4A5C9540",w15:done="0")
+[ENTRY13 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[13]" attrs={"w15:paraId":"19233870","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="19233870",w15:done="0")
+[ENTRY14 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[14]" attrs={"w15:paraId":"43B0E48A","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="43B0E48A",w15:done="0")
+[ENTRY15 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[15]" attrs={"w15:paraId":"327D6A72","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="327D6A72",w15:done="0")
+[ENTRY16 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[16]" attrs={"w15:paraId":"30748568","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="30748568",w15:done="0")
+[ENTRY17 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[17]" attrs={"w15:paraId":"42F05CAC","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="42F05CAC",w15:done="0")
+[ENTRY18 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[18]" attrs={"w15:paraId":"67712826","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="67712826",w15:done="0")
+[ENTRY19 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[19]" attrs={"w15:paraId":"7E053FC4","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="7E053FC4",w15:done="0")
+
+[PART3 part="word/people.xml" entries=4]
+root=w15:people attrs={"mc:Ignorable":"w14 w15 wp14"}
+[ENTRY1 tag="w15:person" loc="/w15:people/w15:person[1]" attrs={"w15:author":"Serenity_张"}]
+structure=w15:person(w15:author="Serenity_张",w15:presenceInfo(w15:providerId="WPS Office",w15:userId="1816942667"))
+[ENTRY2 tag="w15:person" loc="/w15:people/w15:person[2]" attrs={"w15:author":"Administrator"}]
+structure=w15:person(w15:author="Administrator",w15:presenceInfo(w15:providerId="None",w15:userId="Administrator"))
+[ENTRY3 tag="w15:person" loc="/w15:people/w15:person[3]" attrs={"w15:author":"姨咆拘诩角"}]
+structure=w15:person(w15:author="姨咆拘诩角",w15:presenceInfo(w15:providerId="WPS Office",w15:userId="10138891225"))
+[ENTRY4 tag="w15:person" loc="/w15:people/w15:person[4]" attrs={"w15:author":"无为。"}]
+structure=w15:person(w15:author="无为。",w15:presenceInfo(w15:providerId="WPS Office",w15:userId="949099781"))
+
+[PROPERTY1 part="docProps/app.xml"]
+ep:Template="Normal"
+ep:Company="Micorosoft"
+ep:Pages="1"
+ep:Words="622"
+ep:Characters="658"
+ep:Lines="3"
+ep:Paragraphs="1"
+ep:TotalTime="150"
+ep:ScaleCrop="false"
+ep:LinksUpToDate="false"
+ep:CharactersWithSpaces="706"
+ep:Application="WPS Office_12.1.0.28043_F1E327BC-269C-435d-A152-05C5408002CA"
+ep:DocSecurity="0"
+structure=ep:Properties(ep:Template(text="Normal"),ep:Company(text="Micorosoft"),ep:Pages(text="1"),ep:Words(text="622"),ep:Characters(text="658"),ep:Lines(text="3"),ep:Paragraphs(text="1"),ep:TotalTime(text="150"),ep:ScaleCrop(text="false"),ep:LinksUpToDate(text="false"),ep:CharactersWithSpaces(text="706"),ep:Application(text="WPS Office_12.1.0.28043_F1E327BC-269C-435d-A152-05C5408002CA"),ep:DocSecurity(text="0"))
+
+[PROPERTY2 part="docProps/core.xml"]
+dcterms:created="2023-06-08T01:47:00Z"
+dc:creator="Micorosoft"
+cp:lastModifiedBy="无为。"
+cp:lastPrinted="2023-08-18T06:10:00Z"
+dcterms:modified="2026-09-07T09:01:02Z"
+cp:revision="24"
+structure=cp:coreProperties(dcterms:created(type="dcterms:W3CDTF",text="2023-06-08T01:47:00Z"),dc:creator(text="Micorosoft"),cp:lastModifiedBy(text="无为。"),cp:lastPrinted(text="2023-08-18T06:10:00Z"),dcterms:modified(type="dcterms:W3CDTF",text="2026-09-07T09:01:02Z"),cp:revision(text="24"))
+
+[PROPERTY3 part="docProps/custom.xml"]
+KSOProductBuildVer="2052-12.1.0.28043"
+ICV="86FAF85AD0794447A6BC1E3B82007944_12"
+KSOTemplateDocerSaveRecord="eyJoZGlkIjoiMmMyNTAwZGI2M2RmNjMwNDRlODZhNTk3NDI3OGYzMzQiLCJ1c2VySWQiOiIyNDIxNDYyMTYifQ=="
+structure=Properties(property(fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}",pid="2",name="KSOProductBuildVer",lpwstr(text="2052-12.1.0.28043")),property(fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}",pid="3",name="ICV",lpwstr(text="86FAF85AD0794447A6BC1E3B82007944_12")),property(fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}",pid="4",name="KSOTemplateDocerSaveRecord",lpwstr(text="eyJoZGlkIjoiMmMyNTAwZGI2M2RmNjMwNDRlODZhNTk3NDI3OGYzMzQiLCJ1c2VySWQiOiIyNDIxNDYyMTYifQ==")))

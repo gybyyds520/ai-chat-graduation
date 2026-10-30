@@ -1,0 +1,23 @@
+==== TC-001 health ====
+{"status":"UP","db":"UP","timestamp":1790703635157}
+@@HTTP:200 T:0.012583
+
+==== TC-012 bad email ====
+{"code":400,"msg":"email: 邮箱格式不正确","data":{"message":"email: 邮箱格式不正确","timestamp":1790703635291}}
+@@HTTP:400 T:0.105677
+
+==== TC-004 chinese username ====
+{"code":400,"msg":"username: 用户名只能包含字母、数字和下划线","data":{"message":"username: 用户名只能包含字母、数字和下划线","timestamp":1790703635324}}
+@@HTTP:400 T:0.004914
+
+==== TC-005 short password ====
+{"code":400,"msg":"password: 密码长度必须在6-20个字符之间","data":{"message":"password: 密码长度必须在6-20个字符之间","timestamp":1790703635367}}
+@@HTTP:400 T:0.015564
+
+==== TC-006 dup admin ====
+{"code":10100,"msg":"用户名已存在","data":null}
+@@HTTP:400 T:0.016285
+
+==== TC-002 valid register user=qa013_4qyeev ====
+{"code":200,"msg":"success","data":{"id":88,"username":"qa013_4qyeev","nickname":"QA013","avatar":null,"avatarUrl":null,"email":null,"bio":null,"interests":null,"location":null,"website":null,"gender":null,"birthday":null,"versionType":null,"versionExpireTime":null,"accountStatus":null,"membershipLevel":null,"membershipExpireAt":null,"phone":null,"phoneVerified":null,"emailVerified":null,"mfaEnabled":null,"lastLoginIp":null,"lastLoginTime":null,"failedLoginCount":null,"lockTime":null,"securityQuestion":null,"createTime":"2026-09-30T01:40:35.5023032","createdAt":null,"updatedAt":null,"age":25,"isMinor":null,"minorModeEnabled":null,"minorModeUpdatedAt":null,"voicePreference":null}}
+@@HTTP:200 T:0.073719

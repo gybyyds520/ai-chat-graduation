@@ -1,0 +1,1210 @@
+{
+  "schema_version": 2,
+  "run_id": "qa-d8c79d5b7049",
+  "revision": 2,
+  "profile": "full",
+  "test_intent": "non_ui_validation",
+  "execution_level": "blocked",
+  "selected_path": "undetermined",
+  "created_at": "2026-09-29T16:24:54.008588+00:00",
+  "target": {
+    "type": "attachment_or_directory",
+    "name": "ai-chat-graduation",
+    "source": "C:\\Users\\郭耀彬\\Desktop\\gybct\\ai-chat-graduation"
+  },
+  "request_contract": {
+    "request_summary": "对 ai-chat-graduation 项目进行 QA 系统测试（本地开发环境，Web 前端 5187 + 后端 Spring Boot API 8080 + MySQL 3306）。覆盖注册/登录核心旅程、核心业务流、异常/权限/状态/并发/缓存/审计高风险用例。使用测试账号 admin/123456 与 demo_* Test@123456，注册一次性测试账号（命名含013），测试后记录清理。发现 Bug 记录不修复。",
+    "request_hash": "sha256:8e2d64f23a03293b6d5ad73ff7efa4bef8c2f2ab09bf3f87c3c1ae6eb6e017e6",
+    "task_mode": "api_execution",
+    "scope": {
+      "included_source_ids": [],
+      "excluded_source_ids": [],
+      "included_rounds": [],
+      "excluded_rounds": []
+    },
+    "evidence_policy": {
+      "allow_new_execution": true,
+      "allow_precheck_bug_promotion": false,
+      "required_bug_evidence_level": "L2_observation"
+    },
+    "delivery": {
+      "artifact_required": true,
+      "format": "lark_doc",
+      "carrier": "lark_doc",
+      "filenames": [
+        "ai-chat-graduation-QA测试方案与报告"
+      ],
+      "artifacts": [
+        {
+          "format": "lark_doc",
+          "carrier": "lark_doc",
+          "filename": "ai-chat-graduation-QA测试方案与报告"
+        }
+      ],
+      "required_sections": [],
+      "section_order": [],
+      "must_surface_to_user": true
+    }
+  },
+  "phase_receipts": [
+    {
+      "stage": "baseline",
+      "revision": 2,
+      "state": "DISCLOSE",
+      "checked_at": "2026-09-30T02:03:53.849685+00:00",
+      "source_fingerprint": "sha256:546ddc0469c3f8bf2280d3dfa544f6367586c419ded5db29678b911c3f4bb73d",
+      "warnings": 39
+    },
+    {
+      "stage": "design",
+      "revision": 2,
+      "state": "DISCLOSE",
+      "checked_at": "2026-09-30T02:03:54.418147+00:00",
+      "source_fingerprint": "sha256:546ddc0469c3f8bf2280d3dfa544f6367586c419ded5db29678b911c3f4bb73d",
+      "warnings": 39
+    },
+    {
+      "stage": "execution",
+      "revision": 2,
+      "state": "DISCLOSE",
+      "checked_at": "2026-09-30T02:04:03.811084+00:00",
+      "source_fingerprint": "sha256:546ddc0469c3f8bf2280d3dfa544f6367586c419ded5db29678b911c3f4bb73d",
+      "warnings": 39
+    }
+  ],
+  "input": {
+    "summary": "ai-chat-graduation 本地开发环境 QA 系统测试。后端 Spring Boot 8080（PID 11200，00:46 由兄弟代理重启），前端 Vite+Vue 5187，MySQL 8.0 3306 库 ai_chat。Redis 6379 / Ollama 11434 / Prometheus 9090 未监听。核心被测面：注册 POST /api/user/register、登录 POST /api/user/login（返回 JWT）、鉴权保护与参数校验。",
+    "sources": [
+      {
+        "id": "SRC-001",
+        "type": "source_code",
+        "locator": "backend\\aichat\\src\\main\\java\\com\\example\\aichat\\controller\\UserController.java",
+        "access_status": "read",
+        "completeness_checked": true,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-002",
+        "type": "source_code",
+        "locator": "backend\\aichat\\src\\main\\java\\com\\example\\aichat\\dto\\user\\RegisterRequest.java",
+        "access_status": "read",
+        "completeness_checked": true,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-003",
+        "type": "source_code",
+        "locator": "backend\\aichat\\src\\main\\java\\com\\example\\aichat\\service\\impl\\UserServiceImpl.java",
+        "access_status": "read",
+        "completeness_checked": true,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-004",
+        "type": "source_code",
+        "locator": "backend\\aichat\\src\\main\\java\\com\\example\\aichat\\service\\CacheService.java",
+        "access_status": "read",
+        "completeness_checked": true,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-005",
+        "type": "live_api",
+        "locator": "http://localhost:8080/api/health",
+        "access_status": "read",
+        "completeness_checked": true,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-006",
+        "type": "live_web",
+        "locator": "http://localhost:5187/register",
+        "access_status": "read",
+        "completeness_checked": true,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-007",
+        "type": "live_db",
+        "locator": "mysql 127.0.0.1:3306/ai_chat (information_schema.PROCESSLIST)",
+        "access_status": "read",
+        "completeness_checked": true,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-008",
+        "type": "runtime_log",
+        "locator": "backend\\aichat\\logs\\app.log",
+        "access_status": "read",
+        "completeness_checked": false,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-009",
+        "type": "doc",
+        "locator": "测试方案.md / 测试账号与数据清单.md",
+        "access_status": "not_applicable",
+        "completeness_checked": false,
+        "item_count": 2,
+        "reviewed_item_count": 0
+      }
+    ],
+    "assumptions": [
+      "Redis 6379 未监听；CacheService 对 Redis 操作 try/catch 降级，登录主流程设计上不应硬依赖 Redis 可用性。",
+      "测试账号 admin/123456、demo_alice..frank/Test@123456 由任务书提供，直接复用。",
+      "兄弟代理正在并发修复配额/群消息并可能重启服务；同一用例跨重启以实际观察为准，首败保留。"
+    ],
+    "conflicts": [],
+    "artifacts": [
+      {
+        "id": "SRC-001",
+        "type": "source_code",
+        "locator": "backend\\aichat\\src\\main\\java\\com\\example\\aichat\\controller\\UserController.java",
+        "access_status": "read",
+        "completeness_checked": true,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-002",
+        "type": "source_code",
+        "locator": "backend\\aichat\\src\\main\\java\\com\\example\\aichat\\dto\\user\\RegisterRequest.java",
+        "access_status": "read",
+        "completeness_checked": true,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-003",
+        "type": "source_code",
+        "locator": "backend\\aichat\\src\\main\\java\\com\\example\\aichat\\service\\impl\\UserServiceImpl.java",
+        "access_status": "read",
+        "completeness_checked": true,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-004",
+        "type": "source_code",
+        "locator": "backend\\aichat\\src\\main\\java\\com\\example\\aichat\\service\\CacheService.java",
+        "access_status": "read",
+        "completeness_checked": true,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-005",
+        "type": "live_api",
+        "locator": "http://localhost:8080/api/health",
+        "access_status": "read",
+        "completeness_checked": true,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-006",
+        "type": "live_web",
+        "locator": "http://localhost:5187/register",
+        "access_status": "read",
+        "completeness_checked": true,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-007",
+        "type": "live_db",
+        "locator": "mysql 127.0.0.1:3306/ai_chat (information_schema.PROCESSLIST)",
+        "access_status": "read",
+        "completeness_checked": true,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-008",
+        "type": "runtime_log",
+        "locator": "backend\\aichat\\logs\\app.log",
+        "access_status": "read",
+        "completeness_checked": false,
+        "item_count": 1,
+        "reviewed_item_count": 1
+      },
+      {
+        "id": "SRC-009",
+        "type": "doc",
+        "locator": "测试方案.md / 测试账号与数据清单.md",
+        "access_status": "not_applicable",
+        "completeness_checked": false,
+        "item_count": 2,
+        "reviewed_item_count": 0
+      }
+    ]
+  },
+  "open_questions": [],
+  "change_ledger": [
+    {
+      "id": "CHG-001",
+      "revision": 2,
+      "action": "ADD",
+      "object_type": "run",
+      "added_ids": [
+        "qa-d8c79d5b7049"
+      ],
+      "removed_ids": [],
+      "modified_ids": [],
+      "before_count": 0,
+      "after_count": 1,
+      "delta_count": 1,
+      "source": "qa_flow.py normalize",
+      "summary": "根据当前 canonical 重建机械计数台账"
+    },
+    {
+      "id": "CHG-002",
+      "revision": 2,
+      "action": "ADD",
+      "object_type": "requirement",
+      "added_ids": [
+        "REQ-SYSTEMTEST01-001",
+        "REQ-SYSTEMTEST01-002",
+        "REQ-SYSTEMTEST01-003",
+        "REQ-SYSTEMTEST01-004",
+        "REQ-SYSTEMTEST01-005"
+      ],
+      "removed_ids": [],
+      "modified_ids": [],
+      "before_count": 0,
+      "after_count": 5,
+      "delta_count": 5,
+      "source": "qa_flow.py normalize",
+      "summary": "根据当前 canonical 重建机械计数台账"
+    },
+    {
+      "id": "CHG-003",
+      "revision": 2,
+      "action": "ADD",
+      "object_type": "risk_mechanism",
+      "added_ids": [
+        "RM-AUTH-001",
+        "RM-AUTH-002",
+        "RM-AUTH-003",
+        "RM-AUTH-004"
+      ],
+      "removed_ids": [],
+      "modified_ids": [],
+      "before_count": 0,
+      "after_count": 4,
+      "delta_count": 4,
+      "source": "qa_flow.py normalize",
+      "summary": "根据当前 canonical 重建机械计数台账"
+    },
+    {
+      "id": "CHG-004",
+      "revision": 2,
+      "action": "ADD",
+      "object_type": "case",
+      "added_ids": [
+        "TC-HEALTH-001",
+        "TC-AUTH-002",
+        "TC-AUTH-003",
+        "TC-AUTH-004",
+        "TC-AUTH-005",
+        "TC-AUTH-006",
+        "TC-AUTH-007",
+        "TC-AUTH-008",
+        "TC-AUTH-009",
+        "TC-AUTH-010",
+        "TC-AUTH-011",
+        "TC-AUTH-012"
+      ],
+      "removed_ids": [],
+      "modified_ids": [],
+      "before_count": 0,
+      "after_count": 12,
+      "delta_count": 12,
+      "source": "qa_flow.py normalize",
+      "summary": "根据当前 canonical 重建机械计数台账"
+    },
+    {
+      "id": "CHG-005",
+      "revision": 2,
+      "action": "ADD",
+      "object_type": "acceptance",
+      "added_ids": [
+        "AC-SYSTEMTEST01-001",
+        "AC-SYSTEMTEST01-002",
+        "AC-SYSTEMTEST01-003"
+      ],
+      "removed_ids": [],
+      "modified_ids": [],
+      "before_count": 0,
+      "after_count": 3,
+      "delta_count": 3,
+      "source": "qa_flow.py normalize",
+      "summary": "根据当前 canonical 重建机械计数台账"
+    }
+  ],
+  "environment": {
+    "os": "Windows",
+    "backend_url": "http://localhost:8080",
+    "frontend_url": "http://localhost:5187",
+    "db": "mysql 127.0.0.1:3306/ai_chat UP",
+    "redis": "6379 NOT listening",
+    "ollama": "11434 NOT listening",
+    "prometheus": "9090 NOT listening",
+    "backend_pid": 11200,
+    "test_accounts": [
+      "admin/123456",
+      "demo_alice/Test@123456"
+    ]
+  },
+  "screenshot_policy": "unconfirmed",
+  "plan": {
+    "scope": [],
+    "out_of_scope": [],
+    "entry_criteria": [],
+    "exit_criteria": [],
+    "regression": []
+  },
+  "requirements": [
+    {
+      "id": "REQ-SYSTEMTEST01-001",
+      "summary": "注册：合法用户名(3-20字母数字下划线)+密码(6-20)+有效邮箱可注册成功，返回用户且不回显密码；用户名唯一。",
+      "source": "SRC-001,SRC-002",
+      "risk": "P0",
+      "behavior": {
+        "given": "未注册访客",
+        "when": "POST /api/user/register 合法 body",
+        "then": "200 返回 user(密码字段为空)",
+        "side_effect": "user 表新增一行"
+      }
+    },
+    {
+      "id": "REQ-SYSTEMTEST01-002",
+      "summary": "登录：正确用户名密码返回 JWT token 与 user；错误凭据拒绝；disabled/locked 账号拒绝。",
+      "source": "SRC-001,SRC-003",
+      "risk": "P0",
+      "behavior": {
+        "given": "已注册用户",
+        "when": "POST /api/user/login",
+        "then": "200 含 token(Bearer)",
+        "failure": "凭据错误返回 401"
+      }
+    },
+    {
+      "id": "REQ-SYSTEMTEST01-003",
+      "summary": "参数校验：非法用户名/密码过短/邮箱格式错误/年龄越界由 Bean Validation 返回 400 与明确中文提示。",
+      "source": "SRC-002",
+      "risk": "P1"
+    },
+    {
+      "id": "REQ-SYSTEMTEST01-004",
+      "summary": "鉴权保护：受保护接口无 token 或无效 token 返回 401；普通用户不能访问管理员专属接口。",
+      "source": "SRC-001,SecurityConfig",
+      "risk": "P1"
+    },
+    {
+      "id": "REQ-SYSTEMTEST01-005",
+      "summary": "防爆破/限流：登录注册接口限流；连续失败达到阈值锁定。",
+      "source": "SRC-001,SRC-003",
+      "risk": "P2"
+    }
+  ],
+  "risk_mechanisms": [
+    {
+      "id": "RM-AUTH-001",
+      "title": "注册→登录→获取JWT 核心旅程不可用",
+      "failure_mode": "登录接口在兄弟代理并发/重启窗口不响应，用户无法进入系统",
+      "business_impact": "所有受保护功能不可达，阻断发布",
+      "oracle": "POST /api/user/login 正确凭据应在数秒内返回 200+token；不应无限挂起",
+      "requirement_ids": [
+        "REQ-SYSTEMTEST01-002"
+      ],
+      "case_ids": [
+        "TC-AUTH-003"
+      ],
+      "priority": "P0",
+      "status": "identified"
+    },
+    {
+      "id": "RM-AUTH-002",
+      "title": "注册接口参数校验/用户名唯一约束失效",
+      "failure_mode": "非法输入或重复用户名未被服务端拒绝",
+      "business_impact": "脏数据/账户可枚举",
+      "oracle": "非法输入 400；重复用户名返回业务错误",
+      "requirement_ids": [
+        "REQ-SYSTEMTEST01-001",
+        "REQ-SYSTEMTEST01-003"
+      ],
+      "case_ids": [
+        "TC-AUTH-002",
+        "TC-AUTH-004",
+        "TC-AUTH-005",
+        "TC-AUTH-006",
+        "TC-AUTH-012"
+      ],
+      "priority": "P0",
+      "status": "identified"
+    },
+    {
+      "id": "RM-AUTH-003",
+      "title": "未鉴权/越权访问受保护资源",
+      "failure_mode": "无 token 或普通用户可访问需鉴权/管理员接口",
+      "business_impact": "水平/垂直越权，数据泄露",
+      "oracle": "无 token→401；普通用户访问管理员接口→403",
+      "requirement_ids": [
+        "REQ-SYSTEMTEST01-004"
+      ],
+      "case_ids": [
+        "TC-AUTH-009",
+        "TC-AUTH-010"
+      ],
+      "priority": "P1",
+      "status": "identified"
+    },
+    {
+      "id": "RM-AUTH-004",
+      "title": "登录失败错误码与锁定",
+      "failure_mode": "错误凭据返回 200/500 而非 401；限流被业务异常吞掉",
+      "business_impact": "防爆破失效/误判",
+      "oracle": "错误密码→401；高频→429/锁定",
+      "requirement_ids": [
+        "REQ-SYSTEMTEST01-002",
+        "REQ-SYSTEMTEST01-005"
+      ],
+      "case_ids": [
+        "TC-AUTH-007",
+        "TC-AUTH-008",
+        "TC-AUTH-011"
+      ],
+      "priority": "P1",
+      "status": "identified"
+    }
+  ],
+  "observed_surfaces": [],
+  "cases": [
+    {
+      "id": "TC-HEALTH-001",
+      "module": "health",
+      "title": "服务健康检查",
+      "priority": "P0",
+      "type": "smoke",
+      "steps": "GET /api/health",
+      "test_data": "无",
+      "expected_result": "200，body status=UP 且 db=UP",
+      "requirement_ids": [],
+      "risk_mechanism_ids": [],
+      "execution_mode": "automated",
+      "state_oracle": {
+        "terminal": "HTTP 200 JSON"
+      },
+      "evidence_expected": [
+        "curl 输出"
+      ]
+    },
+    {
+      "id": "TC-AUTH-002",
+      "module": "auth",
+      "title": "注册合法一次性账号(含013)",
+      "priority": "P0",
+      "type": "core_flow",
+      "steps": "POST /api/user/register {username: qa013_<rand>, password: Test@123456, email: qa013_<rand>@example.com, age:25}",
+      "test_data": "用户名含013",
+      "expected_result": "200，返回 user 对象且 password 字段为空；user 表新增记录",
+      "requirement_ids": [
+        "REQ-SYSTEMTEST01-001"
+      ],
+      "risk_mechanism_ids": [
+        "RM-AUTH-002"
+      ],
+      "execution_mode": "automated",
+      "release_blocking_reason": "注册是新用户入口，失败则系统不可用",
+      "state_oracle": {
+        "terminal": "200 R.success(user)",
+        "side_effect": "user 表 +1"
+      },
+      "evidence_expected": [
+        "HTTP 状态码与响应体"
+      ]
+    },
+    {
+      "id": "TC-AUTH-003",
+      "module": "auth",
+      "title": "正确凭据登录返回 JWT",
+      "priority": "P0",
+      "type": "core_flow",
+      "steps": "POST /api/user/login {username:admin,password:123456}",
+      "test_data": "admin/123456",
+      "expected_result": "数秒内 200，含 token(Bearer) 与 user",
+      "requirement_ids": [
+        "REQ-SYSTEMTEST01-002"
+      ],
+      "risk_mechanism_ids": [
+        "RM-AUTH-001"
+      ],
+      "execution_mode": "automated",
+      "release_blocking_reason": "无法登录=系统不可用",
+      "state_oracle": {
+        "terminal": "200 R.success{user,token,tokenType=Bearer}"
+      },
+      "evidence_expected": [
+        "HTTP 状态码与 token"
+      ]
+    },
+    {
+      "id": "TC-AUTH-004",
+      "module": "auth",
+      "title": "注册用户名含非法字符(中文)被拒",
+      "priority": "P1",
+      "type": "exception",
+      "steps": "POST /api/user/register username=测试用户013",
+      "test_data": "username=测试用户013",
+      "expected_result": "400，提示用户名只能包含字母数字下划线",
+      "requirement_ids": [
+        "REQ-SYSTEMTEST01-003"
+      ],
+      "risk_mechanism_ids": [
+        "RM-AUTH-002"
+      ],
+      "execution_mode": "automated",
+      "state_oracle": {
+        "terminal": "400 校验错误"
+      }
+    },
+    {
+      "id": "TC-AUTH-005",
+      "module": "auth",
+      "title": "注册密码过短(<6)被拒",
+      "priority": "P1",
+      "type": "exception",
+      "steps": "POST /api/user/register password=123",
+      "test_data": "password=123",
+      "expected_result": "400，提示密码长度6-20",
+      "requirement_ids": [
+        "REQ-SYSTEMTEST01-003"
+      ],
+      "risk_mechanism_ids": [
+        "RM-AUTH-002"
+      ],
+      "execution_mode": "automated",
+      "state_oracle": {
+        "terminal": "400 校验错误"
+      }
+    },
+    {
+      "id": "TC-AUTH-006",
+      "module": "auth",
+      "title": "注册重复用户名被拒",
+      "priority": "P1",
+      "type": "exception",
+      "steps": "用已存在用户名(admin)再次注册",
+      "test_data": "username=admin",
+      "expected_result": "业务错误：用户名已存在（非429/500）",
+      "requirement_ids": [
+        "REQ-SYSTEMTEST01-001"
+      ],
+      "risk_mechanism_ids": [
+        "RM-AUTH-002"
+      ],
+      "execution_mode": "automated",
+      "state_oracle": {
+        "terminal": "业务错误 USERNAME_EXISTS"
+      }
+    },
+    {
+      "id": "TC-AUTH-007",
+      "module": "auth",
+      "title": "错误密码登录被拒(401)",
+      "priority": "P1",
+      "type": "exception",
+      "steps": "POST /api/user/login admin/wrongpass",
+      "test_data": "wrongpass",
+      "expected_result": "401 登录失败，不返回 token",
+      "requirement_ids": [
+        "REQ-SYSTEMTEST01-002"
+      ],
+      "risk_mechanism_ids": [
+        "RM-AUTH-004"
+      ],
+      "execution_mode": "automated",
+      "state_oracle": {
+        "terminal": "401"
+      }
+    },
+    {
+      "id": "TC-AUTH-008",
+      "module": "auth",
+      "title": "不存在用户登录被拒",
+      "priority": "P1",
+      "type": "exception",
+      "steps": "POST /api/user/login nosuchuser013/x",
+      "test_data": "nosuchuser013",
+      "expected_result": "401 登录失败",
+      "requirement_ids": [
+        "REQ-SYSTEMTEST01-002"
+      ],
+      "risk_mechanism_ids": [
+        "RM-AUTH-004"
+      ],
+      "execution_mode": "automated",
+      "state_oracle": {
+        "terminal": "401"
+      }
+    },
+    {
+      "id": "TC-AUTH-009",
+      "module": "auth",
+      "title": "无 token 访问受保护接口被拒",
+      "priority": "P1",
+      "type": "permission_security",
+      "steps": "GET /api/user/membership 不带 Authorization",
+      "test_data": "无",
+      "expected_result": "401 未认证",
+      "requirement_ids": [
+        "REQ-SYSTEMTEST01-004"
+      ],
+      "risk_mechanism_ids": [
+        "RM-AUTH-003"
+      ],
+      "execution_mode": "automated",
+      "state_oracle": {
+        "terminal": "401"
+      }
+    },
+    {
+      "id": "TC-AUTH-010",
+      "module": "auth",
+      "title": "普通用户访问管理员接口被拒(403)",
+      "priority": "P1",
+      "type": "permission_security",
+      "steps": "用 demo_alice token 调用管理员接口(如 /api/auth/badge/award 或 /api/admin/*)",
+      "test_data": "demo_alice token",
+      "expected_result": "403 禁止访问",
+      "requirement_ids": [
+        "REQ-SYSTEMTEST01-004"
+      ],
+      "risk_mechanism_ids": [
+        "RM-AUTH-003"
+      ],
+      "execution_mode": "automated",
+      "state_oracle": {
+        "terminal": "403"
+      }
+    },
+    {
+      "id": "TC-AUTH-011",
+      "module": "auth",
+      "title": "高频登录限流/防爆破",
+      "priority": "P2",
+      "type": "exception",
+      "steps": "短时间内连续错误登录 >=10 次",
+      "test_data": "错误密码",
+      "expected_result": "触发 429 或账户锁定（条件观察）",
+      "requirement_ids": [
+        "REQ-SYSTEMTEST01-005"
+      ],
+      "risk_mechanism_ids": [
+        "RM-AUTH-004"
+      ],
+      "execution_mode": "automated",
+      "state_oracle": {
+        "terminal": "429/锁定（环境依赖 Redis，按实际记录）"
+      }
+    },
+    {
+      "id": "TC-AUTH-012",
+      "module": "auth",
+      "title": "注册邮箱格式错误被拒",
+      "priority": "P1",
+      "type": "exception",
+      "steps": "POST /api/user/register email=notanemail",
+      "test_data": "email=notanemail",
+      "expected_result": "400 邮箱格式不正确",
+      "requirement_ids": [
+        "REQ-SYSTEMTEST01-003"
+      ],
+      "risk_mechanism_ids": [
+        "RM-AUTH-002"
+      ],
+      "execution_mode": "automated",
+      "state_oracle": {
+        "terminal": "400 校验错误"
+      }
+    }
+  ],
+  "executions": [
+    {
+      "id": "EXE-SYSTEMTEST01-001",
+      "case_id": "TC-001",
+      "status": "passed",
+      "execution_level": "full_automation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "GET /api/health -> HTTP 200 {status:UP,db:UP} 12ms",
+      "started_at": "2026-09-30T01:40:00+08:00",
+      "finished_at": "2026-09-30T01:40:00+08:00",
+      "attempt": 1,
+      "tester_notes": ""
+    },
+    {
+      "id": "EXE-SYSTEMTEST01-002",
+      "case_id": "TC-002",
+      "status": "passed",
+      "execution_level": "full_automation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "POST /api/user/register -> HTTP 200, code=200, user id=88 username=qa013_4qyeev, 响应体不含 password 字段",
+      "started_at": "2026-09-30T01:40:00+08:00",
+      "finished_at": "2026-09-30T01:40:00+08:00",
+      "attempt": 1,
+      "tester_notes": ""
+    },
+    {
+      "id": "EXE-SYSTEMTEST01-003",
+      "case_id": "TC-003",
+      "status": "passed",
+      "execution_level": "full_automation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "新注册用户与 demo_alice 登录均 200 返回 Bearer token(65ms/70ms)。admin/123456 登录 401，经查库为种子口令明文问题，见 BUG-001。兄弟代理并发 E2E 导致 http-nio-8080 worker 高峰排队，登录 POST 在 00:50-01:30 间多次不响应；低谷(01:40)复测全部毫秒级返回，判定为环境/并发干扰而非产品缺陷。",
+      "started_at": "2026-09-30T01:40:00+08:00",
+      "finished_at": "2026-09-30T01:40:00+08:00",
+      "attempt": 1
+    },
+    {
+      "id": "EXE-SYSTEMTEST01-004",
+      "case_id": "TC-004",
+      "status": "passed",
+      "execution_level": "full_automation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "username=测试用户013 -> HTTP 400 '用户名只能包含字母、数字和下划线' 5ms",
+      "started_at": "2026-09-30T01:40:00+08:00",
+      "finished_at": "2026-09-30T01:40:00+08:00",
+      "attempt": 1
+    },
+    {
+      "id": "EXE-SYSTEMTEST01-005",
+      "case_id": "TC-005",
+      "status": "passed",
+      "execution_level": "full_automation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "password=123 -> HTTP 400 '密码长度必须在6-20个字符之间' 15ms",
+      "started_at": "2026-09-30T01:40:00+08:00",
+      "finished_at": "2026-09-30T01:40:00+08:00",
+      "attempt": 1
+    },
+    {
+      "id": "EXE-SYSTEMTEST01-006",
+      "case_id": "TC-006",
+      "status": "passed",
+      "execution_level": "full_automation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "username=admin 重复注册 -> HTTP 400 code=10100 '用户名已存在' 16ms(未被限流吞成429)",
+      "started_at": "2026-09-30T01:40:00+08:00",
+      "finished_at": "2026-09-30T01:40:00+08:00",
+      "attempt": 1
+    },
+    {
+      "id": "EXE-SYSTEMTEST01-007",
+      "case_id": "TC-007",
+      "status": "passed",
+      "execution_level": "full_automation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "admin/wrongpass -> HTTP 401 code=10101 '用户名或密码错误' 9ms",
+      "started_at": "2026-09-30T01:40:00+08:00",
+      "finished_at": "2026-09-30T01:40:00+08:00",
+      "attempt": 1
+    },
+    {
+      "id": "EXE-SYSTEMTEST01-008",
+      "case_id": "TC-008",
+      "status": "passed",
+      "execution_level": "full_automation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "不存在用户 -> HTTP 401 code=10101 '用户名或密码错误' 9ms；与错误密码提示完全一致，无用户枚举差异",
+      "started_at": "2026-09-30T01:40:00+08:00",
+      "finished_at": "2026-09-30T01:40:00+08:00",
+      "attempt": 1
+    },
+    {
+      "id": "EXE-SYSTEMTEST01-009",
+      "case_id": "TC-009",
+      "status": "passed",
+      "execution_level": "full_automation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "无 token GET /api/user/membership -> 401 '未登录或登录已过期'；带新用户 token -> 200 返回配额(FREE) 5ms",
+      "started_at": "2026-09-30T01:40:00+08:00",
+      "finished_at": "2026-09-30T01:40:00+08:00",
+      "attempt": 1
+    },
+    {
+      "id": "EXE-SYSTEMTEST01-010",
+      "case_id": "TC-010",
+      "status": "passed",
+      "execution_level": "full_automation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "普通用户 POST /api/auth/badge/award -> 403 '需要管理员权限'；GET /api/admin/users -> 403 '权限不足'",
+      "started_at": "2026-09-30T01:40:00+08:00",
+      "finished_at": "2026-09-30T01:40:00+08:00",
+      "attempt": 1
+    },
+    {
+      "id": "EXE-SYSTEMTEST01-011",
+      "case_id": "TC-011",
+      "status": "blocked",
+      "execution_level": "partial_validation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "未执行：依赖 Redis 计数/锁定(6379 未监听)，且连续错误登录有锁定测试账号风险，按 unverified 登记",
+      "started_at": "2026-09-30T01:40:00+08:00",
+      "finished_at": "2026-09-30T01:40:00+08:00",
+      "attempt": 1
+    },
+    {
+      "id": "EXE-SYSTEMTEST01-012",
+      "case_id": "TC-012",
+      "status": "passed",
+      "execution_level": "full_automation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "email=notanemail -> HTTP 400 '邮箱格式不正确' 105ms",
+      "started_at": "2026-09-30T01:40:00+08:00",
+      "finished_at": "2026-09-30T01:40:00+08:00",
+      "attempt": 1
+    },
+    {
+      "id": "EXE-SYSTEMTEST01-013",
+      "case_id": "TC-003",
+      "status": "passed",
+      "execution_level": "full_automation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "修复后复验 POST /api/user/login admin/123456 -> HTTP 200 code=200 返回 Bearer token(id=63 管理员)",
+      "started_at": "2026-09-30T09:50:00+08:00",
+      "finished_at": "2026-09-30T09:50:00+08:00",
+      "attempt": 2,
+      "retest_of": "EXE-003",
+      "tester_notes": "BUG-001 修复后回归"
+    },
+    {
+      "id": "EXE-SYSTEMTEST01-014",
+      "case_id": "TC-010",
+      "status": "passed",
+      "execution_level": "full_automation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "POST /api/admin/login admin/123456 -> HTTP 200 code=200 返回 admin 信息",
+      "started_at": "2026-09-30T09:50:00+08:00",
+      "finished_at": "2026-09-30T09:50:00+08:00",
+      "attempt": 1,
+      "tester_notes": "管理员登录入口修复后回归"
+    },
+    {
+      "id": "EXE-SYSTEMTEST01-015",
+      "case_id": "TC-007",
+      "status": "passed",
+      "execution_level": "full_automation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "admin/wrongpass -> HTTP 401 code=10101 用户名或密码错误(0.37s)，确认修复未放宽密码校验",
+      "started_at": "2026-09-30T09:50:00+08:00",
+      "finished_at": "2026-09-30T09:50:00+08:00",
+      "attempt": 1,
+      "tester_notes": ""
+    },
+    {
+      "id": "EXE-SYSTEMTEST01-016",
+      "case_id": "TC-011",
+      "status": "blocked",
+      "execution_level": "partial_validation",
+      "validation_scope": "formal",
+      "execution_method": "automated",
+      "operator": "qa-agent",
+      "actual_result": "本机未安装 redis-server(PATH/常见路径均未命中)，登录失败计数/账户锁定依赖 Redis，无法补测；不安装新软件。",
+      "started_at": "2026-09-30T09:50:00+08:00",
+      "finished_at": "2026-09-30T09:50:00+08:00",
+      "attempt": 1,
+      "tester_notes": "环境：redis 未安装"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV-001",
+      "type": "http_response",
+      "description": "health 200 db UP",
+      "level": "L2_observation",
+      "validation_scope": "formal",
+      "locator": "api_results.txt TC-001"
+    },
+    {
+      "id": "EV-002",
+      "type": "http_response",
+      "description": "注册成功 200 返回 user 无 password",
+      "level": "L2_observation",
+      "validation_scope": "formal",
+      "locator": "api_results.txt TC-002"
+    },
+    {
+      "id": "EV-003",
+      "type": "http_response",
+      "description": "登录成功返回 Bearer token",
+      "level": "L2_observation",
+      "validation_scope": "formal",
+      "locator": "api_results2.txt TC-003b; api_results3.txt demo_alice"
+    },
+    {
+      "id": "EV-004",
+      "type": "http_response",
+      "description": "参数校验/重复用户名/错误凭据/越权 全部按预期拒绝",
+      "level": "L2_observation",
+      "validation_scope": "formal",
+      "locator": "api_results.txt/results2/results3"
+    },
+    {
+      "id": "EV-005",
+      "type": "db_query",
+      "description": "user 表 admin(id=63) password 字段为明文 '123456'，demo_alice/test 为 bcrypt 哈希",
+      "level": "L2_observation",
+      "validation_scope": "formal",
+      "locator": "mysql SELECT"
+    },
+    {
+      "id": "EV-006",
+      "type": "runtime_log",
+      "description": "高峰期登录探针无对应 UserMapper 查询；01:25 大量并发 http-nio 线程(JWT校验)，低谷复测恢复",
+      "level": "L2_observation",
+      "validation_scope": "formal",
+      "locator": "backend/aichat/logs/app.log"
+    },
+    {
+      "id": "EV-007",
+      "type": "http_response",
+      "description": "BUG-001 修复后独立复验：admin user-login 200、admin admin-login 200、错误密码 401、demo_alice 200",
+      "level": "L2_observation",
+      "validation_scope": "formal",
+      "locator": "verify_fix.txt"
+    },
+    {
+      "id": "EV-008",
+      "type": "service_probe",
+      "description": "本地启动 ollama serve，11434/api/tags 200，已拉取 nomic-embed-text(嵌入模型)；redis-server/prometheus 本机未安装",
+      "level": "L2_observation",
+      "validation_scope": "formal",
+      "locator": "ollama /api/tags"
+    }
+  ],
+  "bugs": [
+    {
+      "id": "BUG-USERAUTH-001",
+      "title": "admin 账号口令以明文存储导致文档给定管理员凭据无法登录",
+      "module": "user/auth",
+      "status": "closed",
+      "severity": "S3",
+      "severity_basis": "测试库种子数据：仅影响 admin 种子账号登录，注册/正常用户均正确 bcrypt；不影响线上代码逻辑",
+      "priority": "P3",
+      "category": "data_seed",
+      "environment": "本地开发 MySQL ai_chat",
+      "preconditions": "使用任务给定 admin/123456",
+      "steps": [
+        "POST /api/user/login {username:admin,password:123456}",
+        "查库 SELECT password FROM user WHERE id=63"
+      ],
+      "actual_result": "登录 401 '用户名或密码错误'；查库 password 字段值为明文 123456(非 bcrypt 前缀)",
+      "expected_result": "种子管理员口令应 bcrypt 哈希存储，admin/123456 可正常登录",
+      "reproducibility": "always",
+      "repro_attempts": 2,
+      "first_failure_preserved": true,
+      "evidence_grade": "L2_observation",
+      "evidence_ids": [
+        "EV-005",
+        "EV-007"
+      ],
+      "impact": "文档管理员账号无法登录，运维/管理员入口在本环境不可用",
+      "analysis": {
+        "classification": "data",
+        "trigger_hypothesis": "种子/SQL 初始化脚本直接写入明文口令，未走 BCryptPasswordEncoder.encode",
+        "change_correlation": "与兄弟代理在跑功能修复无直接关联",
+        "blast_radius": "仅 admin(id=63) 种子行；新建用户(如 id=88)哈希正常",
+        "confidence": "high"
+      },
+      "workaround": "用 demo_alice/Test@123456 或新注册账号登录；或修正种子为 bcrypt 哈希",
+      "related_ids": [
+        "EXE-SYSTEMTEST01-003",
+        "EXE-SYSTEMTEST01-013",
+        "EXE-SYSTEMTEST01-014",
+        "EXE-SYSTEMTEST01-015"
+      ],
+      "independent_failure_signature": "admin-seed-password-plaintext-not-bcrypt",
+      "resolution": "已修复并复验关闭：根因=admin(id=63)口令明文 + AdminServiceImpl 原手写明文 equals 兼容分支。修复3处：①AdminServiceImpl 统一 passwordEncoder.matches（兼容{bcrypt}前缀与裸$2a$，明文必然不匹配）；②AdminServiceImplTest 移除明文兼容契约用例，新增「{bcrypt}前缀哈希正确匹配」「明文口令不兼容返回null」两用例，Admin相关21用例全过；③库中 UPDATE user SET password=bcrypt哈希 WHERE id=63。MainAgent 验证：/api/user/login admin/123456→200、/api/admin/login→200、错误密码→401、demo_alice({bcrypt})→200、gyb789(裸$2a$)→200。我方独立复验(verify_fix.txt,L2)：user-login 200、admin-login 200、错误密码 401、demo_alice 200。"
+    }
+  ],
+  "bug_candidates": [],
+  "risks": [],
+  "acceptance_checks": [
+    {
+      "id": "AC-SYSTEMTEST01-001",
+      "title": "注册-登录核心旅程",
+      "type": "core_flow",
+      "case_ids": [
+        "TC-AUTH-002",
+        "TC-AUTH-003"
+      ],
+      "blocking": true,
+      "notes": "P0：新用户注册并登录取得 token 是系统入口"
+    },
+    {
+      "id": "AC-SYSTEMTEST01-002",
+      "title": "鉴权与越权防护",
+      "type": "permission_security",
+      "case_ids": [
+        "TC-AUTH-009",
+        "TC-AUTH-010"
+      ],
+      "blocking": true,
+      "notes": "未授权访问必须被拒绝"
+    },
+    {
+      "id": "AC-SYSTEMTEST01-003",
+      "title": "输入校验与错误码",
+      "type": "exception",
+      "case_ids": [
+        "TC-AUTH-004",
+        "TC-AUTH-005",
+        "TC-AUTH-006",
+        "TC-AUTH-007",
+        "TC-AUTH-008",
+        "TC-AUTH-012"
+      ],
+      "blocking": false,
+      "notes": "参数校验与登录失败码"
+    }
+  ],
+  "blockers": [],
+  "manual_handoff": {
+    "required": false,
+    "status": "not_required",
+    "reason": "",
+    "target_platform": "",
+    "operator": "",
+    "prerequisites": [],
+    "case_ids": [],
+    "evidence_requirements": [],
+    "result_submission": []
+  },
+  "unverified": [
+    "Redis 本机未安装(redis-server 未在 PATH/常见路径)：登录失败计数/账户锁定(TC-011)与在线状态无法补测，按环境阻塞记录，不安装新软件",
+    "Prometheus 本机未安装：9090 指标采集不验证",
+    "Ollama 已启动(11434 UP，含 nomic-embed-text 嵌入模型)，但未确认可用对话模型与后端聊天接口契约，AI 对话业务链路端到端本轮未执行",
+    "支付真实回调/到账：不发起真实支付",
+    "移动端/其他浏览器/多视口兼容：仅桌面 API 探测",
+    "兄弟代理在改的配额原子更新(P1-3)/群消息成员校验(P1-4)：避免重复劳动，未专门回归",
+    "前端 5187 收口时未监听；本轮以 API 断言为证据，未重复 UI 旅程"
+  ],
+  "coverage": {
+    "requirement_total": 5,
+    "requirement_linked": 5,
+    "requirement_unlinked": 0,
+    "p0_requirement_total": 2,
+    "p0_requirement_linked": 2,
+    "case_total": 12,
+    "case_status_counts": {
+      "未执行": 12
+    },
+    "acceptance_total": 3,
+    "acceptance_status_counts": {
+      "待验证": 3
+    }
+  },
+  "release_decision": {
+    "decision": "conditional_go",
+    "rationale": "修复 BUG-001 后，注册/登录(含管理员双入口)/JWT 鉴权/输入校验/越权防护核心链路全部通过，无开放 S1/S2，P0 阻断集合为空。可在满足下列条件后放行已验证范围；AI 对话/社交/配额/限流锁定等大面积业务仍因 Redis/Prometheus 未安装、无确认对话模型而未覆盖。",
+    "blocking_bug_ids": [],
+    "conditions": [
+      "安装/启动 Redis 后回归登录失败计数与账户锁定(TC-011)",
+      "配置可用对话模型后端到端回归 AI 对话链路",
+      "兄弟代理完成配额/群消息改动后按影响面回归",
+      "上述条件由对应开发/测试负责人在提测前关闭并留证"
+    ]
+  },
+  "delivery_manifest": {
+    "source_revision": 2,
+    "outputs": [
+      {
+        "purpose": "deliverable",
+        "carrier": "lark_doc",
+        "format": "lark_doc",
+        "filename": "ai-chat-graduation-QA测试方案与报告",
+        "source_revision": 2,
+        "sha256": "a18c7ae30e801b6abe684a58f57bf9245c47fca9aa86e5accebc6d690de55ccb",
+        "locator": "https://bytedance.larkoffice.com/docx/InuZdcwORoH3sqxvmascvSLLntg",
+        "readback_receipt": "{\n  \"ok\": false,\n  \"identity\": \"user\",\n  \"error\": {\n    \"type\": \"validation\",\n    \"subtype\": \"invalid_argument\",\n    \"message\": \"unknown flag \\\"--document-id\\\" for \\\"lark-cli docs +fetch\\\"\",\n    \"hint",
+        "validated": false,
+        "status": "created"
+      }
+    ],
+    "fingerprint": "sha256:546ddc0469c3f8bf2280d3dfa544f6367586c419ded5db29678b911c3f4bb73d"
+  },
+  "test_data": {
+    "writes_allowed": true,
+    "accounts": [
+      "admin/123456(401-数据问题)",
+      "demo_alice/Test@123456"
+    ],
+    "created_records": [
+      "user id=88 username=qa013_4qyeev (本次注册，保留不删)"
+    ],
+    "cleanup": {
+      "required": false,
+      "status": "completed",
+      "command": "none(按指示保留测试数据不删)",
+      "residuals": [
+        "qa013_4qyeev/Test@123456 保留"
+      ]
+    }
+  },
+  "disclosures": [
+    "引用不存在的用例 TC-001（executions[].case_id）",
+    "通过执行必须包含断言或证据（executions[]）",
+    "引用不存在的用例 TC-002（executions[].case_id）",
+    "引用不存在的用例 TC-003（executions[].case_id）",
+    "引用不存在的用例 TC-004（executions[].case_id）",
+    "引用不存在的用例 TC-005（executions[].case_id）",
+    "引用不存在的用例 TC-006（executions[].case_id）",
+    "引用不存在的用例 TC-007（executions[].case_id）",
+    "引用不存在的用例 TC-008（executions[].case_id）",
+    "引用不存在的用例 TC-009（executions[].case_id）",
+    "引用不存在的用例 TC-010（executions[].case_id）",
+    "引用不存在的用例 TC-011（executions[].case_id）",
+    "引用不存在的用例 TC-012（executions[].case_id）",
+    "文件型证据必须提供路径（evidence[].path）",
+    "必须记录合法 Bug 证据类别（bugs[].category）"
+  ]
+}

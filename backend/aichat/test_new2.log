@@ -1,0 +1,85 @@
+﻿[ERROR] COMPILATION ERROR : 
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupChatServiceTest.java:[17,34] �޷�����com.example.aichat.service.ContentAuditService
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ContentAuditService.class
+    ���ļ������������: com.example.aichat.mapper.UserInterestMapper
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiElfControllerOwnershipTest.java:[8,33] �޷�����com.example.aichat.entity.AiElfAlarm
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\AiElfAlarm.class
+    ���ļ������������: com.example.aichat.service.impl.SocialServiceImpl
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupChatServiceTest.java:[60,13] �Ҳ�������
+  ����:   �� ContentAuditService
+  λ��: �� com.example.aichat.service.impl.GroupChatServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ContentAuditServiceTest.java:[45,13] �Ҳ�������
+  ����:   �� ContentAuditService
+  λ��: �� com.example.aichat.service.impl.ContentAuditServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/FriendChatServiceTest.java:[46,13] �Ҳ�������
+  ����:   �� ContentAuditService
+  λ��: �� com.example.aichat.service.impl.FriendChatServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/BlockReportServiceTest.java:[38,13] �Ҳ�������
+  ����:   �� ContentAuditService
+  λ��: �� com.example.aichat.service.impl.BlockReportServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiElfControllerOwnershipTest.java:[85,13] �Ҳ�������
+  ����:   �� AiElfAlarm
+  λ��: �� com.example.aichat.controller.AiElfControllerOwnershipTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AiCharacterServiceImplTest.java:[39,13] �Ҳ�������
+  ����:   �� ContentAuditService
+  λ��: �� com.example.aichat.service.impl.AiCharacterServiceImplTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[52,13] �Ҳ�������
+  ����:   �� ContentAuditService
+  λ��: �� com.example.aichat.service.impl.CommunityServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/ContentAuditControllerTest.java:[33,13] �Ҳ�������
+  ����:   �� ContentAuditService
+  λ��: �� com.example.aichat.controller.ContentAuditControllerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiElfControllerOwnershipTest.java:[86,9] �Ҳ�������
+  ����:   �� AiElfAlarm
+  λ��: �� com.example.aichat.controller.AiElfControllerOwnershipTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiElfControllerOwnershipTest.java:[86,32] �Ҳ�������
+  ����:   �� AiElfAlarm
+  λ��: �� com.example.aichat.controller.AiElfControllerOwnershipTest
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:testCompile (default-testCompile) on project aichat: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupChatServiceTest.java:[17,34] �޷�����com.example.aichat.service.ContentAuditService
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ContentAuditService.class
+[ERROR]     ���ļ������������: com.example.aichat.mapper.UserInterestMapper
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiElfControllerOwnershipTest.java:[8,33] �޷�����com.example.aichat.entity.AiElfAlarm
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\AiElfAlarm.class
+[ERROR]     ���ļ������������: com.example.aichat.service.impl.SocialServiceImpl
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupChatServiceTest.java:[60,13] �Ҳ�������
+[ERROR]   ����:   �� ContentAuditService
+[ERROR]   λ��: �� com.example.aichat.service.impl.GroupChatServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ContentAuditServiceTest.java:[45,13] �Ҳ�������
+[ERROR]   ����:   �� ContentAuditService
+[ERROR]   λ��: �� com.example.aichat.service.impl.ContentAuditServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/FriendChatServiceTest.java:[46,13] �Ҳ�������
+[ERROR]   ����:   �� ContentAuditService
+[ERROR]   λ��: �� com.example.aichat.service.impl.FriendChatServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/BlockReportServiceTest.java:[38,13] �Ҳ�������
+[ERROR]   ����:   �� ContentAuditService
+[ERROR]   λ��: �� com.example.aichat.service.impl.BlockReportServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiElfControllerOwnershipTest.java:[85,13] �Ҳ�������
+[ERROR]   ����:   �� AiElfAlarm
+[ERROR]   λ��: �� com.example.aichat.controller.AiElfControllerOwnershipTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AiCharacterServiceImplTest.java:[39,13] �Ҳ�������
+[ERROR]   ����:   �� ContentAuditService
+[ERROR]   λ��: �� com.example.aichat.service.impl.AiCharacterServiceImplTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[52,13] �Ҳ�������
+[ERROR]   ����:   �� ContentAuditService
+[ERROR]   λ��: �� com.example.aichat.service.impl.CommunityServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/ContentAuditControllerTest.java:[33,13] �Ҳ�������
+[ERROR]   ����:   �� ContentAuditService
+[ERROR]   λ��: �� com.example.aichat.controller.ContentAuditControllerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiElfControllerOwnershipTest.java:[86,9] �Ҳ�������
+[ERROR]   ����:   �� AiElfAlarm
+[ERROR]   λ��: �� com.example.aichat.controller.AiElfControllerOwnershipTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiElfControllerOwnershipTest.java:[86,32] �Ҳ�������
+[ERROR]   ����:   �� AiElfAlarm
+[ERROR]   λ��: �� com.example.aichat.controller.AiElfControllerOwnershipTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

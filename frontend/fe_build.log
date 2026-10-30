@@ -1,0 +1,132 @@
+﻿
+> ai-chat-frontend@1.0.0 build
+> vite build
+
+node.exe : [33mplugin-legacy overrode 'build.target'. You should pass 'targets' as an option to this plugin with the l
+ist of legacy browsers to support instead.[39m
+所在位置 行:1 字符: 1
++ & "C:\Users\郭耀彬\AppData\Local\Doubao\User Data\sandbox_runtime\bases\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([33mplugin-leg...t instead.[39m:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+node_modules/@vueuse/core/dist/index.js (3362:0): A comment
+
+"/* #__PURE__ */"
+
+in "node_modules/@vueuse/core/dist/index.js" contains an annotation that Rollup cannot interpret due to the position of
+ the comment. The comment will be removed to avoid issues.
+node_modules/@vueuse/core/dist/index.js (5780:22): A comment
+
+"/* #__PURE__ */"
+
+in "node_modules/@vueuse/core/dist/index.js" contains an annotation that Rollup cannot interpret due to the position of
+ the comment. The comment will be removed to avoid issues.
+[32m✓[39m 2399 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[36massets/auth-legacy-BufhsZUJ.js                 [39m[1m[2m    0.57 kB[22m[1m[22m[2m │ gzip:   0.31 kB[22m
+[2mdist/[22m[36massets/minorGuard-legacy-DcfAnWWu.js           [39m[1m[2m    1.02 kB[22m[1m[22m[2m │ gzip:   0.66 kB[22m
+[2mdist/[22m[36massets/UserAgreement-legacy-BssWGjiQ.js        [39m[1m[2m    8.21 kB[22m[1m[22m[2m │ gzip:   6.18 kB[22m
+[2mdist/[22m[36massets/ResearchView-legacy-BnuaFn5_.js         [39m[1m[2m   13.94 kB[22m[1m[22m[2m │ gzip:   5.61 kB[22m
+[2mdist/[22m[36massets/AnnouncementView-legacy-BHJfpMp5.js     [39m[1m[2m   15.09 kB[22m[1m[22m[2m │ gzip:   5.22 kB[22m
+[2mdist/[22m[36massets/KnowledgeBaseView-legacy-fm8VpfZf.js    [39m[1m[2m   15.14 kB[22m[1m[22m[2m │ gzip:   5.91 kB[22m
+[2mdist/[22m[36massets/PrivacyView-legacy-5Fw4Cr6d.js          [39m[1m[2m   15.41 kB[22m[1m[22m[2m │ gzip:   5.68 kB[22m
+[2mdist/[22m[36massets/RegisterView-legacy-CYBa_bku.js         [39m[1m[2m   16.27 kB[22m[1m[22m[2m │ gzip:   5.76 kB[22m
+[2mdist/[22m[36massets/ThemeLogViewer-legacy-CrNJu-7o.js       [39m[1m[2m   16.86 kB[22m[1m[22m[2m │ gzip:   5.22 kB[22m
+[2mdist/[22m[36massets/AdminProfileView-legacy-T6gY4Hee.js     [39m[1m[2m   17.65 kB[22m[1m[22m[2m │ gzip:   6.14 kB[22m
+[2mdist/[22m[36massets/CharacterImportView-legacy-BMeVPZZJ.js  [39m[1m[2m   17.87 kB[22m[1m[22m[2m │ gzip:   6.60 kB[22m
+[2mdist/[22m[36massets/PlazaView-legacy-C74jW0Jg.js            [39m[1m[2m   18.45 kB[22m[1m[22m[2m │ gzip:   6.30 kB[22m
+[2mdist/[22m[36massets/GroupChatView-legacy-B6WmQ0pq.js        [39m[1m[2m   18.87 kB[22m[1m[22m[2m │ gzip:   6.21 kB[22m
+[2mdist/[22m[36massets/ForgotPasswordView-legacy-CxeNVLPW.js   [39m[1m[2m   20.67 kB[22m[1m[22m[2m │ gzip:   6.42 kB[22m
+[2mdist/[22m[36massets/CreateCharacterView-legacy-FuK3YBf0.js  [39m[1m[2m   22.32 kB[22m[1m[22m[2m │ gzip:   8.58 kB[22m
+[2mdist/[22m[36massets/UpgradeView-legacy-CMvLYweT.js          [39m[1m[2m   22.56 kB[22m[1m[22m[2m │ gzip:   6.33 kB[22m
+[2mdist/[22m[36massets/MemoryView-legacy-DGsYQ2_0.js           [39m[1m[2m   23.23 kB[22m[1m[22m[2m │ gzip:   7.89 kB[22m
+[2mdist/[22m[36massets/NotificationView-legacy-BhXl7c-u.js     [39m[1m[2m   23.30 kB[22m[1m[22m[2m │ gzip:   7.33 kB[22m
+[2mdist/[22m[36massets/SocialFeedView-legacy-CSnjskA7.js       [39m[1m[2m   23.85 kB[22m[1m[22m[2m │ gzip:   7.10 kB[22m
+[2mdist/[22m[36massets/AiElfView-legacy-B4FqZhDO.js            [39m[1m[2m   28.96 kB[22m[1m[22m[2m │ gzip:   8.02 kB[22m
+[2mdist/[22m[36massets/FriendView-legacy-CPsBYloI.js           [39m[1m[2m   28.99 kB[22m[1m[22m[2m │ gzip:   8.13 kB[22m
+[2mdist/[22m[36massets/ProfileView-legacy-BsJZOP_8.js          [39m[1m[2m   33.44 kB[22m[1m[22m[2m │ gzip:  10.10 kB[22m
+[2mdist/[22m[36massets/CommunityView-legacy-vxbJax-H.js        [39m[1m[2m   33.86 kB[22m[1m[22m[2m │ gzip:   9.50 kB[22m
+[2mdist/[22m[36massets/DataPoolView-legacy-C_dXliue.js         [39m[1m[2m   41.26 kB[22m[1m[22m[2m │ gzip:  10.68 kB[22m
+[2mdist/[22m[36massets/FeedView-legacy-D8DonGS6.js             [39m[1m[2m   43.24 kB[22m[1m[22m[2m │ gzip:  12.84 kB[22m
+[2mdist/[22m[36massets/FriendChatView-legacy-VeJIzdDI.js       [39m[1m[2m   50.85 kB[22m[1m[22m[2m │ gzip:  14.57 kB[22m
+[2mdist/[22m[36massets/vendor-axios-legacy-C1xcbrJv.js         [39m[1m[2m   57.90 kB[22m[1m[22m[2m │ gzip:  20.26 kB[22m
+[2mdist/[22m[36massets/MiniProgram-legacy-CvApY6-3.js          [39m[1m[2m   79.70 kB[22m[1m[22m[2m │ gzip:  17.62 kB[22m
+[2mdist/[22m[36massets/DesktopElf-legacy-CIZSIFLr.js           [39m[1m[2m  113.09 kB[22m[1m[22m[2m │ gzip:  27.40 kB[22m
+[2mdist/[22m[36massets/polyfills-legacy-CDDv3F2u.js            [39m[1m[2m  168.27 kB[22m[1m[22m[2m │ gzip:  66.02 kB[22m
+[2mdist/[22m[36massets/AdminView-legacy-6-7KL5mq.js            [39m[1m[2m  186.86 kB[22m[1m[22m[2m │ gzip:  39.89 kB[22m
+[2mdist/[22m[36massets/index-legacy-aenui-Ii.js                [39m[1m[2m  349.79 kB[22m[1m[22m[2m │ gzip:  88.16 kB[22m
+[2mdist/[22m[36massets/vendor-common-legacy-D1OHMtl7.js        [39m[1m[2m  372.15 kB[22m[1m[22m[2m │ gzip: 126.52 kB[22m
+[2mdist/[22m[36massets/vendor-three-legacy-DG_MmUak.js         [39m[1m[2m  799.85 kB[22m[1m[22m[2m │ gzip: 194.98 kB[22m
+[2mdist/[22m[36massets/vendor-echarts-legacy-ILYZoYXZ.js       [39m[1m[2m  862.13 kB[22m[1m[22m[2m │ gzip: 288.02 kB[22m
+[2mdist/[22m[36massets/vendor-vue-legacy-BKjCd67O.js           [39m[1m[2m1,463.83 kB[22m[1m[22m[2m │ gzip: 354.60 kB[22m
+[2mdist/[22m[32mindex.html                               [39m[1m[2m  2.13 kB[22m[1m[22m[2m │ gzip:   0.91 kB[22m
+[2mdist/[22m[35massets/KnowledgeBaseView-Cvrr1Edb.css    [39m[1m[2m  1.36 kB[22m[1m[22m[2m │ gzip:   0.44 kB[22m
+[2mdist/[22m[35massets/DataPoolView-DJx4paxs.css         [39m[1m[2m  1.92 kB[22m[1m[22m[2m │ gzip:   0.61 kB[22m
+[2mdist/[22m[35massets/UserAgreement-BY2eEOwE.css        [39m[1m[2m  2.06 kB[22m[1m[22m[2m │ gzip:   0.70 kB[22m
+[2mdist/[22m[35massets/ResearchView-DBrcTl2o.css         [39m[1m[2m  2.81 kB[22m[1m[22m[2m │ gzip:   0.85 kB[22m
+[2mdist/[22m[35massets/PrivacyView-yrmFFG9l.css          [39m[1m[2m  3.58 kB[22m[1m[22m[2m │ gzip:   0.98 kB[22m
+[2mdist/[22m[35massets/MemoryView-CHX0YUyb.css           [39m[1m[2m  3.79 kB[22m[1m[22m[2m │ gzip:   0.87 kB[22m
+[2mdist/[22m[35massets/ThemeLogViewer-D5XntMDa.css       [39m[1m[2m  3.86 kB[22m[1m[22m[2m │ gzip:   0.91 kB[22m
+[2mdist/[22m[35massets/CreateCharacterView-Bn0qO507.css  [39m[1m[2m  4.58 kB[22m[1m[22m[2m │ gzip:   1.07 kB[22m
+[2mdist/[22m[35massets/CharacterImportView-BNYnwlSe.css  [39m[1m[2m  4.61 kB[22m[1m[22m[2m │ gzip:   1.11 kB[22m
+[2mdist/[22m[35massets/AdminProfileView-LYfKfugd.css     [39m[1m[2m  5.08 kB[22m[1m[22m[2m │ gzip:   1.17 kB[22m
+[2mdist/[22m[35massets/GroupChatView-DC43ClHs.css        [39m[1m[2m  5.28 kB[22m[1m[22m[2m │ gzip:   1.18 kB[22m
+[2mdist/[22m[35massets/PlazaView-B3eeIskX.css            [39m[1m[2m  5.29 kB[22m[1m[22m[2m │ gzip:   1.18 kB[22m
+[2mdist/[22m[35massets/NotificationView-DMVc-0tB.css     [39m[1m[2m  5.96 kB[22m[1m[22m[2m │ gzip:   1.26 kB[22m
+[2mdist/[22m[35massets/AnnouncementView-C-AOlzea.css     [39m[1m[2m  6.05 kB[22m[1m[22m[2m │ gzip:   1.27 kB[22m
+[2mdist/[22m[35massets/SocialFeedView-BSw7i7mM.css       [39m[1m[2m  6.79 kB[22m[1m[22m[2m │ gzip:   1.34 kB[22m
+[2mdist/[22m[35massets/AiElfView-COzuTzYt.css            [39m[1m[2m  7.07 kB[22m[1m[22m[2m │ gzip:   1.48 kB[22m
+[2mdist/[22m[35massets/RegisterView-Cxpizhci.css         [39m[1m[2m  7.08 kB[22m[1m[22m[2m │ gzip:   1.68 kB[22m
+[2mdist/[22m[35massets/FriendView-C9-5uRU2.css           [39m[1m[2m  7.58 kB[22m[1m[22m[2m │ gzip:   1.51 kB[22m
+[2mdist/[22m[35massets/ProfileView-CXwKDOLd.css          [39m[1m[2m  8.50 kB[22m[1m[22m[2m │ gzip:   1.51 kB[22m
+[2mdist/[22m[35massets/UpgradeView-BUMn-WlB.css          [39m[1m[2m  8.97 kB[22m[1m[22m[2m │ gzip:   1.59 kB[22m
+[2mdist/[22m[35massets/ForgotPasswordView-DQQ9dvfb.css   [39m[1m[2m  9.27 kB[22m[1m[22m[2m │ gzip:   1.76 kB[22m
+[2mdist/[22m[35massets/CommunityView-CrdibIfj.css        [39m[1m[2m  9.77 kB[22m[1m[22m[2m │ gzip:   1.76 kB[22m
+[2mdist/[22m[35massets/FriendChatView-paGkslE9.css       [39m[1m[2m 10.40 kB[22m[1m[22m[2m │ gzip:   1.82 kB[22m
+[2mdist/[22m[35massets/FeedView-DDihhYWI.css             [39m[1m[2m 11.35 kB[22m[1m[22m[2m │ gzip:   2.17 kB[22m
+[2mdist/[22m[35massets/AdminView-CQ3UdlNa.css            [39m[1m[2m 38.23 kB[22m[1m[22m[2m │ gzip:   5.42 kB[22m
+[2mdist/[22m[35massets/DesktopElf-BF9Nvihw.css           [39m[1m[2m 40.77 kB[22m[1m[22m[2m │ gzip:   5.04 kB[22m
+[2mdist/[22m[35massets/MiniProgram-GMAQwnrk.css          [39m[1m[2m 44.22 kB[22m[1m[22m[2m │ gzip:   5.58 kB[22m
+[2mdist/[22m[35massets/index-BmJ5XQSO.css                [39m[1m[2m130.70 kB[22m[1m[22m[2m │ gzip:  19.15 kB[22m
+[2mdist/[22m[35massets/vendor-vue-BwBOWwam.css           [39m[1m[2m420.05 kB[22m[1m[22m[2m │ gzip:  51.15 kB[22m
+[2mdist/[22m[36massets/auth-CT0P6Kan.js                  [39m[1m[2m  0.27 kB[22m[1m[22m[2m │ gzip:   0.20 kB[22m
+[2mdist/[22m[36massets/minorGuard-ezfvuCEP.js            [39m[1m[2m  0.86 kB[22m[1m[22m[2m │ gzip:   0.58 kB[22m
+[2mdist/[22m[36massets/UserAgreement-K1EJQpvA.js         [39m[1m[2m  4.69 kB[22m[1m[22m[2m │ gzip:   4.68 kB[22m
+[2mdist/[22m[36massets/AnnouncementView-D91eE55q.js      [39m[1m[2m  5.42 kB[22m[1m[22m[2m │ gzip:   2.31 kB[22m
+[2mdist/[22m[36massets/RegisterView-CsK0YQJv.js          [39m[1m[2m  6.07 kB[22m[1m[22m[2m │ gzip:   2.68 kB[22m
+[2mdist/[22m[36massets/ResearchView-COCdfkBU.js          [39m[1m[2m  6.44 kB[22m[1m[22m[2m │ gzip:   3.00 kB[22m
+[2mdist/[22m[36massets/PlazaView-BEx23PxR.js             [39m[1m[2m  6.67 kB[22m[1m[22m[2m │ gzip:   2.99 kB[22m
+[2mdist/[22m[36massets/ForgotPasswordView-6GEMXR_j.js    [39m[1m[2m  7.08 kB[22m[1m[22m[2m │ gzip:   2.83 kB[22m
+[2mdist/[22m[36massets/GroupChatView-Bub6Z8Qx.js         [39m[1m[2m  7.17 kB[22m[1m[22m[2m │ gzip:   2.96 kB[22m
+[2mdist/[22m[36massets/PrivacyView-BbZs13o2.js           [39m[1m[2m  7.33 kB[22m[1m[22m[2m │ gzip:   2.95 kB[22m
+[2mdist/[22m[36massets/AdminProfileView-S18o7iEd.js      [39m[1m[2m  7.71 kB[22m[1m[22m[2m │ gzip:   3.19 kB[22m
+[2mdist/[22m[36massets/KnowledgeBaseView-Cxe6f2Ww.js     [39m[1m[2m  8.06 kB[22m[1m[22m[2m │ gzip:   3.65 kB[22m
+[2mdist/[22m[36massets/CharacterImportView-1H2LR-UN.js   [39m[1m[2m  8.39 kB[22m[1m[22m[2m │ gzip:   3.64 kB[22m
+[2mdist/[22m[36massets/SocialFeedView-Cmy7heDd.js        [39m[1m[2m  9.29 kB[22m[1m[22m[2m │ gzip:   3.55 kB[22m
+[2mdist/[22m[36massets/UpgradeView-BMWw1AXU.js           [39m[1m[2m  9.78 kB[22m[1m[22m[2m │ gzip:   3.06 kB[22m
+[2mdist/[22m[36massets/ThemeLogViewer-BWNuDTgk.js        [39m[1m[2m  9.98 kB[22m[1m[22m[2m │ gzip:   3.42 kB[22m
+[2mdist/[22m[36massets/NotificationView-BoPN8gBv.js      [39m[1m[2m 10.19 kB[22m[1m[22m[2m │ gzip:   3.92 kB[22m
+[2mdist/[22m[36massets/MemoryView-NgSmE8f9.js            [39m[1m[2m 11.84 kB[22m[1m[22m[2m │ gzip:   4.77 kB[22m
+[2mdist/[22m[36massets/CreateCharacterView-BgtfyGu_.js   [39m[1m[2m 12.73 kB[22m[1m[22m[2m │ gzip:   5.65 kB[22m
+[2mdist/[22m[36massets/FriendView-CAt1ivxk.js            [39m[1m[2m 13.48 kB[22m[1m[22m[2m │ gzip:   4.60 kB[22m
+[2mdist/[22m[36massets/AiElfView-BFv8sVfA.js             [39m[1m[2m 13.93 kB[22m[1m[22m[2m │ gzip:   4.67 kB[22m
+[2mdist/[22m[36massets/CommunityView-xqO9y_OS.js         [39m[1m[2m 14.88 kB[22m[1m[22m[2m │ gzip:   5.47 kB[22m
+[2mdist/[22m[36massets/ProfileView-CvbfUD3_.js           [39m[1m[2m 17.68 kB[22m[1m[22m[2m │ gzip:   6.62 kB[22m
+[2mdist/[22m[36massets/FeedView-DCDAlb6d.js              [39m[1m[2m 25.65 kB[22m[1m[22m[2m │ gzip:   8.75 kB[22m
+[2mdist/[22m[36massets/FriendChatView-7OcB3TUr.js        [39m[1m[2m 28.41 kB[22m[1m[22m[2m │ gzip:   9.45 kB[22m
+[2mdist/[22m[36massets/DataPoolView-BHxMIafj.js          [39m[1m[2m 28.46 kB[22m[1m[22m[2m │ gzip:   7.91 kB[22m
+[2mdist/[22m[36massets/MiniProgram-DuZ1AnEG.js           [39m[1m[2m 30.66 kB[22m[1m[22m[2m │ gzip:  10.68 kB[22m
+[2mdist/[22m[36massets/vendor-axios-DAcUsuMl.js          [39m[1m[2m 41.60 kB[22m[1m[22m[2m │ gzip:  15.82 kB[22m
+[2mdist/[22m[36massets/DesktopElf-Bz9oyPG-.js            [39m[1m[2m 62.47 kB[22m[1m[22m[2m │ gzip:  19.36 kB[22m
+[2mdist/[22m[36massets/polyfills-ComzbZaa.js             [39m[1m[2m114.37 kB[22m[1m[22m[2m │ gzip:  45.82 kB[22m
+[2mdist/[22m[36massets/AdminView-HmqGvZxG.js             [39m[1m[2m117.02 kB[22m[1m[22m[2m │ gzip:  30.47 kB[22m
+[2mdist/[22m[36massets/index-CJE87r88.js                 [39m[1m[2m199.59 kB[22m[1m[22m[2m │ gzip:  64.66 kB[22m
+[2mdist/[22m[36massets/vendor-common-DQPHYhb1.js         [39m[1m[2m359.40 kB[22m[1m[22m[2m │ gzip: 122.83 kB[22m
+[2mdist/[22m[36massets/vendor-three-DMKe7MgI.js          [39m[1m[2m724.73 kB[22m[1m[22m[2m │ gzip: 182.70 kB[22m
+[2mdist/[22m[36massets/vendor-echarts-BLrOjr7x.js        [39m[1m[2m859.27 kB[22m[1m[22m[2m │ gzip: 289.47 kB[22m
+[2mdist/[22m[36massets/vendor-vue-DGYeYkjv.js            [39m[1m[2m916.58 kB[22m[1m[22m[2m │ gzip: 281.89 kB[22m
+[32m✓ built in 1m 10s[39m

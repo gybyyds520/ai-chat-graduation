@@ -1,0 +1,1117 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:aichat >-------------------------
+[INFO] Building aichat 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ aichat ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 39 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ aichat ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 389 source files with javac [debug deprecation release 17] to target\classes
+[WARNING] û�д������Ҫʹ�������κ�ע��: /org.springframework.context.annotation.Primary,/org.springframework.scheduling.annotation.Async,/jakarta.validation.constraints.Email,/org.mybatis.spring.annotation.MapperScan,/jakarta.validation.constraints.NotNull,/org.apache.ibatis.annotations.Param,/com.baomidou.mybatisplus.annotation.TableName,/org.apache.ibatis.annotations.Select,/org.springframework.beans.factory.annotation.Value,/jakarta.validation.Valid,/org.springframework.stereotype.Component,/org.springframework.transaction.annotation.Transactional,/org.springframework.web.bind.annotation.GetMapping,/org.springframework.context.annotation.Bean,/com.baomidou.mybatisplus.annotation.TableField,/org.springframework.web.bind.annotation.RestController,/jakarta.validation.constraints.NotBlank,/org.springframework.cache.annotation.EnableCaching,/jakarta.validation.constraints.Pattern,/org.springframework.web.bind.annotation.PathVariable,/com.example.aichat.common.audit.Audited,/org.springframework.web.bind.annotation.RequestParam,/org.springframework.stereotype.Service,/jakarta.annotation.PreDestroy,/com.fasterxml.jackson.annotation.JsonIgnore,/jakarta.validation.constraints.Size,/org.springframework.context.annotation.Configuration,/org.apache.ibatis.annotations.Mapper,/jakarta.validation.constraints.Min,/jakarta.annotation.PostConstruct,/org.apache.ibatis.annotations.Update,/org.springframework.web.socket.config.annotation.EnableWebSocket,/org.apache.ibatis.annotations.Delete,/org.springframework.boot.autoconfigure.condition.ConditionalOnProperty,/jakarta.validation.constraints.Max,/org.aspectj.lang.annotation.Around,/org.springframework.boot.autoconfigure.SpringBootApplication,/org.springframework.scheduling.annotation.EnableScheduling,/org.springframework.validation.annotation.Validated,/org.springframework.web.bind.annotation.DeleteMapping,/org.springframework.web.bind.annotation.PostMapping,/io.github.resilience4j.ratelimiter.annotation.RateLimiter,/org.springframework.web.bind.annotation.PutMapping,/org.springframework.security.config.annotation.web.configuration.EnableWebSecurity,/org.aspectj.lang.annotation.Aspect,/com.baomidou.mybatisplus.annotation.TableId,/org.springframework.web.bind.annotation.RequestBody,/jakarta.validation.constraints.Positive,/org.springframework.scheduling.annotation.EnableAsync,/org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity,/org.springframework.web.bind.annotation.ExceptionHandler,/org.springframework.web.bind.annotation.RequestHeader,/org.springframework.web.bind.annotation.RestControllerAdvice,/org.springframework.beans.factory.annotation.Autowired,/org.springframework.security.access.prepost.PreAuthorize,/org.springframework.scheduling.annotation.Scheduled,/org.springframework.web.bind.annotation.RequestMapping
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/common/exception/BusinessException.java:[17,8] �����л���com.example.aichat.common.exception.BusinessExceptionû�� serialVersionUID �Ķ���
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/websocket/ChatWebSocketHandler.java:[37,19] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/websocket/ChatWebSocketHandler.java:[37,19] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/websocket/ChatWebSocketHandler.java:[37,19] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/websocket/ChatWebSocketHandler.java:[37,19] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/websocket/ChatWebSocketHandler.java:[37,19] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/websocket/ChatWebSocketHandler.java:[51,33] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/websocket/ChatWebSocketHandler.java:[51,33] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/websocket/ChatWebSocketHandler.java:[51,33] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/websocket/ChatWebSocketHandler.java:[51,33] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/websocket/ChatWebSocketHandler.java:[51,33] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/common/security/UserPrincipal.java:[28,8] �����л���com.example.aichat.common.security.UserPrincipalû�� serialVersionUID �Ķ���
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/config/AppConfig.java:[36,74] org.springframework.security.crypto.password�е�org.springframework.security.crypto.password.NoOpPasswordEncoder�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/service/voice/adapter/OllamaLlmAdapter.java:[27,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/service/voice/adapter/OllamaLlmAdapter.java:[27,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/service/voice/adapter/OllamaLlmAdapter.java:[27,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/service/voice/adapter/OllamaLlmAdapter.java:[27,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/service/voice/adapter/OllamaLlmAdapter.java:[27,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/service/DataPoolService.java:[343,29] com.baomidou.mybatisplus.core.mapper.BaseMapper�е�deleteBatchIds(java.util.Collection<?>)�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/service/DataPoolService.java:[440,37] com.baomidou.mybatisplus.core.mapper.BaseMapper�е�deleteBatchIds(java.util.Collection<?>)�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/controller/AiSystemController.java:[36,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/controller/AiSystemController.java:[36,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/controller/AiSystemController.java:[36,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/controller/AiSystemController.java:[36,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/controller/AiSystemController.java:[36,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/controller/ChatController.java:[39,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/controller/ChatController.java:[39,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/controller/ChatController.java:[39,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/controller/ChatController.java:[39,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/controller/ChatController.java:[39,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/service/ai/OllamaModelProvider.java:[14,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/service/ai/OllamaModelProvider.java:[14,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/service/ai/OllamaModelProvider.java:[14,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/service/ai/OllamaModelProvider.java:[14,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/service/ai/OllamaModelProvider.java:[14,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[INFO] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/service/impl/GroupChatServiceImpl.java: ĳЩ�����ļ�ʹ����δ�����򲻰�ȫ�Ĳ�����
+[INFO] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/main/java/com/example/aichat/service/impl/GroupChatServiceImpl.java: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ aichat ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ aichat ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 76 source files with javac [debug deprecation release 17] to target\test-classes
+[WARNING] û�д������Ҫʹ�������κ�ע��: /org.junit.jupiter.api.AfterAll,/org.junit.jupiter.api.extension.ExtendWith,/org.mockito.Mock,/org.mockito.InjectMocks,/org.springframework.web.bind.annotation.DeleteMapping,/org.springframework.web.bind.annotation.PostMapping,/org.junit.jupiter.api.BeforeEach,/org.springframework.web.bind.annotation.PutMapping,/org.mockito.Spy,/org.springframework.web.bind.annotation.GetMapping,/org.springframework.context.annotation.Bean,/org.springframework.test.context.web.WebAppConfiguration,/org.junit.jupiter.api.Test,/org.springframework.web.bind.annotation.RestController,/org.springframework.context.annotation.Import,/org.junit.jupiter.api.BeforeAll,/org.junit.jupiter.api.AfterEach,/org.springframework.web.bind.annotation.PathVariable,/org.springframework.boot.autoconfigure.ImportAutoConfiguration,/org.springframework.boot.test.context.SpringBootTest,/org.springframework.test.context.ContextConfiguration,/org.springframework.context.annotation.Configuration,/org.springframework.beans.factory.annotation.Autowired,/org.junit.jupiter.api.Disabled,/org.junit.jupiter.api.io.TempDir
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[96,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[96,39] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/config/PasswordEncoderTest.java:[38,30] org.springframework.security.crypto.password�е�org.springframework.security.crypto.password.NoOpPasswordEncoder�ѹ�ʱ
+[INFO] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AdminServiceTest.java: ĳЩ�����ļ�ʹ����δ�����򲻰�ȫ�Ĳ�����
+[INFO] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AdminServiceTest.java: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ aichat ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.aichat.AichatApplicationTests
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.013 s -- in com.example.aichat.AichatApplicationTests
+[INFO] Running com.example.aichat.common.ExceptionAndRTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.050 s -- in com.example.aichat.common.ExceptionAndRTest
+[INFO] Running com.example.aichat.common.ExceptionCodeTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s -- in com.example.aichat.common.ExceptionCodeTest
+[INFO] Running com.example.aichat.common.security.AuthContextTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s -- in com.example.aichat.common.security.AuthContextTest
+[INFO] Running com.example.aichat.common.security.JwtAuthenticationFilterTest
+.\mvnw.cmd : Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because boots
+trap classpath has been appended
+所在位置 行:1 字符: 68
++ ... on\backend\aichat"; .\mvnw.cmd test "-Duser.language=en" 2>&1 | Out-F ...
++                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Java HotSpot(TM...s been appended:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[WARN] δ���� JWT_SECRET_KEY��ʹ��������ɵĻỰ��Կ����������� token ʧЧ������������������ã�
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.544 s -- in com.example.aichat.common.security.JwtAuthenticationFilterTest
+[INFO] Running com.example.aichat.common.security.SecurityInfrastructureTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s -- in com.example.aichat.common.security.SecurityInfrastructureTest
+[INFO] Running com.example.aichat.config.GlobalExceptionHandlerTest
+18:09:20.965 [main] ERROR com.example.aichat.config.GlobalExceptionHandler -- ��ָ���쳣
+java.lang.NullPointerException: Cannot invoke method on null object at line 42
+	at com.example.aichat.config.GlobalExceptionHandlerTest.handleNullPointerException_Ӧ����500�Ҳ�й¶�ڲ���Ϣ(GlobalExceptionHandlerTest.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+18:09:21.112 [main] WARN com.example.aichat.config.GlobalExceptionHandler -- [ACCESS_DENIED] Access denied
+18:09:21.119 [main] ERROR com.example.aichat.config.GlobalExceptionHandler -- ȫ���쳣����
+java.lang.Exception: Root cause: connection refused to 10.0.0.1:3306
+	at com.example.aichat.config.GlobalExceptionHandlerTest.handleException_Ӧ����500�Ҳ�й¶�ڲ���Ϣ(GlobalExceptionHandlerTest.java:105)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+18:09:21.125 [main] WARN com.example.aichat.config.GlobalExceptionHandler -- [AUTH_FAILED] Bad credentials
+18:09:21.606 [main] WARN com.example.aichat.config.GlobalExceptionHandler -- ������֤�쳣
+org.springframework.web.bind.MethodArgumentNotValidException: null
+18:09:21.619 [main] WARN com.example.aichat.config.GlobalExceptionHandler -- �����쳣
+java.lang.IllegalArgumentException: Invalid argument
+	at com.example.aichat.config.GlobalExceptionHandlerTest.handleIllegalArgumentException_Ӧ����400(GlobalExceptionHandlerTest.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+18:09:21.627 [main] WARN com.example.aichat.config.GlobalExceptionHandler -- [BIZ_ERROR] code=40001, message=����������
+18:09:21.639 [main] ERROR com.example.aichat.config.GlobalExceptionHandler -- ���ݷ����쳣
+org.springframework.dao.QueryTimeoutException: Query timed out
+	at com.example.aichat.config.GlobalExceptionHandlerTest.handleDataAccessException_Ӧ����500(GlobalExceptionHandlerTest.java:143)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+18:09:21.655 [main] ERROR com.example.aichat.config.GlobalExceptionHandler -- ����ʱ�쳣
+java.lang.RuntimeException: SQL error: Table 'db.users' doesn't exist
+	at com.example.aichat.config.GlobalExceptionHandlerTest.handleRuntimeException_Ӧ����500�Ҳ�й¶�ڲ���Ϣ(GlobalExceptionHandlerTest.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.752 s -- in com.example.aichat.config.GlobalExceptionHandlerTest
+[INFO] Running com.example.aichat.config.PasswordEncoderTest
+18:09:22.056 [main] WARN org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder -- Encoded password does not look like BCrypt
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.490 s -- in com.example.aichat.config.PasswordEncoderTest
+[INFO] Running com.example.aichat.config.SecurityConfigAuthorizationTest
+18:09:26.038 [main] INFO org.springframework.security.web.DefaultSecurityFilterChain -- Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4ca5cb99, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7853363c, org.springframework.security.web.context.SecurityContextHolderFilter@3620eab, org.springframework.security.web.header.HeaderWriterFilter@70439c3, org.springframework.web.filter.CorsFilter@6282f1eb, org.springframework.security.web.authentication.logout.LogoutFilter@1cb849b2, com.example.aichat.common.security.JwtAuthenticationFilter@120d6cbf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2619cb76, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56f2c9e8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70169464, org.springframework.security.web.session.SessionManagementFilter@5daad59a, org.springframework.security.web.access.ExceptionTranslationFilter@92fd091, org.springframework.security.web.access.intercept.AuthorizationFilter@4b61e97]
+18:09:26.181 [main] INFO org.hibernate.validator.internal.util.Version -- HV000001: Hibernate Validator 8.0.1.Final
+18:09:26.599 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.599 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.600 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+18:09:26.633 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.633 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.633 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+18:09:26.668 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.668 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.668 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+18:09:26.701 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.702 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.702 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+18:09:26.712 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.712 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.712 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+18:09:26.716 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.716 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.717 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 1 ms
+18:09:26.721 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.721 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.721 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+18:09:26.732 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.732 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.734 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 2 ms
+18:09:26.738 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.738 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.739 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 1 ms
+18:09:26.743 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.743 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.743 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+18:09:26.747 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.747 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.747 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+18:09:26.751 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.751 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.752 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+18:09:26.756 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.756 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.756 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+18:09:26.760 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.760 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.760 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+18:09:26.765 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.765 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.766 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 1 ms
+18:09:26.769 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:26.769 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:26.769 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.593 s -- in com.example.aichat.config.SecurityConfigAuthorizationTest
+[INFO] Running com.example.aichat.controller.AiElfControllerOwnershipTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.185 s -- in com.example.aichat.controller.AiElfControllerOwnershipTest
+[INFO] Running com.example.aichat.controller.AiMemoryControllerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s -- in com.example.aichat.controller.AiMemoryControllerTest
+[INFO] Running com.example.aichat.controller.AiSystemControllerSecurityTest
+18:09:27.246 [main] INFO org.springframework.security.web.DefaultSecurityFilterChain -- Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3a0b6aff, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f1e1d66, org.springframework.security.web.context.SecurityContextHolderFilter@4c05f83b, org.springframework.security.web.header.HeaderWriterFilter@70efdd18, org.springframework.web.filter.CorsFilter@3cd28235, org.springframework.security.web.authentication.logout.LogoutFilter@15a41088, com.example.aichat.common.security.JwtAuthenticationFilter@75312c94, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@820b78a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a9ac8b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@140cfc5f, org.springframework.security.web.session.SessionManagementFilter@247a8411, org.springframework.security.web.access.ExceptionTranslationFilter@28dd8786, org.springframework.security.web.access.intercept.AuthorizationFilter@53335328]
+18:09:28.039 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:28.039 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:28.041 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 2 ms
+18:09:28.530 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:28.530 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:28.531 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 1 ms
+18:09:28.671 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:28.671 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:28.674 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 3 ms
+18:09:28.684 [main] INFO com.example.aichat.controller.AiSystemController -- ɾ��AIϵͳ: id=1
+18:09:28.695 [main] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+18:09:28.696 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+18:09:28.696 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.689 s -- in com.example.aichat.controller.AiSystemControllerSecurityTest
+[INFO] Running com.example.aichat.controller.CharacterPlazaControllerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s -- in com.example.aichat.controller.CharacterPlazaControllerTest
+[INFO] Running com.example.aichat.controller.ContentAuditControllerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.070 s -- in com.example.aichat.controller.ContentAuditControllerTest
+[INFO] Running com.example.aichat.controller.KnowledgeBaseControllerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.190 s -- in com.example.aichat.controller.KnowledgeBaseControllerTest
+[INFO] Running com.example.aichat.controller.QuotaControllerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s -- in com.example.aichat.controller.QuotaControllerTest
+[INFO] Running com.example.aichat.controller.ToolControllerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.040 s -- in com.example.aichat.controller.ToolControllerTest
+[INFO] Running com.example.aichat.controller.UserControllerUpdateStatusTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s -- in com.example.aichat.controller.UserControllerUpdateStatusTest
+[INFO] Running com.example.aichat.controller.VoiceCallControllerTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s -- in com.example.aichat.controller.VoiceCallControllerTest
+[INFO] Running com.example.aichat.dto.UserDtoValidationTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.150 s -- in com.example.aichat.dto.UserDtoValidationTest
+[INFO] Running com.example.aichat.entity.EntityFieldsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.example.aichat.entity.EntityFieldsTest
+[INFO] Running com.example.aichat.mapper.GroupAiMemberMapperTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in com.example.aichat.mapper.GroupAiMemberMapperTest
+[INFO] Running com.example.aichat.OAuthRiskIntegrationTest
+[WARNING] Tests run: 11, Failures: 0, Errors: 0, Skipped: 11, Time elapsed: 0.002 s -- in com.example.aichat.OAuthRiskIntegrationTest
+[INFO] Running com.example.aichat.service.ai.ModelRouterTest
+18:09:29.521 [main] INFO com.example.aichat.service.ai.ModelRouter -- ModelRouter��ʼ����ɣ���ע���ṩ��: [openai, ollama]
+18:09:29.522 [main] INFO com.example.aichat.service.ai.ModelRouter -- ·��ģ������ - provider: openai, modelId: gpt-4o-mini
+18:09:29.547 [main] INFO com.example.aichat.service.ai.ModelRouter -- ModelRouter��ʼ����ɣ���ע���ṩ��: [openai, ollama]
+18:09:29.549 [main] INFO com.example.aichat.service.ai.ModelRouter -- ·��ģ������ - provider: ollama, modelId: some-local-model
+18:09:29.550 [main] INFO com.example.aichat.service.ai.ModelRouter -- ModelRouter��ʼ����ɣ���ע���ṩ��: [openai, ollama]
+18:09:29.551 [main] INFO com.example.aichat.service.ai.ModelRouter -- ·��ģ������ - provider: openai, modelId: gpt-4o
+18:09:29.551 [main] INFO com.example.aichat.service.ai.ModelRouter -- ModelRouter��ʼ����ɣ���ע���ṩ��: [openai, ollama]
+18:09:29.553 [main] INFO com.example.aichat.service.ai.ModelRouter -- ·��ģ������ - provider: openai, modelId: deepseek-chat
+18:09:29.553 [main] INFO com.example.aichat.service.ai.ModelRouter -- ModelRouter��ʼ����ɣ���ע���ṩ��: [openai, ollama]
+18:09:29.554 [main] INFO com.example.aichat.service.ai.ModelRouter -- ·��ģ������ - provider: ollama, modelId: llama3.2:3b
+18:09:29.554 [main] INFO com.example.aichat.service.ai.ModelRouter -- ModelRouter��ʼ����ɣ���ע���ṩ��: [openai, ollama]
+18:09:29.555 [main] INFO com.example.aichat.service.ai.ModelRouter -- ·��ģ������ - provider: ollama, modelId: llama3.2:3b
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s -- in com.example.aichat.service.ai.ModelRouterTest
+[INFO] Running com.example.aichat.service.DataPoolServiceTest
+18:09:29.815 [main] INFO com.example.aichat.service.DataPoolService -- �Զ�����״̬�Ѹ���Ϊ: true
+18:09:29.817 [main] INFO com.example.aichat.service.DataPoolService -- �Զ�����״̬�Ѹ���Ϊ: false
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.270 s -- in com.example.aichat.service.DataPoolServiceTest
+[INFO] Running com.example.aichat.service.impl.AdminServiceImplTest
+18:09:29.885 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.886 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: ad***
+18:09:29.888 [main] ERROR com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: admin �û������ֶ�Ϊ��
+18:09:29.888 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Խ��� (ʧ��) ==========
+18:09:29.892 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.893 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: ad***
+18:09:29.893 [main] ERROR com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: ���벻��ȷ
+18:09:29.893 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Խ��� (ʧ��) ==========
+18:09:29.898 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.898 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: ad***
+18:09:29.898 [main] ERROR com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: ���ݿ���δ�ҵ� admin �û���¼
+18:09:29.898 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Խ��� (ʧ��) ==========
+18:09:29.903 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.905 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: bo***
+18:09:29.905 [main] ERROR com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: �û������ǹ���Ա
+18:09:29.905 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Խ��� (ʧ��) ==========
+18:09:29.917 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.917 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: ad***
+18:09:29.917 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ����Ա��¼�ɹ�!
+18:09:29.917 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Խ��� (�ɹ�) ==========
+18:09:29.921 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.921 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: null
+18:09:29.921 [main] WARN com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: �û���Ϊ��
+18:09:29.921 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.921 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���:   ***
+18:09:29.921 [main] ERROR com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: �û������ǹ���Ա
+18:09:29.921 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Խ��� (ʧ��) ==========
+18:09:29.924 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.924 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: ad***
+18:09:29.926 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ����Ա��¼�ɹ�!
+18:09:29.926 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Խ��� (�ɹ�) ==========
+18:09:29.936 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.936 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: ad***
+18:09:29.936 [main] WARN com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: ����Ϊ��
+18:09:29.936 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.936 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: ad***
+18:09:29.936 [main] WARN com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: ����Ϊ��
+18:09:29.947 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.947 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: ad***
+18:09:29.948 [main] ERROR com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: ���벻��ȷ
+18:09:29.949 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Խ��� (ʧ��) ==========
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s -- in com.example.aichat.service.impl.AdminServiceImplTest
+[INFO] Running com.example.aichat.service.impl.AdminServiceTest
+18:09:29.956 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.956 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: re***
+18:09:29.956 [main] ERROR com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: �û������ǹ���Ա
+18:09:29.956 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Խ��� (ʧ��) ==========
+18:09:29.960 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.960 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: ad***
+18:09:29.961 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ����Ա��¼�ɹ�!
+18:09:29.961 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Խ��� (�ɹ�) ==========
+18:09:29.962 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.963 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: ad***
+18:09:29.963 [main] WARN com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: ����Ϊ��
+18:09:29.963 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.963 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: ad***
+18:09:29.963 [main] WARN com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: ����Ϊ��
+18:09:29.968 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.969 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: null
+18:09:29.969 [main] WARN com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: �û���Ϊ��
+18:09:29.969 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.969 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: ***
+18:09:29.969 [main] WARN com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: �û���Ϊ��
+18:09:29.978 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.979 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: ad***
+18:09:29.979 [main] ERROR com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: ���ݿ���δ�ҵ� admin �û���¼
+18:09:29.979 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Խ��� (ʧ��) ==========
+18:09:29.985 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Կ�ʼ ==========
+18:09:29.985 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ��¼�û���: ad***
+18:09:29.985 [main] ERROR com.example.aichat.service.impl.AdminServiceImpl -- ��¼ʧ��: ���벻��ȷ
+18:09:29.985 [main] INFO com.example.aichat.service.impl.AdminServiceImpl -- ========== ����Ա��¼���Խ��� (ʧ��) ==========
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s -- in com.example.aichat.service.impl.AdminServiceTest
+[INFO] Running com.example.aichat.service.impl.AdvertisementServiceTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s -- in com.example.aichat.service.impl.AdvertisementServiceTest
+[INFO] Running com.example.aichat.service.impl.AiCharacterServiceImplTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.151 s -- in com.example.aichat.service.impl.AiCharacterServiceImplTest
+[INFO] Running com.example.aichat.service.impl.AiElfRelationshipServiceTest
+18:09:30.691 [main] INFO com.example.aichat.service.impl.AiElfServiceImpl -- [��������] �û� 1 �뾫�� 1 ����(chat) +�ø�5 �ȼ�1 �ƺ�İ��
+18:09:30.707 [main] INFO com.example.aichat.service.impl.AiElfServiceImpl -- [��������] �û� 1 �뾫�� 1 ����(feed) +�ø�20 �ȼ�3 �ƺ�����
+18:09:30.713 [main] INFO com.example.aichat.service.impl.AiElfServiceImpl -- [��������] �û� 1 �뾫�� 1 ����(play) +�ø�20 �ȼ�6 �ƺ�ֿ��
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.433 s -- in com.example.aichat.service.impl.AiElfRelationshipServiceTest
+[INFO] Running com.example.aichat.service.impl.AiElfServiceImplTest
+18:09:30.729 [main] INFO com.example.aichat.service.impl.AiElfServiceImpl -- [AIС����] �û� 1 ����С����: null
+18:09:30.735 [main] INFO com.example.aichat.service.impl.AiElfServiceImpl -- [С����˯��] ��¼˯�� - ʱ��: 8.0Сʱ
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in com.example.aichat.service.impl.AiElfServiceImplTest
+[INFO] Running com.example.aichat.service.impl.AiElfSleepScoreTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in com.example.aichat.service.impl.AiElfSleepScoreTest
+[INFO] Running com.example.aichat.service.impl.AiMemoryServiceTest
+18:09:30.789 [main] INFO com.example.aichat.service.impl.AiMemoryServiceImpl -- [AI����] �û� 1 �������� id=null type=other
+18:09:30.792 [main] INFO com.example.aichat.service.impl.AiMemoryServiceImpl -- [AI����] �û� 1 �������� id=null type=other
+18:09:30.792 [main] INFO com.example.aichat.service.impl.AiMemoryServiceImpl -- [AI����] �û� 1 �������� id=null type=other
+18:09:30.805 [main] INFO com.example.aichat.service.impl.AiMemoryServiceImpl -- [AI����] �û� 1 ɾ������ id=10
+18:09:30.820 [main] INFO com.example.aichat.service.impl.AiMemoryServiceImpl -- [AI����] �û� 1 �������� id=null type=preference
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s -- in com.example.aichat.service.impl.AiMemoryServiceTest
+[INFO] Running com.example.aichat.service.impl.AnnouncementServiceTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s -- in com.example.aichat.service.impl.AnnouncementServiceTest
+[INFO] Running com.example.aichat.service.impl.AuthServiceImplTest
+18:09:31.171 [main] INFO com.example.aichat.service.impl.AuthServiceImpl -- [������֤] �����ֻ��� 13800000000 ������֤�루���ݲ���¼��־��
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.291 s -- in com.example.aichat.service.impl.AuthServiceImplTest
+[INFO] Running com.example.aichat.service.impl.BlockReportServiceTest
+18:09:31.300 [main] INFO com.example.aichat.service.impl.BlockReportServiceImpl -- [�û�����] �û� 1 �����û� 2
+18:09:31.302 [main] INFO com.example.aichat.service.impl.BlockReportServiceImpl -- [�û��ٱ�] �û� 1 �ٱ� user: 2
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.090 s -- in com.example.aichat.service.impl.BlockReportServiceTest
+[INFO] Running com.example.aichat.service.impl.CharacterPlazaServiceImplTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s -- in com.example.aichat.service.impl.CharacterPlazaServiceImplTest
+[INFO] Running com.example.aichat.service.impl.CommunityServiceTest
+18:09:31.480 [main] INFO com.example.aichat.service.impl.CommunityServiceImpl -- [��Ⱥ����] �û� 1 ����Ⱥ 10 ��������
+18:09:31.483 [main] INFO com.example.aichat.service.impl.CommunityServiceImpl -- [��Ȥ��Ⱥ] �û� 1 ������Ⱥ: ����Ⱥ
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.140 s -- in com.example.aichat.service.impl.CommunityServiceTest
+[INFO] Running com.example.aichat.service.impl.ContentAuditServiceTest
+18:09:31.542 [main] INFO com.example.aichat.service.impl.ContentAuditServiceImpl -- [�������] �û� 1 ���� post ������д�: [ɫ����վ] (���� HIGH)
+18:09:31.549 [main] INFO com.example.aichat.service.impl.ContentAuditServiceImpl -- [�������] �û� 1 ���� post ������д�: [Ѫ�ȱ���] (���� HIGH)
+18:09:31.550 [main] INFO com.example.aichat.service.impl.ContentAuditServiceImpl -- [�������] �û� 1 ���� private_chat ������д�: [��΢��] (���� MEDIUM)
+18:09:31.551 [main] INFO com.example.aichat.service.impl.ContentAuditServiceImpl -- [�������] �û� 1 ���� post ������д�: [viagra] (���� LOW)
+18:09:31.553 [main] INFO com.example.aichat.service.impl.ContentAuditServiceImpl -- [�������] �û� 1 ���� post ������д�: [ɫ����վ] (���� HIGH)
+18:09:31.554 [main] INFO com.example.aichat.service.impl.ContentAuditServiceImpl -- [�������] �û� 1 ���� post ������д�: [ɫ����վ, ���˵�] (���� HIGH)
+18:09:31.556 [main] INFO com.example.aichat.service.impl.ContentAuditServiceImpl -- [�������] �û� 7 ���� post ������д�: [ɫ����վ] (���� HIGH)
+18:09:31.557 [main] INFO com.example.aichat.service.impl.ContentAuditServiceImpl -- [�������] �û� 1 ���� comment ������д�: [���˵�] (���� MEDIUM)
+18:09:31.558 [main] INFO com.example.aichat.service.impl.ContentAuditServiceImpl -- [�������] �û� 1 ���� post ������д�: [��������] (���� HIGH)
+18:09:31.559 [main] INFO com.example.aichat.service.impl.ContentAuditServiceImpl -- [�������] �û� 1 ���� post ������д�: [ɫ����վ] (���� HIGH)
+18:09:31.561 [main] INFO com.example.aichat.service.impl.ContentAuditServiceImpl -- [�������] �û� 1 ���� post ������д�: [ɫ����վ] (���� HIGH)
+18:09:31.561 [main] INFO com.example.aichat.service.impl.ContentAuditServiceImpl -- [�������] �û� 1 ���� post ������д�: [ɫ����վ] (���� HIGH)
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 s -- in com.example.aichat.service.impl.ContentAuditServiceTest
+[INFO] Running com.example.aichat.service.impl.ContextCompressionServiceTest
+18:09:31.571 [main] INFO com.example.aichat.service.impl.ContextCompressionServiceImpl -- [������ѹ��] ԭʼ��Ϣ��: 50, ѹ����: 10
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in com.example.aichat.service.impl.ContextCompressionServiceTest
+[INFO] Running com.example.aichat.service.impl.ConversationContextServiceTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s -- in com.example.aichat.service.impl.ConversationContextServiceTest
+[INFO] Running com.example.aichat.service.impl.DeepResearchServiceTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.100 s -- in com.example.aichat.service.impl.DeepResearchServiceTest
+[INFO] Running com.example.aichat.service.impl.EmotionAnalysisServiceTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in com.example.aichat.service.impl.EmotionAnalysisServiceTest
+[INFO] Running com.example.aichat.service.impl.FriendChatServiceTest
+18:09:31.839 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ������ID: 1, ������ID: 2
+18:09:31.840 [main] WARN com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ʧ�ܣ���Ϣ���� 8000 �ַ�
+18:09:31.841 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:31.841 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [��ȡ�����¼] ��ʼ��ȡ�Ի���ʷ
+18:09:31.841 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [��ȡ�����¼] �û�ID: 1, ����ID: 2, ��������: 20
+18:09:31.841 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [��ȡ�����¼] ��ѯ�������: 2
+18:09:31.841 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:31.841 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [�����Ϣ�Ѷ�] ��ʼ�����Ϣ״̬
+18:09:31.841 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [�����Ϣ�Ѷ�] �û�ID: 1, ����ID: 2
+18:09:31.841 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [�����Ϣ�Ѷ�] ������
+18:09:31.841 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:31.841 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [��ȡ�����¼] �����¼�Ѱ�ʱ����������
+18:09:31.841 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [��ȡ�����¼] ���Զ������ϢΪ�Ѷ�
+18:09:31.841 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:31.844 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ������ID: 1, ������ID: 2
+18:09:31.844 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ��Ϣ����: ���
+18:09:31.844 [main] WARN com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ��֤ʧ��: ���Ǻ��ѹ�ϵ
+18:09:31.844 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ��ǰ���ѹ�ϵ״̬: ������
+18:09:31.844 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:31.846 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ������ID: 1, ������ID: 2
+18:09:31.846 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ��Ϣ����: ���
+18:09:31.846 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ���ѹ�ϵ��֤ͨ��
+18:09:31.847 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ��Ϣ����ɹ�
+18:09:31.847 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ��ϢID: null
+18:09:31.847 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ����ʱ��: 2026-09-14 18:09:31
+18:09:31.847 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ��Ϣ״̬: δ��
+18:09:31.847 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:31.849 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ������ID: 1, ������ID: 2
+18:09:31.849 [main] WARN com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ʧ�ܣ���Ϣ����Ϊ��
+18:09:31.851 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ������ID: 1, ������ID: 2
+18:09:31.851 [main] WARN com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ʧ�ܣ���Ϣ����Ϊ��
+18:09:31.853 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ������ID: 1, ������ID: 2
+18:09:31.853 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ��Ϣ����: ���΢������
+18:09:31.853 [main] INFO com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ���ѹ�ϵ��֤ͨ��
+18:09:31.853 [main] WARN com.example.aichat.service.impl.FriendChatServiceImpl -- [������Ϣ����] ����������дʣ��ѱ����� senderId=1
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.103 s -- in com.example.aichat.service.impl.FriendChatServiceTest
+[INFO] Running com.example.aichat.service.impl.FriendshipServiceTest
+18:09:31.863 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [���ͺ�������] �û� 1 ���û� 2 ���ͺ�������
+18:09:31.863 [main] WARN com.example.aichat.service.impl.FriendshipServiceImpl -- [���ͺ�������] ʧ�ܣ��Ѿ��Ǻ��ѹ�ϵ
+18:09:31.866 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:31.866 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [���ܺ�������] �û� 1 �����û� 2 �ĺ�������
+18:09:31.866 [main] WARN com.example.aichat.service.impl.FriendshipServiceImpl -- [���ܺ�������] ʧ�ܣ�δ�ҵ�������ĺ�������
+18:09:31.870 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [���ͺ�������] �û� 99 ���û� 2 ���ͺ�������
+18:09:31.870 [main] WARN com.example.aichat.service.impl.FriendshipServiceImpl -- �û�������: 99
+18:09:31.870 [main] ERROR com.example.aichat.service.impl.FriendshipServiceImpl -- [���ͺ�������] ʧ�ܣ������û�������
+18:09:31.872 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [���ͺ�������] �û� 1 ���û� 2 ���ͺ�������
+18:09:31.872 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [���ͺ�������] �ɹ�
+18:09:31.874 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:31.874 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [���ܺ�������] �û� 1 �����û� 2 �ĺ�������
+18:09:31.875 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [���ܺ�������] �ɹ�
+18:09:31.876 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [���ͺ�������] �û� 1 ���û� 1 ���ͺ�������
+18:09:31.876 [main] WARN com.example.aichat.service.impl.FriendshipServiceImpl -- [���ͺ�������] ʧ�ܣ��������Լ����ͺ�������
+18:09:31.878 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [���ͺ�������] �û� 1 ���û� 2 ���ͺ�������
+18:09:31.878 [main] WARN com.example.aichat.service.impl.FriendshipServiceImpl -- [���ͺ�������] ʧ�ܣ����д����������
+18:09:31.879 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [���ͺ�������] �û� 1 ���û� 2 ���ͺ�������
+18:09:31.879 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [���ͺ�������] �Է��ѷ��͹������Զ�ͬ��
+18:09:31.879 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [���ͺ�������] ���Զ�����˫����ѹ�ϵ
+18:09:31.881 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:31.881 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [�ܾ���������] �û� 1 �ܾ��û� 2 �ĺ�������
+18:09:31.881 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [�ܾ���������] �ɹ�
+18:09:31.882 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:31.883 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [ɾ������] �û� 1 ɾ������ 2
+18:09:31.884 [main] INFO com.example.aichat.service.impl.FriendshipServiceImpl -- [ɾ������] �ɹ�
+18:09:31.887 [main] WARN com.example.aichat.service.impl.FriendshipServiceImpl -- �û�������: 99
+18:09:31.887 [main] WARN com.example.aichat.service.impl.FriendshipServiceImpl -- [��ȡ�����б�] ʧ�ܣ��û�������
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s -- in com.example.aichat.service.impl.FriendshipServiceTest
+[INFO] Running com.example.aichat.service.impl.GroupAiChatServiceImplTest
+18:09:32.067 [main] INFO com.example.aichat.service.impl.GroupAiChatServiceImpl -- [Ⱥ��AI] Ⱥ 10 ����һ�ַ��ԣ��� 2 �� AI �ظ��������� 1��
+18:09:32.076 [main] INFO com.example.aichat.service.impl.GroupAiChatServiceImpl -- [Ⱥ��AI] Ⱥ 10 ����һ�ַ��ԣ��� 3 �� AI �ظ��������� 1��
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.187 s -- in com.example.aichat.service.impl.GroupAiChatServiceImplTest
+[INFO] Running com.example.aichat.service.impl.GroupChatServiceTest
+18:09:32.191 [main] INFO com.example.aichat.service.impl.GroupChatServiceImpl -- [Ⱥ��AI] Ⱥ�� 1 ����ɫ 5 �Ƴ�Ⱥ 10
+18:09:32.193 [main] INFO com.example.aichat.service.impl.GroupChatServiceImpl -- [Ⱥ��] �û� 1 ����Ⱥ��: ��Ⱥ
+18:09:32.205 [main] INFO com.example.aichat.service.impl.GroupChatServiceImpl -- [Ⱥ��] Ⱥ�� 1 ����Ⱥ���� - groupId: 10
+18:09:32.210 [main] INFO com.example.aichat.service.impl.GroupChatServiceImpl -- [Ⱥ��] Ⱥ�� 1 ����Ⱥ���� - groupId: 10
+18:09:32.214 [main] INFO com.example.aichat.service.impl.GroupChatServiceImpl -- [Ⱥ��AI] �û� 1 ����ɫ 5 ����Ⱥ 10
+18:09:32.234 [main] INFO com.example.aichat.service.impl.GroupChatServiceImpl -- [Ⱥ��] Ⱥ�� 1 ɾ��Ⱥ��: 10
+18:09:32.246 [main] INFO com.example.aichat.service.impl.GroupChatServiceImpl -- [Ⱥ��] �û� 1 ����Ⱥ��: 10
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.157 s -- in com.example.aichat.service.impl.GroupChatServiceTest
+[INFO] Running com.example.aichat.service.impl.KnowledgeBaseServiceTest
+18:09:32.490 [main] WARN com.example.aichat.service.impl.KnowledgeBaseServiceImpl -- ֪ʶ���ĵ��ϴ�����: ��֧�ֵ��ļ�����: .exe
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.267 s -- in com.example.aichat.service.impl.KnowledgeBaseServiceTest
+[INFO] Running com.example.aichat.service.impl.MinorProtectionServiceTest
+18:09:32.542 [main] INFO com.example.aichat.service.impl.MinorProtectionServiceImpl -- [MINOR_MODE_UPDATED] userId=2 enabled=false
+18:09:32.556 [main] WARN com.example.aichat.service.impl.MinorProtectionServiceImpl -- [MINOR_MODE_TOGGLE_DENIED] userId=1 Ϊδ�����ˣ����Թر�δ���걣�����ܾ�
+18:09:32.564 [main] WARN com.example.aichat.service.impl.MinorProtectionServiceImpl -- [MINOR_NIGHT_RESTRICTED] userId=1 ҹ�� 22:00-06:00 ���ʱ��ܾ�
+18:09:32.571 [main] INFO com.example.aichat.service.impl.MinorProtectionServiceImpl -- [MINOR_MODE_UPDATED] userId=2 enabled=true
+18:09:32.575 [main] WARN com.example.aichat.service.impl.MinorProtectionServiceImpl -- [MINOR_NIGHT_RESTRICTED] userId=2 ҹ�� 22:00-06:00 ���ʱ��ܾ�
+18:09:32.583 [main] WARN com.example.aichat.service.impl.MinorProtectionServiceImpl -- [MINOR_AI_CHAT_RESTRICTED] userId=1 δ����ģʽ�� AI ���챻�ܾ�
+[INFO] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s -- in com.example.aichat.service.impl.MinorProtectionServiceTest
+[INFO] Running com.example.aichat.service.impl.NotificationServiceTest
+18:09:32.889 [main] ERROR com.example.aichat.service.impl.NotificationServiceImpl -- ����֪ͨʧ��
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/java.util.KeyValueHolder.<init>(KeyValueHolder.java:62)
+	at java.base/java.util.Map.entry(Map.java:1709)
+	at com.example.aichat.service.impl.NotificationServiceImpl.pushNotification(NotificationServiceImpl.java:96)
+	at com.example.aichat.service.impl.NotificationServiceImpl.createNotification(NotificationServiceImpl.java:49)
+	at com.example.aichat.service.impl.NotificationServiceTest.createNotification_Ӧ��Ⲣ��ǳ�ʼ״̬(NotificationServiceTest.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+18:09:32.891 [main] INFO com.example.aichat.service.impl.NotificationServiceImpl -- [֪ͨ] ����֪ͨ - userId: 1, type: comment
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.291 s -- in com.example.aichat.service.impl.NotificationServiceTest
+[INFO] Running com.example.aichat.service.impl.OAuthServiceImplTest
+18:09:33.009 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:33.009 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] ��ʼ����΢�ŵ�¼����
+18:09:33.009 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] ����: code=validcod..., deviceId=dev123, ipAddress=10.0.0.1
+18:09:33.009 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 1: ����΢��API��ȡ�û���Ϣ
+18:09:33.009 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 1�ɹ�: ��ȡ��΢���û���Ϣ
+18:09:33.009 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼]   openId=wx_15823..., nickname=΢���û�_vali
+18:09:33.009 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 2: ��������
+18:09:33.011 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 2���: ����������� - ���յȼ�=LOW, ���շ���=0
+18:09:33.011 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼]   ����ԭ��: 
+18:09:33.011 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 3: ��ѯOAuth�󶨹�ϵ
+18:09:33.011 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 3: δ�ҵ��󶨹�ϵ���������û�
+18:09:33.011 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 3�ɹ�: ���û�������� userId=77
+18:09:33.011 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 4: ���ɵ�¼Token
+18:09:33.011 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 4�ɹ�: Token�������
+18:09:33.011 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 5: ��¼�����������
+18:09:33.012 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] ? ��¼�ɹ�
+18:09:33.012 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼]   userId=77, username=wx_wx_158233967, nickname=΢���û�_vali
+18:09:33.012 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼]   riskLevel=LOW, riskScore=0
+18:09:33.012 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:33.014 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�Ž��] �û� 1 ���Խ��΢��
+18:09:33.014 [main] WARN com.example.aichat.service.impl.OAuthServiceImpl -- [΢�Ž��] �û� 1 δ��΢��
+18:09:33.017 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�Ű�] �û� 1 ���԰�΢��
+18:09:33.017 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�Ű�] ? �û� 1 ΢�Ű󶨳ɹ�
+18:09:33.018 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�Ž��] �û� 1 ���Խ��΢��
+18:09:33.019 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�Ž��] ? �û� 1 ΢�Ž��ɹ�
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] ��ʼ����΢�ŵ�¼����
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] ����: code=validcod..., deviceId=dev123, ipAddress=10.0.0.1
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 1: ����΢��API��ȡ�û���Ϣ
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 1�ɹ�: ��ȡ��΢���û���Ϣ
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼]   openId=wx_15823..., nickname=΢���û�_vali
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 2: ��������
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 2���: ����������� - ���յȼ�=LOW, ���շ���=0
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼]   ����ԭ��: 
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 3: ��ѯOAuth�󶨹�ϵ
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 3: �Ѵ��ڰ󶨹�ϵ�������û� userId=5
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 3�ɹ�: �û��Ѵ��ڣ�ֱ�ӵ�¼
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 4: ���ɵ�¼Token
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 4�ɹ�: Token�������
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 5: ��¼�����������
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] ? ��¼�ɹ�
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼]   userId=5, username=wx_existing, nickname=null
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼]   riskLevel=LOW, riskScore=0
+18:09:33.021 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:33.023 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:33.023 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] ��ʼ����΢�ŵ�¼����
+18:09:33.023 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] ����: code=invalid_..., deviceId=dev, ipAddress=10.0.0.1
+18:09:33.023 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 1: ����΢��API��ȡ�û���Ϣ
+18:09:33.023 [main] ERROR com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 1ʧ��: ΢��API����ʧ�� - ��Ч��code
+18:09:33.025 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�Ű�] �û� 1 ���԰�΢��
+18:09:33.027 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:33.027 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] ��ʼ����΢�ŵ�¼����
+18:09:33.027 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] ����: code=validcod..., deviceId=dev123, ipAddress=10.0.0.1
+18:09:33.027 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 1: ����΢��API��ȡ�û���Ϣ
+18:09:33.027 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 1�ɹ�: ��ȡ��΢���û���Ϣ
+18:09:33.027 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼]   openId=wx_15823..., nickname=΢���û�_vali
+18:09:33.027 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 2: ��������
+18:09:33.027 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 2���: ����������� - ���յȼ�=LOW, ���շ���=22
+18:09:33.027 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼]   ����ԭ��: �����������
+18:09:33.027 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 3: ��ѯOAuth�󶨹�ϵ
+18:09:33.027 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 3: �Ѵ��ڰ󶨹�ϵ�������û� userId=5
+18:09:33.027 [main] ERROR com.example.aichat.service.impl.OAuthServiceImpl -- [΢�ŵ�¼] Step 3����: �󶨹�ϵ���ڵ��û�������
+18:09:33.029 [main] INFO com.example.aichat.service.impl.OAuthServiceImpl -- [΢�Ű�] �û� 1 ���԰�΢��
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.133 s -- in com.example.aichat.service.impl.OAuthServiceImplTest
+[INFO] Running com.example.aichat.service.impl.PaymentServiceImplTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.138 s -- in com.example.aichat.service.impl.PaymentServiceImplTest
+[INFO] Running com.example.aichat.service.impl.PrivacyServiceImplTest
+18:09:33.256 [main] INFO com.example.aichat.service.impl.PrivacyServiceImpl -- [��˽����] �û� 1 ��������: k
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s -- in com.example.aichat.service.impl.PrivacyServiceImplTest
+[INFO] Running com.example.aichat.service.impl.ProfileServiceImplTest
+18:09:33.373 [main] INFO com.example.aichat.service.impl.ProfileServiceImpl -- [ͷ���ϴ�] �û� 1 �ϴ�ͷ��: /avatars/a.png
+18:09:33.377 [main] INFO com.example.aichat.service.impl.ProfileServiceImpl -- [��������] �û� 1 ��������
+18:09:33.380 [main] INFO com.example.aichat.service.impl.ProfileServiceImpl -- [��������] �û� 1 ��������
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s -- in com.example.aichat.service.impl.ProfileServiceImplTest
+[INFO] Running com.example.aichat.service.impl.QuotaServiceImplTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s -- in com.example.aichat.service.impl.QuotaServiceImplTest
+[INFO] Running com.example.aichat.service.impl.RiskAssessmentServiceTest
+18:09:33.458 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:33.458 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] ��ʼ��¼��������
+18:09:33.458 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] ����: userId=42, ipAddress=8.8.8.8, deviceId=known-device, loginType=password
+18:09:33.458 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 1: �û�״̬���
+18:09:33.458 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 2: IP��ַ��������
+18:09:33.459 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 3: �豸��������
+18:09:33.459 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 4: ��¼Ƶ�ʼ��
+18:09:33.459 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 5: ��¼��������
+18:09:33.459 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] ? �������
+18:09:33.459 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������]   �ܷ�: 10
+18:09:33.459 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������]   �ȼ�: LOW
+18:09:33.459 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������]   ԭ��: [IP��ַ����: 5��, ��¼��ʽ����: 5��]
+18:09:33.459 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:33.462 [main] WARN com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] �û� 42 24Сʱ�ڸ߷��յ�¼����3��
+18:09:33.464 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:33.464 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] ��ʼ��¼��������
+18:09:33.464 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] ����: userId=43, ipAddress=8.8.8.8, deviceId=new-device, loginType=password
+18:09:33.464 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 1: �û�״̬���
+18:09:33.464 [main] WARN com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] �û��˺�������
+18:09:33.464 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 2: IP��ַ��������
+18:09:33.464 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 3: �豸��������
+18:09:33.464 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 4: ��¼Ƶ�ʼ��
+18:09:33.464 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 5: ��¼��������
+18:09:33.464 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] ? �������
+18:09:33.464 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������]   �ܷ�: 85
+18:09:33.464 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������]   �ȼ�: HIGH
+18:09:33.464 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������]   ԭ��: [�û��˺�״̬�쳣, IP��ַ����: 5��, �豸����: 15��, ��¼��ʽ����: 5��]
+18:09:33.464 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:33.466 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:33.466 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] ��ʼ��¼��������
+18:09:33.466 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] ����: userId=42, ipAddress=8.8.8.8, deviceId=unknown-device, loginType=password
+18:09:33.466 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 1: �û�״̬���
+18:09:33.466 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 2: IP��ַ��������
+18:09:33.466 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 3: �豸��������
+18:09:33.466 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 4: ��¼Ƶ�ʼ��
+18:09:33.466 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 5: ��¼��������
+18:09:33.466 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] ? �������
+18:09:33.466 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������]   �ܷ�: 25
+18:09:33.466 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������]   �ȼ�: LOW
+18:09:33.466 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������]   ԭ��: [IP��ַ����: 5��, �豸����: 15��, ��¼��ʽ����: 5��]
+18:09:33.466 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:33.470 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:33.470 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] ��ʼ��¼��������
+18:09:33.470 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] ����: userId=42, ipAddress=8.8.8.8, deviceId=known-device, loginType=password
+18:09:33.470 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 1: �û�״̬���
+18:09:33.470 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 2: IP��ַ��������
+18:09:33.470 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 3: �豸��������
+18:09:33.470 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 4: ��¼Ƶ�ʼ��
+18:09:33.470 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 5: ��¼��������
+18:09:33.470 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] ? �������
+18:09:33.470 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������]   �ܷ�: 10
+18:09:33.470 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������]   �ȼ�: LOW
+18:09:33.470 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������]   ԭ��: [IP��ַ����: 5��, ��¼��ʽ����: 5��]
+18:09:33.470 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:33.471 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+18:09:33.471 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] ��ʼ��¼��������
+18:09:33.471 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] ����: userId=42, ipAddress=null, deviceId=known-device, loginType=password
+18:09:33.471 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 1: �û�״̬���
+18:09:33.471 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 2: IP��ַ��������
+18:09:33.471 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 3: �豸��������
+18:09:33.471 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 4: ��¼Ƶ�ʼ��
+18:09:33.471 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] Step 5: ��¼��������
+18:09:33.471 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������] ? �������
+18:09:33.471 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������]   �ܷ�: 50
+18:09:33.471 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������]   �ȼ�: MEDIUM
+18:09:33.471 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- [��������]   ԭ��: [IP��ַ����: 30��, �豸����: 15��, ��¼��ʽ����: 5��]
+18:09:33.471 [main] INFO com.example.aichat.service.impl.RiskAssessmentServiceImpl -- �T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T�T
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in com.example.aichat.service.impl.RiskAssessmentServiceTest
+[INFO] Running com.example.aichat.service.impl.SearchCitationServiceTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in com.example.aichat.service.impl.SearchCitationServiceTest
+[INFO] Running com.example.aichat.service.impl.SocialServiceImplTest
+18:09:33.733 [main] INFO com.example.aichat.service.impl.SocialServiceImpl -- [�罻��̬] �û� 1 ������̬: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+18:09:33.741 [main] INFO com.example.aichat.service.impl.SocialServiceImpl -- [�罻��̬] �û� 1 ������̬: hello
+18:09:33.746 [main] INFO com.example.aichat.service.impl.SocialServiceImpl -- [�罻����] �û� 2 ���۶�̬ 100: �ð��
+18:09:33.748 [main] INFO com.example.aichat.service.impl.SocialServiceImpl -- [�罻����] �û� 1 ���۶�̬ 100: �ܺÿ���
+18:09:33.757 [main] INFO com.example.aichat.service.impl.SocialServiceImpl -- [�罻����] �û� 1 ���۶�̬ 100: �Լ�����
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.248 s -- in com.example.aichat.service.impl.SocialServiceImplTest
+[INFO] Running com.example.aichat.service.impl.ToolCallServiceImplTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 s -- in com.example.aichat.service.impl.ToolCallServiceImplTest
+[INFO] Running com.example.aichat.service.impl.UserServiceImplTest
+18:09:33.897 [main] INFO com.example.aichat.service.impl.UserServiceImpl -- [REGISTRATION_SUCCESS] �û�ע��ɹ�, userId=null, username=nouser, age=0
+18:09:33.899 [main] INFO com.example.aichat.service.impl.UserServiceImpl -- [RESET_PASSWORD_BY_CODE] ͨ����֤����������ɹ�, userId=1
+18:09:33.911 [main] WARN com.example.aichat.service.impl.UserServiceImpl -- [LOGIN_LOCKED] username=alice, failedCount=5
+18:09:33.926 [main] INFO com.example.aichat.service.impl.UserServiceImpl -- [REGISTRATION_SUCCESS] �û�ע��ɹ�, userId=null, username=teenuser, age=15
+18:09:33.941 [main] WARN com.example.aichat.service.impl.UserServiceImpl -- [REGISTRATION_FAILED] �û����Ѵ���, username=alice, existingUserId=1
+18:09:33.949 [main] INFO com.example.aichat.service.impl.UserServiceImpl -- [REGISTRATION_SUCCESS] �û�ע��ɹ�, userId=null, username=newuser, age=null
+18:09:33.958 [main] INFO com.example.aichat.service.impl.UserServiceImpl -- [VERIFICATION_EMAIL] ������֤��������, userId=1
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 s -- in com.example.aichat.service.impl.UserServiceImplTest
+[INFO] Running com.example.aichat.service.impl.WebSearchServiceOfflineTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in com.example.aichat.service.impl.WebSearchServiceOfflineTest
+[INFO] Running com.example.aichat.service.quota.MembershipLevelTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.example.aichat.service.quota.MembershipLevelTest
+[INFO] Running com.example.aichat.service.tool.impl.MockToolsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.example.aichat.service.tool.impl.MockToolsTest
+[INFO] Running com.example.aichat.service.tool.ToolExecutorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.example.aichat.service.tool.ToolExecutorTest
+[INFO] Running com.example.aichat.service.tool.ToolRegistryTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.example.aichat.service.tool.ToolRegistryTest
+[INFO] Running com.example.aichat.service.voice.adapter.MockAsrAdapterTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.example.aichat.service.voice.adapter.MockAsrAdapterTest
+[INFO] Running com.example.aichat.service.voice.adapter.MockLlmAdapterTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.example.aichat.service.voice.adapter.MockLlmAdapterTest
+[INFO] Running com.example.aichat.service.voice.adapter.MockTtsAdapterTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.example.aichat.service.voice.adapter.MockTtsAdapterTest
+[INFO] Running com.example.aichat.service.voice.impl.VoiceCallServiceImplTest
+18:09:34.096 [main] INFO com.example.aichat.service.voice.impl.VoiceCallServiceImpl -- ����Ự�ѿ���: sessionId=ef5034dc4d7e408c98b122e23afcfdb5, userId=1, characterId=null, mockMode=true
+18:09:34.096 [main] INFO com.example.aichat.service.voice.impl.VoiceCallServiceImpl -- ����Ự�ѽ���: sessionId=ef5034dc4d7e408c98b122e23afcfdb5, userId=1
+18:09:34.099 [main] INFO com.example.aichat.service.voice.impl.VoiceCallServiceImpl -- ����Ự�ѿ���: sessionId=2447534c3c42400eb7b2c3c4756ddfa8, userId=1, characterId=100, mockMode=true
+18:09:34.101 [main] INFO com.example.aichat.service.voice.impl.VoiceCallServiceImpl -- ����Ự�ѿ���: sessionId=acd8033ae77e4f6aa0788609c85dc670, userId=1, characterId=null, mockMode=true
+18:09:34.107 [main] INFO com.example.aichat.service.voice.impl.VoiceCallServiceImpl -- ����Ự�ѿ���: sessionId=26e4827f78bb468ba06451f274266591, userId=1, characterId=null, mockMode=true
+18:09:34.109 [main] INFO com.example.aichat.service.voice.impl.VoiceCallServiceImpl -- ����Ự�ѿ���: sessionId=f429512808bd4d079c8f318f9f587c5a, userId=1, characterId=null, mockMode=true
+18:09:34.112 [main] INFO com.example.aichat.service.voice.impl.VoiceCallServiceImpl -- ����Ự�ѿ���: sessionId=4ece1ce31fc54148bb56236d0485412f, userId=1, characterId=null, mockMode=true
+18:09:34.113 [main] INFO com.example.aichat.service.voice.impl.VoiceCallServiceImpl -- ����Ự�ѿ���: sessionId=b55ccd3416fa4331be8fe813af0f288a, userId=1, characterId=null, mockMode=true
+18:09:34.116 [main] INFO com.example.aichat.service.voice.impl.VoiceCallServiceImpl -- ����Ự�ѿ���: sessionId=2df2d96ae75447d99a189fbb6c28c208, userId=1, characterId=null, mockMode=true
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 s -- in com.example.aichat.service.voice.impl.VoiceCallServiceImplTest
+[INFO] Running com.example.aichat.service.voice.VoiceAdapterManagerTest
+18:09:34.128 [main] INFO com.example.aichat.service.voice.VoiceAdapterManager -- ����������ѡ��: asr=mock-asr, llm=mock-llm, tts=mock-tts, mockMode=true
+18:09:34.130 [main] INFO com.example.aichat.service.voice.VoiceAdapterManager -- ����������ѡ��: asr=prod-asr, llm=prod-llm, tts=prod-tts, mockMode=false
+18:09:34.131 [main] INFO com.example.aichat.service.voice.VoiceAdapterManager -- ����������ѡ��: asr=prod-asr, llm=prod-llm, tts=prod-tts, mockMode=false
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.example.aichat.service.voice.VoiceAdapterManagerTest
+[INFO] Running com.example.aichat.service.voice.VoiceProfileTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.example.aichat.service.voice.VoiceProfileTest
+[INFO] Running com.example.aichat.SocialSearchIntegrationTest
+[WARNING] Tests run: 7, Failures: 0, Errors: 0, Skipped: 7, Time elapsed: 0 s -- in com.example.aichat.SocialSearchIntegrationTest
+[INFO] Running com.example.aichat.util.FileUploadUtilTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s -- in com.example.aichat.util.FileUploadUtilTest
+[INFO] Running com.example.aichat.util.UrlSecurityUtilTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in com.example.aichat.util.UrlSecurityUtilTest
+[INFO] Running com.example.aichat.utils.TokenUtilsTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in com.example.aichat.utils.TokenUtilsTest
+[INFO] Running com.example.aichat.WebSearchServiceTest
+[WARNING] Tests run: 16, Failures: 0, Errors: 0, Skipped: 16, Time elapsed: 0 s -- in com.example.aichat.WebSearchServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 682, Failures: 0, Errors: 0, Skipped: 35
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  37.360 s
+[INFO] Finished at: 2026-09-14T18:09:34+08:00
+[INFO] ------------------------------------------------------------------------

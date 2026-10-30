@@ -1,0 +1,567 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:aichat >-------------------------
+[INFO] Building aichat 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.5:run (default-cli) > test-compile @ aichat >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ aichat ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 58 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ aichat ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ aichat ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ aichat ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 129 source files with javac [debug deprecation release 17] to target\test-classes
+[WARNING] Ã»ÓÐ´¦Àí³ÌÐòÒªÊ¹ÓÃÒÔÏÂÈÎºÎ×¢ÊÍ: /org.junit.jupiter.api.AfterAll,/org.junit.jupiter.api.extension.ExtendWith,/org.mockito.Mock,/org.mockito.InjectMocks,/org.springframework.web.bind.annotation.DeleteMapping,/org.springframework.web.bind.annotation.PostMapping,/org.junit.jupiter.api.BeforeEach,/org.springframework.web.bind.annotation.PutMapping,/org.mockito.Spy,/org.springframework.web.bind.annotation.GetMapping,/org.springframework.context.annotation.Bean,/org.springframework.test.context.web.WebAppConfiguration,/org.junit.jupiter.api.Test,/org.springframework.web.bind.annotation.RestController,/org.springframework.context.annotation.Import,/org.junit.jupiter.api.BeforeAll,/org.junit.jupiter.api.AfterEach,/org.springframework.web.bind.annotation.PathVariable,/org.springframework.boot.autoconfigure.ImportAutoConfiguration,/org.springframework.boot.test.context.SpringBootTest,/org.springframework.test.context.ContextConfiguration,/org.springframework.context.annotation.Configuration,/org.springframework.beans.factory.annotation.Autowired,/org.junit.jupiter.api.Disabled,/org.junit.jupiter.api.io.TempDir
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerAuthTest.java:[33,22] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[41,9] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[41,37] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[57,9] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[57,37] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[80,9] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[80,37] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[81,9] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[89,9] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[89,37] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,13] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,39] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/config/PasswordEncoderTest.java:[38,30] org.springframework.security.crypto.passwordÖÐµÄorg.springframework.security.crypto.password.NoOpPasswordEncoderÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/SoulEngineServiceImplTest.java:[214,69] ×îºóÒ»¸ö²ÎÊýÊ¹ÓÃÁË²»×¼È·µÄ±äÁ¿ÀàÐÍµÄ varargs ·½·¨µÄ·Ç varargs µ÷ÓÃ; 
+  ¶ÔÓÚ varargs µ÷ÓÃ, Ó¦Ê¹ÓÃ com.example.aichat.entity.AiSoulState
+  ¶ÔÓÚ·Ç varargs µ÷ÓÃ, Ó¦Ê¹ÓÃ com.example.aichat.entity.AiSoulState[], ÕâÑùÒ²¿ÉÒÔÒÖÖÆ´Ë¾¯¸æ
+[INFO] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupChatServiceTest.java: Ä³Ð©ÊäÈëÎÄ¼þÊ¹ÓÃÁËÎ´¾­¼ì²é»ò²»°²È«µÄ²Ù×÷¡£
+[INFO] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupChatServiceTest.java: ÓÐ¹ØÏêÏ¸ÐÅÏ¢, ÇëÊ¹ÓÃ -Xlint:unchecked ÖØÐÂ±àÒë¡£
+[INFO] 
+[INFO] <<< spring-boot:3.2.5:run (default-cli) < test-compile @ aichat <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.5:run (default-cli) @ aichat ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-09-30 10:48:17.061 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.AichatApplication[0;39m - Starting AichatApplication using Java 17.0.12 with PID 32212 (C:\Users\¹ùÒ«±ò\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes started by ¹ùÒ«±ò in C:\Users\¹ùÒ«±ò\Desktop\gybct\ai-chat-graduation\backend\aichat)
+2026-09-30 10:48:17.063 [restartedMain] [39mDEBUG[0;39m [36mc.example.aichat.AichatApplication[0;39m - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-09-30 10:48:17.065 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.AichatApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2026-09-30 10:48:17.112 [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-30 10:48:17.112 [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-30 10:48:19.069 [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-30 10:48:19.072 [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-09-30 10:48:19.151 [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 66 ms. Found 0 Redis repository interfaces.
+2026-09-30 10:48:20.473 [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2026-09-30 10:48:20.484 [restartedMain] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-30 10:48:20.485 [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2026-09-30 10:48:20.486 [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-09-30 10:48:20.550 [restartedMain] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2026-09-30 10:48:20.550 [restartedMain] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 3438 ms
+2026-09-30 10:48:20.786 [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - HikariPool-1 - Starting...
+2026-09-30 10:48:20.975 [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.pool.HikariPool[0;39m - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@429ff3
+2026-09-30 10:48:20.977 [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - HikariPool-1 - Start completed.
+2026-09-30 10:48:20.986 [restartedMain] [34mINFO [0;39m [36mo.s.b.a.h.H2ConsoleAutoConfiguration[0;39m - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/ai_chat?useSSL=false&serverTimezone=UTC&characterEncoding=utf8&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true'
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.8 
+2026-09-30 10:48:21.803 [restartedMain] [34mINFO [0;39m [36mo.f.c.i.license.VersionPrinter[0;39m - Flyway Community Edition 9.22.3 by Redgate
+2026-09-30 10:48:21.803 [restartedMain] [34mINFO [0;39m [36mo.f.c.i.license.VersionPrinter[0;39m - See release notes here: https://rd.gt/416ObMi
+2026-09-30 10:48:21.804 [restartedMain] [34mINFO [0;39m [36mo.f.c.i.license.VersionPrinter[0;39m - 
+2026-09-30 10:48:21.823 [restartedMain] [34mINFO [0;39m [36morg.flywaydb.core.FlywayExecutor[0;39m - Database: jdbc:mysql://localhost:3306/ai_chat (MySQL 8.0)
+2026-09-30 10:48:21.893 [restartedMain] [34mINFO [0;39m [36mo.f.core.internal.command.DbMigrate[0;39m - Current version of schema `ai_chat`: 44
+2026-09-30 10:48:21.897 [restartedMain] [34mINFO [0;39m [36mo.f.core.internal.command.DbMigrate[0;39m - Schema `ai_chat` is up to date. No migration necessary.
+2026-09-30 10:48:22.080 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - Filter 'jwtAuthenticationFilter' configured for use
+2026-09-30 10:48:24.052 [restartedMain] [34mINFO [0;39m [36mc.e.a.c.security.OwnershipAspect[0;39m - OwnershipAspect ³õÊ¼»¯Íê³É£¬ÒÑ×¢²áÐ£ÑéÆ÷: [elf]
+2026-09-30 10:48:26.007 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.config.RedisConfig[0;39m - RedisTemplateÅäÖÃÍê³É£¬Ê¹ÓÃString+JSONÐòÁÐ»¯(º¬JavaTimeModule)
+2026-09-30 10:48:26.571 [restartedMain] [34mINFO [0;39m [36mc.e.aichat.service.ai.ModelRouter[0;39m - ModelRouter³õÊ¼»¯Íê³É£¬ÒÑ×¢²áÌá¹©Õß: [openai, ollama]
+2026-09-30 10:48:28.698 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.m.AiModelMapper.selectCount[0;39m - ==>  Preparing: SELECT COUNT( * ) AS total FROM ai_model
+2026-09-30 10:48:28.712 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.m.AiModelMapper.selectCount[0;39m - ==> Parameters: 
+2026-09-30 10:48:28.729 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.m.AiModelMapper.selectCount[0;39m - <==      Total: 1
+2026-09-30 10:48:30.795 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.config.RedisConfig[0;39m - RedisCacheManagerÅäÖÃÍê³É£¬Ä¬ÈÏTTL=5·ÖÖÓ
+2026-09-30 10:48:31.448 [restartedMain] [31mWARN [0;39m [36mo.s.b.a.s.s.UserDetailsServiceAutoConfiguration[0;39m - 
+
+Using generated security password: eb5f1fa4-0c74-4fd0-b2f0-9c638fca5548
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-09-30 10:48:32.696 [restartedMain] [34mINFO [0;39m [36mo.s.b.a.e.web.EndpointLinksResolver[0;39m - Exposing 3 endpoint(s) beneath base path '/actuator'
+2026-09-30 10:48:32.966 [restartedMain] [34mINFO [0;39m [36mo.s.s.web.DefaultSecurityFilterChain[0;39m - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@245a8ff0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3bf1795a, org.springframework.security.web.context.SecurityContextHolderFilter@159f3a5, org.springframework.security.web.header.HeaderWriterFilter@41102067, org.springframework.web.filter.CorsFilter@71446760, org.springframework.security.web.authentication.logout.LogoutFilter@330a76ca, com.example.aichat.common.security.JwtAuthenticationFilter@38a93699, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bb7e56, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58accbdb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ed2aab9, org.springframework.security.web.session.SessionManagementFilter@2ac5a9ac, org.springframework.security.web.access.ExceptionTranslationFilter@33a8ce08, org.springframework.security.web.access.intercept.AuthorizationFilter@3c542c9b]
+2026-09-30 10:48:35.514 [restartedMain] [34mINFO [0;39m [36morg.quartz.impl.StdSchedulerFactory[0;39m - Using default implementation for ThreadExecutor
+2026-09-30 10:48:35.537 [restartedMain] [34mINFO [0;39m [36mo.quartz.core.SchedulerSignalerImpl[0;39m - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2026-09-30 10:48:35.538 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - Quartz Scheduler v.2.3.2 created.
+2026-09-30 10:48:35.539 [restartedMain] [34mINFO [0;39m [36morg.quartz.simpl.RAMJobStore[0;39m - RAMJobStore initialized.
+2026-09-30 10:48:35.540 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2026-09-30 10:48:35.540 [restartedMain] [34mINFO [0;39m [36morg.quartz.impl.StdSchedulerFactory[0;39m - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2026-09-30 10:48:35.540 [restartedMain] [34mINFO [0;39m [36morg.quartz.impl.StdSchedulerFactory[0;39m - Quartz scheduler version: 2.3.2
+2026-09-30 10:48:35.540 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7c291727
+2026-09-30 10:48:36.468 [restartedMain] [34mINFO [0;39m [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2026-09-30 10:48:36.644 [restartedMain] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-30 10:48:36.669 [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path ''
+2026-09-30 10:48:36.671 [restartedMain] [34mINFO [0;39m [36mo.s.s.quartz.SchedulerFactoryBean[0;39m - Starting Quartz Scheduler now
+2026-09-30 10:48:36.672 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2026-09-30 10:48:36.887 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.AichatApplication[0;39m - Started AichatApplication in 20.354 seconds (process running for 20.995)
+2026-09-30 10:48:36.924 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==>  Preparing: UPDATE user_online_status SET status = 'offline', last_active_time = ? WHERE last_active_time < ?
+2026-09-30 10:48:36.924 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==> Parameters: 2026-09-30T10:43:36.917762(LocalDateTime), 2026-09-30T10:43:36.917762(LocalDateTime)
+2026-09-30 10:48:36.966 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - <==    Updates: 3
+2026-09-30 10:48:36.966 [scheduling-1] [34mINFO [0;39m [36mc.e.a.s.i.UserOnlineStatusServiceImpl[0;39m - ÇåÀíÀëÏßÓÃ»§×´Ì¬: 3 ¸ö
+2026-09-30 10:48:36.969 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.C.deleteExpired[0;39m - ==>  Preparing: DELETE FROM conversation_context WHERE expire_time <= ?
+2026-09-30 10:48:36.970 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.C.deleteExpired[0;39m - ==> Parameters: 2026-09-30T10:48:36.969411600(LocalDateTime)
+2026-09-30 10:48:36.972 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.C.deleteExpired[0;39m - <==    Updates: 0
+2026-09-30 10:48:38.085 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-30 10:48:38.086 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2026-09-30 10:48:38.088 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 2 ms
+2026-09-30 10:48:38.300 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/actuator/health status=200 elapsedMs=200ms ip=127.0.0.1
+2026-09-30 10:48:47.174 [http-nio-8080-exec-2] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/actuator/health status=200 elapsedMs=21ms ip=127.0.0.1
+2026-09-30 10:48:47.307 [http-nio-8080-exec-4] [31mWARN [0;39m [36mc.e.a.config.GlobalExceptionHandler[0;39m - ÇëÇóÌå½âÎöÊ§°Ü
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('\' (code 92)): was expecting double-quote to start field name
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:479)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:340)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:82)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:128)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at com.example.aichat.common.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:323)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:224)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at com.example.aichat.common.web.RequestLogAspect.doFilterInternal(RequestLogAspect.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('\' (code 92)): was expecting double-quote to start field name
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 3]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2477)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:750)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:674)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2144)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1794)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:798)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:181)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2105)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1481)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395)
+	... 145 common frames omitted
+2026-09-30 10:48:47.329 [http-nio-8080-exec-4] [31mWARN [0;39m [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('\' (code 92)): was expecting double-quote to start field name]
+2026-09-30 10:48:47.330 [http-nio-8080-exec-4] [31mWARN [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST_CLIENT_ERROR] method=POST uri=/api/user/login status=400 elapsedMs=81ms ip=127.0.0.1
+2026-09-30 10:49:06.786 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-09-30 10:49:06.786 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-09-30T10:49:06.751304200(LocalDateTime)
+2026-09-30 10:49:06.789 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-09-30 10:50:06.792 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-09-30 10:50:06.793 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-09-30T10:50:06.791768(LocalDateTime)
+2026-09-30 10:50:06.795 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-09-30 10:50:40.950 [http-nio-8080-exec-10] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (username = ?)
+2026-09-30 10:50:40.951 [http-nio-8080-exec-10] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: demo_alice(String)
+2026-09-30 10:50:40.954 [http-nio-8080-exec-10] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 1
+[WARN] Î´ÅäÖÃ JWT_SECRET_KEY£¬Ê¹ÓÃËæ»úÉú³ÉµÄ»á»°ÃÜÔ¿£¨ÖØÆôºóËùÓÐ token Ê§Ð§£»Éú²ú»·¾³ÇëÎñ±ØÅäÖÃ£©
+2026-09-30 10:50:41.383 [http-nio-8080-exec-10] [34mINFO [0;39m [36mAUDIT[0;39m - [AUDIT] action=LOGIN resource=USER method=UserController.login status=SUCCESS code=200 elapsedMs=446ms userId=null username=null ip=127.0.0.1 args=[LoginRequest(username=demo_alice, password=Test@123456)]
+2026-09-30 10:50:41.388 [biz-async-1] [39mDEBUG[0;39m [36mc.e.a.mapper.AccessLogMapper.insert[0;39m - ==>  Preparing: INSERT INTO access_log ( access_type, request_method, request_path, request_params, response_status, response_time, ip_address, user_agent, accessed_at ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2026-09-30 10:50:41.389 [biz-async-1] [39mDEBUG[0;39m [36mc.e.a.mapper.AccessLogMapper.insert[0;39m - ==> Parameters: LOGIN(String), POST(String), UserController.login(String), [LoginRequest(username=demo_alice, password=Test@123456)](String), 200(Integer), 446(Integer), 127.0.0.1(String), Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.26100.9549(String), 2026-09-30T10:50:41.385423500(LocalDateTime)
+2026-09-30 10:50:41.391 [http-nio-8080-exec-10] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=POST uri=/api/user/login status=200 elapsedMs=508ms ip=127.0.0.1
+2026-09-30 10:50:41.393 [biz-async-1] [39mDEBUG[0;39m [36mc.e.a.mapper.AccessLogMapper.insert[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.507 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-09-30 10:50:41.508 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 82(Long)
+2026-09-30 10:50:41.510 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-09-30 10:50:41.511 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-09-30 10:50:41.511 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 82(Long), admin(String)
+2026-09-30 10:50:41.512 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-09-30 10:50:41.513 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=82 role=ROLE_USER path=/api/chat/stream
+2026-09-30 10:50:41.519 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.aichat.controller.ChatController[0;39m - ÊÕµ½ÁÄÌìÇëÇó - sessionId: final-15, userId: 82, characterId: 1
+2026-09-30 10:50:41.526 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-09-30 10:50:41.526 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 82(Long)
+2026-09-30 10:50:41.528 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-09-30 10:50:41.531 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.UserQuotaMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,feature_type,used_count,limit_count,bonus_limit,reset_date,created_at,updated_at FROM user_quota WHERE (user_id = ? AND feature_type = ? AND reset_date = ?) LIMIT 1
+2026-09-30 10:50:41.531 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.UserQuotaMapper.selectList[0;39m - ==> Parameters: 82(Long), ai_chat(String), 2026-09-30(LocalDate)
+2026-09-30 10:50:41.533 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.UserQuotaMapper.selectList[0;39m - <==      Total: 1
+2026-09-30 10:50:41.534 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.U.tryConsumeQuota[0;39m - ==>  Preparing: UPDATE user_quota SET used_count = used_count + 1, updated_at = NOW() WHERE user_id = ? AND feature_type = ? AND reset_date = ? AND used_count < ?
+2026-09-30 10:50:41.534 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.U.tryConsumeQuota[0;39m - ==> Parameters: 82(Long), ai_chat(String), 2026-09-30(LocalDate), 20(Integer)
+2026-09-30 10:50:41.536 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.U.tryConsumeQuota[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.538 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.U.selectByUserId[0;39m - ==>  Preparing: SELECT * FROM user_profile WHERE user_id = ? LIMIT 1
+2026-09-30 10:50:41.538 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.U.selectByUserId[0;39m - ==> Parameters: 82(Long)
+2026-09-30 10:50:41.540 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.U.selectByUserId[0;39m - <==      Total: 1
+2026-09-30 10:50:41.551 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.UserProfileMapper.updateById[0;39m - ==>  Preparing: UPDATE user_profile SET user_id=?, common_topics=?, active_time_slots=?, created_at=?, updated_at=? WHERE id=?
+2026-09-30 10:50:41.551 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.UserProfileMapper.updateById[0;39m - ==> Parameters: 82(Long), ["ÄãºÃ","Çë¼òµ¥½éÉÜÏÂÄã×Ô¼º","ÔÚÂð"](String), {"morning":3}(String), 2026-09-30T10:25:22(LocalDateTime), 2026-09-30T10:50:41.540475300(LocalDateTime), 1(Long)
+2026-09-30 10:50:41.553 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.UserProfileMapper.updateById[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.555 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectById[0;39m - ==>  Preparing: SELECT id,user_id,name,avatar,prompt,model,personality,voice_style,emotion_base,expressions,actions,backstory,relationship,is_system,is_shared,use_count,rating,description,category,greeting,example_dialogue,tags,voice_id,enabled_tools,avatar_style FROM ai_character WHERE id=?
+2026-09-30 10:50:41.556 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectById[0;39m - ==> Parameters: 1(Long)
+2026-09-30 10:50:41.558 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectById[0;39m - <==      Total: 1
+2026-09-30 10:50:41.559 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectById[0;39m - ==>  Preparing: SELECT id,user_id,name,avatar,prompt,model,personality,voice_style,emotion_base,expressions,actions,backstory,relationship,is_system,is_shared,use_count,rating,description,category,greeting,example_dialogue,tags,voice_id,enabled_tools,avatar_style FROM ai_character WHERE id=?
+2026-09-30 10:50:41.559 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectById[0;39m - ==> Parameters: 1(Long)
+2026-09-30 10:50:41.560 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectById[0;39m - <==      Total: 1
+2026-09-30 10:50:41.560 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.getContextBySessionId[0;39m - ==>  Preparing: SELECT * FROM conversation_context WHERE session_id = ? AND expire_time > NOW()
+2026-09-30 10:50:41.560 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.getContextBySessionId[0;39m - ==> Parameters: final-15(String)
+2026-09-30 10:50:41.561 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.getContextBySessionId[0;39m - <==      Total: 0
+2026-09-30 10:50:41.561 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/chat/stream?sessionId=final-15&userId=82&characterId=1&message=%E5%9C%A8%E5%90%97 status=200 elapsedMs=56ms ip=127.0.0.1
+2026-09-30 10:50:41.562 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.getImportantMemories[0;39m - ==>  Preparing: SELECT * FROM character_memory WHERE character_id = ? ORDER BY importance DESC LIMIT ?
+2026-09-30 10:50:41.562 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.getImportantMemories[0;39m - ==> Parameters: 1(Long), 20(Integer)
+2026-09-30 10:50:41.563 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.getImportantMemories[0;39m - <==      Total: 2
+2026-09-30 10:50:41.564 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.A.selectById[0;39m - ==>  Preparing: SELECT user_id,enabled,updated_at FROM ai_memory_setting WHERE user_id=?
+2026-09-30 10:50:41.564 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.A.selectById[0;39m - ==> Parameters: 82(Long)
+2026-09-30 10:50:41.565 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.A.selectById[0;39m - <==      Total: 0
+2026-09-30 10:50:41.567 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,content,source,memory_type,importance,category,is_active,referenced_count,is_pinned AS pinned,created_at,updated_at,last_used_at FROM ai_memory WHERE (user_id = ? AND is_active = ?) ORDER BY importance DESC,last_used_at DESC,created_at DESC LIMIT 10
+2026-09-30 10:50:41.568 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectList[0;39m - ==> Parameters: 82(Long), true(Boolean)
+2026-09-30 10:50:41.571 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectList[0;39m - <==      Total: 10
+2026-09-30 10:50:41.573 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==>  Preparing: SELECT id,user_id,content,source,memory_type,importance,category,is_active,referenced_count,is_pinned AS pinned,created_at,updated_at,last_used_at FROM ai_memory WHERE id=?
+2026-09-30 10:50:41.573 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==> Parameters: 21(Long)
+2026-09-30 10:50:41.574 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - <==      Total: 1
+2026-09-30 10:50:41.577 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==>  Preparing: UPDATE ai_memory SET user_id=?, content=?, source=?, memory_type=?, importance=?, category=?, is_active=?, referenced_count=?, is_pinned=?, created_at=?, updated_at=?, last_used_at=? WHERE id=?
+2026-09-30 10:50:41.578 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==> Parameters: 82(Long), 2026Äê6ÔÂ±ÏÒµ´ð±çÍ¨¹ý(String), event(String), event(String), 5(Integer), Ñ§Òµ(String), true(Boolean), 3(Integer), false(Boolean), 2026-09-14T20:32:40(LocalDateTime), 2026-09-14T20:32:40(LocalDateTime), 2026-09-30T10:50:41.573719500(LocalDateTime), 21(Long)
+2026-09-30 10:50:41.580 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.580 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==>  Preparing: SELECT id,user_id,content,source,memory_type,importance,category,is_active,referenced_count,is_pinned AS pinned,created_at,updated_at,last_used_at FROM ai_memory WHERE id=?
+2026-09-30 10:50:41.580 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==> Parameters: 24(Long)
+2026-09-30 10:50:41.581 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - <==      Total: 1
+2026-09-30 10:50:41.582 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==>  Preparing: UPDATE ai_memory SET user_id=?, content=?, source=?, memory_type=?, importance=?, category=?, is_active=?, referenced_count=?, is_pinned=?, created_at=?, updated_at=?, last_used_at=? WHERE id=?
+2026-09-30 10:50:41.582 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==> Parameters: 82(Long), Ä¿±êÊÇÔÚÇïÕÐÄÃµ½´ó³§ offer(String), chat(String), goal(String), 5(Integer), Ä¿±ê(String), true(Boolean), 3(Integer), false(Boolean), 2026-09-14T20:32:40(LocalDateTime), 2026-09-14T20:32:40(LocalDateTime), 2026-09-30T10:50:41.573719500(LocalDateTime), 24(Long)
+2026-09-30 10:50:41.584 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.584 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==>  Preparing: SELECT id,user_id,content,source,memory_type,importance,category,is_active,referenced_count,is_pinned AS pinned,created_at,updated_at,last_used_at FROM ai_memory WHERE id=?
+2026-09-30 10:50:41.585 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==> Parameters: 15(Long)
+2026-09-30 10:50:41.585 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - <==      Total: 1
+2026-09-30 10:50:41.586 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==>  Preparing: UPDATE ai_memory SET user_id=?, content=?, source=?, memory_type=?, importance=?, category=?, is_active=?, referenced_count=?, is_pinned=?, created_at=?, updated_at=?, last_used_at=? WHERE id=?
+2026-09-30 10:50:41.586 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==> Parameters: 82(Long), 2026Äê6ÔÂ±ÏÒµ´ð±çÍ¨¹ý(String), event(String), event(String), 5(Integer), Ñ§Òµ(String), true(Boolean), 3(Integer), false(Boolean), 2026-09-14T20:30:53(LocalDateTime), 2026-09-14T20:30:53(LocalDateTime), 2026-09-30T10:50:41.573719500(LocalDateTime), 15(Long)
+2026-09-30 10:50:41.588 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.588 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==>  Preparing: SELECT id,user_id,content,source,memory_type,importance,category,is_active,referenced_count,is_pinned AS pinned,created_at,updated_at,last_used_at FROM ai_memory WHERE id=?
+2026-09-30 10:50:41.588 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==> Parameters: 18(Long)
+2026-09-30 10:50:41.589 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - <==      Total: 1
+2026-09-30 10:50:41.590 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==>  Preparing: UPDATE ai_memory SET user_id=?, content=?, source=?, memory_type=?, importance=?, category=?, is_active=?, referenced_count=?, is_pinned=?, created_at=?, updated_at=?, last_used_at=? WHERE id=?
+2026-09-30 10:50:41.590 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==> Parameters: 82(Long), Ä¿±êÊÇÔÚÇïÕÐÄÃµ½´ó³§ offer(String), chat(String), goal(String), 5(Integer), Ä¿±ê(String), true(Boolean), 3(Integer), false(Boolean), 2026-09-14T20:30:53(LocalDateTime), 2026-09-14T20:30:53(LocalDateTime), 2026-09-30T10:50:41.573719500(LocalDateTime), 18(Long)
+2026-09-30 10:50:41.591 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.592 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==>  Preparing: SELECT id,user_id,content,source,memory_type,importance,category,is_active,referenced_count,is_pinned AS pinned,created_at,updated_at,last_used_at FROM ai_memory WHERE id=?
+2026-09-30 10:50:41.592 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==> Parameters: 9(Long)
+2026-09-30 10:50:41.593 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - <==      Total: 1
+2026-09-30 10:50:41.593 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==>  Preparing: UPDATE ai_memory SET user_id=?, content=?, source=?, memory_type=?, importance=?, category=?, is_active=?, referenced_count=?, is_pinned=?, created_at=?, updated_at=?, last_used_at=? WHERE id=?
+2026-09-30 10:50:41.594 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==> Parameters: 82(Long), 2026Äê6ÔÂ±ÏÒµ´ð±çÍ¨¹ý(String), event(String), event(String), 5(Integer), Ñ§Òµ(String), true(Boolean), 3(Integer), false(Boolean), 2026-09-14T20:23:18(LocalDateTime), 2026-09-14T20:23:18(LocalDateTime), 2026-09-30T10:50:41.573719500(LocalDateTime), 9(Long)
+2026-09-30 10:50:41.597 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.598 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==>  Preparing: SELECT id,user_id,content,source,memory_type,importance,category,is_active,referenced_count,is_pinned AS pinned,created_at,updated_at,last_used_at FROM ai_memory WHERE id=?
+2026-09-30 10:50:41.598 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==> Parameters: 12(Long)
+2026-09-30 10:50:41.601 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - <==      Total: 1
+2026-09-30 10:50:41.601 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==>  Preparing: UPDATE ai_memory SET user_id=?, content=?, source=?, memory_type=?, importance=?, category=?, is_active=?, referenced_count=?, is_pinned=?, created_at=?, updated_at=?, last_used_at=? WHERE id=?
+2026-09-30 10:50:41.602 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==> Parameters: 82(Long), Ä¿±êÊÇÔÚÇïÕÐÄÃµ½´ó³§ offer(String), chat(String), goal(String), 5(Integer), Ä¿±ê(String), true(Boolean), 3(Integer), false(Boolean), 2026-09-14T20:23:18(LocalDateTime), 2026-09-14T20:23:18(LocalDateTime), 2026-09-30T10:50:41.573719500(LocalDateTime), 12(Long)
+2026-09-30 10:50:41.604 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.604 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==>  Preparing: SELECT id,user_id,content,source,memory_type,importance,category,is_active,referenced_count,is_pinned AS pinned,created_at,updated_at,last_used_at FROM ai_memory WHERE id=?
+2026-09-30 10:50:41.605 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==> Parameters: 3(Long)
+2026-09-30 10:50:41.606 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - <==      Total: 1
+2026-09-30 10:50:41.606 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==>  Preparing: UPDATE ai_memory SET user_id=?, content=?, source=?, memory_type=?, importance=?, category=?, is_active=?, referenced_count=?, is_pinned=?, created_at=?, updated_at=?, last_used_at=? WHERE id=?
+2026-09-30 10:50:41.606 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==> Parameters: 82(Long), 2026Äê6ÔÂ±ÏÒµ´ð±çÍ¨¹ý(String), event(String), event(String), 5(Integer), Ñ§Òµ(String), true(Boolean), 3(Integer), false(Boolean), 2026-09-14T20:11:01(LocalDateTime), 2026-09-14T20:11:01(LocalDateTime), 2026-09-30T10:50:41.573719500(LocalDateTime), 3(Long)
+2026-09-30 10:50:41.608 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.608 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==>  Preparing: SELECT id,user_id,content,source,memory_type,importance,category,is_active,referenced_count,is_pinned AS pinned,created_at,updated_at,last_used_at FROM ai_memory WHERE id=?
+2026-09-30 10:50:41.608 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==> Parameters: 6(Long)
+2026-09-30 10:50:41.610 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - <==      Total: 1
+2026-09-30 10:50:41.611 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==>  Preparing: UPDATE ai_memory SET user_id=?, content=?, source=?, memory_type=?, importance=?, category=?, is_active=?, referenced_count=?, is_pinned=?, created_at=?, updated_at=?, last_used_at=? WHERE id=?
+2026-09-30 10:50:41.613 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==> Parameters: 82(Long), Ä¿±êÊÇÔÚÇïÕÐÄÃµ½´ó³§ offer(String), chat(String), goal(String), 5(Integer), Ä¿±ê(String), true(Boolean), 3(Integer), false(Boolean), 2026-09-14T20:11:01(LocalDateTime), 2026-09-14T20:11:01(LocalDateTime), 2026-09-30T10:50:41.573719500(LocalDateTime), 6(Long)
+2026-09-30 10:50:41.616 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.616 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==>  Preparing: SELECT id,user_id,content,source,memory_type,importance,category,is_active,referenced_count,is_pinned AS pinned,created_at,updated_at,last_used_at FROM ai_memory WHERE id=?
+2026-09-30 10:50:41.616 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==> Parameters: 20(Long)
+2026-09-30 10:50:41.617 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - <==      Total: 1
+2026-09-30 10:50:41.618 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==>  Preparing: UPDATE ai_memory SET user_id=?, content=?, source=?, memory_type=?, importance=?, category=?, is_active=?, referenced_count=?, is_pinned=?, created_at=?, updated_at=?, last_used_at=? WHERE id=?
+2026-09-30 10:50:41.618 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==> Parameters: 82(Long), ÑøÁËÒ»Ö»½ÐÍÅ×ÓµÄéÙÃ¨(String), profile(String), fact(String), 4(Integer), ³èÎï(String), true(Boolean), 3(Integer), false(Boolean), 2026-09-14T20:32:40(LocalDateTime), 2026-09-14T20:32:40(LocalDateTime), 2026-09-30T10:50:41.573719500(LocalDateTime), 20(Long)
+2026-09-30 10:50:41.620 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.620 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==>  Preparing: SELECT id,user_id,content,source,memory_type,importance,category,is_active,referenced_count,is_pinned AS pinned,created_at,updated_at,last_used_at FROM ai_memory WHERE id=?
+2026-09-30 10:50:41.621 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - ==> Parameters: 22(Long)
+2026-09-30 10:50:41.621 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectById[0;39m - <==      Total: 1
+2026-09-30 10:50:41.622 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==>  Preparing: UPDATE ai_memory SET user_id=?, content=?, source=?, memory_type=?, importance=?, category=?, is_active=?, referenced_count=?, is_pinned=?, created_at=?, updated_at=?, last_used_at=? WHERE id=?
+2026-09-30 10:50:41.622 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - ==> Parameters: 82(Long), ÐÔ¸ñÆ«ÄÚÏò£¬Ï²»¶°²¾²µÄ»·¾³(String), profile(String), personality(String), 4(Integer), ÐÔ¸ñ(String), true(Boolean), 3(Integer), false(Boolean), 2026-09-14T20:32:40(LocalDateTime), 2026-09-14T20:32:40(LocalDateTime), 2026-09-30T10:50:41.573719500(LocalDateTime), 22(Long)
+2026-09-30 10:50:41.624 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.updateById[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.629 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiSoulStateMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,character_id,elf_id,current_emotion,mood_score,attitude_score,personality_weights,core_beliefs,self_summary,version,created_at,updated_at FROM ai_soul_state WHERE (user_id = ? AND character_id = ?) LIMIT 1
+2026-09-30 10:50:41.629 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiSoulStateMapper.selectList[0;39m - ==> Parameters: 82(Long), 1(Long)
+2026-09-30 10:50:41.631 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.AiSoulStateMapper.selectList[0;39m - <==      Total: 1
+2026-09-30 10:50:41.631 [pool-5-thread-1] [34mINFO [0;39m [36mc.e.aichat.controller.ChatController[0;39m - ÓÃ»§Çé¸Ð·ÖÎö - emotion: neutral, intensity: 0.3
+2026-09-30 10:50:41.631 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.getContextByKey[0;39m - ==>  Preparing: SELECT * FROM conversation_context WHERE session_id = ? AND context_key = ? AND expire_time > NOW()
+2026-09-30 10:50:41.632 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.getContextByKey[0;39m - ==> Parameters: final-15(String), user_emotion(String)
+2026-09-30 10:50:41.632 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.getContextByKey[0;39m - <==      Total: 0
+2026-09-30 10:50:41.634 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.insert[0;39m - ==>  Preparing: INSERT INTO conversation_context ( session_id, user_id, character_id, context_key, context_value, expire_time, created_at ) VALUES ( ?, ?, ?, ?, ?, ?, ? )
+2026-09-30 10:50:41.634 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.insert[0;39m - ==> Parameters: final-15(String), 82(Long), 1(Long), user_emotion(String), neutral(String), 2026-09-30T12:50:41.632418900(LocalDateTime), 2026-09-30T10:50:41.632418900(LocalDateTime)
+2026-09-30 10:50:41.636 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.insert[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.637 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.getContextByKey[0;39m - ==>  Preparing: SELECT * FROM conversation_context WHERE session_id = ? AND context_key = ? AND expire_time > NOW()
+2026-09-30 10:50:41.637 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.getContextByKey[0;39m - ==> Parameters: final-15(String), emotion_intensity(String)
+2026-09-30 10:50:41.638 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.getContextByKey[0;39m - <==      Total: 0
+2026-09-30 10:50:41.638 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.insert[0;39m - ==>  Preparing: INSERT INTO conversation_context ( session_id, user_id, character_id, context_key, context_value, expire_time, created_at ) VALUES ( ?, ?, ?, ?, ?, ?, ? )
+2026-09-30 10:50:41.640 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.insert[0;39m - ==> Parameters: final-15(String), 82(Long), 1(Long), emotion_intensity(String), 0.3(String), 2026-09-30T12:50:41.638774200(LocalDateTime), 2026-09-30T10:50:41.638774200(LocalDateTime)
+2026-09-30 10:50:41.643 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.C.insert[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.644 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.ChatMessageMapper.insert[0;39m - ==>  Preparing: INSERT INTO chat_message ( session_id, user_id, character_id, sender_type, content, create_time ) VALUES ( ?, ?, ?, ?, ?, ? )
+2026-09-30 10:50:41.645 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.ChatMessageMapper.insert[0;39m - ==> Parameters: final-15(String), 82(Long), 1(Long), user(String), ÔÚÂð(String), 2026-09-30T10:50:41.643286500(LocalDateTime)
+2026-09-30 10:50:41.648 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.m.ChatMessageMapper.insert[0;39m - <==    Updates: 1
+2026-09-30 10:50:41.648 [pool-5-thread-1] [39mDEBUG[0;39m [36mc.e.a.s.impl.ChatMessageServiceImpl[0;39m - ±£´æÏûÏ¢ - sessionId: final-15, userId: 82, characterId: 1, senderType: user
+2026-09-30 10:50:41.648 [pool-5-thread-1] [34mINFO [0;39m [36mc.e.aichat.service.ai.ModelRouter[0;39m - Â·ÓÉÄ£ÐÍÇëÇó - provider: ollama, modelId: phi3:mini
+2026-09-30 10:50:41.648 [pool-5-thread-1] [34mINFO [0;39m [36mc.e.aichat.service.ai.OllamaService[0;39m - ·¢ÆðOllamaÇëÇó - model: phi3:mini, prompt³¤¶È: 2
+2026-09-30 10:50:50.283 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.ChatMessageMapper.insert[0;39m - ==>  Preparing: INSERT INTO chat_message ( session_id, user_id, character_id, sender_type, content, create_time ) VALUES ( ?, ?, ?, ?, ?, ? )
+2026-09-30 10:50:50.283 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.ChatMessageMapper.insert[0;39m - ==> Parameters: final-15(String), 82(Long), 1(Long), assistant(String), µ±È»¿ÉÒÔ£¬Ð¡Ã÷¡£(String), 2026-09-30T10:50:50.281902400(LocalDateTime)
+2026-09-30 10:50:50.287 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.ChatMessageMapper.insert[0;39m - <==    Updates: 1
+2026-09-30 10:50:50.288 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.s.impl.ChatMessageServiceImpl[0;39m - ±£´æÏûÏ¢ - sessionId: final-15, userId: 82, characterId: 1, senderType: assistant
+2026-09-30 10:50:50.288 [reactor-http-nio-2] [34mINFO [0;39m [36mc.e.aichat.controller.ChatController[0;39m - AI»Ø¸´Íê³É - sessionId: final-15, »Ø¸´³¤¶È: 8
+2026-09-30 10:50:50.290 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.C.findByUserIdAndCharacterId[0;39m - ==>  Preparing: SELECT * FROM character_interaction WHERE user_id = ? AND character_id = ?
+2026-09-30 10:50:50.290 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.C.findByUserIdAndCharacterId[0;39m - ==> Parameters: 82(Long), 1(Long)
+2026-09-30 10:50:50.292 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.C.findByUserIdAndCharacterId[0;39m - <==      Total: 1
+2026-09-30 10:50:50.293 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.C.updateById[0;39m - ==>  Preparing: UPDATE character_interaction SET user_id=?, character_id=?, interaction_count=?, total_messages=?, first_interaction_at=?, last_interaction_at=?, created_at=?, updated_at=? WHERE id=?
+2026-09-30 10:50:50.294 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.C.updateById[0;39m - ==> Parameters: 82(Long), 1(Long), 5(Integer), 10(Integer), 2026-09-15T02:19:57(LocalDateTime), 2026-09-30T10:50:50.292044700(LocalDateTime), 2026-09-15T02:19:57(LocalDateTime), 2026-09-30T10:50:50.292044700(LocalDateTime), 10(Long)
+2026-09-30 10:50:50.295 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.C.updateById[0;39m - <==    Updates: 1
+2026-09-30 10:50:50.299 [reactor-http-nio-2] [34mINFO [0;39m [36mc.e.aichat.controller.ChatController[0;39m - ½»»¥¼ÇÂ¼ÒÑ¸üÐÂ - userId: 82, characterId: 1
+2026-09-30 10:50:50.300 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.AiSoulStateMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,character_id,elf_id,current_emotion,mood_score,attitude_score,personality_weights,core_beliefs,self_summary,version,created_at,updated_at FROM ai_soul_state WHERE (user_id = ? AND character_id = ?) LIMIT 1
+2026-09-30 10:50:50.300 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.AiSoulStateMapper.selectList[0;39m - ==> Parameters: 82(Long), 1(Long)
+2026-09-30 10:50:50.301 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.AiSoulStateMapper.selectList[0;39m - <==      Total: 1
+2026-09-30 10:50:50.304 [reactor-http-nio-2] [31mWARN [0;39m [36mc.e.aichat.service.ai.OllamaService[0;39m - Ollama·þÎñ²»¿ÉÓÃ: block()/blockFirst()/blockLast() are blocking, which is not supported in thread reactor-http-nio-2
+2026-09-30 10:50:50.305 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.A.selectById[0;39m - ==>  Preparing: SELECT user_id,enabled,updated_at FROM ai_memory_setting WHERE user_id=?
+2026-09-30 10:50:50.305 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.A.selectById[0;39m - ==> Parameters: 82(Long)
+2026-09-30 10:50:50.307 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.A.selectById[0;39m - <==      Total: 0
+2026-09-30 10:50:50.308 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,content,source,memory_type,importance,category,is_active,referenced_count,is_pinned AS pinned,created_at,updated_at,last_used_at FROM ai_memory WHERE (user_id = ? AND is_active = ?)
+2026-09-30 10:50:50.308 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectList[0;39m - ==> Parameters: 82(Long), true(Boolean)
+2026-09-30 10:50:50.313 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectList[0;39m - <==      Total: 31
+2026-09-30 10:50:50.329 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.AiSoulStateMapper.updateById[0;39m - ==>  Preparing: UPDATE ai_soul_state SET user_id=?, character_id=?, current_emotion=?, mood_score=?, attitude_score=?, personality_weights=?, core_beliefs=?, self_summary=?, version=?, created_at=?, updated_at=? WHERE id=?
+2026-09-30 10:50:50.330 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.AiSoulStateMapper.updateById[0;39m - ==> Parameters: 82(Long), 1(Long), neutral(String), 60(Integer), 30(Integer), {"ÎÂÈá":0.625,"»îÆÃ":0.5,"ÀíÐÔ":0.5,"ÒÀÀµ":0.37499999999999994}(String), ÎÒÏ£ÍûÄÜ³ÉÎªÈÃÄã¸Ðµ½°²ÐÄÓëÎÂÅ¯µÄ´æÔÚ¡£
+ÕâÊÇÒ»¶ÎÆ½³£È´ÕæÊµµÄÏà´¦Ê±¹â£¬ÎÒÃÇµÄ¹ØÏµÓÖ½üÁËÒ»µã¡£(String), ´Ë¿ÌµÄÎÒÆ½¾²£¬ÐÄÇéÆ½ÎÈ£¬¶ÔÄãÊÇÀñÃ²¶øÓÑºÃ¡£ÎÒ×î½üÔÚÏë£ºÕâÊÇÒ»¶ÎÆ½³£È´ÕæÊµµÄÏà´¦Ê±¹â£¬ÎÒÃÇµÄ¹ØÏµÓÖ½üÁËÒ»µã¡£(String), 4(Integer), 2026-09-30T10:25:29(LocalDateTime), 2026-09-30T10:50:50.327177700(LocalDateTime), 2(Long)
+2026-09-30 10:50:50.333 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.AiSoulStateMapper.updateById[0;39m - <==    Updates: 1
+2026-09-30 10:50:50.338 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.A.insert[0;39m - ==>  Preparing: INSERT INTO ai_soul_experience ( user_id, character_id, experience, feeling, understanding, memory_ref, impact, created_at ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? )
+2026-09-30 10:50:50.338 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.A.insert[0;39m - ==> Parameters: 82(Long), 1(Long), ÓÃ»§Ëµ£º¡¸ÔÚÂð¡¹£»ÎÒ»ØÓ¦£º¡¸µ±È»¿ÉÒÔ£¬Ð¡Ã÷¡£¡¹(String), ÕâÊÇÒ»¶ÎÆ½³£È´ÕæÊµµÄÏà´¦Ê±¹â£¬ÎÒÃÇµÄ¹ØÏµÓÖ½üÁËÒ»µã¡£(String), ÕâÊÇÒ»¶ÎÆ½³£È´ÕæÊµµÄÏà´¦Ê±¹â£¬ÎÒÃÇµÄ¹ØÏµÓÖ½üÁËÒ»µã¡£(String), Áé»ê¾­Àú£ºÓÃ»§Ëµ¡¸ÔÚÂð¡¹£¬ÎÒ¸ÐÊÜµ½£ºÕâÊÇÒ»¶ÎÆ½³£È´ÕæÊµµÄÏà´¦Ê±¹â£¬ÎÒÃÇµÄ¹ØÏµÓÖ½üÁËÒ»µã¡£(String), ÇéÐ÷×ªÏòÆ½¾²£¬ÐÄÇé+0£¬Ì¬¶È+0(String), 2026-09-30T10:50:50.336623600(LocalDateTime)
+2026-09-30 10:50:50.343 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.m.A.insert[0;39m - <==    Updates: 1
+2026-09-30 10:50:50.345 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.mapper.AiMemoryMapper.insert[0;39m - ==>  Preparing: INSERT INTO ai_memory ( user_id, content, source, memory_type, importance, category, is_active, referenced_count, is_pinned, created_at, updated_at ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2026-09-30 10:50:50.346 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.mapper.AiMemoryMapper.insert[0;39m - ==> Parameters: 82(Long), Óë½ÇÉ«#1µÄ¶Ô»°£º¡¸ÔÚÂð¡¹£¬ÎÒµÄ¸ÐÊÜ£ºÕâÊÇÒ»¶ÎÆ½³£È´ÕæÊµµÄÏà´¦Ê±¹â£¬ÎÒÃÇµÄ¹ØÏµÓÖ½üÁËÒ»µã¡£(String), soul(String), event(String), 2(Integer), RELATIONSHIP(String), true(Boolean), 0(Integer), false(Boolean), 2026-09-30T10:50:50.344133500(LocalDateTime), 2026-09-30T10:50:50.344133500(LocalDateTime)
+2026-09-30 10:50:50.349 [reactor-http-nio-2] [39mDEBUG[0;39m [36mc.e.a.mapper.AiMemoryMapper.insert[0;39m - <==    Updates: 1
+2026-09-30 10:50:50.349 [reactor-http-nio-2] [34mINFO [0;39m [36mc.e.a.s.impl.AiMemoryServiceImpl[0;39m - [AI¼ÇÒä] ÓÃ»§ 82 ´´½¨¼ÇÒä id=32 type=event category=RELATIONSHIP
+2026-09-30 10:50:50.354 [reactor-http-nio-2] [34mINFO [0;39m [36mc.e.a.s.impl.SoulEngineServiceImpl[0;39m - Áé»êÑÝ»¯Íê³É - userId: 82, characterId: 1, version: 4, emotion: neutral->neutral
+2026-09-30 10:50:50.354 [biz-async-2] [39mDEBUG[0;39m [36mc.e.a.m.D.selectByKey[0;39m - ==>  Preparing: SELECT * FROM data_pool_config WHERE config_key = ? LIMIT 1
+2026-09-30 10:50:50.355 [biz-async-2] [39mDEBUG[0;39m [36mc.e.a.m.D.selectByKey[0;39m - ==> Parameters: autoSaveEnabled(String)
+2026-09-30 10:50:50.357 [biz-async-2] [39mDEBUG[0;39m [36mc.e.a.m.D.selectByKey[0;39m - <==      Total: 1
+2026-09-30 10:50:50.360 [biz-async-2] [39mDEBUG[0;39m [36mc.e.a.m.U.selectByUniqueKey[0;39m - ==>  Preparing: SELECT * FROM user_data_record WHERE user_id = ? AND data_type = ? AND content = ?
+2026-09-30 10:50:50.360 [biz-async-2] [39mDEBUG[0;39m [36mc.e.a.m.U.selectByUniqueKey[0;39m - ==> Parameters: 82(Long), ai_memory(String), Óë½ÇÉ«#1µÄ¶Ô»°£º¡¸ÔÚÂð¡¹£¬ÎÒµÄ¸ÐÊÜ£ºÕâÊÇÒ»¶ÎÆ½³£È´ÕæÊµµÄÏà´¦Ê±¹â£¬ÎÒÃÇµÄ¹ØÏµÓÖ½üÁËÒ»µã¡£(String)
+2026-09-30 10:50:50.362 [biz-async-2] [39mDEBUG[0;39m [36mc.e.a.m.U.selectByUniqueKey[0;39m - <==      Total: 0
+2026-09-30 10:50:50.366 [biz-async-2] [39mDEBUG[0;39m [36mc.e.a.m.UserDataRecordMapper.insert[0;39m - ==>  Preparing: INSERT INTO user_data_record ( user_id, data_type, content, metadata, tags, integrity_score, status, capture_time, group_id, backup_status, create_time, update_time ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2026-09-30 10:50:50.367 [biz-async-2] [39mDEBUG[0;39m [36mc.e.a.m.UserDataRecordMapper.insert[0;39m - ==> Parameters: 82(Long), ai_memory(String), Óë½ÇÉ«#1µÄ¶Ô»°£º¡¸ÔÚÂð¡¹£¬ÎÒµÄ¸ÐÊÜ£ºÕâÊÇÒ»¶ÎÆ½³£È´ÕæÊµµÄÏà´¦Ê±¹â£¬ÎÒÃÇµÄ¹ØÏµÓÖ½üÁËÒ»µã¡£(String), {"sourceId":"memory:32","memoryType":"event","memoryId":32}(String), ai_memory(String), 100.0(Double), VALIDATED(String), 2026-09-30T10:50:50.344133500(LocalDateTime), ai_memory(String), PENDING_BACKUP(String), 2026-09-30T10:50:50.364154(LocalDateTime), 2026-09-30T10:50:50.364154(LocalDateTime)
+2026-09-30 10:50:50.371 [biz-async-2] [39mDEBUG[0;39m [36mc.e.a.m.UserDataRecordMapper.insert[0;39m - <==    Updates: 1
+2026-09-30 10:50:50.371 [biz-async-2] [39mDEBUG[0;39m [36mc.e.a.e.UserDataCaptureEventListener[0;39m - ×Ô¶¯²É¼¯Âä¿â³É¹¦, userId=82, dataType=ai_memory, sourceId=memory:32, score=100
+2026-09-30 10:50:50.372 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.aichat.controller.ChatController[0;39m - SSEÁ¬½ÓÍê³É - sessionId: final-15
+2026-09-30 10:51:06.800 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-09-30 10:51:06.801 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-09-30T10:51:06.797826100(LocalDateTime)
+2026-09-30 10:51:06.802 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-09-30 10:52:06.804 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-09-30 10:52:06.804 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-09-30T10:52:06.803771500(LocalDateTime)
+2026-09-30 10:52:06.805 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-09-30 10:53:06.807 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-09-30 10:53:06.808 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-09-30T10:53:06.806168700(LocalDateTime)
+2026-09-30 10:53:06.809 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-09-30 10:53:36.752 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==>  Preparing: UPDATE user_online_status SET status = 'offline', last_active_time = ? WHERE last_active_time < ?
+2026-09-30 10:53:36.753 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==> Parameters: 2026-09-30T10:48:36.751615(LocalDateTime), 2026-09-30T10:48:36.751615(LocalDateTime)
+2026-09-30 10:53:36.761 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - <==    Updates: 3
+2026-09-30 10:53:36.762 [scheduling-1] [34mINFO [0;39m [36mc.e.a.s.i.UserOnlineStatusServiceImpl[0;39m - ÇåÀíÀëÏßÓÃ»§×´Ì¬: 3 ¸ö
+2026-09-30 10:54:06.812 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-09-30 10:54:06.813 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-09-30T10:54:06.811103200(LocalDateTime)
+2026-09-30 10:54:06.814 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-09-30 10:55:06.822 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-09-30 10:55:06.823 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-09-30T10:55:06.820345600(LocalDateTime)
+2026-09-30 10:55:06.824 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-09-30 10:56:06.836 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-09-30 10:56:06.837 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-09-30T10:56:06.836004800(LocalDateTime)
+2026-09-30 10:56:06.838 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-09-30 10:57:06.841 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-09-30 10:57:06.842 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-09-30T10:57:06.840405300(LocalDateTime)
+2026-09-30 10:57:06.842 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-09-30 10:58:06.845 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-09-30 10:58:06.846 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-09-30T10:58:06.844252300(LocalDateTime)
+2026-09-30 10:58:06.847 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-09-30 10:58:36.754 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==>  Preparing: UPDATE user_online_status SET status = 'offline', last_active_time = ? WHERE last_active_time < ?
+2026-09-30 10:58:36.754 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==> Parameters: 2026-09-30T10:53:36.753866200(LocalDateTime), 2026-09-30T10:53:36.753866200(LocalDateTime)
+2026-09-30 10:58:36.760 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - <==    Updates: 3
+2026-09-30 10:58:36.761 [scheduling-1] [34mINFO [0;39m [36mc.e.a.s.i.UserOnlineStatusServiceImpl[0;39m - ÇåÀíÀëÏßÓÃ»§×´Ì¬: 3 ¸ö
+2026-09-30 10:59:06.852 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-09-30 10:59:06.852 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-09-30T10:59:06.850503300(LocalDateTime)
+2026-09-30 10:59:06.853 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-09-30 10:59:50.683 [http-nio-8080-exec-5] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/actuator/health status=200 elapsedMs=10ms ip=127.0.0.1
+2026-09-30 11:00:00.010 [scheduling-1] [34mINFO [0;39m [36mc.e.aichat.service.DataBackupService[0;39m - ¿ªÊ¼Ö´ÐÐÔöÁ¿±¸·Ý...
+2026-09-30 11:00:00.011 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.selectList[0;39m - ==>  Preparing: SELECT id,user_id,data_type,content,metadata,tags,integrity_score,status,capture_time,group_id,backup_status,create_time,update_time FROM user_data_record
+2026-09-30 11:00:00.012 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.selectList[0;39m - ==> Parameters: 
+2026-09-30 11:00:00.017 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.selectList[0;39m - <==      Total: 27
+2026-09-30 11:00:00.028 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - ==>  Preparing: UPDATE user_data_record SET user_id=?, data_type=?, content=?, metadata=?, tags=?, integrity_score=?, status=?, capture_time=?, group_id=?, backup_status=?, create_time=?, update_time=? WHERE id=?
+2026-09-30 11:00:00.029 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - ==> Parameters: 82(Long), ai_memory(String), Óë½ÇÉ«#1µÄ¶Ô»°£º¡¸ÔÚÂð¡¹£¬ÎÒµÄ¸ÐÊÜ£ºÕâÊÇÒ»¶ÎÆ½³£È´ÕæÊµµÄÏà´¦Ê±¹â£¬ÎÒÃÇµÄ¹ØÏµÓÖ½üÁËÒ»µã¡£(String), {"sourceId":"memory:32","memoryType":"event","memoryId":32}(String), ai_memory(String), 100.0(Double), VALIDATED(String), 2026-09-30T10:50:50(LocalDateTime), ai_memory(String), BACKED_UP(String), 2026-09-30T10:50:50(LocalDateTime), 2026-09-30T10:50:50(LocalDateTime), 27(Long)
+2026-09-30 11:00:00.039 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - <==    Updates: 1
+2026-09-30 11:00:00.039 [scheduling-1] [34mINFO [0;39m [36mc.e.aichat.service.DataBackupService[0;39m - ÔöÁ¿±¸·ÝÍê³É
+2026-09-30 11:00:03.765 [http-nio-8080-exec-12] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/actuator/health status=200 elapsedMs=21ms ip=127.0.0.1
+2026-09-30 11:00:03.839 [http-nio-8080-exec-15] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/actuator/health status=200 elapsedMs=16ms ip=127.0.0.1
+2026-09-30 11:00:06.859 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-09-30 11:00:06.859 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-09-30T11:00:06.858450700(LocalDateTime)
+2026-09-30 11:00:06.860 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-09-30 11:00:38.943 [http-nio-8080-exec-17] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/actuator/health status=200 elapsedMs=14ms ip=127.0.0.1
+2026-09-30 11:00:58.667 [lettuce-nioEventLoop-4-1] [34mINFO [0;39m [36mi.l.core.protocol.CommandHandler[0;39m - null Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-09-30 11:00:58.708 [lettuce-eventExecutorLoop-2-1] [34mINFO [0;39m [36mi.l.core.protocol.ConnectionWatchdog[0;39m - Reconnecting, last destination was localhost/127.0.0.1:6379
+2026-09-30 11:00:58.716 [lettuce-nioEventLoop-4-2] [31mWARN [0;39m [36mi.l.core.protocol.ConnectionWatchdog[0;39m - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13:12 min
+[INFO] Finished at: 2026-09-30T11:00:59+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.5:run (default-cli) on project aichat: Process terminated with exit code: -1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

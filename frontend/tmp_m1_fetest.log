@@ -1,0 +1,1230 @@
+﻿
+> ai-chat-frontend@1.0.0 test
+> vitest run
+
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90mC:/Users/郭耀彬/Desktop/gybct/ai-chat-graduation/frontend[39m
+
+ [32m✓[39m src/tests/unit/elf3dConfig.test.js [2m([22m[2m32 tests[22m[2m)[22m[90m 7[2mms[22m[39m
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m基本功能[2m > [22m[2m应该能够添加音乐文件
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 1 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 1 tracks to library
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m基本功能[2m > [22m[2m应该能够获取音乐库
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 1 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 1 tracks to library
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m基本功能[2m > [22m[2m应该能够获取播放列表
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 1 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 1 tracks to library
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m基本功能[2m > [22m[2m应该能够删除音乐文件
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 1 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 1 tracks to library
+[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 0 songs
+[INFO] [MusicPlayer] TRACK_REMOVED Removed track: 17903074777220xob0si22
+
+node.exe : [90mstderr[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m基本功能[2m > [22m[2m删除不存在的音乐
+应该返回false
+所在位置 行:1 字符: 1
++ & "C:\Users\郭耀彬\AppData\Local\Doubao\User Data\sandbox_runtime\bases\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([90mstderr[2m...不存在的音乐应该返回false:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[22m[39m[WARN] [MusicPlayer] TRACK_REMOVE_FAILED Track not found: nonexistent-id
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m基本功能[2m > [22m[2m应该能够清空音乐库
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 1 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 1 tracks to library
+[DEBUG] [MusicPlayer] STOP_TRACK Track stopped
+[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 0 songs
+[INFO] [MusicPlayer] LIBRARY_CLEARED Music library cleared
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m播放控制[2m > [22m[2m应该能够播放音乐
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 1 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 1 tracks to library
+[INFO] [MusicPlayer] PLAY_TRACK Playing track: test
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m播放控制[2m > [22m[2m应该能够暂停音乐
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 1 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 1 tracks to library
+[DEBUG] [MusicPlayer] PAUSE_TRACK Track paused
+[INFO] [MusicPlayer] PLAY_TRACK Playing track: test
+
+[90mstderr[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m播放控制[2m > [22m[2m播放空列表应该返回false
+[22m[39m[WARN] [MusicPlayer] PLAY_FAILED Playlist is empty
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m播放控制[2m > [22m[2m应该能够停止音乐
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 1 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 1 tracks to library
+[DEBUG] [MusicPlayer] STOP_TRACK Track stopped
+[INFO] [MusicPlayer] PLAY_TRACK Playing track: test
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m播放控制[2m > [22m[2m应该能够切换播放/暂停
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 1 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 1 tracks to library
+[INFO] [MusicPlayer] PLAY_TRACK Playing track: test
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m播放控制[2m > [22m[2m应该能够切换播放/暂停
+[22m[39m[DEBUG] [MusicPlayer] PAUSE_TRACK Track paused
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m播放模式[2m > [22m[2m应该支持顺序播放模式
+[22m[39m[INFO] [MusicPlayer] PLAY_MODE_CHANGE Play mode changed to: sequence
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m播放模式[2m > [22m[2m应该支持随机播放模式
+[22m[39m[INFO] [MusicPlayer] PLAY_MODE_CHANGE Play mode changed to: shuffle
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m播放模式[2m > [22m[2m应该支持单曲循环模式
+[22m[39m[INFO] [MusicPlayer] PLAY_MODE_CHANGE Play mode changed to: loop_one
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m播放模式[2m > [22m[2m应该支持列表循环模式
+[22m[39m[INFO] [MusicPlayer] PLAY_MODE_CHANGE Play mode changed to: loop_all
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m播放模式[2m > [22m[2m应该能够循环切换播放模式
+[22m[39m[INFO] [MusicPlayer] PLAY_MODE_CHANGE Play mode changed to: sequence
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m上一曲/下一曲[2m > [22m[2m应该能够播放下一曲
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 2 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 2 tracks to library
+[INFO] [MusicPlayer] PLAY_TRACK Playing track: test1
+[INFO] [MusicPlayer] PLAY_TRACK Playing track: test2
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m上一曲/下一曲[2m > [22m[2m应该能够播放上一曲
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 2 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 2 tracks to library
+[INFO] [MusicPlayer] PLAY_TRACK Playing track: test2
+[INFO] [MusicPlayer] PLAY_TRACK Playing track: test1
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m进度和音量[2m > [22m[2m应该能够设置进度
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 1 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 1 tracks to library
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m进度和音量[2m > [22m[2m应该能够设置音量
+[22m[39m[DEBUG] [MusicPlayer] VOLUME_CHANGE Volume set to 0.5
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m进度和音量[2m > [22m[2m音量应该被限制在0-1范围内
+[22m[39m[DEBUG] [MusicPlayer] VOLUME_CHANGE Volume set to 0
+[DEBUG] [MusicPlayer] VOLUME_CHANGE Volume set to 1
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m进度和音量[2m > [22m[2m应该能够切换静音
+[22m[39m[DEBUG] [MusicPlayer] MUTE_TOGGLE Mute: true
+[DEBUG] [MusicPlayer] MUTE_TOGGLE Mute: false
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m搜索和分类[2m > [22m[2m应该能够搜索音乐
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 2 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 2 tracks to library
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m搜索和分类[2m > [22m[2m应该能够按艺术家获取音乐
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 1 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 1 tracks to library
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m搜索和分类[2m > [22m[2m应该能够获取所有艺术家
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 2 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 2 tracks to library
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m搜索和分类[2m > [22m[2m应该能够获取所有专辑
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 2 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 2 tracks to library
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m本地存储[2m > [22m[2m应该能够保存音乐库到本地存储
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 1 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 1 tracks to library
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m本地存储[2m > [22m[2m应该能够从本地存储加载音乐库
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_LOADED Loaded 1 songs
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m事件订阅[2m > [22m[2m应该支持事件订阅
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 1 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 1 tracks to library
+
+[90mstdout[2m | tests/music.test.js[2m > [22m[2mMusicPlayer[2m > [22m[2m事件订阅[2m > [22m[2m取消订阅后不应该再收到事件
+[22m[39m[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 1 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 1 tracks to library
+[INFO] [MusicPlayer] MUSIC_LIBRARY_SAVED Saved 2 songs
+[INFO] [MusicPlayer] TRACKS_ADDED Added 1 tracks to library
+
+ [32m✓[39m tests/music.test.js [2m([22m[2m36 tests[22m[2m)[22m[90m 80[2mms[22m[39m
+ [32m✓[39m tests/unit/elf3dAnime.test.js [2m([22m[2m31 tests[22m[2m)[22m[90m 8[2mms[22m[39m
+[90mstdout[2m | tests/alarm.test.js
+[22m[39m[INFO] [AlarmManager] ALL_ALARMS_CANCELLED All alarms cancelled
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m基本功能[2m > [22m[2m应该能够创建闹钟
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_SCHEDULED Alarm scheduled: 1790307478797 at 2026/9/26 08:00:00
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478797 at 08:00
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m基本功能[2m > [22m[2m应该能够获取所有闹钟
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478812 at 08:00
+[INFO] [AlarmManager] ALARMS_SAVED Saved 2 alarms
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478812 at 09:00
+
+[90mstderr[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m基本功能[2m > [22m[2m应该能够获取所有闹钟
+[22m[39m[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478812
+[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478812
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m基本功能[2m > [22m[2m应该能够根据ID获取闹钟
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478813 at 08:00
+
+[90mstderr[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m基本功能[2m > [22m[2m应该能够根据ID获取闹钟
+[22m[39m[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478813
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m基本功能[2m > [22m[2m应该能够更新闹钟
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478813 at 08:00
+[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_UPDATED Alarm updated: 1790307478813
+
+[90mstderr[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m基本功能[2m > [22m[2m应该能够更新闹钟
+[22m[39m[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478813
+[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478813
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m基本功能[2m > [22m[2m应该能够删除闹钟
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478813 at 08:00
+[INFO] [AlarmManager] ALARMS_SAVED Saved 0 alarms
+[INFO] [AlarmManager] ALARM_DELETED Alarm deleted: 1790307478813
+[90mstderr[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m基本功能[2m > [22m[2m应该能够删除闹钟
+[22m[39m[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478813
+
+
+[90mstderr[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m基本功能[2m > [22m[2m删除不存在的闹钟应该返回false
+[22m[39m[WARN] [AlarmManager] ALARM_DELETE_FAILED Alarm not found: nonexistent-id
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m基本功能[2m > [22m[2m应该能够切换闹钟启用状态
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478814 at 08:00
+[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_DISABLED Alarm disabled: 1790307478814
+[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_ENABLED Alarm enabled: 1790307478814
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m重复模式[2m > [22m[2m应该支持once模式
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478814 at 08:00
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m重复模式[2m > [22m[2m应该支持daily模式
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_SCHEDULED Alarm scheduled: 1790307478814 at 2026/9/26 08:00:00
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478814 at 08:00
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m重复模式[2m > [22m[2m应该支持weekdays模式
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_SCHEDULED Alarm scheduled: 1790307478815 at 2026/9/28 08:00:00
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478815 at 08:00
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m重复模式[2m > [22m[2m应该支持weekend模式
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_SCHEDULED Alarm scheduled: 1790307478815 at 2026/9/26 08:00:00
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478815 at 08:00
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m重复模式[2m > [22m[2m应该支持custom模式
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_SCHEDULED Alarm scheduled: 1790307478815 at 2026/9/28 08:00:00
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478815 at 08:00
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m贪睡功能[2m > [22m[2m应该支持贪睡功能
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478816 at 08:00
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m贪睡功能[2m > [22m[2m应该能够执行贪睡
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478816 at 08:00
+[INFO] [AlarmManager] ALARM_SNOOZED Alarm snoozed: 1790307478816 for 5 minutes
+
+[90mstderr[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m基本功能[2m > [22m[2m应该能够切换闹钟启用状态
+[22m[39m[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478814
+[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478814
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m贪睡功能[2m > [22m[2m禁用贪睡时应该返回null
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478816 at 08:00
+
+
+[90mstderr[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m重复模式[2m > [22m[2m应该支持once模式
+[22m[39m[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478814
+
+[90mstderr[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m贪睡功能[2m > [22m[2m应该支持贪睡功能
+[22m[39m[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478816
+
+[90mstderr[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m贪睡功能[2m > [22m[2m应该能够执行贪睡
+[22m[39m[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478816
+
+[90mstderr[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m贪睡功能[2m > [22m[2m禁用贪睡时应该返回null
+[22m[39m[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478816
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m时间计算[2m > [22m[2m应该能够计算下一次闹钟时间
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_SCHEDULED Alarm scheduled: 1790307478816 at 2026/9/25 23:59:00
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478816 at 23:59
+
+[90mstderr[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m时间计算[2m > [22m[2monce模式下应该在时间已过时返回n
+ull
+[22m[39m[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1768449600000
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m时间计算[2m > [22m[2monce模式下应该在时间已过时返回null
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+
+[90mstderr[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m本地存储[2m > [22m[2m应该能够保存闹钟到本地存储
+[22m[39m[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478818
+
+[90mstderr[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m事件订阅[2m > [22m[2m应该支持事件订阅
+[22m[39m[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478819
+
+[90mstderr[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m事件订阅[2m > [22m[2m取消订阅后不应该再收到事件
+[22m[39m[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478820
+[WARN] [AlarmManager] SCHEDULE_FAILED No valid next time for alarm: 1790307478820
+
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1768449600000 at 11:00
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m本地存储[2m > [22m[2m应该能够保存闹钟到本地存储
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478818 at 08:00
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m本地存储[2m > [22m[2m应该能够从本地存储加载闹钟
+[22m[39m[INFO] [AlarmManager] ALARMS_LOADED Loaded 1 alarms
+
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m事件订阅[2m > [22m[2m应该支持事件订阅
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478819 at 08:00
+
+ [32m✓[39m tests/alarm.test.js [2m([22m[2m23 tests[22m[2m)[22m[90m 24[2mms[22m[39m
+[90mstdout[2m | tests/alarm.test.js[2m > [22m[2mAlarmManager[2m > [22m[2m事件订阅[2m > [22m[2m取消订阅后不应该再收到事件
+[22m[39m[INFO] [AlarmManager] ALARMS_SAVED Saved 1 alarms
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478820 at 08:00
+[INFO] [AlarmManager] ALARMS_SAVED Saved 2 alarms
+[INFO] [AlarmManager] ALARM_CREATED Alarm created: 1790307478820 at 09:00
+
+[90mstderr[2m | tests/unit/timeUtils.test.js[2m > [22m[2mtimeUtils 时间工具[2m > [22m[2mformatDate[2m > [22m[2m非
+法日期应返回空串
+[22m[39m[WARN] [TimeUtils] FORMAT_DATE_INVALID Invalid date passed to formatDate { date: [32m'not-a-date'[39m }
+
+[90mstderr[2m | tests/unit/timeUtils.test.js[2m > [22m[2mtimeUtils 时间工具[2m > [22m[2mparseDate[2m > [22m[2m非法
+字符串应返回 null
+[22m[39m[WARN] [TimeUtils] PARSE_DATE_INVALID Invalid date string { dateString: [32m'xyz'[39m }
+
+ [32m✓[39m tests/unit/timeUtils.test.js [2m([22m[2m38 tests[22m[2m)[22m[90m 7[2mms[22m[39m
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2mconnect 应携带 userId 与 token 拼接查询参数
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat?userId=u1&token=tok
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2mconnect 应携带 userId 与 toke
+n 拼接查询参数
+[22m[39m[ERROR] [WebSocket] 最大重连次数已用完
+
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m连接成功后 isConnected 应为 true
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m连接成功后 isConnected 应为 true
+[22m[39m[ERROR] [WebSocket] 最大重连次数已用完
+
+[INFO] [WebSocket] 连接已建立
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m未连接时 send 应入队，连接后自动 flush
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已建立
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m连接后 send 应直接发送
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已建立
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m未连接时 send 应入队，连接后自动 flush
+[22m[39m[WARN] [WebSocket] 未连接，消息已加入队列
+[ERROR] [WebSocket] 最大重连次数已用完
+
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m连接后 send 应直接发送
+[22m[39m[ERROR] [WebSocket] 最大重连次数已用完
+
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2msendChatMessage 应封装为 chat 类型
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已建立
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2msendChatMessage 应封装为 chat
+ 类型
+[22m[39m[ERROR] [WebSocket] 最大重连次数已用完
+
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2mping 应发送心跳
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已建立
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2mping 应发送心跳
+[22m[39m[ERROR] [WebSocket] 最大重连次数已用完
+
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m消息路由[2m > [22m[2mtype=message 应触发 onData
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已建立
+[DEBUG] [WebSocket] 收到消息: message
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m消息路由[2m > [22m[2mtype=
+message 应触发 onData
+[22m[39m[ERROR] [WebSocket] 最大重连次数已用完
+
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m消息路由[2m > [22m[2mtype=start 应触发 onStart
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已建立
+[DEBUG] [WebSocket] 收到消息: start
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m消息路由[2m > [22m[2mtype=
+start 应触发 onStart
+[22m[39m[ERROR] [WebSocket] 最大重连次数已用完
+
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m消息路由[2m > [22m[2mtype=done 应触发 onDone
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已建立
+[DEBUG] [WebSocket] 收到消息: done
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m消息路由[2m > [22m[2mtype=
+done 应触发 onDone
+[22m[39m[ERROR] [WebSocket] 最大重连次数已用完
+
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m消息路由[2m > [22m[2mtype=connected 应触发 onMessage
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已建立
+[DEBUG] [WebSocket] 收到消息: connected
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m消息路由[2m > [22m[2mtype=
+connected 应触发 onMessage
+[22m[39m[ERROR] [WebSocket] 最大重连次数已用完
+
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m消息路由[2m > [22m[2mtype=pong 心跳不应报错
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已建立
+[DEBUG] [WebSocket] 收到消息: pong
+[DEBUG] [WebSocket] 心跳响应
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m消息路由[2m > [22m[2mtype=
+pong 心跳不应报错
+[22m[39m[ERROR] [WebSocket] 最大重连次数已用完
+
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m消息路由[2m > [22m[2m非法 JSON 不应抛错
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已建立
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m消息路由[2m > [22m[2m非法 JS
+ON 不应抛错
+[22m[39m[ERROR] [WebSocket] 消息解析失败: SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2
+)
+    at JSON.parse (<anonymous>)
+    at MockWebSocket.ws.onmessage [90m(C:\Users\郭耀彬\Desktop\gybct\ai-chat-graduation\frontend\[39msrc\utils\websocket
+.js:98:29[90m)[39m
+    at [90mC:\Users\郭耀彬\Desktop\gybct\ai-chat-graduation\frontend\[39mtests\unit\websocket.test.js:154:33
+    at Proxy.assertThrows [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/
+[39mnode_modules/[4mchai[24m/index.js:2767:5[90m)[39m
+    at Proxy.methodWrapper [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend
+/[39mnode_modules/[4mchai[24m/index.js:1686:25[90m)[39m
+    at Proxy.<anonymous> [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/
+[39mnode_modules/[4m@vitest/expect[24m/dist/index.js:1029:16[90m)[39m
+    at Proxy.overwritingMethodWrapper [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduati
+on/frontend/[39mnode_modules/[4mchai[24m/index.js:1735:33[90m)[39m
+    at Proxy.<anonymous> [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/
+[39mnode_modules/[4m@vitest/expect[24m/dist/index.js:1509:21[90m)[39m
+    at Proxy.<anonymous> [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/
+[39mnode_modules/[4m@vitest/expect[24m/dist/index.js:972:17[90m)[39m
+    at Proxy.methodWrapper [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend
+/[39mnode_modules/[4mchai[24m/index.js:1686:25[90m)[39m {bad json
+[ERROR] [WebSocket] 最大重连次数已用完
+
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m消息路由[2m > [22m[2m未知 type 应回退到 onMessage
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已建立
+[DEBUG] [WebSocket] 收到消息: other
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m重连[2m > [22m[2monclose 后应按间隔重连（未达上限）
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已建立
+[INFO] [WebSocket] 连接已关闭 [33m1006[39m 
+[INFO] [WebSocket] 1000ms后尝试第1次重连...
+[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m消息路由[2m > [22m[2m未知 ty
+pe 应回退到 onMessage
+[22m[39m[ERROR] [WebSocket] 最大重连次数已用完
+
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m重连[2m > [22m[2monclose
+ 后应按间隔重连（未达上限）
+[22m[39m[ERROR] [WebSocket] 最大重连次数已用完
+
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m重连[2m > [22m[2mclose() 后不应再重连
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m重连[2m > [22m[2mclose()
+ 后不应再重连
+[22m[39m[ERROR] [WebSocket] 最大重连次数已用完
+[ERROR] [WebSocket] 最大重连次数已用完
+[ERROR] [WebSocket] 最大重连次数已用完
+
+
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m重连[2m > [22m[2m超过最大重连次数后停止
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已关闭 [33m1006[39m 
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2m重连[2m > [22m[2m超过最大重连次
+数后停止
+[22m[39m[ERROR] [WebSocket] 最大重连次数已用完
+[ERROR] [WebSocket] 最大重连次数已用完
+
+ [32m✓[39m tests/unit/websocket.test.js [2m([22m[2m18 tests[22m[2m)[22m[90m 15[2mms[22m[39m
+[90mstdout[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2mdestroy[2m > [22m[2mdestroy 应清空队列并置空 ws
+[22m[39m[INFO] [WebSocket] 正在连接: ws://test/ws/chat
+[INFO] [WebSocket] 连接已关闭 [33m1000[39m 
+
+[90mstderr[2m | tests/unit/websocket.test.js[2m > [22m[2mwebsocket 聊天连接管理[2m > [22m[2mdestroy[2m > [22m[2mde
+stroy 应清空队列并置空 ws
+[22m[39m[WARN] [WebSocket] 未连接，消息已加入队列
+[ERROR] [WebSocket] 最大重连次数已用完
+
+ [32m✓[39m tests/unit/memoryUtils.test.js [2m([22m[2m23 tests[22m[2m)[22m[90m 6[2mms[22m[39m
+ [32m✓[39m tests/theme.test.js [2m([22m[2m17 tests[22m[2m)[22m[90m 7[2mms[22m[39m
+ [32m✓[39m tests/unit/userDataManage.test.js [2m([22m[2m22 tests[22m[2m)[22m[90m 5[2mms[22m[39m
+ [32m✓[39m tests/unit/elfMovement.test.js [2m([22m[2m22 tests[22m[2m)[22m[90m 11[2mms[22m[39m
+[90mstderr[2m | src/tests/unit/elfBridge.test.js[2m > [22m[2melfBridge 桌面精灵全局配置桥接[2m > [22m[2museElfConfig comp
+osable[2m > [22m[2m5. 初始值应从 localStorage 读取
+[22m[39m[Vue warn]: onMounted is called when there is no active component instance to be associated with. Lifecycle i
+njection APIs can only be used during execution of setup(). If you are using async setup(), make sure to register lifec
+ycle hooks before the first await statement.
+[Vue warn]: onUnmounted is called when there is no active component instance to be associated with. Lifecycle injection
+ APIs can only be used during execution of setup(). If you are using async setup(), make sure to register lifecycle hoo
+ks before the first await statement.
+
+[90mstderr[2m | src/tests/unit/elfBridge.test.js[2m > [22m[2melfBridge 桌面精灵全局配置桥接[2m > [22m[2museElfConfig comp
+osable[2m > [22m[2m4. updateConfig 应合并部分字段并持久化
+[22m[39m[Vue warn]: onMounted is called when there is no active component instance to be associated with. Lifecycle i
+njection APIs can only be used during execution of setup(). If you are using async setup(), make sure to register lifec
+ycle hooks before the first await statement.
+[Vue warn]: onUnmounted is called when there is no active component instance to be associated with. Lifecycle injection
+ APIs can only be used during execution of setup(). If you are using async setup(), make sure to register lifecycle hoo
+ks before the first await statement.
+
+ [32m✓[39m src/tests/unit/elfBridge.test.js [2m([22m[2m14 tests[22m[2m)[22m[90m 9[2mms[22m[39m
+[90mstderr[2m | src/tests/unit/elfBridge.test.js[2m > [22m[2melfBridge 桌面精灵全局配置桥接[2m > [22m[2museElfConfig comp
+osable[2m > [22m[2mupdateConfig 连续调用应累积合并
+[22m[39m[Vue warn]: onMounted is called when there is no active component instance to be associated with. Lifecycle i
+njection APIs can only be used during execution of setup(). If you are using async setup(), make sure to register lifec
+ycle hooks before the first await statement.
+[Vue warn]: onUnmounted is called when there is no active component instance to be associated with. Lifecycle injection
+ APIs can only be used during execution of setup(). If you are using async setup(), make sure to register lifecycle hoo
+ks before the first await statement.
+
+ [32m✓[39m tests/unit/notification.test.js [2m([22m[2m20 tests[22m[2m)[22m[90m 5[2mms[22m[39m
+ [32m✓[39m tests/unit/accountForm.test.js [2m([22m[2m17 tests[22m[2m)[22m[90m 6[2mms[22m[39m
+[90mstdout[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2misSupported 在有实现时应返回 true
+[22m[39m[INFO] [ASR] 语音识别引擎已就绪
+
+[90mstdout[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2minit 成功后 enabled 应为 true
+[22m[39m[INFO] [ASR] 语音识别引擎已就绪
+
+[90mstdout[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2minit 应设置 lang 与 interimResults
+[22m[39m[INFO] [ASR] 语音识别引擎已就绪
+
+[90mstdout[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2mstart 成功应返回 true 并标记 listening
+[22m[39m[INFO] [ASR] 语音识别引擎已就绪
+
+[90mstdout[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2m未 init 时 start 应返回 false
+[22m[39m[INFO] [ASR] 语音识别引擎已就绪
+
+[90mstderr[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2m未 init 时 
+start 应返回 false
+[22m[39m[WARN] [ASR] 语音识别未初始化
+
+[90mstdout[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2m重复 start 应返回 false
+[22m[39m[INFO] [ASR] 语音识别引擎已就绪
+
+[90mstderr[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2m重复 start 
+应返回 false
+[22m[39m[WARN] [ASR] 正在监听中
+
+[90mstdout[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2mstart 抛错应捕获并返回 false
+[22m[39m[INFO] [ASR] 语音识别引擎已就绪
+
+[90mstderr[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2mstart 抛错应
+捕获并返回 false
+[22m[39m[WARN] [ASR] 正在监听中
+
+[90mstdout[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2monresult 应触发 onResult 回调
+[22m[39m[INFO] [ASR] 语音识别引擎已就绪
+[DEBUG] [ASR] 最终识别结果: 你好
+
+[90mstderr[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2monresult 
+应触发 onResult 回调
+[22m[39m[WARN] [ASR] 正在监听中
+
+[90mstderr[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2monerror 应
+触发 onError 并复位 listening
+[22m[39m[WARN] [ASR] 正在监听中
+[ERROR] [ASR] 识别错误: not-allowed
+
+[90mstdout[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2monerror 应触发 onError 并复位 listening
+[22m[39m[INFO] [ASR] 语音识别引擎已就绪
+
+[90mstdout[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2monend 应触发 onEnd 并复位 listening
+[22m[39m[INFO] [ASR] 语音识别引擎已就绪
+[INFO] [ASR] 语音识别结束
+
+[90mstdout[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2mstop 应调用 recognition.stop
+[22m[39m[INFO] [ASR] 语音识别引擎已就绪
+
+[90mstdout[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2mabort 应调用 recognition.abort
+[22m[39m[INFO] [ASR] 语音识别引擎已就绪
+
+[90mstdout[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2msetLang 应同步到 recognition
+[22m[39m[INFO] [ASR] 语音识别引擎已就绪
+
+[90mstdout[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2msetInterimResults 应同步
+[22m[39m[INFO] [ASR] 语音识别引擎已就绪
+
+[90mstdout[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2m不支持时 enabled 应为 false
+[22m[39m[INFO] [ASR] 语音识别引擎已就绪
+[INFO] [ASR] 语音识别引擎已就绪
+
+[90mstderr[2m | tests/unit/speechRecognition.test.js[2m > [22m[2mspeechRecognition 语音识别服务[2m > [22m[2m不支持时 enab
+led 应为 false
+[22m[39m[WARN] [ASR] 当前浏览器不支持语音识别
+
+ [32m✓[39m tests/unit/speechRecognition.test.js [2m([22m[2m15 tests[22m[2m)[22m[90m 7[2mms[22m[39m
+ [32m✓[39m tests/unit/feed.test.js [2m([22m[2m24 tests[22m[2m)[22m[90m 6[2mms[22m[39m
+ [32m✓[39m tests/unit/aiSystemManage.test.js [2m([22m[2m12 tests[22m[2m)[22m[90m 21[2mms[22m[39m
+ [32m✓[39m tests/unit/elfChatSse.test.js [2m([22m[2m15 tests[22m[2m)[22m[90m 7[2mms[22m[39m
+[90mstdout[2m | tests/unit/compatibility.test.js[2m > [22m[2mcompatibility 浏览器兼容检测[2m > [22m[2minitCompatibility 初始化[2m > [22m[2m应返回 browserInfo 与 deviceInfo
+[22m[39m[Compatibility] Browser: {
+  browser: [32m'chrome'[39m,
+  version: [32m'120'[39m,
+  os: [32m'windows'[39m,
+  userAgent: [32m'Mozilla/5.0 (Windows NT 10.0) Chrome/120.0'[39m
+}
+[Compatibility] Device: { isMobile: [33mfalse[39m, isTablet: [33mfalse[39m, isDesktop: [33mtrue[39m }
+
+[90mstdout[2m | tests/unit/compatibility.test.js[2m > [22m[2mcompatibility 浏览器兼容检测[2m > [22m[2minitCompatibility 初始化[2m > [22m[2m应在 html 上追加 browser/os 类名
+[22m[39m[Compatibility] Browser: {
+  browser: [32m'chrome'[39m,
+  version: [32m'120'[39m,
+  os: [32m'windows'[39m,
+  userAgent: [32m'Mozilla/5.0 (Windows NT 10.0) Chrome/120.0'[39m
+}
+[Compatibility] Device: { isMobile: [33mfalse[39m, isTablet: [33mfalse[39m, isDesktop: [33mtrue[39m }
+
+ [32m✓[39m tests/unit/compatibility.test.js [2m([22m[2m16 tests[22m[2m)[22m[90m 10[2mms[22m[39m
+ [32m✓[39m src/tests/unit/elfGrowthUtils.test.js [2m([22m[2m13 tests[22m[2m)[22m[90m 5[2mms[22m[39m
+[90mstderr[2m | tests/unit/request.test.js[2m > [22m[2mrequest HTTP 封装[2m > [22m[2m响应拦截器：业务返回与错误处理[2m > [22m
+[2mHTTP 401 应清除登录态
+[22m[39m[ERROR] 请求错误: { response: { status: [33m401[39m, data: {} } }
+
+[90mstderr[2m | tests/unit/request.test.js[2m > [22m[2mrequest HTTP 封装[2m > [22m[2m响应拦截器：业务返回与错误处理[2m > [22m
+[2mHTTP 500 不应清除登录态
+[22m[39m[ERROR] 请求错误: { response: { status: [33m500[39m, data: {}, statusText: [32m'Server Error'[39m } }
+[ERROR] 服务器错误详情: {}
+
+[90mstderr[2m | tests/unit/request.test.js[2m > [22m[2mrequest HTTP 封装[2m > [22m[2m响应拦截器：业务返回与错误处理[2m > [22m
+[2m无 response 时应回退到 error.message
+[22m[39m[ERROR] 请求错误: Error: Network Down
+    at [90mC:\Users\郭耀彬\Desktop\gybct\ai-chat-graduation\frontend\[39mtests\unit\request.test.js:113:19
+    at [90mfile:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_modules/[
+4m@vitest/runner[24m/dist/index.js:146:14
+    at [90mfile:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_modules/[
+4m@vitest/runner[24m/dist/index.js:533:11
+    at runWithTimeout [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39
+mnode_modules/[4m@vitest/runner[24m/dist/index.js:39:7[90m)[39m
+    at runTest [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_m
+odules/[4m@vitest/runner[24m/dist/index.js:1056:17[90m)[39m
+[90m    at processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+    at runSuite [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_
+modules/[4m@vitest/runner[24m/dist/index.js:1205:15[90m)[39m
+    at runSuite [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_
+modules/[4m@vitest/runner[24m/dist/index.js:1205:15[90m)[39m
+    at runSuite [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_
+modules/[4m@vitest/runner[24m/dist/index.js:1205:15[90m)[39m
+    at runFiles [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_
+modules/[4m@vitest/runner[24m/dist/index.js:1262:5[90m)[39m
+
+ [32m✓[39m tests/unit/request.test.js [2m([22m[2m12 tests[22m[2m)[22m[90m 16[2mms[22m[39m
+ [32m✓[39m tests/unit/animeElfUtils.test.js [2m([22m[2m15 tests[22m[2m)[22m[90m 9[2mms[22m[39m
+ [32m✓[39m tests/unit/legalDocs.test.js [2m([22m[2m9 tests[22m[2m)[22m[90m 4[2mms[22m[39m
+ [32m✓[39m src/tests/unit/animeElfData.test.js [2m([22m[2m9 tests[22m[2m)[22m[90m 6[2mms[22m[39m
+ [32m✓[39m tests/unit/avatar.test.js [2m([22m[2m20 tests[22m[2m)[22m[90m 6[2mms[22m[39m
+[90mstdout[2m | tests/unit/speech.test.js[2m > [22m[2mspeech 语音合成服务[2m > [22m[2msetEnabled(false) 应持久化并停止
+[22m[39m[INFO] [Speech] 语音输出已禁用
+
+[90mstdout[2m | tests/unit/speech.test.js[2m > [22m[2mspeech 语音合成服务[2m > [22m[2msetVoice 按名称切换音色
+[22m[39m[INFO] [Speech] 已切换到语音: en-US
+
+[90mstderr[2m | tests/unit/speech.test.js[2m > [22m[2mspeech 语音合成服务[2m > [22m[2m不支持语音合成时 init 应降级
+[22m[39m[WARN] [Speech] 当前浏览器不支持语音合成
+
+ [32m✓[39m tests/unit/speech.test.js [2m([22m[2m14 tests[22m[2m)[22m[90m 45[2mms[22m[39m
+ [32m✓[39m tests/unit/minorGuard.test.js [2m([22m[2m16 tests[22m[2m)[22m[90m 5[2mms[22m[39m
+[90mstdout[2m | tests/unit/autoSave.test.js[2m > [22m[2mautoSave 自动保存[2m > [22m[2mcaptureData 攒满 10 条应自动触发保存
+[22m[39m数据上传成功
+数据自动保存成功
+
+ [32m✓[39m tests/unit/autoSave.test.js [2m([22m[2m12 tests[22m[2m)[22m[90m 12[2mms[22m[39m
+[90mstdout[2m | tests/unit/autoSave.test.js[2m > [22m[2mautoSave 自动保存[2m > [22m[2mmanualSave 在线时应上传并写本地
+[22m[39m数据上传成功
+数据自动保存成功
+
+[90mstdout[2m | tests/unit/autoSave.test.js[2m > [22m[2mautoSave 自动保存[2m > [22m[2m离线时应进入上传队列而非请求
+[22m[39m数据自动保存成功
+
+[90mstdout[2m | tests/unit/autoSave.test.js[2m > [22m[2mautoSave 自动保存[2m > [22m[2muploadToServer 成功应返回 true
+[22m[39m数据上传成功
+
+[90mstderr[2m | tests/unit/autoSave.test.js[2m > [22m[2mautoSave 自动保存[2m > [22m[2muploadToServer 失败应返回 false 并入
+队
+[22m[39m上传数据到服务器失败: Error: network
+    at [90mC:\Users\郭耀彬\Desktop\gybct\ai-chat-graduation\frontend\[39mtests\unit\autoSave.test.js:64:47
+    at mockCall [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_
+modules/[4m@vitest/spy[24m/dist/index.js:61:17[90m)[39m
+    at spy [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_modul
+es/[4mtinyspy[24m/dist/index.js:45:80[90m)[39m
+    at AutoSaveManager.uploadToServer [90m(C:\Users\郭耀彬\Desktop\gybct\ai-chat-graduation\frontend\[39msrc\utils\autoS
+ave.js:189:30[90m)[39m
+    at [90mC:\Users\郭耀彬\Desktop\gybct\ai-chat-graduation\frontend\[39mtests\unit\autoSave.test.js:65:30
+    at [90mfile:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_modules/[
+4m@vitest/runner[24m/dist/index.js:146:14
+    at [90mfile:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_modules/[
+4m@vitest/runner[24m/dist/index.js:533:11
+    at runWithTimeout [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39
+mnode_modules/[4m@vitest/runner[24m/dist/index.js:39:7[90m)[39m
+    at runTest [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_m
+odules/[4m@vitest/runner[24m/dist/index.js:1056:17[90m)[39m
+[90m    at runNextTicks (node:internal/process/task_queues:64:5)[39m
+
+[90mstdout[2m | tests/unit/dataSync.test.js[2m > [22m[2mdataSync 数据同步[2m > [22m[2mconnect 应携带 userId
+[22m[39m数据同步WebSocket连接已关闭
+
+[90mstdout[2m | tests/unit/dataSync.test.js[2m > [22m[2mdataSync 数据同步[2m > [22m[2m重复 connect 且已打开时应复用连接
+[22m[39m数据同步WebSocket连接已建立
+数据同步WebSocket连接已关闭
+
+[90mstdout[2m | tests/unit/dataSync.test.js[2m > [22m[2mdataSync 数据同步[2m > [22m[2monopen 应标记已连接并启动心跳
+[22m[39m数据同步WebSocket连接已建立
+数据同步WebSocket连接已关闭
+
+[90mstdout[2m | tests/unit/dataSync.test.js[2m > [22m[2mdataSync 数据同步[2m > [22m[2msubscribe 在连接后应发送订阅消息
+[22m[39m数据同步WebSocket连接已建立
+数据同步WebSocket连接已关闭
+
+[90mstdout[2m | tests/unit/dataSync.test.js[2m > [22m[2mdataSync 数据同步[2m > [22m[2monmessage 应解析 JSON 并分发
+[22m[39m数据同步WebSocket连接已关闭
+
+[90mstdout[2m | tests/unit/dataSync.test.js[2m > [22m[2mdataSync 数据同步[2m > [22m[2m非法 JSON 不应抛错
+[22m[39m数据同步WebSocket连接已关闭
+
+[90mstderr[2m | tests/unit/dataSync.test.js[2m > [22m[2mdataSync 数据同步[2m > [22m[2m回调抛错不应中断其他回调
+[22m[39m处理数据变更回调失败: Error: x
+    at [90mC:\Users\郭耀彬\Desktop\gybct\ai-chat-graduation\frontend\[39mtests\unit\dataSync.test.js:74:37
+    at mockCall [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_
+modules/[4m@vitest/spy[24m/dist/index.js:61:17[90m)[39m
+    at spy [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_modul
+es/[4mtinyspy[24m/dist/index.js:45:80[90m)[39m
+    at [90mC:\Users\郭耀彬\Desktop\gybct\ai-chat-graduation\frontend\[39msrc\utils\dataSync.js:101:13
+    at Array.forEach (<anonymous>)
+    at DataSync.handleMessage [90m(C:\Users\郭耀彬\Desktop\gybct\ai-chat-graduation\frontend\[39msrc\utils\dataSync.js:9
+9:19[90m)[39m
+    at [90mC:\Users\郭耀彬\Desktop\gybct\ai-chat-graduation\frontend\[39mtests\unit\dataSync.test.js:77:10
+    at [90mfile:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_modules/[
+4m@vitest/runner[24m/dist/index.js:146:14
+    at [90mfile:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39mnode_modules/[
+4m@vitest/runner[24m/dist/index.js:533:11
+    at runWithTimeout [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/[39
+mnode_modules/[4m@vitest/runner[24m/dist/index.js:39:7[90m)[39m
+
+[90mstderr[2m | tests/unit/dataSync.test.js[2m > [22m[2mdataSync 数据同步[2m > [22m[2m非法 JSON 不应抛错
+[22m[39m解析数据同步消息失败: SyntaxError: Unexpected token 'o', "oops" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at MockWS.socket.onmessage [90m(C:\Users\郭耀彬\Desktop\gybct\ai-chat-graduation\frontend\[39msrc\utils\dataSync.js:
+32:30[90m)[39m
+    at [90mC:\Users\郭耀彬\Desktop\gybct\ai-chat-graduation\frontend\[39mtests\unit\dataSync.test.js:98:42
+    at Proxy.assertThrows [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/
+[39mnode_modules/[4mchai[24m/index.js:2767:5[90m)[39m
+    at Proxy.methodWrapper [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend
+/[39mnode_modules/[4mchai[24m/index.js:1686:25[90m)[39m
+    at Proxy.<anonymous> [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/
+[39mnode_modules/[4m@vitest/expect[24m/dist/index.js:1029:16[90m)[39m
+    at Proxy.overwritingMethodWrapper [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduati
+on/frontend/[39mnode_modules/[4mchai[24m/index.js:1735:33[90m)[39m
+    at Proxy.<anonymous> [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/
+[39mnode_modules/[4m@vitest/expect[24m/dist/index.js:1509:21[90m)[39m
+    at Proxy.<anonymous> [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend/
+[39mnode_modules/[4m@vitest/expect[24m/dist/index.js:972:17[90m)[39m
+    at Proxy.methodWrapper [90m(file:///C:/Users/%E9%83%AD%E8%80%80%E5%BD%AC/Desktop/gybct/ai-chat-graduation/frontend
+/[39mnode_modules/[4mchai[24m/index.js:1686:25[90m)[39m
+
+[90mstdout[2m | tests/unit/dataSync.test.js[2m > [22m[2mdataSync 数据同步[2m > [22m[2mdisconnect 应关闭连接并置空
+[22m[39m数据同步WebSocket连接已关闭
+
+ [32m✓[39m tests/unit/dataSync.test.js [2m([22m[2m13 tests[22m[2m)[22m[90m 14[2mms[22m[39m
+[90mstdout[2m | tests/unit/dataSync.test.js[2m > [22m[2mdataSync 数据同步[2m > [22m[2monclose 后应触发重连
+[22m[39m数据同步WebSocket连接已建立
+数据同步WebSocket连接已关闭
+尝试重新连接数据同步WebSocket...
+数据同步WebSocket连接已关闭
+
+ [32m✓[39m tests/unit/communityFeed.test.js [2m([22m[2m11 tests[22m[2m)[22m[90m 5[2mms[22m[39m
+ [32m✓[39m tests/unit/searchHistory.test.js [2m([22m[2m14 tests[22m[2m)[22m[90m 5[2mms[22m[39m
+ [32m✓[39m tests/unit/chatExperience.test.js [2m([22m[2m9 tests[22m[2m)[22m[90m 5[2mms[22m[39m
+ [32m✓[39m src/tests/unit/animeElfUtils.test.js [2m([22m[2m7 tests[22m[2m)[22m[90m 5[2mms[22m[39m
+ [32m✓[39m tests/unit/notificationCategorize.test.js [2m([22m[2m11 tests[22m[2m)[22m[90m 4[2mms[22m[39m
+ [32m✓[39m tests/unit/voiceCall.test.js [2m([22m[2m8 tests[22m[2m)[22m[90m 9[2mms[22m[39m
+[90mstdout[2m | tests/unit/themeValidator.test.js
+[22m[39m========================================
+主题切换验证脚本
+========================================
+
+【CSS变量验证】
+────────────────────────────────────────
+✗ 变量未定义 - --bg-primary: 
+✗ 变量未定义 - --bg-secondary: 
+✗ 变量未定义 - --bg-tertiary: 
+✗ 变量未定义 - --bg-hover: 
+✗ 变量未定义 - --text-primary: 
+✗ 变量未定义 - --text-secondary: 
+✗ 变量未定义 - --text-tertiary: 
+✗ 变量未定义 - --text-muted: 
+✗ 变量未定义 - --text-inverse: 
+✗ 变量未定义 - --border-primary: 
+✗ 变量未定义 - --border-secondary: 
+✗ 变量未定义 - --border-focus: 
+✗ 变量未定义 - --color-primary: 
+✗ 变量未定义 - --color-success: 
+✗ 变量未定义 - --color-warning: 
+✗ 变量未定义 - --color-error: 
+✗ 变量未定义 - --card-bg: 
+✗ 变量未定义 - --sidebar-bg: 
+✗ 变量未定义 - --navbar-bg: 
+✗ 变量未定义 - --modal-bg: 
+
+【元素样式验证】
+────────────────────────────────────────
+✓ 样式已应用 - 页面背景 (body): rgba(0, 0, 0, 0)
+⚠ 元素不存在（可能不在当前页面） - Admin容器背景 (.admin-container): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - Feed模块背景 (.feed-module): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 聊天视图背景 (.chat-view): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 统计卡片背景 (.stat-card): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 侧边栏背景 (.sidebar): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 菜单项文字 (.menu-item): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 主按钮背景 (.btn-primary): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 输入框背景 (.el-input__inner): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 标题文字颜色 (h1): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 段落文字颜色 (p): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - Element卡片背景 (.el-card): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - Element主按钮背景 (.el-button--primary): 元素未找到
+
+【主题切换验证】
+────────────────────────────────────────
+✗ 主题未设置
+✓ light类未添加（正常）
+✓ dark类未添加（正常）
+✗ 未存储
+
+【验证统计】
+────────────────────────────────────────
+通过: 3/37 (8.1%)
+⚠ 部分验证未通过，请检查上述项目
+
+[90mstdout[2m | tests/unit/themeValidator.test.js[2m > [22m[2mthemeValidator 主题校验[2m > [22m[2mrunFullValidation 应返回结构化结果
+[22m[39m========================================
+主题切换验证脚本
+========================================
+
+【CSS变量验证】
+────────────────────────────────────────
+✗ 变量未定义 - --bg-primary: 
+✗ 变量未定义 - --bg-secondary: 
+✗ 变量未定义 - --bg-tertiary: 
+✗ 变量未定义 - --bg-hover: 
+✗ 变量未定义 - --text-primary: 
+✗ 变量未定义 - --text-secondary: 
+✗ 变量未定义 - --text-tertiary: 
+✗ 变量未定义 - --text-muted: 
+✗ 变量未定义 - --text-inverse: 
+✗ 变量未定义 - --border-primary: 
+✗ 变量未定义 - --border-secondary: 
+✗ 变量未定义 - --border-focus: 
+✗ 变量未定义 - --color-primary: 
+✗ 变量未定义 - --color-success: 
+✗ 变量未定义 - --color-warning: 
+✗ 变量未定义 - --color-error: 
+✗ 变量未定义 - --card-bg: 
+✗ 变量未定义 - --sidebar-bg: 
+✗ 变量未定义 - --navbar-bg: 
+✗ 变量未定义 - --modal-bg: 
+
+【元素样式验证】
+────────────────────────────────────────
+✓ 样式已应用 - 页面背景 (body): rgba(0, 0, 0, 0)
+⚠ 元素不存在（可能不在当前页面） - Admin容器背景 (.admin-container): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - Feed模块背景 (.feed-module): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 聊天视图背景 (.chat-view): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 统计卡片背景 (.stat-card): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 侧边栏背景 (.sidebar): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 菜单项文字 (.menu-item): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 主按钮背景 (.btn-primary): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 输入框背景 (.el-input__inner): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 标题文字颜色 (h1): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 段落文字颜色 (p): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - Element卡片背景 (.el-card): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - Element主按钮背景 (.el-button--primary): 元素未找到
+
+【主题切换验证】
+────────────────────────────────────────
+✗ 主题未设置
+✓ light类未添加（正常）
+✓ dark类未添加（正常）
+✗ 未存储
+
+【验证统计】
+────────────────────────────────────────
+通过: 3/37 (8.1%)
+⚠ 部分验证未通过，请检查上述项目
+
+[90mstdout[2m | tests/unit/themeValidator.test.js[2m > [22m[2mthemeValidator 主题校验[2m > [22m[2mCSS 变量校验项数量应稳定
+[22m[39m========================================
+主题切换验证脚本
+========================================
+
+【CSS变量验证】
+────────────────────────────────────────
+✗ 变量未定义 - --bg-primary: 
+✗ 变量未定义 - --bg-secondary: 
+✗ 变量未定义 - --bg-tertiary: 
+✗ 变量未定义 - --bg-hover: 
+✗ 变量未定义 - --text-primary: 
+✗ 变量未定义 - --text-secondary: 
+✗ 变量未定义 - --text-tertiary: 
+✗ 变量未定义 - --text-muted: 
+✗ 变量未定义 - --text-inverse: 
+✗ 变量未定义 - --border-primary: 
+✗ 变量未定义 - --border-secondary: 
+✗ 变量未定义 - --border-focus: 
+✗ 变量未定义 - --color-primary: 
+✗ 变量未定义 - --color-success: 
+✗ 变量未定义 - --color-warning: 
+✗ 变量未定义 - --color-error: 
+✗ 变量未定义 - --card-bg: 
+✗ 变量未定义 - --sidebar-bg: 
+✗ 变量未定义 - --navbar-bg: 
+✗ 变量未定义 - --modal-bg: 
+
+【元素样式验证】
+────────────────────────────────────────
+✓ 样式已应用 - 页面背景 (body): rgba(0, 0, 0, 0)
+⚠ 元素不存在（可能不在当前页面） - Admin容器背景 (.admin-container): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - Feed模块背景 (.feed-module): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 聊天视图背景 (.chat-view): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 统计卡片背景 (.stat-card): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 侧边栏背景 (.sidebar): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 菜单项文字 (.menu-item): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 主按钮背景 (.btn-primary): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 输入框背景 (.el-input__inner): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 标题文字颜色 (h1): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 段落文字颜色 (p): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - Element卡片背景 (.el-card): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - Element主按钮背景 (.el-button--primary): 元素未找到
+
+【主题切换验证】
+────────────────────────────────────────
+✗ 主题未设置
+✓ light类未添加（正常）
+✓ dark类未添加（正常）
+✗ 未存储
+
+【验证统计】
+────────────────────────────────────────
+通过: 3/37 (8.1%)
+⚠ 部分验证未通过，请检查上述项目
+
+[90mstdout[2m | tests/unit/themeValidator.test.js[2m > [22m[2mthemeValidator 主题校验[2m > [22m[2m校验历史应记录本次结果
+[22m[39m========================================
+主题切换验证脚本
+========================================
+
+【CSS变量验证】
+────────────────────────────────────────
+✗ 变量未定义 - --bg-primary: 
+✗ 变量未定义 - --bg-secondary: 
+✗ 变量未定义 - --bg-tertiary: 
+✗ 变量未定义 - --bg-hover: 
+✗ 变量未定义 - --text-primary: 
+✗ 变量未定义 - --text-secondary: 
+✗ 变量未定义 - --text-tertiary: 
+✗ 变量未定义 - --text-muted: 
+✗ 变量未定义 - --text-inverse: 
+✗ 变量未定义 - --border-primary: 
+✗ 变量未定义 - --border-secondary: 
+✗ 变量未定义 - --border-focus: 
+✗ 变量未定义 - --color-primary: 
+✗ 变量未定义 - --color-success: 
+✗ 变量未定义 - --color-warning: 
+✗ 变量未定义 - --color-error: 
+✗ 变量未定义 - --card-bg: 
+✗ 变量未定义 - --sidebar-bg: 
+✗ 变量未定义 - --navbar-bg: 
+✗ 变量未定义 - --modal-bg: 
+
+【元素样式验证】
+────────────────────────────────────────
+✓ 样式已应用 - 页面背景 (body): rgba(0, 0, 0, 0)
+⚠ 元素不存在（可能不在当前页面） - Admin容器背景 (.admin-container): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - Feed模块背景 (.feed-module): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 聊天视图背景 (.chat-view): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 统计卡片背景 (.stat-card): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 侧边栏背景 (.sidebar): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 菜单项文字 (.menu-item): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 主按钮背景 (.btn-primary): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 输入框背景 (.el-input__inner): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 标题文字颜色 (h1): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - 段落文字颜色 (p): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - Element卡片背景 (.el-card): 元素未找到
+⚠ 元素不存在（可能不在当前页面） - Element主按钮背景 (.el-button--primary): 元素未找到
+
+【主题切换验证】
+────────────────────────────────────────
+✗ 主题未设置
+✓ light类未添加（正常）
+✓ dark类未添加（正常）
+✗ 未存储
+
+【验证统计】
+────────────────────────────────────────
+通过: 3/37 (8.1%)
+⚠ 部分验证未通过，请检查上述项目
+
+[90mstdout[2m | tests/unit/themeValidator.test.js[2m > [22m[2mthemeValidator 主题校验[2m > [22m[2mswitchThemeAndValidate[2m > [22m[2m切到 dark 应设置 data-theme 与 dark 类
+[22m[39m
+切换到 dark 主题...
+
+[90mstdout[2m | tests/unit/themeValidator.test.js[2m > [22m[2mthemeValidator 主题校验[2m > [22m[2mswitchThemeAndValidate[2m > [22m[2m切到 light 应移除 dark 类
+[22m[39m
+切换到 dark 主题...
+
+切换到 light 主题...
+
+ [32m✓[39m tests/unit/themeValidator.test.js [2m([22m[2m8 tests[22m[2m)[22m[90m 7[2mms[22m[39m
+[90mstdout[2m | tests/unit/themeLogger.test.js[2m > [22m[2mthemeLogger 主题日志[2m > [22m[2mgetThemeVariables 应返回变量映射对象
+[22m[39m[ThemeLogger] [INFO] [ThemeLogger] LOG_HISTORY_CLEARED { timestamp: [33m1790307495171[39m }
+[ThemeLogger] [INFO] [ThemeLogger] LOGGING_CONFIG_CHANGED { enabled: [33mtrue[39m, timestamp: [33m1790307495172[39m }
+
+[90mstdout[2m | tests/unit/themeLogger.test.js[2m > [22m[2mthemeLogger 主题日志[2m > [22m[2mcompareThemeVariables 应区分变化与未变化
+[22m[39m[ThemeLogger] [INFO] [ThemeLogger] LOG_HISTORY_CLEARED { timestamp: [33m1790307495197[39m }
+[ThemeLogger] [INFO] [ThemeLogger] LOGGING_CONFIG_CHANGED { enabled: [33mtrue[39m, timestamp: [33m1790307495197[39m }
+
+[90mstdout[2m | tests/unit/themeLogger.test.js[2m > [22m[2mthemeLogger 主题日志[2m > [22m[2mcompareThemeVariables 无差异时 changes 为空
+[22m[39m[ThemeLogger] [INFO] [ThemeLogger] LOG_HISTORY_CLEARED { timestamp: [33m1790307495198[39m }
+[ThemeLogger] [INFO] [ThemeLogger] LOGGING_CONFIG_CHANGED { enabled: [33mtrue[39m, timestamp: [33m1790307495198[39m }
+
+[90mstdout[2m | tests/unit/themeLogger.test.js[2m > [22m[2mthemeLogger 主题日志[2m > [22m[2mlogThemeBefore 应记录并返回当前变量
+[22m[39m[ThemeLogger] [INFO] [ThemeLogger] LOG_HISTORY_CLEARED { timestamp: [33m1790307495198[39m }
+[ThemeLogger] [INFO] [ThemeLogger] LOGGING_CONFIG_CHANGED { enabled: [33mtrue[39m, timestamp: [33m1790307495198[39m }
+[ThemeLogger] [DEBUG] [CompA] THEME_SWITCH_BEFORE {
+  theme: [32m'light'[39m,
+  variables: {
+    [32m'bg-primary'[39m: [32m''[39m,
+    [32m'bg-secondary'[39m: [32m''[39m,
+    [32m'bg-tertiary'[39m: [32m''[39m,
+    [32m'bg-hover'[39m: [32m''[39m,
+    [32m'text-primary'[39m: [32m''[39m,
+    [32m'text-secondary'[39m: [32m''[39m,
+    [32m'text-muted'[39m: [32m''[39m,
+    [32m'text-inverse'[39m: [32m''[39m,
+    [32m'border-primary'[39m: [32m''[39m,
+    [32m'border-secondary'[39m: [32m''[39m,
+    [32m'color-primary'[39m: [32m''[39m,
+    [32m'color-primary-light'[39m: [32m''[39m,
+    [32m'color-success'[39m: [32m''[39m,
+    [32m'color-warning'[39m: [32m''[39m,
+    [32m'color-error'[39m: [32m''[39m,
+    [32m'card-bg'[39m: [32m''[39m,
+    [32m'shadow-sm'[39m: [32m''[39m,
+    [32m'shadow-md'[39m: [32m''[39m,
+    [32m'shadow-lg'[39m: [32m''[39m,
+    [32m'feed-bg-gradient'[39m: [32m''[39m,
+    [32m'feed-text-color'[39m: [32m''[39m,
+    [32m'feed-btn-bg'[39m: [32m''[39m
+  },
+  timestamp: [33m1790307495199[39m
+}
+
+[90mstdout[2m | tests/unit/themeLogger.test.js[2m > [22m[2mthemeLogger 主题日志[2m > [22m[2mlogThemeAfter 应对比并返回 comparison
+[22m[39m[ThemeLogger] [INFO] [ThemeLogger] LOG_HISTORY_CLEARED { timestamp: [33m1790307495199[39m }
+[ThemeLogger] [INFO] [ThemeLogger] LOGGING_CONFIG_CHANGED { enabled: [33mtrue[39m, timestamp: [33m1790307495200[39m }
+[ThemeLogger] [DEBUG] [CompB] THEME_SWITCH_BEFORE {
+  theme: [32m'light'[39m,
+  variables: {
+    [32m'bg-primary'[39m: [32m''[39m,
+    [32m'bg-secondary'[39m: [32m''[39m,
+    [32m'bg-tertiary'[39m: [32m''[39m,
+    [32m'bg-hover'[39m: [32m''[39m,
+    [32m'text-primary'[39m: [32m''[39m,
+    [32m'text-secondary'[39m: [32m''[39m,
+    [32m'text-muted'[39m: [32m''[39m,
+    [32m'text-inverse'[39m: [32m''[39m,
+    [32m'border-primary'[39m: [32m''[39m,
+    [32m'border-secondary'[39m: [32m''[39m,
+    [32m'color-primary'[39m: [32m''[39m,
+    [32m'color-primary-light'[39m: [32m''[39m,
+    [32m'color-success'[39m: [32m''[39m,
+    [32m'color-warning'[39m: [32m''[39m,
+    [32m'color-error'[39m: [32m''[39m,
+    [32m'card-bg'[39m: [32m''[39m,
+    [32m'shadow-sm'[39m: [32m''[39m,
+    [32m'shadow-md'[39m: [32m''[39m,
+    [32m'shadow-lg'[39m: [32m''[39m,
+    [32m'feed-bg-gradient'[39m: [32m''[39m,
+    [32m'feed-text-color'[39m: [32m''[39m,
+    [32m'feed-btn-bg'[39m: [32m''[39m
+  },
+  timestamp: [33m1790307495200[39m
+}
+[ThemeLogger] [INFO] [CompB] THEME_SWITCH_AFTER {
+  theme: [32m'light'[39m,
+  variables: {
+    [32m'bg-primary'[39m: [32m''[39m,
+    [32m'bg-secondary'[39m: [32m''[39m,
+    [32m'bg-tertiary'[39m: [32m''[39m,
+    [32m'bg-hover'[39m: [32m''[39m,
+    [32m'text-primary'[39m: [32m''[39m,
+    [32m'text-secondary'[39m: [32m''[39m,
+    [32m'text-muted'[39m: [32m''[39m,
+    [32m'text-inverse'[39m: [32m''[39m,
+    [32m'border-primary'[39m: [32m''[39m,
+    [32m'border-secondary'[39m: [32m''[39m,
+    [32m'color-primary'[39m: [32m''[39m,
+    [32m'color-primary-light'[39m: [32m''[39m,
+    [32m'color-success'[39m: [32m''[39m,
+    [32m'color-warning'[39m: [32m''[39m,
+    [32m'color-error'[39m: [32m''[39m,
+    [32m'card-bg'[39m: [32m''[39m,
+    [32m'shadow-sm'[39m: [32m''[39m,
+    [32m'shadow-md'[39m: [32m''[39m,
+    [32m'shadow-lg'[39m: [32m''[39m,
+    [32m'feed-bg-gradient'[39m: [32m''[39m,
+    [32m'feed-text-color'[39m: [32m''[39m,
+    [32m'feed-btn-bg'[39m: [32m''[39m
+  },
+  changes: {},
+  unchangedCount: [33m22[39m,
+  changedCount: [33m0[39m,
+  timestamp: [33m1790307495200[39m
+}
+
+[90mstdout[2m | tests/unit/themeLogger.test.js[2m > [22m[2mthemeLogger 主题日志[2m > [22m[2mlogThemeOnMounted 应记录挂载事件
+[22m[39m[ThemeLogger] [INFO] [ThemeLogger] LOG_HISTORY_CLEARED { timestamp: [33m1790307495201[39m }
+[ThemeLogger] [INFO] [ThemeLogger] LOGGING_CONFIG_CHANGED { enabled: [33mtrue[39m, timestamp: [33m1790307495201[39m }
+[ThemeLogger] [INFO] [CompC] COMPONENT_MOUNTED {
+  theme: [32m'light'[39m,
+  variables: {
+    [32m'bg-primary'[39m: [32m''[39m,
+    [32m'bg-secondary'[39m: [32m''[39m,
+    [32m'bg-tertiary'[39m: [32m''[39m,
+    [32m'bg-hover'[39m: [32m''[39m,
+    [32m'text-primary'[39m: [32m''[39m,
+    [32m'text-secondary'[39m: [32m''[39m,
+    [32m'text-muted'[39m: [32m''[39m,
+    [32m'text-inverse'[39m: [32m''[39m,
+    [32m'border-primary'[39m: [32m''[39m,
+    [32m'border-secondary'[39m: [32m''[39m,
+    [32m'color-primary'[39m: [32m''[39m,
+    [32m'color-primary-light'[39m: [32m''[39m,
+    [32m'color-success'[39m: [32m''[39m,
+    [32m'color-warning'[39m: [32m''[39m,
+    [32m'color-error'[39m: [32m''[39m,
+    [32m'card-bg'[39m: [32m''[39m,
+    [32m'shadow-sm'[39m: [32m''[39m,
+    [32m'shadow-md'[39m: [32m''[39m,
+    [32m'shadow-lg'[39m: [32m''[39m,
+    [32m'feed-bg-gradient'[39m: [32m''[39m,
+    [32m'feed-text-color'[39m: [32m''[39m,
+    [32m'feed-btn-bg'[39m: [32m''[39m
+  },
+  timestamp: [33m1790307495201[39m
+}
+
+[90mstdout[2m | tests/unit/themeLogger.test.js[2m > [22m[2mthemeLogger 主题日志[2m > [22m[2mlogThemeSwitchTrigger / Complete 应记录
+[22m[39m[ThemeLogger] [INFO] [ThemeLogger] LOG_HISTORY_CLEARED { timestamp: [33m1790307495201[39m }
+[ThemeLogger] [INFO] [ThemeLogger] LOGGING_CONFIG_CHANGED { enabled: [33mtrue[39m, timestamp: [33m1790307495201[39m }
+[ThemeLogger] [DEBUG] [CompD] THEME_SWITCH_TRIGGER {
+  currentTheme: [32m'light'[39m,
+  triggerSource: [32m'button'[39m,
+  timestamp: [33m1790307495201[39m
+}
+[ThemeLogger] [INFO] [CompD] THEME_SWITCH_COMPLETE {
+  theme: [32m'light'[39m,
+  variables: {
+    [32m'bg-primary'[39m: [32m''[39m,
+    [32m'bg-secondary'[39m: [32m''[39m,
+    [32m'bg-tertiary'[39m: [32m''[39m,
+    [32m'bg-hover'[39m: [32m''[39m,
+    [32m'text-primary'[39m: [32m''[39m,
+    [32m'text-secondary'[39m: [32m''[39m,
+    [32m'text-muted'[39m: [32m''[39m,
+    [32m'text-inverse'[39m: [32m''[39m,
+    [32m'border-primary'[39m: [32m''[39m,
+    [32m'border-secondary'[39m: [32m''[39m,
+    [32m'color-primary'[39m: [32m''[39m,
+    [32m'color-primary-light'[39m: [32m''[39m,
+    [32m'color-success'[39m: [32m''[39m,
+    [32m'color-warning'[39m: [32m''[39m,
+    [32m'color-error'[39m: [32m''[39m,
+    [32m'card-bg'[39m: [32m''[39m,
+    [32m'shadow-sm'[39m: [32m''[39m,
+    [32m'shadow-md'[39m: [32m''[39m,
+    [32m'shadow-lg'[39m: [32m''[39m,
+    [32m'feed-bg-gradient'[39m: [32m''[39m,
+    [32m'feed-text-color'[39m: [32m''[39m,
+    [32m'feed-btn-bg'[39m: [32m''[39m
+  },
+  duration: [32m'120ms'[39m,
+  timestamp: [33m1790307495201[39m
+}
+
+[90mstdout[2m | tests/unit/themeLogger.test.js[2m > [22m[2mthemeLogger 主题日志[2m > [22m[2msetLoggingEnabled(false) 后不应再记录
+[22m[39m[ThemeLogger] [INFO] [ThemeLogger] LOG_HISTORY_CLEARED { timestamp: [33m1790307495201[39m }
+[ThemeLogger] [INFO] [ThemeLogger] LOGGING_CONFIG_CHANGED { enabled: [33mtrue[39m, timestamp: [33m1790307495201[39m }
+[ThemeLogger] [INFO] [ThemeLogger] LOGGING_CONFIG_CHANGED { enabled: [33mtrue[39m, timestamp: [33m1790307495201[39m }
+
+[90mstdout[2m | tests/unit/themeLogger.test.js[2m > [22m[2mthemeLogger 主题日志[2m > [22m[2mLogLevel 常量应完整
+[22m[39m[ThemeLogger] [INFO] [ThemeLogger] LOG_HISTORY_CLEARED { timestamp: [33m1790307495202[39m }
+[ThemeLogger] [INFO] [ThemeLogger] LOGGING_CONFIG_CHANGED { enabled: [33mtrue[39m, timestamp: [33m1790307495202[39m }
+
+ [32m✓[39m tests/unit/themeLogger.test.js [2m([22m[2m9 tests[22m[2m)[22m[90m 32[2mms[22m[39m
+ [32m✓[39m tests/unit/plaza.test.js [2m([22m[2m9 tests[22m[2m)[22m[90m 4[2mms[22m[39m
+ [32m✓[39m tests/unit/localAvatar.test.js [2m([22m[2m6 tests[22m[2m)[22m[90m 53[2mms[22m[39m
+ [32m✓[39m tests/unit/kbUpload.test.js [2m([22m[2m10 tests[22m[2m)[22m[90m 3[2mms[22m[39m
+ [32m✓[39m tests/unit/logger.test.js [2m([22m[2m8 tests[22m[2m)[22m[90m 6[2mms[22m[39m
+ [32m✓[39m tests/unit/membershipPlans.test.js [2m([22m[2m10 tests[22m[2m)[22m[90m 4[2mms[22m[39m
+ [32m✓[39m tests/unit/elfRelationship.test.js [2m([22m[2m9 tests[22m[2m)[22m[90m 3[2mms[22m[39m
+ [32m✓[39m tests/unit/dataExport.test.js [2m([22m[2m9 tests[22m[2m)[22m[90m 4[2mms[22m[39m
+ [32m✓[39m tests/unit/membership.test.js [2m([22m[2m6 tests[22m[2m)[22m[90m 3[2mms[22m[39m
+ [32m✓[39m tests/unit/auth.test.js [2m([22m[2m9 tests[22m[2m)[22m[90m 4[2mms[22m[39m
+ [32m✓[39m tests/unit/localAvatarStyle.test.js [2m([22m[2m7 tests[22m[2m)[22m[90m 5[2mms[22m[39m
+ [32m✓[39m tests/unit/citation.test.js [2m([22m[2m4 tests[22m[2m)[22m[90m 3[2mms[22m[39m
+ [32m✓[39m tests/unit/social.test.js [2m([22m[2m9 tests[22m[2m)[22m[90m 3[2mms[22m[39m
+ [32m✓[39m tests/unit/security.test.js [2m([22m[2m7 tests[22m[2m)[22m[90m 10[2mms[22m[39m
+ [32m✓[39m tests/unit/groupOps.test.js [2m([22m[2m7 tests[22m[2m)[22m[90m 3[2mms[22m[39m
+ [32m✓[39m tests/unit/voiceBubble.test.js [2m([22m[2m7 tests[22m[2m)[22m[90m 4[2mms[22m[39m
+ [32m✓[39m tests/unit/quota.test.js [2m([22m[2m4 tests[22m[2m)[22m[90m 3[2mms[22m[39m
+ [32m✓[39m tests/unit/characterForm.test.js [2m([22m[2m8 tests[22m[2m)[22m[90m 4[2mms[22m[39m
+ [32m✓[39m tests/unit/voiceProfiles.test.js [2m([22m[2m7 tests[22m[2m)[22m[90m 3[2mms[22m[39m
+ [32m✓[39m tests/unit/research.test.js [2m([22m[2m4 tests[22m[2m)[22m[90m 3[2mms[22m[39m
+ [32m✓[39m tests/unit/groupAiChat.test.js [2m([22m[2m6 tests[22m[2m)[22m[90m 3[2mms[22m[39m
+ [32m✓[39m tests/unit/characterCreate.test.js [2m([22m[2m5 tests[22m[2m)[22m[90m 3[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m57 passed[39m[22m[90m (57)[39m
+[2m      Tests [22m [1m[32m756 passed[39m[22m[90m (756)[39m
+[2m   Start at [22m 11:37:55
+[2m   Duration [22m 30.26s[2m (transform 409ms, setup 134ms, collect 2.12s, tests 568ms, environment 42.20s, prepare 5.77s)[22m
+

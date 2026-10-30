@@ -1,0 +1,170 @@
+# Dimension 3: inline run formatting
+source: C:\Users\郭耀彬\Desktop\3.学号-姓名-题目审核表（由指导老师填写，一题一表）.docx
+syntax: [P<n> ...] starts a paragraph; each <r i=<n> loc=<path> ...> element is one source Run.
+defaults: font="Times New Roman", size=12pt
+run_location_base: /w:document/w:body/w:tbl/
+text_policy: full text is emitted without truncation.
+omitted: repeated source_path; font, size, and paragraph style equal to defaults; raw XML; empty runs without text or semantic objects.
+notes: paragraph layout belongs to dimension 3; tabs, breaks, and symbols are preserved; script-specific font declarations equal to the default font are normalized.
+
+[P1 section=1 table=1 row=1 cell=1 loc="/word/document.xml/w:body/*[1]/w:tr[1]/w:tc[1]/*[2]"]
+<r i=1 loc="w:tr[1]/w:tc/w:p/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" size=18pt size_cs=18pt b color="#000000">福州理工学院本科生毕业</r><r i=2 loc="w:tr[1]/w:tc/w:p/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" size=18pt size_cs=18pt b color="#000000" lang={"w:eastAsia":"zh-CN"}>论文（设计）</r><r i=3 loc="w:tr[1]/w:tc/w:p/w:r[3]" font_hint="eastAsia" font_eastAsia="宋体" size=18pt size_cs=18pt b color="#000000">题目审核表</r><r i=4 loc="w:tr[1]/w:tc/w:p/w:r[4]" comments=["0"]/>
+
+[P2 section=1 table=1 row=2 cell=1 loc="/word/document.xml/w:body/*[1]/w:tr[2]/w:tc[1]/*[2]"]
+<r i=1 loc="w:tr[2]/w:tc[1]/w:p/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">学院</r><r i=2 loc="w:tr[2]/w:tc[1]/w:p/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:eastAsia":"zh-CN"}>：</r>
+
+[P3 section=1 table=1 row=2 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[2]/w:tc[2]/*[2]"]
+<r i=1 loc="w:tr[2]/w:tc[2]/w:p/w:r" font_hint="eastAsia" font_eastAsia="宋体" size=11pt size_cs=11pt b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>计算与信息科学学院</r>
+
+[P4 section=1 table=1 row=2 cell=3 loc="/word/document.xml/w:body/*[1]/w:tr[2]/w:tc[3]/*[2]"]
+<r i=1 loc="w:tr[2]/w:tc[3]/w:p/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">专业：</r>
+
+[P5 section=1 table=1 row=2 cell=4 loc="/word/document.xml/w:body/*[1]/w:tr[2]/w:tc[4]/*[2]"]
+<r i=1 loc="w:tr[2]/w:tc[4]/w:p/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>Xxxx</r><r i=2 loc="w:tr[2]/w:tc[4]/w:p/w:r[2]" comments=["1"]/>
+
+[P6 section=1 table=1 row=2 cell=5 loc="/word/document.xml/w:body/*[1]/w:tr[2]/w:tc[5]/*[2]"]
+<r i=1 loc="w:tr[2]/w:tc[5]/w:p/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">时间</r><r i=2 loc="w:tr[2]/w:tc[5]/w:p/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:eastAsia":"zh-CN"}>：</r>
+
+[P7 section=1 table=1 row=2 cell=6 loc="/word/document.xml/w:body/*[1]/w:tr[2]/w:tc[6]/*[2]"]
+<r i=1 loc="w:tr[2]/w:tc[6]/w:p/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>2026</r><r i=2 loc="w:tr[2]/w:tc[6]/w:p/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">年</r><r i=3 loc="w:tr[2]/w:tc[6]/w:p/w:r[3]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>8</r><r i=4 loc="w:tr[2]/w:tc[6]/w:p/w:r[4]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">月</r><r i=5 loc="w:tr[2]/w:tc[6]/w:p/w:r[5]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>13</r><r i=6 loc="w:tr[2]/w:tc[6]/w:p/w:r[6]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">日</r>
+
+[P8 section=1 table=1 row=3 cell=1 loc="/word/document.xml/w:body/*[1]/w:tr[3]/w:tc[1]/*[2]"]
+<r i=1 loc="w:tr[3]/w:tc[1]/w:p[1]/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">课</r>
+
+[P9 section=1 table=1 row=3 cell=1 loc="/word/document.xml/w:body/*[1]/w:tr[3]/w:tc[1]/*[3]"]
+<r i=1 loc="w:tr[3]/w:tc[1]/w:p[2]/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">题</r>
+
+[P10 section=1 table=1 row=3 cell=1 loc="/word/document.xml/w:body/*[1]/w:tr[3]/w:tc[1]/*[4]"]
+<r i=1 loc="w:tr[3]/w:tc[1]/w:p[3]/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">情</r>
+
+[P11 section=1 table=1 row=3 cell=1 loc="/word/document.xml/w:body/*[1]/w:tr[3]/w:tc[1]/*[5]"]
+<r i=1 loc="w:tr[3]/w:tc[1]/w:p[4]/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">况</r>
+
+[P12 section=1 table=1 row=3 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[3]/w:tc[2]/*[2]"]
+<r i=1 loc="w:tr[3]/w:tc[2]/w:p/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">题目名称</r>
+
+[P15 section=1 table=1 row=4 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[4]/w:tc[2]/*[2]"]
+<r i=1 loc="w:tr[4]/w:tc[2]/w:p/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">教师姓名</r>
+
+[P16 section=1 table=1 row=4 cell=3 loc="/word/document.xml/w:body/*[1]/w:tr[4]/w:tc[3]/*[2]"]
+<r i=1 loc="w:tr[4]/w:tc[3]/w:p/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:eastAsia":"zh-CN"}>张三</r><r i=2 loc="w:tr[4]/w:tc[3]/w:p/w:r[2]" comments=["2"]/>
+
+[P17 section=1 table=1 row=4 cell=4 loc="/word/document.xml/w:body/*[1]/w:tr[4]/w:tc[4]/*[2]"]
+<r i=1 loc="w:tr[4]/w:tc[4]/w:p/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">职称</r><r i=2 loc="w:tr[4]/w:tc[4]/w:p/w:r[2]" comments=["3"]/>
+
+[P18 section=1 table=1 row=4 cell=5 loc="/word/document.xml/w:body/*[1]/w:tr[4]/w:tc[5]/*[2]"]
+<r i=1 loc="w:tr[4]/w:tc[5]/w:p/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>副教授</r>
+
+[P19 section=1 table=1 row=4 cell=6 loc="/word/document.xml/w:body/*[1]/w:tr[4]/w:tc[6]/*[2]"]
+<r i=1 loc="w:tr[4]/w:tc[6]/w:p/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">学位学历</r>
+
+[P20 section=1 table=1 row=4 cell=7 loc="/word/document.xml/w:body/*[1]/w:tr[4]/w:tc[7]/*[2]"]
+<r i=1 loc="w:tr[4]/w:tc[7]/w:p[1]/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:eastAsia":"zh-CN"}>硕士</r>
+
+[P21 section=1 table=1 row=4 cell=7 loc="/word/document.xml/w:body/*[1]/w:tr[4]/w:tc[7]/*[3]"]
+<r i=1 loc="w:tr[4]/w:tc[7]/w:p[2]/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:eastAsia":"zh-CN"}>研究生</r>
+
+[P22 section=1 table=1 row=4 cell=8 loc="/word/document.xml/w:body/*[1]/w:tr[4]/w:tc[8]/*[2]"]
+<r i=1 loc="w:tr[4]/w:tc[8]/w:p/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:eastAsia":"zh-CN"}>研究</r><r i=2 loc="w:tr[4]/w:tc[8]/w:p/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">方向</r>
+
+[P23 section=1 table=1 row=4 cell=9 loc="/word/document.xml/w:body/*[1]/w:tr[4]/w:tc[9]/*[2]"]
+<r i=1 loc="w:tr[4]/w:tc[9]/w:p/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>网络架构创新</r><r i=2 loc="w:tr[4]/w:tc[9]/w:p/w:r[2]" comments=["4"]/>
+
+[P25 section=1 table=1 row=5 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[5]/w:tc[2]/*[2]"]
+<r i=1 loc="w:tr[5]/w:tc[2]/w:p/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">课题类型</r>
+
+[P26 section=1 table=1 row=5 cell=3 loc="/word/document.xml/w:body/*[1]/w:tr[5]/w:tc[3]/*[2]"]
+<r i=1 loc="w:tr[5]/w:tc[3]/w:p[1]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:eastAsia":"zh-CN"}>☑</r><r i=2 loc="w:tr[5]/w:tc[3]/w:p[1]/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">工程设计 </r><r i=3 loc="w:tr[5]/w:tc[3]/w:p[1]/w:r[3]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}> </r><r i=4 loc="w:tr[5]/w:tc[3]/w:p[1]/w:r[4]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000"> □实（试）验研究  □观察研究   </r>
+
+[P27 section=1 table=1 row=5 cell=3 loc="/word/document.xml/w:body/*[1]/w:tr[5]/w:tc[3]/*[3]"]
+<r i=1 loc="w:tr[5]/w:tc[3]/w:p[2]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">□计算机软件 </r><r i=2 loc="w:tr[5]/w:tc[3]/w:p[2]/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:eastAsia":"zh-CN"}>□</r><r i=3 loc="w:tr[5]/w:tc[3]/w:p[2]/w:r[3]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">经济管理及文科  □艺术设计  </r><r i=4 loc="w:tr[5]/w:tc[3]/w:p[2]/w:r[4]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}> </r><r i=5 loc="w:tr[5]/w:tc[3]/w:p[2]/w:r[5]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">□其他</r><r i=6 loc="w:tr[5]/w:tc[3]/w:p[2]/w:r[6]" comments=["5"]/>
+
+[P28 section=1 table=1 row=5 cell=4 loc="/word/document.xml/w:body/*[1]/w:tr[5]/w:tc[4]/*[2]"]
+<r i=1 loc="w:tr[5]/w:tc[4]/w:p/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">成果类别</r>
+
+[P29 section=1 table=1 row=5 cell=5 loc="/word/document.xml/w:body/*[1]/w:tr[5]/w:tc[5]/*[2]"]
+<r i=1 loc="w:tr[5]/w:tc[5]/w:p[1]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">□设计</r><r i=2 loc="w:tr[5]/w:tc[5]/w:p[1]/w:r[2]" comments=["6"]/>
+
+[P30 section=1 table=1 row=5 cell=5 loc="/word/document.xml/w:body/*[1]/w:tr[5]/w:tc[5]/*[3]"]
+<r i=1 loc="w:tr[5]/w:tc[5]/w:p[2]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:eastAsia":"zh-CN"}>☑</r><r i=2 loc="w:tr[5]/w:tc[5]/w:p[2]/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">论文</r>
+
+[P37 section=1 table=1 row=7 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[7]/w:tc[2]/*[2]"]
+<r i=1 loc="w:tr[7]/w:tc[2]/w:p/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">结合实际情况</r>
+
+[P38 section=1 table=1 row=7 cell=3 loc="/word/document.xml/w:body/*[1]/w:tr[7]/w:tc[3]/*[2]"]
+<r i=1 loc="w:tr[7]/w:tc[3]/w:p[1]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:eastAsia":"zh-CN"}>□</r><r i=2 loc="w:tr[7]/w:tc[3]/w:p[1]/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">社会实践（</r><r i=3 loc="w:tr[7]/w:tc[3]/w:p[1]/w:r[3]" font_eastAsia="宋体" b=false color="#000000">实</r><r i=4 loc="w:tr[7]/w:tc[3]/w:p[1]/w:r[4]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">（试）</r><r i=5 loc="w:tr[7]/w:tc[3]/w:p[1]/w:r[5]" font_eastAsia="宋体" b=false color="#000000">验、实习、工程实践和社会调查等</r><r i=6 loc="w:tr[7]/w:tc[3]/w:p[1]/w:r[6]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">各类</r><r i=7 loc="w:tr[7]/w:tc[3]/w:p[1]/w:r[7]" font_eastAsia="宋体" b=false color="#000000">社会实践</r><r i=8 loc="w:tr[7]/w:tc[3]/w:p[1]/w:r[8]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">）</r>
+
+[P39 section=1 table=1 row=7 cell=3 loc="/word/document.xml/w:body/*[1]/w:tr[7]/w:tc[3]/*[3]"]
+<r i=1 loc="w:tr[7]/w:tc[3]/w:p[2]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">□科研 </r><r i=2 loc="w:tr[7]/w:tc[3]/w:p[2]/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>   </r><r i=3 loc="w:tr[7]/w:tc[3]/w:p[2]/w:r[3]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">□其他</r><r i=4 loc="w:tr[7]/w:tc[3]/w:p[2]/w:r[4]" comments=["7"]/>
+
+[P43 section=1 table=1 row=9 cell=1 loc="/word/document.xml/w:body/*[1]/w:tr[9]/w:tc[1]/*[2]"]
+<r i=1 loc="w:tr[9]/w:tc[1]/w:p/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">课题应具备的条件</r>
+
+[P44 section=1 table=1 row=9 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[9]/w:tc[2]/*[2]"]
+<r i=1 loc="w:tr[9]/w:tc[2]/w:p[1]/w:r[1]" font_eastAsia="宋体" comments=["8"]/><r i=2 loc="w:tr[9]/w:tc[2]/w:p[1]/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体">1.学生知识储备要求</r><r i=3 loc="w:tr[9]/w:tc[2]/w:p[1]/w:r[3]" font_hint="eastAsia" font_ascii="楷体" font_hAnsi="楷体" font_eastAsia="楷体" font_cs="楷体" size=11pt size_cs=11pt color="#FF0000" lang={"w:eastAsia":"zh-CN"}>（</r><r i=4 loc="w:tr[9]/w:tc[2]/w:p[1]/w:r[4]" font_hint="eastAsia" font_ascii="楷体" font_hAnsi="楷体" font_eastAsia="楷体" font_cs="楷体" size=11pt size_cs=11pt color="#FF0000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>说明需要具备的理论知识、技能知识、相关技术等</r><r i=5 loc="w:tr[9]/w:tc[2]/w:p[1]/w:r[5]" font_hint="eastAsia" font_ascii="楷体" font_hAnsi="楷体" font_eastAsia="楷体" font_cs="楷体" size=11pt size_cs=11pt color="#FF0000" lang={"w:eastAsia":"zh-CN"}>）</r>
+
+[P45 section=1 table=1 row=9 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[9]/w:tc[2]/*[3]"]
+<r i=1 loc="w:tr[9]/w:tc[2]/w:p[2]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:eastAsia":"zh-CN"} comments=["9"]>（</r><r i=2 loc="w:tr[9]/w:tc[2]/w:p[2]/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:val":"en-US","w:eastAsia":"zh-CN"} comments=["9"]>1</r><r i=3 loc="w:tr[9]/w:tc[2]/w:p[2]/w:r[3]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:eastAsia":"zh-CN"} comments=["9"]>）</r>
+
+[P46 section=1 table=1 row=9 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[9]/w:tc[2]/*[4]"]
+<r i=1 loc="w:tr[9]/w:tc[2]/w:p[3]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:eastAsia":"zh-CN"} comments=["9"]>（</r><r i=2 loc="w:tr[9]/w:tc[2]/w:p[3]/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:val":"en-US","w:eastAsia":"zh-CN"} comments=["9"]>2</r><r i=3 loc="w:tr[9]/w:tc[2]/w:p[3]/w:r[3]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:eastAsia":"zh-CN"} comments=["9"]>）</r>
+
+[P47 section=1 table=1 row=9 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[9]/w:tc[2]/*[5]"]
+<r i=1 loc="w:tr[9]/w:tc[2]/w:p[4]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:eastAsia":"zh-CN"} comments=["9"]>（</r><r i=2 loc="w:tr[9]/w:tc[2]/w:p[4]/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:val":"en-US","w:eastAsia":"zh-CN"} comments=["9"]>3</r><r i=3 loc="w:tr[9]/w:tc[2]/w:p[4]/w:r[3]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:eastAsia":"zh-CN"} comments=["9"]>）</r><r i=4 loc="w:tr[9]/w:tc[2]/w:p[4]/w:r[4]" comments=["9"]/>
+
+[P48 section=1 table=1 row=9 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[9]/w:tc[2]/*[6]"]
+<r i=1 loc="w:tr[9]/w:tc[2]/w:p[5]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体">2.实验设备等软硬件条件要求</r><r i=2 loc="w:tr[9]/w:tc[2]/w:p[5]/w:r[2]" font_hint="eastAsia" font_ascii="楷体" font_hAnsi="楷体" font_eastAsia="楷体" font_cs="楷体" size=11pt size_cs=11pt color="#FF0000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>（完成设计需要的设备、仪器、电脑配置、运行环境等软硬件要求）</r>
+
+[P49 section=1 table=1 row=9 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[9]/w:tc[2]/*[7]"]
+<r i=1 loc="w:tr[9]/w:tc[2]/w:p[6]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:eastAsia":"zh-CN"} comments=["10"]>（</r><r i=2 loc="w:tr[9]/w:tc[2]/w:p[6]/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:val":"en-US","w:eastAsia":"zh-CN"} comments=["10"]>1</r><r i=3 loc="w:tr[9]/w:tc[2]/w:p[6]/w:r[3]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:eastAsia":"zh-CN"} comments=["10"]>）</r>
+
+[P50 section=1 table=1 row=9 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[9]/w:tc[2]/*[8]"]
+<r i=1 loc="w:tr[9]/w:tc[2]/w:p[7]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:eastAsia":"zh-CN"} comments=["10"]>（</r><r i=2 loc="w:tr[9]/w:tc[2]/w:p[7]/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:val":"en-US","w:eastAsia":"zh-CN"} comments=["10"]>2）</r><r i=3 loc="w:tr[9]/w:tc[2]/w:p[7]/w:r[3]" comments=["10"]/>
+
+[P51 section=1 table=1 row=9 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[9]/w:tc[2]/*[9]"]
+<r i=1 loc="w:tr[9]/w:tc[2]/w:p[8]/w:r" font_hint="eastAsia" font_eastAsia="宋体">3.工作要求</r>
+
+[P52 section=1 table=1 row=9 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[9]/w:tc[2]/*[10]"]
+<r i=1 loc="w:tr[9]/w:tc[2]/w:p[9]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" comments=["11"]>（1）时间要求：</r><r i=2 loc="w:tr[9]/w:tc[2]/w:p[9]/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:val":"en-US","w:eastAsia":"zh-CN"} comments=["11"]>2026年9月至2027年4月</r><r i=3 loc="w:tr[9]/w:tc[2]/w:p[9]/w:r[3]" font_hint="eastAsia" font_ascii="楷体" font_hAnsi="楷体" font_eastAsia="楷体" font_cs="楷体" size=11pt size_cs=11pt color="#FF0000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"} comments=["11"]>（时间已固定，不要修改）</r>
+
+[P53 section=1 table=1 row=9 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[9]/w:tc[2]/*[11]"]
+<r i=1 loc="w:tr[9]/w:tc[2]/w:p[10]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:eastAsia":"zh-CN"} comments=["11"]>（</r><r i=2 loc="w:tr[9]/w:tc[2]/w:p[10]/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" comments=["11"]>2）工作难度：</r><r i=3 loc="w:tr[9]/w:tc[2]/w:p[10]/w:r[3]" font_hint="eastAsia" font_ascii="楷体" font_hAnsi="楷体" font_eastAsia="楷体" font_cs="楷体" size=11pt size_cs=11pt color="#FF0000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"} comments=["11"]>（难度等级分为：难、偏难、适中、偏易、易）</r>
+
+[P54 section=1 table=1 row=9 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[9]/w:tc[2]/*[12]"]
+<r i=1 loc="w:tr[9]/w:tc[2]/w:p[11]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" comments=["11"]>（3）工作任务量：</r><r i=2 loc="w:tr[9]/w:tc[2]/w:p[11]/w:r[2]" font_hint="eastAsia" font_ascii="楷体" font_hAnsi="楷体" font_eastAsia="楷体" font_cs="楷体" size=11pt size_cs=11pt color="#FF0000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"} comments=["11"]>（任务量等级：适中、饱满、较大等，根据实际情况填写）</r><r i=3 loc="w:tr[9]/w:tc[2]/w:p[11]/w:r[3]" comments=["11"]/>
+
+[P55 section=1 table=1 row=10 cell=1 loc="/word/document.xml/w:body/*[1]/w:tr[10]/w:tc[1]/*[2]"]
+<r i=1 loc="w:tr[10]/w:tc[1]/w:p/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">课题意义、主要研究内容/设计目标</r>
+
+[P56 section=1 table=1 row=10 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[10]/w:tc[2]/*[2]"]
+<r i=1 loc="w:tr[10]/w:tc[2]/w:p[1]/w:r[1]" font_eastAsia="宋体" comments=["12"]/><r i=2 loc="w:tr[10]/w:tc[2]/w:p[1]/w:r[2]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>1.课题意义</r><r i=3 loc="w:tr[10]/w:tc[2]/w:p[1]/w:r[3]" font_hint="eastAsia" font_ascii="楷体" font_hAnsi="楷体" font_eastAsia="楷体" font_cs="楷体" size=11pt size_cs=11pt color="#FF0000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>（主要说明课题目的、创新点，要解决哪些问题、能实现什么功能等）</r>
+
+[P58 section=1 table=1 row=10 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[10]/w:tc[2]/*[4]"]
+<r i=1 loc="w:tr[10]/w:tc[2]/w:p[3]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:val":"en-US","w:eastAsia":"zh-CN"} comments=["13"]>XXXX</r><r i=2 loc="w:tr[10]/w:tc[2]/w:p[3]/w:r[2]" comments=["13"]/>
+
+[P60 section=1 table=1 row=10 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[10]/w:tc[2]/*[6]"]
+<r i=1 loc="w:tr[10]/w:tc[2]/w:p[5]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>2.主要研究内容</r><r i=2 loc="w:tr[10]/w:tc[2]/w:p[5]/w:r[2]" font_hint="eastAsia" font_ascii="楷体" font_hAnsi="楷体" font_eastAsia="楷体" font_cs="楷体" size=11pt size_cs=11pt color="#FF0000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>（与课题相关的理论、技术原理、实现方法等；可从系统总体设计、各功能模块实现、重点问题解决等角度说明）</r>
+
+[P61 section=1 table=1 row=10 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[10]/w:tc[2]/*[7]"]
+<r i=1 loc="w:tr[10]/w:tc[2]/w:p[6]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:val":"en-US","w:eastAsia":"zh-CN"} comments=["14"]>XXXX</r><r i=2 loc="w:tr[10]/w:tc[2]/w:p[6]/w:r[2]" comments=["14"]/>
+
+[P63 section=1 table=1 row=10 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[10]/w:tc[2]/*[9]"]
+<r i=1 loc="w:tr[10]/w:tc[2]/w:p[8]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>3.主要设计目标</r><r i=2 loc="w:tr[10]/w:tc[2]/w:p[8]/w:r[2]" font_hint="eastAsia" font_ascii="楷体" font_hAnsi="楷体" font_eastAsia="楷体" font_cs="楷体" size=11pt size_cs=11pt color="#FF0000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>（简要叙述应实现的功能、呈现形式、达到的效果等）</r>
+
+[P64 section=1 table=1 row=10 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[10]/w:tc[2]/*[10]"]
+<r i=1 loc="w:tr[10]/w:tc[2]/w:p[9]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" lang={"w:val":"en-US","w:eastAsia":"zh-CN"} comments=["15"]>XXXX</r><r i=2 loc="w:tr[10]/w:tc[2]/w:p[9]/w:r[2]" comments=["15"]/>
+
+[P78 section=1 table=1 row=17 cell=1 loc="/word/document.xml/w:body/*[1]/w:tr[17]/w:tc[1]/*[2]"]
+<r i=1 loc="w:tr[17]/w:tc[1]/w:p/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">专业审核意见</r>
+
+[P79 section=1 table=1 row=17 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[17]/w:tc[2]/*[2]"]
+<r i=1 loc="w:tr[17]/w:tc[2]/w:p[1]/w:r[1]" comments=["16"]/><r i=2 loc="w:tr[17]/w:tc[2]/w:p[1]/w:r[2]" font_hint="eastAsia" font_ascii="宋体" font_hAnsi="宋体" font_eastAsia="宋体" font_cs="宋体" color="#000000">毕业设计题目和设计目标符合应用型高校本科毕业设计的难度，工作量</r><r i=3 loc="w:tr[17]/w:tc[2]/w:p[1]/w:r[3]" font_hint="eastAsia" font_ascii="宋体" font_hAnsi="宋体" font_eastAsia="宋体" font_cs="宋体" color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>适合</r><r i=4 loc="w:tr[17]/w:tc[2]/w:p[1]/w:r[4]" font_hint="eastAsia" font_ascii="宋体" font_hAnsi="宋体" font_eastAsia="宋体" font_cs="宋体" color="#000000">，符合专业人才培养目标，同意该课题作为毕业设计题目。</r>
+
+[P81 section=1 table=1 row=17 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[17]/w:tc[2]/*[4]"]
+<r i=1 loc="w:tr[17]/w:tc[2]/w:p[3]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" comments=["17"]>负责人签字：</r><r i=2 loc="w:tr[17]/w:tc[2]/w:p[3]/w:r[2]" comments=["17"]/><r i=3 loc="w:tr[17]/w:tc[2]/w:p[3]/w:r[3]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">              </r><r i=4 loc="w:tr[17]/w:tc[2]/w:p[3]/w:r[4]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>2026</r><r i=5 loc="w:tr[17]/w:tc[2]/w:p[3]/w:r[5]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">年 </r><r i=6 loc="w:tr[17]/w:tc[2]/w:p[3]/w:r[6]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>8</r><r i=7 loc="w:tr[17]/w:tc[2]/w:p[3]/w:r[7]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">月</r><r i=8 loc="w:tr[17]/w:tc[2]/w:p[3]/w:r[8]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>15</r><r i=9 loc="w:tr[17]/w:tc[2]/w:p[3]/w:r[9]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">日</r>
+
+[P86 section=1 table=1 row=20 cell=1 loc="/word/document.xml/w:body/*[1]/w:tr[20]/w:tc[1]/*[2]"]
+<r i=1 loc="w:tr[20]/w:tc[1]/w:p/w:r" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">学院审核意见</r>
+
+[P89 section=1 table=1 row=20 cell=2 loc="/word/document.xml/w:body/*[1]/w:tr[20]/w:tc[2]/*[4]"]
+<r i=1 loc="w:tr[20]/w:tc[2]/w:p[3]/w:r[1]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" comments=["18"]>负责人签字（盖章）：</r><r i=2 loc="w:tr[20]/w:tc[2]/w:p[3]/w:r[2]" comments=["18"]/><r i=3 loc="w:tr[20]/w:tc[2]/w:p[3]/w:r[3]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">              </r><r i=4 loc="w:tr[20]/w:tc[2]/w:p[3]/w:r[4]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>2026</r><r i=5 loc="w:tr[20]/w:tc[2]/w:p[3]/w:r[5]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">年</r><r i=6 loc="w:tr[20]/w:tc[2]/w:p[3]/w:r[6]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}> 8</r><r i=7 loc="w:tr[20]/w:tc[2]/w:p[3]/w:r[7]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">月</r><r i=8 loc="w:tr[20]/w:tc[2]/w:p[3]/w:r[8]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000" lang={"w:val":"en-US","w:eastAsia":"zh-CN"}>15</r><r i=9 loc="w:tr[20]/w:tc[2]/w:p[3]/w:r[9]" font_hint="eastAsia" font_eastAsia="宋体" b=false color="#000000">日</r>

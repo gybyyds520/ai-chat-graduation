@@ -1,0 +1,34 @@
+{
+  "records" : [ {
+    "id" : 28,
+    "userId" : 82,
+    "dataType" : "ai_memory",
+    "content" : "与角色#52的对话：「给我讲个故事吧」，我的感受：这是一段平常却真实的相处时光，我们的关系又近了一点。",
+    "metadata" : "{\"sourceId\":\"memory:33\",\"memoryType\":\"event\",\"memoryId\":33}",
+    "tags" : "ai_memory",
+    "integrityScore" : 100.0,
+    "status" : "VALIDATED",
+    "captureTime" : "2026-10-11T09:14:48",
+    "groupId" : "ai_memory",
+    "backupStatus" : "PENDING_BACKUP",
+    "createTime" : "2026-10-11T09:14:48",
+    "updateTime" : "2026-10-11T09:14:48"
+  }, {
+    "id" : 29,
+    "userId" : 82,
+    "dataType" : "ai_memory",
+    "content" : "与角色#59的对话：「能多和我说说你自己吗？」，我的感受：这是一段平常却真实的相处时光，我们的关系又近了一点。",
+    "metadata" : "{\"sourceId\":\"memory:34\",\"memoryType\":\"event\",\"memoryId\":34}",
+    "tags" : "ai_memory",
+    "integrityScore" : 100.0,
+    "status" : "VALIDATED",
+    "captureTime" : "2026-10-11T09:15:43",
+    "groupId" : "ai_memory",
+    "backupStatus" : "PENDING_BACKUP",
+    "createTime" : "2026-10-11T09:15:43",
+    "updateTime" : "2026-10-11T09:15:43"
+  } ],
+  "recordCount" : 2,
+  "backupType" : "INCREMENTAL",
+  "timestamp" : "2026-10-11T10:00:00.005572"
+}

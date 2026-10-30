@@ -1,0 +1,258 @@
+﻿[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml
+Progress (1): 398 B
+Progress (2): 398 B | 255 B
+Progress (3): 398 B | 255 B | 234 B
+Progress (4): 398 B | 255 B | 234 B | 249 B
+                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml (234 B at 240 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml (249 B at 254 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml (398 B at 400 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml (255 B at 252 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 394 B
+Progress (2): 394 B | 375 B
+                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml (394 B at 1.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (2): 375 B | 3.9 kB
+Progress (2): 375 B | 7.7 kB
+Progress (2): 375 B | 10 kB 
+                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml (375 B at 1.3 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (10 kB at 40 kB/s)
+Progress (1): 3.7 kB
+Progress (1): 7.4 kB
+Progress (1): 13 kB 
+Progress (1): 19 kB
+Progress (1): 20 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 kB at 69 kB/s)
+Progress (1): 242 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml (242 B at 422 B/s)
+[INFO] 
+[INFO] -------------------------< com.example:aichat >-------------------------
+[INFO] Building aichat 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.5:run (default-cli) > test-compile @ aichat >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ aichat ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 58 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ aichat ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ aichat ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ aichat ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 141 source files with javac [debug deprecation release 17] to target\test-classes
+[WARNING] û�д������Ҫʹ�������κ�ע��: /org.junit.jupiter.api.AfterAll,/org.junit.jupiter.api.extension.ExtendWith,/org.mockito.Mock,/org.mockito.InjectMocks,/org.springframework.web.bind.annotation.DeleteMapping,/org.springframework.web.bind.annotation.PostMapping,/org.junit.jupiter.api.BeforeEach,/org.springframework.web.bind.annotation.PutMapping,/org.mockito.junit.jupiter.MockitoSettings,/org.mockito.Spy,/org.springframework.web.bind.annotation.GetMapping,/org.springframework.context.annotation.Bean,/org.springframework.test.context.web.WebAppConfiguration,/org.junit.jupiter.api.Test,/org.springframework.web.bind.annotation.RestController,/org.springframework.context.annotation.Import,/org.junit.jupiter.api.BeforeAll,/org.junit.jupiter.api.AfterEach,/org.springframework.web.bind.annotation.PathVariable,/org.springframework.boot.autoconfigure.ImportAutoConfiguration,/org.springframework.boot.test.context.SpringBootTest,/org.springframework.test.context.ContextConfiguration,/org.springframework.context.annotation.Configuration,/org.springframework.beans.factory.annotation.Autowired,/org.springframework.security.access.prepost.PreAuthorize,/org.junit.jupiter.api.io.TempDir
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/config/GlobalExceptionHandlerGapTest.java:[112,46] org.springframework.http.converter.HttpMessageNotReadableException�е�HttpMessageNotReadableException(java.lang.String)�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerAuthTest.java:[33,22] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[41,9] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[41,37] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[57,9] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[57,37] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[80,9] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[80,37] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[81,9] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[89,9] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[89,37] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerGapTest.java:[42,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerGapTest.java:[42,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerGapTest.java:[42,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerGapTest.java:[42,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerGapTest.java:[42,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerGapTest.java:[59,30] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,39] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/config/PasswordEncoderTest.java:[38,30] org.springframework.security.crypto.password�е�org.springframework.security.crypto.password.NoOpPasswordEncoder�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/SoulEngineServiceImplTest.java:[214,69] ���һ������ʹ���˲�׼ȷ�ı������͵� varargs �����ķ� varargs ����; 
+  ���� varargs ����, Ӧʹ�� com.example.aichat.entity.AiSoulState
+  ���ڷ� varargs ����, Ӧʹ�� com.example.aichat.entity.AiSoulState[], ����Ҳ�������ƴ˾���
+[INFO] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupChatServiceTest.java: ĳЩ�����ļ�ʹ����δ�����򲻰�ȫ�Ĳ�����
+[INFO] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupChatServiceTest.java: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+[INFO] 
+[INFO] <<< spring-boot:3.2.5:run (default-cli) < test-compile @ aichat <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.5:run (default-cli) @ aichat ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-10-10 23:06:24.242 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.AichatApplication[0;39m - Starting AichatApplication using Java 17.0.12 with PID 8332 (C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes started by ��ҫ�� in C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat)
+2026-10-10 23:06:24.244 [restartedMain] [39mDEBUG[0;39m [36mc.example.aichat.AichatApplication[0;39m - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-10-10 23:06:24.245 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.AichatApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2026-10-10 23:06:24.300 [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-10 23:06:24.301 [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-10 23:06:26.762 [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-10 23:06:26.766 [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-10 23:06:26.846 [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 64 ms. Found 0 Redis repository interfaces.
+2026-10-10 23:06:28.382 [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2026-10-10 23:06:28.397 [restartedMain] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-10 23:06:28.399 [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2026-10-10 23:06:28.399 [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-10-10 23:06:28.463 [restartedMain] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2026-10-10 23:06:28.464 [restartedMain] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 4163 ms
+2026-10-10 23:06:28.682 [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - HikariPool-1 - Starting...
+2026-10-10 23:06:28.829 [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.pool.HikariPool[0;39m - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@429ff3
+2026-10-10 23:06:28.831 [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - HikariPool-1 - Start completed.
+2026-10-10 23:06:28.838 [restartedMain] [34mINFO [0;39m [36mo.s.b.a.h.H2ConsoleAutoConfiguration[0;39m - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/ai_chat?useSSL=false&serverTimezone=UTC&characterEncoding=utf8&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true'
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.8 
+2026-10-10 23:06:29.576 [restartedMain] [34mINFO [0;39m [36mo.f.c.i.license.VersionPrinter[0;39m - Flyway Community Edition 9.22.3 by Redgate
+2026-10-10 23:06:29.576 [restartedMain] [34mINFO [0;39m [36mo.f.c.i.license.VersionPrinter[0;39m - See release notes here: https://rd.gt/416ObMi
+2026-10-10 23:06:29.576 [restartedMain] [34mINFO [0;39m [36mo.f.c.i.license.VersionPrinter[0;39m - 
+2026-10-10 23:06:29.594 [restartedMain] [34mINFO [0;39m [36morg.flywaydb.core.FlywayExecutor[0;39m - Database: jdbc:mysql://localhost:3306/ai_chat (MySQL 8.0)
+2026-10-10 23:06:29.665 [restartedMain] [34mINFO [0;39m [36mo.f.core.internal.command.DbMigrate[0;39m - Current version of schema `ai_chat`: 44
+2026-10-10 23:06:29.669 [restartedMain] [34mINFO [0;39m [36mo.f.core.internal.command.DbMigrate[0;39m - Schema `ai_chat` is up to date. No migration necessary.
+2026-10-10 23:06:29.821 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - Filter 'jwtAuthenticationFilter' configured for use
+2026-10-10 23:06:31.061 [restartedMain] [34mINFO [0;39m [36mc.e.a.c.security.OwnershipAspect[0;39m - OwnershipAspect ��ʼ����ɣ���ע��У����: [elf]
+2026-10-10 23:06:32.083 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.config.RedisConfig[0;39m - RedisTemplate������ɣ�ʹ��String+JSON���л�(��JavaTimeModule)
+2026-10-10 23:06:32.398 [restartedMain] [34mINFO [0;39m [36mc.e.aichat.service.ai.ModelRouter[0;39m - ModelRouter��ʼ����ɣ���ע���ṩ��: [openai, ollama]
+2026-10-10 23:06:33.536 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.m.AiModelMapper.selectCount[0;39m - ==>  Preparing: SELECT COUNT( * ) AS total FROM ai_model
+2026-10-10 23:06:33.545 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.m.AiModelMapper.selectCount[0;39m - ==> Parameters: 
+2026-10-10 23:06:33.557 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.m.AiModelMapper.selectCount[0;39m - <==      Total: 1
+2026-10-10 23:06:34.630 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.config.RedisConfig[0;39m - RedisCacheManager������ɣ�Ĭ��TTL=5����
+2026-10-10 23:06:35.001 [restartedMain] [31mWARN [0;39m [36mo.s.b.a.s.s.UserDetailsServiceAutoConfiguration[0;39m - 
+
+Using generated security password: 45584492-d373-4992-855c-2335d1805aa8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-10-10 23:06:35.615 [restartedMain] [34mINFO [0;39m [36mo.s.b.a.e.web.EndpointLinksResolver[0;39m - Exposing 3 endpoint(s) beneath base path '/actuator'
+2026-10-10 23:06:35.715 [restartedMain] [34mINFO [0;39m [36mo.s.s.web.DefaultSecurityFilterChain[0;39m - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3e5c7c0d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47478af2, org.springframework.security.web.context.SecurityContextHolderFilter@6654b960, org.springframework.security.web.header.HeaderWriterFilter@1c81ea3b, org.springframework.web.filter.CorsFilter@71446760, org.springframework.security.web.authentication.logout.LogoutFilter@618c8d33, com.example.aichat.common.security.JwtAuthenticationFilter@38a93699, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62ae9746, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2510c723, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c1cc2e, org.springframework.security.web.session.SessionManagementFilter@7246631, org.springframework.security.web.access.ExceptionTranslationFilter@53d510d4, org.springframework.security.web.access.intercept.AuthorizationFilter@6c23d563]
+2026-10-10 23:06:36.867 [restartedMain] [34mINFO [0;39m [36morg.quartz.impl.StdSchedulerFactory[0;39m - Using default implementation for ThreadExecutor
+2026-10-10 23:06:36.881 [restartedMain] [34mINFO [0;39m [36mo.quartz.core.SchedulerSignalerImpl[0;39m - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2026-10-10 23:06:36.881 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - Quartz Scheduler v.2.3.2 created.
+2026-10-10 23:06:36.882 [restartedMain] [34mINFO [0;39m [36morg.quartz.simpl.RAMJobStore[0;39m - RAMJobStore initialized.
+2026-10-10 23:06:36.883 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2026-10-10 23:06:36.883 [restartedMain] [34mINFO [0;39m [36morg.quartz.impl.StdSchedulerFactory[0;39m - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2026-10-10 23:06:36.883 [restartedMain] [34mINFO [0;39m [36morg.quartz.impl.StdSchedulerFactory[0;39m - Quartz scheduler version: 2.3.2
+2026-10-10 23:06:36.884 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7a72768d
+2026-10-10 23:06:37.419 [restartedMain] [34mINFO [0;39m [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2026-10-10 23:06:37.519 [restartedMain] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-10 23:06:37.530 [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path ''
+2026-10-10 23:06:37.532 [restartedMain] [34mINFO [0;39m [36mo.s.s.quartz.SchedulerFactoryBean[0;39m - Starting Quartz Scheduler now
+2026-10-10 23:06:37.532 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2026-10-10 23:06:37.551 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.AichatApplication[0;39m - Started AichatApplication in 14.049 seconds (process running for 14.952)
+2026-10-10 23:06:37.560 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==>  Preparing: UPDATE user_online_status SET status = 'offline', last_active_time = ? WHERE last_active_time < ?
+2026-10-10 23:06:37.561 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==> Parameters: 2026-10-10T23:01:37.557859100(LocalDateTime), 2026-10-10T23:01:37.557859100(LocalDateTime)
+2026-10-10 23:06:37.568 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - <==    Updates: 3
+2026-10-10 23:06:37.568 [scheduling-1] [34mINFO [0;39m [36mc.e.a.s.i.UserOnlineStatusServiceImpl[0;39m - ���������û�״̬: 3 ��
+2026-10-10 23:06:37.570 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.C.deleteExpired[0;39m - ==>  Preparing: DELETE FROM conversation_context WHERE expire_time <= ?
+2026-10-10 23:06:37.570 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.C.deleteExpired[0;39m - ==> Parameters: 2026-10-10T23:06:37.570853300(LocalDateTime)
+2026-10-10 23:06:37.571 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.C.deleteExpired[0;39m - <==    Updates: 0
+2026-10-10 23:07:07.568 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:07:07.569 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:07:07.549979400(LocalDateTime)
+2026-10-10 23:07:07.576 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:07:24.022 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-10 23:07:24.022 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2026-10-10 23:07:24.025 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 3 ms
+2026-10-10 23:08:07.580 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:08:07.581 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:08:07.579460(LocalDateTime)
+2026-10-10 23:08:07.581 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:09:07.582 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:09:07.583 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:09:07.582555400(LocalDateTime)
+2026-10-10 23:09:07.584 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:10:07.595 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:10:07.596 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:10:07.594772400(LocalDateTime)
+2026-10-10 23:10:07.596 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:11:07.600 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:11:07.600 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:11:07.599109100(LocalDateTime)
+2026-10-10 23:11:07.601 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:11:37.550 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==>  Preparing: UPDATE user_online_status SET status = 'offline', last_active_time = ? WHERE last_active_time < ?
+2026-10-10 23:11:37.550 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==> Parameters: 2026-10-10T23:06:37.550490500(LocalDateTime), 2026-10-10T23:06:37.550490500(LocalDateTime)
+2026-10-10 23:11:37.553 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - <==    Updates: 3
+2026-10-10 23:11:37.553 [scheduling-1] [34mINFO [0;39m [36mc.e.a.s.i.UserOnlineStatusServiceImpl[0;39m - ���������û�״̬: 3 ��
+2026-10-10 23:12:07.603 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:12:07.603 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:12:07.602527500(LocalDateTime)
+2026-10-10 23:12:07.604 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:13:07.606 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:13:07.607 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:13:07.605724200(LocalDateTime)
+2026-10-10 23:13:07.607 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:14:07.619 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:14:07.619 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:14:07.618952700(LocalDateTime)
+2026-10-10 23:14:07.620 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:15:07.623 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:15:07.623 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:15:07.622139200(LocalDateTime)
+2026-10-10 23:15:07.624 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:16:07.626 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:16:07.626 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:16:07.625133600(LocalDateTime)
+2026-10-10 23:16:07.627 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:16:37.554 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==>  Preparing: UPDATE user_online_status SET status = 'offline', last_active_time = ? WHERE last_active_time < ?
+2026-10-10 23:16:37.555 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==> Parameters: 2026-10-10T23:11:37.553906200(LocalDateTime), 2026-10-10T23:11:37.553906200(LocalDateTime)
+2026-10-10 23:16:37.569 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - <==    Updates: 3
+2026-10-10 23:16:37.569 [scheduling-1] [34mINFO [0;39m [36mc.e.a.s.i.UserOnlineStatusServiceImpl[0;39m - ���������û�״̬: 3 ��
+2026-10-10 23:17:07.643 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:17:07.644 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:17:07.642436(LocalDateTime)
+2026-10-10 23:17:07.645 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:18:07.648 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:18:07.648 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:18:07.647190400(LocalDateTime)
+2026-10-10 23:18:07.649 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:19:07.652 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:19:07.652 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:19:07.651126400(LocalDateTime)
+2026-10-10 23:19:07.653 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:20:07.655 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:20:07.655 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:20:07.654565800(LocalDateTime)
+2026-10-10 23:20:07.656 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:21:07.658 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:21:07.659 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:21:07.657880400(LocalDateTime)
+2026-10-10 23:21:07.660 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:21:37.550 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==>  Preparing: UPDATE user_online_status SET status = 'offline', last_active_time = ? WHERE last_active_time < ?
+2026-10-10 23:21:37.551 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==> Parameters: 2026-10-10T23:16:37.550238400(LocalDateTime), 2026-10-10T23:16:37.550238400(LocalDateTime)
+2026-10-10 23:21:37.569 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - <==    Updates: 3
+2026-10-10 23:21:37.569 [scheduling-1] [34mINFO [0;39m [36mc.e.a.s.i.UserOnlineStatusServiceImpl[0;39m - ���������û�״̬: 3 ��
+2026-10-10 23:22:07.663 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:22:07.664 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:22:07.662323200(LocalDateTime)
+2026-10-10 23:22:07.665 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-10 23:22:18.525 [http-nio-8080-exec-13] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/actuator/health status=200 elapsedMs=80ms ip=127.0.0.1
+2026-10-10 23:23:07.667 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-10 23:23:07.668 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-10T23:23:07.666277800(LocalDateTime)
+2026-10-10 23:23:07.668 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18:03 min
+[INFO] Finished at: 2026-10-10T23:24:06+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.5:run (default-cli) on project aichat: Process terminated with exit code: -1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

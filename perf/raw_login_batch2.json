@@ -1,0 +1,65 @@
+﻿[
+    {
+        "phase":  "warmup",
+        "idx":  1,
+        "ms":  109.51,
+        "status":  401,
+        "code":  null,
+        "err":  "The remote server returned an error: (401) Unauthorized.",
+        "user":  "admin"
+    },
+    {
+        "phase":  "sample",
+        "idx":  1,
+        "ms":  95.39,
+        "status":  200,
+        "code":  200,
+        "err":  null,
+        "user":  "demo_alice"
+    },
+    {
+        "phase":  "sample",
+        "idx":  2,
+        "ms":  91.1,
+        "status":  200,
+        "code":  200,
+        "err":  null,
+        "user":  "demo_bob"
+    },
+    {
+        "phase":  "sample",
+        "idx":  3,
+        "ms":  81.55,
+        "status":  200,
+        "code":  200,
+        "err":  null,
+        "user":  "demo_carol"
+    },
+    {
+        "phase":  "sample",
+        "idx":  4,
+        "ms":  9.9,
+        "status":  401,
+        "code":  null,
+        "err":  "The remote server returned an error: (401) Unauthorized.",
+        "user":  "admin"
+    },
+    {
+        "phase":  "sample",
+        "idx":  5,
+        "ms":  89.5,
+        "status":  200,
+        "code":  200,
+        "err":  null,
+        "user":  "demo_dave"
+    },
+    {
+        "phase":  "failpath",
+        "idx":  1,
+        "ms":  76.82,
+        "status":  401,
+        "code":  null,
+        "err":  "The remote server returned an error: (401) Unauthorized.",
+        "user":  "demo_frank"
+    }
+]

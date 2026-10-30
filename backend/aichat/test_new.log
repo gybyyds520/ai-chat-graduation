@@ -1,0 +1,769 @@
+﻿[ERROR] COMPILATION ERROR : 
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/tool/ToolRegistryTest.java:[4,44] �޷�����com.example.aichat.service.tool.impl.TimeTool
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\impl\TimeTool.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\impl\TimeTool.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/UserControllerUpdateStatusTest.java:[7,34] �޷�����com.example.aichat.service.UserOnlineStatusService
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\UserOnlineStatusService.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\UserOnlineStatusService.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/KnowledgeBaseServiceTest.java:[12,31] �޷�����com.example.aichat.util.FileUploadUtil
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\util\FileUploadUtil.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\util\FileUploadUtil.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/adapter/MockTtsAdapterTest.java:[14,19] �޷�����com.example.aichat.service.voice.adapter.MockTtsAdapter
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\MockTtsAdapter.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\MockTtsAdapter.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/OAuthServiceImplTest.java:[42,13] �޷�����com.example.aichat.service.impl.OAuthServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\OAuthServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\OAuthServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AiElfRelationshipServiceTest.java:[43,13] �޷�����com.example.aichat.service.impl.AiElfServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AiElfServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AiElfServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/adapter/MockLlmAdapterTest.java:[14,19] �޷�����com.example.aichat.service.voice.adapter.MockLlmAdapter
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\MockLlmAdapter.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\MockLlmAdapter.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/QuotaControllerTest.java:[5,34] �޷�����com.example.aichat.service.QuotaService
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\QuotaService.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\QuotaService.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/tool/impl/MockToolsTest.java:[3,39] �޷�����com.example.aichat.service.tool.ToolResult
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\ToolResult.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\ToolResult.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[3,48] �޷�����com.example.aichat.service.voice.adapter.AsrAdapter
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\AsrAdapter.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\AsrAdapter.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[4,48] �޷�����com.example.aichat.service.voice.adapter.LlmAdapter
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\LlmAdapter.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\LlmAdapter.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[5,48] �޷�����com.example.aichat.service.voice.adapter.TtsAdapter
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\TtsAdapter.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\TtsAdapter.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AnnouncementServiceTest.java:[49,13] �޷�����com.example.aichat.service.impl.AnnouncementServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AnnouncementServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AnnouncementServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/SocialServiceImplTest.java:[13,34] �޷�����com.example.aichat.service.NotificationService
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\NotificationService.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\NotificationService.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/SocialServiceImplTest.java:[63,13] �޷�����com.example.aichat.service.impl.SocialServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\SocialServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\SocialServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiElfControllerOwnershipTest.java:[10,34] �޷�����com.example.aichat.service.AiElfService
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\AiElfService.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\AiElfService.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/config/SecurityConfigAuthorizationTest.java:[4,32] �޷�����com.example.aichat.utils.TokenUtils
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\utils\TokenUtils.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\utils\TokenUtils.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/QuotaServiceImplTest.java:[8,33] �޷�����com.example.aichat.mapper.UserQuotaMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserQuotaMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserQuotaMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/QuotaServiceImplTest.java:[9,40] �޷�����com.example.aichat.service.quota.FeatureType
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\quota\FeatureType.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\quota\FeatureType.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/QuotaServiceImplTest.java:[37,13] �޷�����com.example.aichat.service.impl.QuotaServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\QuotaServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\QuotaServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[7,34] �޷�����com.example.aichat.service.AiSystemService
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\AiSystemService.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\AiSystemService.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[8,34] �޷�����com.example.aichat.service.DataAccessPermissionService
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\DataAccessPermissionService.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\DataAccessPermissionService.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[9,37] �޷�����com.example.aichat.service.ai.OllamaService
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ai\OllamaService.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ai\OllamaService.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AiCharacterServiceImplTest.java:[42,13] �޷�����com.example.aichat.service.impl.AiCharacterServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AiCharacterServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AiCharacterServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ConversationContextServiceTest.java:[4,33] �޷�����com.example.aichat.mapper.ConversationContextMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\ConversationContextMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\ConversationContextMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ConversationContextServiceTest.java:[5,34] �޷�����com.example.aichat.service.ConversationContextService
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ConversationContextService.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ConversationContextService.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ConversationContextServiceTest.java:[35,13] �޷�����com.example.aichat.service.impl.ConversationContextServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\ConversationContextServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\ConversationContextServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/DataPoolServiceTest.java:[5,33] �޷�����com.example.aichat.mapper.UserDataRecordMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserDataRecordMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserDataRecordMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/DataPoolServiceTest.java:[48,13] �޷�����com.example.aichat.service.DataPoolService
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\DataPoolService.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\DataPoolService.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[9,33] �޷�����com.example.aichat.mapper.CommunityMemberMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\CommunityMemberMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\CommunityMemberMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[10,33] �޷�����com.example.aichat.mapper.CommunityPostMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\CommunityPostMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\CommunityPostMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[11,33] �޷�����com.example.aichat.mapper.InterestCommunityMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\InterestCommunityMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\InterestCommunityMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[55,13] �޷�����com.example.aichat.service.impl.CommunityServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\CommunityServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\CommunityServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupAiChatServiceImplTest.java:[49,13] �޷�����com.example.aichat.service.impl.GroupAiChatServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\GroupAiChatServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\GroupAiChatServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/OAuthRiskIntegrationTest.java:[3,33] �޷�����com.example.aichat.entity.LoginRiskAssessment
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\LoginRiskAssessment.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\LoginRiskAssessment.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/OAuthRiskIntegrationTest.java:[4,34] �޷�����com.example.aichat.service.OAuthService
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\OAuthService.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\OAuthService.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/OAuthRiskIntegrationTest.java:[5,34] �޷�����com.example.aichat.service.RiskAssessmentService
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\RiskAssessmentService.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\RiskAssessmentService.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[3,33] �޷�����com.example.aichat.entity.LoginDevice
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\LoginDevice.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\LoginDevice.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[4,33] �޷�����com.example.aichat.entity.SmsCode
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\SmsCode.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\SmsCode.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[6,33] �޷�����com.example.aichat.mapper.LoginAlertMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\LoginAlertMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\LoginAlertMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[7,33] �޷�����com.example.aichat.mapper.LoginDeviceMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\LoginDeviceMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\LoginDeviceMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[8,33] �޷�����com.example.aichat.mapper.SmsCodeMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\SmsCodeMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\SmsCodeMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[9,33] �޷�����com.example.aichat.mapper.UserBadgeMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserBadgeMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserBadgeMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[11,33] �޷�����com.example.aichat.mapper.UserTagMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserTagMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserTagMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[52,13] �޷�����com.example.aichat.service.impl.AuthServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AuthServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AuthServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/impl/VoiceCallServiceImplTest.java:[6,34] �޷�����com.example.aichat.service.UserService
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\UserService.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\UserService.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/impl/VoiceCallServiceImplTest.java:[7,40] �޷�����com.example.aichat.service.voice.VoiceAdapterManager
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\VoiceAdapterManager.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\VoiceAdapterManager.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/impl/VoiceCallServiceImplTest.java:[8,40] �޷�����com.example.aichat.service.voice.VoiceProfile
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\VoiceProfile.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\VoiceProfile.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/impl/VoiceCallServiceImplTest.java:[42,13] �޷�����com.example.aichat.service.voice.impl.VoiceCallServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\impl\VoiceCallServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\impl\VoiceCallServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/SearchCitationServiceTest.java:[20,19] �޷�����com.example.aichat.service.impl.SearchCitationServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\SearchCitationServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\SearchCitationServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ToolCallServiceImplTest.java:[4,33] �޷�����com.example.aichat.entity.ToolCallLog
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\ToolCallLog.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\ToolCallLog.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ToolCallServiceImplTest.java:[5,33] �޷�����com.example.aichat.mapper.ToolCallLogMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\ToolCallLogMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\ToolCallLogMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ToolCallServiceImplTest.java:[6,39] �޷�����com.example.aichat.service.tool.Tool
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\Tool.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\Tool.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ToolCallServiceImplTest.java:[8,39] �޷�����com.example.aichat.service.tool.ToolRegistry
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\ToolRegistry.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\ToolRegistry.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ToolCallServiceImplTest.java:[35,13] �޷�����com.example.aichat.service.impl.ToolCallServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\ToolCallServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\ToolCallServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CharacterPlazaServiceImplTest.java:[32,13] �޷�����com.example.aichat.service.impl.CharacterPlazaServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\CharacterPlazaServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\CharacterPlazaServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/ModelRouterTest.java:[22,50] �޷�����com.example.aichat.service.ai.ModelProvider
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ai\ModelProvider.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ai\ModelProvider.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/ModelRouterTest.java:[36,19] �޷�����com.example.aichat.service.ai.ModelRouter
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ai\ModelRouter.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ai\ModelRouter.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AiMemoryServiceTest.java:[8,33] �޷�����com.example.aichat.mapper.AiMemoryMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\AiMemoryMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\AiMemoryMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AiMemoryServiceTest.java:[39,13] �޷�����com.example.aichat.service.impl.AiMemoryServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AiMemoryServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AiMemoryServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PaymentServiceImplTest.java:[5,33] �޷�����com.example.aichat.entity.PaymentRecord
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\PaymentRecord.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\PaymentRecord.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PaymentServiceImplTest.java:[7,33] �޷�����com.example.aichat.mapper.PayAccountMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\PayAccountMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\PayAccountMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PaymentServiceImplTest.java:[8,33] �޷�����com.example.aichat.mapper.PaymentRecordMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\PaymentRecordMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\PaymentRecordMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PaymentServiceImplTest.java:[54,13] �޷�����com.example.aichat.service.impl.PaymentServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\PaymentServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\PaymentServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/VoiceCallControllerTest.java:[8,40] �޷�����com.example.aichat.service.voice.VoiceCallService
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\VoiceCallService.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\VoiceCallService.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/NotificationServiceTest.java:[3,33] �޷�����com.example.aichat.entity.Notification
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\Notification.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\Notification.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/NotificationServiceTest.java:[4,33] �޷�����com.example.aichat.mapper.NotificationMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\NotificationMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\NotificationMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/NotificationServiceTest.java:[42,13] �޷�����com.example.aichat.service.impl.NotificationServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\NotificationServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\NotificationServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ProfileServiceImplTest.java:[4,33] �޷�����com.example.aichat.entity.UserStatistics
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\UserStatistics.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\UserStatistics.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ProfileServiceImplTest.java:[6,33] �޷�����com.example.aichat.mapper.UserStatisticsMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserStatisticsMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserStatisticsMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ProfileServiceImplTest.java:[37,13] �޷�����com.example.aichat.service.impl.ProfileServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\ProfileServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\ProfileServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/RiskAssessmentServiceTest.java:[52,13] �޷�����com.example.aichat.service.impl.RiskAssessmentServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\RiskAssessmentServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\RiskAssessmentServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AdvertisementServiceTest.java:[3,33] �޷�����com.example.aichat.entity.Advertisement
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\Advertisement.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\Advertisement.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AdvertisementServiceTest.java:[4,33] �޷�����com.example.aichat.mapper.AdvertisementMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\AdvertisementMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\AdvertisementMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AdvertisementServiceTest.java:[42,13] �޷�����com.example.aichat.service.impl.AdvertisementServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AdvertisementServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AdvertisementServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PrivacyServiceImplTest.java:[3,33] �޷�����com.example.aichat.entity.PrivacySetting
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\PrivacySetting.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\PrivacySetting.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PrivacyServiceImplTest.java:[4,33] �޷�����com.example.aichat.mapper.PrivacySettingMapper
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\PrivacySettingMapper.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\PrivacySettingMapper.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PrivacyServiceImplTest.java:[41,13] �޷�����com.example.aichat.service.impl.PrivacyServiceImpl
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\PrivacyServiceImpl.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\PrivacyServiceImpl.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/ToolControllerTest.java:[5,34] �޷�����com.example.aichat.service.ToolCallService
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ToolCallService.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ToolCallService.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/ToolControllerTest.java:[34,13] �޷�����com.example.aichat.controller.ToolController
+  ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\controller\ToolController.class
+    �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\controller\ToolController.class
+    ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/UserControllerUpdateStatusTest.java:[33,13] �Ҳ�������
+  ����:   �� UserOnlineStatusService
+  λ��: �� com.example.aichat.controller.UserControllerUpdateStatusTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/QuotaControllerTest.java:[28,13] �Ҳ�������
+  ����:   �� QuotaService
+  λ��: �� com.example.aichat.controller.QuotaControllerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[19,20] �Ҳ�������
+  ����:   �� AsrAdapter
+  λ��: �� com.example.aichat.service.voice.VoiceAdapterManagerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[27,20] �Ҳ�������
+  ����:   �� LlmAdapter
+  λ��: �� com.example.aichat.service.voice.VoiceAdapterManagerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[35,20] �Ҳ�������
+  ����:   �� TtsAdapter
+  λ��: �� com.example.aichat.service.voice.VoiceAdapterManagerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[44,20] �Ҳ�������
+  ����:   �� TtsAdapter
+  λ��: �� com.example.aichat.service.voice.VoiceAdapterManagerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[89,41] �Ҳ�������
+  ����:   �� AsrAdapter
+  λ��: �� com.example.aichat.service.voice.VoiceAdapterManagerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[96,41] �Ҳ�������
+  ����:   �� LlmAdapter
+  λ��: �� com.example.aichat.service.voice.VoiceAdapterManagerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/SocialServiceImplTest.java:[60,13] �Ҳ�������
+  ����:   �� NotificationService
+  λ��: �� com.example.aichat.service.impl.SocialServiceImplTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiElfControllerOwnershipTest.java:[55,13] �Ҳ�������
+  ����:   �� AiElfService
+  λ��: �� com.example.aichat.controller.AiElfControllerOwnershipTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/QuotaServiceImplTest.java:[35,13] �Ҳ�������
+  ����:   �� UserQuotaMapper
+  λ��: �� com.example.aichat.service.impl.QuotaServiceImplTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[80,16] �Ҳ�������
+  ����:   �� AiSystemService
+  λ��: �� com.example.aichat.controller.AiSystemControllerSecurityTest.TestConfig
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[88,16] �Ҳ�������
+  ����:   �� DataAccessPermissionService
+  λ��: �� com.example.aichat.controller.AiSystemControllerSecurityTest.TestConfig
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,16] �Ҳ�������
+  ����:   �� OllamaService
+  λ��: �� com.example.aichat.controller.AiSystemControllerSecurityTest.TestConfig
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ConversationContextServiceTest.java:[32,13] �Ҳ�������
+  ����:   �� ConversationContextMapper
+  λ��: �� com.example.aichat.service.impl.ConversationContextServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/DataPoolServiceTest.java:[42,13] �Ҳ�������
+  ����:   �� UserDataRecordMapper
+  λ��: �� com.example.aichat.service.DataPoolServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[46,13] �Ҳ�������
+  ����:   �� InterestCommunityMapper
+  λ��: �� com.example.aichat.service.impl.CommunityServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[48,13] �Ҳ�������
+  ����:   �� CommunityMemberMapper
+  λ��: �� com.example.aichat.service.impl.CommunityServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[50,13] �Ҳ�������
+  ����:   �� CommunityPostMapper
+  λ��: �� com.example.aichat.service.impl.CommunityServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/OAuthRiskIntegrationTest.java:[24,13] �Ҳ�������
+  ����:   �� OAuthService
+  λ��: �� com.example.aichat.OAuthRiskIntegrationTest
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:testCompile (default-testCompile) on project aichat: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/tool/ToolRegistryTest.java:[4,44] �޷�����com.example.aichat.service.tool.impl.TimeTool
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\impl\TimeTool.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\impl\TimeTool.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/UserControllerUpdateStatusTest.java:[7,34] �޷�����com.example.aichat.service.UserOnlineStatusService
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\UserOnlineStatusService.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\UserOnlineStatusService.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/KnowledgeBaseServiceTest.java:[12,31] �޷�����com.example.aichat.util.FileUploadUtil
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\util\FileUploadUtil.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\util\FileUploadUtil.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/adapter/MockTtsAdapterTest.java:[14,19] �޷�����com.example.aichat.service.voice.adapter.MockTtsAdapter
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\MockTtsAdapter.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\MockTtsAdapter.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/OAuthServiceImplTest.java:[42,13] �޷�����com.example.aichat.service.impl.OAuthServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\OAuthServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\OAuthServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AiElfRelationshipServiceTest.java:[43,13] �޷�����com.example.aichat.service.impl.AiElfServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AiElfServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AiElfServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/adapter/MockLlmAdapterTest.java:[14,19] �޷�����com.example.aichat.service.voice.adapter.MockLlmAdapter
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\MockLlmAdapter.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\MockLlmAdapter.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/QuotaControllerTest.java:[5,34] �޷�����com.example.aichat.service.QuotaService
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\QuotaService.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\QuotaService.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/tool/impl/MockToolsTest.java:[3,39] �޷�����com.example.aichat.service.tool.ToolResult
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\ToolResult.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\ToolResult.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[3,48] �޷�����com.example.aichat.service.voice.adapter.AsrAdapter
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\AsrAdapter.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\AsrAdapter.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[4,48] �޷�����com.example.aichat.service.voice.adapter.LlmAdapter
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\LlmAdapter.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\LlmAdapter.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[5,48] �޷�����com.example.aichat.service.voice.adapter.TtsAdapter
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\TtsAdapter.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\adapter\TtsAdapter.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AnnouncementServiceTest.java:[49,13] �޷�����com.example.aichat.service.impl.AnnouncementServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AnnouncementServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AnnouncementServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/SocialServiceImplTest.java:[13,34] �޷�����com.example.aichat.service.NotificationService
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\NotificationService.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\NotificationService.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/SocialServiceImplTest.java:[63,13] �޷�����com.example.aichat.service.impl.SocialServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\SocialServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\SocialServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiElfControllerOwnershipTest.java:[10,34] �޷�����com.example.aichat.service.AiElfService
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\AiElfService.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\AiElfService.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/config/SecurityConfigAuthorizationTest.java:[4,32] �޷�����com.example.aichat.utils.TokenUtils
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\utils\TokenUtils.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\utils\TokenUtils.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/QuotaServiceImplTest.java:[8,33] �޷�����com.example.aichat.mapper.UserQuotaMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserQuotaMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserQuotaMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/QuotaServiceImplTest.java:[9,40] �޷�����com.example.aichat.service.quota.FeatureType
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\quota\FeatureType.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\quota\FeatureType.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/QuotaServiceImplTest.java:[37,13] �޷�����com.example.aichat.service.impl.QuotaServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\QuotaServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\QuotaServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[7,34] �޷�����com.example.aichat.service.AiSystemService
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\AiSystemService.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\AiSystemService.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[8,34] �޷�����com.example.aichat.service.DataAccessPermissionService
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\DataAccessPermissionService.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\DataAccessPermissionService.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[9,37] �޷�����com.example.aichat.service.ai.OllamaService
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ai\OllamaService.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ai\OllamaService.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AiCharacterServiceImplTest.java:[42,13] �޷�����com.example.aichat.service.impl.AiCharacterServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AiCharacterServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AiCharacterServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ConversationContextServiceTest.java:[4,33] �޷�����com.example.aichat.mapper.ConversationContextMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\ConversationContextMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\ConversationContextMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ConversationContextServiceTest.java:[5,34] �޷�����com.example.aichat.service.ConversationContextService
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ConversationContextService.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ConversationContextService.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ConversationContextServiceTest.java:[35,13] �޷�����com.example.aichat.service.impl.ConversationContextServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\ConversationContextServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\ConversationContextServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/DataPoolServiceTest.java:[5,33] �޷�����com.example.aichat.mapper.UserDataRecordMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserDataRecordMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserDataRecordMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/DataPoolServiceTest.java:[48,13] �޷�����com.example.aichat.service.DataPoolService
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\DataPoolService.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\DataPoolService.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[9,33] �޷�����com.example.aichat.mapper.CommunityMemberMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\CommunityMemberMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\CommunityMemberMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[10,33] �޷�����com.example.aichat.mapper.CommunityPostMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\CommunityPostMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\CommunityPostMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[11,33] �޷�����com.example.aichat.mapper.InterestCommunityMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\InterestCommunityMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\InterestCommunityMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[55,13] �޷�����com.example.aichat.service.impl.CommunityServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\CommunityServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\CommunityServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupAiChatServiceImplTest.java:[49,13] �޷�����com.example.aichat.service.impl.GroupAiChatServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\GroupAiChatServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\GroupAiChatServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/OAuthRiskIntegrationTest.java:[3,33] �޷�����com.example.aichat.entity.LoginRiskAssessment
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\LoginRiskAssessment.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\LoginRiskAssessment.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/OAuthRiskIntegrationTest.java:[4,34] �޷�����com.example.aichat.service.OAuthService
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\OAuthService.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\OAuthService.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/OAuthRiskIntegrationTest.java:[5,34] �޷�����com.example.aichat.service.RiskAssessmentService
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\RiskAssessmentService.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\RiskAssessmentService.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[3,33] �޷�����com.example.aichat.entity.LoginDevice
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\LoginDevice.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\LoginDevice.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[4,33] �޷�����com.example.aichat.entity.SmsCode
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\SmsCode.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\SmsCode.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[6,33] �޷�����com.example.aichat.mapper.LoginAlertMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\LoginAlertMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\LoginAlertMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[7,33] �޷�����com.example.aichat.mapper.LoginDeviceMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\LoginDeviceMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\LoginDeviceMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[8,33] �޷�����com.example.aichat.mapper.SmsCodeMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\SmsCodeMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\SmsCodeMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[9,33] �޷�����com.example.aichat.mapper.UserBadgeMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserBadgeMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserBadgeMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[11,33] �޷�����com.example.aichat.mapper.UserTagMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserTagMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserTagMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AuthServiceImplTest.java:[52,13] �޷�����com.example.aichat.service.impl.AuthServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AuthServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AuthServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/impl/VoiceCallServiceImplTest.java:[6,34] �޷�����com.example.aichat.service.UserService
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\UserService.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\UserService.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/impl/VoiceCallServiceImplTest.java:[7,40] �޷�����com.example.aichat.service.voice.VoiceAdapterManager
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\VoiceAdapterManager.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\VoiceAdapterManager.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/impl/VoiceCallServiceImplTest.java:[8,40] �޷�����com.example.aichat.service.voice.VoiceProfile
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\VoiceProfile.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\VoiceProfile.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/impl/VoiceCallServiceImplTest.java:[42,13] �޷�����com.example.aichat.service.voice.impl.VoiceCallServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\impl\VoiceCallServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\impl\VoiceCallServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/SearchCitationServiceTest.java:[20,19] �޷�����com.example.aichat.service.impl.SearchCitationServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\SearchCitationServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\SearchCitationServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ToolCallServiceImplTest.java:[4,33] �޷�����com.example.aichat.entity.ToolCallLog
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\ToolCallLog.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\ToolCallLog.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ToolCallServiceImplTest.java:[5,33] �޷�����com.example.aichat.mapper.ToolCallLogMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\ToolCallLogMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\ToolCallLogMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ToolCallServiceImplTest.java:[6,39] �޷�����com.example.aichat.service.tool.Tool
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\Tool.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\Tool.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ToolCallServiceImplTest.java:[8,39] �޷�����com.example.aichat.service.tool.ToolRegistry
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\ToolRegistry.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\tool\ToolRegistry.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ToolCallServiceImplTest.java:[35,13] �޷�����com.example.aichat.service.impl.ToolCallServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\ToolCallServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\ToolCallServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CharacterPlazaServiceImplTest.java:[32,13] �޷�����com.example.aichat.service.impl.CharacterPlazaServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\CharacterPlazaServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\CharacterPlazaServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/ModelRouterTest.java:[22,50] �޷�����com.example.aichat.service.ai.ModelProvider
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ai\ModelProvider.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ai\ModelProvider.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/ModelRouterTest.java:[36,19] �޷�����com.example.aichat.service.ai.ModelRouter
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ai\ModelRouter.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ai\ModelRouter.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AiMemoryServiceTest.java:[8,33] �޷�����com.example.aichat.mapper.AiMemoryMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\AiMemoryMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\AiMemoryMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AiMemoryServiceTest.java:[39,13] �޷�����com.example.aichat.service.impl.AiMemoryServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AiMemoryServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AiMemoryServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PaymentServiceImplTest.java:[5,33] �޷�����com.example.aichat.entity.PaymentRecord
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\PaymentRecord.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\PaymentRecord.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PaymentServiceImplTest.java:[7,33] �޷�����com.example.aichat.mapper.PayAccountMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\PayAccountMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\PayAccountMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PaymentServiceImplTest.java:[8,33] �޷�����com.example.aichat.mapper.PaymentRecordMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\PaymentRecordMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\PaymentRecordMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PaymentServiceImplTest.java:[54,13] �޷�����com.example.aichat.service.impl.PaymentServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\PaymentServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\PaymentServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/VoiceCallControllerTest.java:[8,40] �޷�����com.example.aichat.service.voice.VoiceCallService
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\VoiceCallService.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\voice\VoiceCallService.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/NotificationServiceTest.java:[3,33] �޷�����com.example.aichat.entity.Notification
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\Notification.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\Notification.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/NotificationServiceTest.java:[4,33] �޷�����com.example.aichat.mapper.NotificationMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\NotificationMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\NotificationMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/NotificationServiceTest.java:[42,13] �޷�����com.example.aichat.service.impl.NotificationServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\NotificationServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\NotificationServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ProfileServiceImplTest.java:[4,33] �޷�����com.example.aichat.entity.UserStatistics
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\UserStatistics.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\UserStatistics.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ProfileServiceImplTest.java:[6,33] �޷�����com.example.aichat.mapper.UserStatisticsMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserStatisticsMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\UserStatisticsMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ProfileServiceImplTest.java:[37,13] �޷�����com.example.aichat.service.impl.ProfileServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\ProfileServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\ProfileServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/RiskAssessmentServiceTest.java:[52,13] �޷�����com.example.aichat.service.impl.RiskAssessmentServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\RiskAssessmentServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\RiskAssessmentServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AdvertisementServiceTest.java:[3,33] �޷�����com.example.aichat.entity.Advertisement
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\Advertisement.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\Advertisement.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AdvertisementServiceTest.java:[4,33] �޷�����com.example.aichat.mapper.AdvertisementMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\AdvertisementMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\AdvertisementMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/AdvertisementServiceTest.java:[42,13] �޷�����com.example.aichat.service.impl.AdvertisementServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AdvertisementServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\AdvertisementServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PrivacyServiceImplTest.java:[3,33] �޷�����com.example.aichat.entity.PrivacySetting
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\PrivacySetting.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\entity\PrivacySetting.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PrivacyServiceImplTest.java:[4,33] �޷�����com.example.aichat.mapper.PrivacySettingMapper
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\PrivacySettingMapper.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\mapper\PrivacySettingMapper.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/PrivacyServiceImplTest.java:[41,13] �޷�����com.example.aichat.service.impl.PrivacyServiceImpl
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\PrivacyServiceImpl.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\impl\PrivacyServiceImpl.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/ToolControllerTest.java:[5,34] �޷�����com.example.aichat.service.ToolCallService
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ToolCallService.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\service\ToolCallService.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/ToolControllerTest.java:[34,13] �޷�����com.example.aichat.controller.ToolController
+[ERROR]   ��������ļ�: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\controller\ToolController.class
+[ERROR]     �޷������ļ�: java.nio.file.NoSuchFileException: C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes\com\example\aichat\controller\ToolController.class
+[ERROR]     ��ɾ�����ļ���ȷ�����ļ�λ����ȷ����·����Ŀ¼�С�
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/UserControllerUpdateStatusTest.java:[33,13] �Ҳ�������
+[ERROR]   ����:   �� UserOnlineStatusService
+[ERROR]   λ��: �� com.example.aichat.controller.UserControllerUpdateStatusTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/QuotaControllerTest.java:[28,13] �Ҳ�������
+[ERROR]   ����:   �� QuotaService
+[ERROR]   λ��: �� com.example.aichat.controller.QuotaControllerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[19,20] �Ҳ�������
+[ERROR]   ����:   �� AsrAdapter
+[ERROR]   λ��: �� com.example.aichat.service.voice.VoiceAdapterManagerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[27,20] �Ҳ�������
+[ERROR]   ����:   �� LlmAdapter
+[ERROR]   λ��: �� com.example.aichat.service.voice.VoiceAdapterManagerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[35,20] �Ҳ�������
+[ERROR]   ����:   �� TtsAdapter
+[ERROR]   λ��: �� com.example.aichat.service.voice.VoiceAdapterManagerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[44,20] �Ҳ�������
+[ERROR]   ����:   �� TtsAdapter
+[ERROR]   λ��: �� com.example.aichat.service.voice.VoiceAdapterManagerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[89,41] �Ҳ�������
+[ERROR]   ����:   �� AsrAdapter
+[ERROR]   λ��: �� com.example.aichat.service.voice.VoiceAdapterManagerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/voice/VoiceAdapterManagerTest.java:[96,41] �Ҳ�������
+[ERROR]   ����:   �� LlmAdapter
+[ERROR]   λ��: �� com.example.aichat.service.voice.VoiceAdapterManagerTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/SocialServiceImplTest.java:[60,13] �Ҳ�������
+[ERROR]   ����:   �� NotificationService
+[ERROR]   λ��: �� com.example.aichat.service.impl.SocialServiceImplTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiElfControllerOwnershipTest.java:[55,13] �Ҳ�������
+[ERROR]   ����:   �� AiElfService
+[ERROR]   λ��: �� com.example.aichat.controller.AiElfControllerOwnershipTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/QuotaServiceImplTest.java:[35,13] �Ҳ�������
+[ERROR]   ����:   �� UserQuotaMapper
+[ERROR]   λ��: �� com.example.aichat.service.impl.QuotaServiceImplTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[80,16] �Ҳ�������
+[ERROR]   ����:   �� AiSystemService
+[ERROR]   λ��: �� com.example.aichat.controller.AiSystemControllerSecurityTest.TestConfig
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[88,16] �Ҳ�������
+[ERROR]   ����:   �� DataAccessPermissionService
+[ERROR]   λ��: �� com.example.aichat.controller.AiSystemControllerSecurityTest.TestConfig
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,16] �Ҳ�������
+[ERROR]   ����:   �� OllamaService
+[ERROR]   λ��: �� com.example.aichat.controller.AiSystemControllerSecurityTest.TestConfig
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/ConversationContextServiceTest.java:[32,13] �Ҳ�������
+[ERROR]   ����:   �� ConversationContextMapper
+[ERROR]   λ��: �� com.example.aichat.service.impl.ConversationContextServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/DataPoolServiceTest.java:[42,13] �Ҳ�������
+[ERROR]   ����:   �� UserDataRecordMapper
+[ERROR]   λ��: �� com.example.aichat.service.DataPoolServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[46,13] �Ҳ�������
+[ERROR]   ����:   �� InterestCommunityMapper
+[ERROR]   λ��: �� com.example.aichat.service.impl.CommunityServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[48,13] �Ҳ�������
+[ERROR]   ����:   �� CommunityMemberMapper
+[ERROR]   λ��: �� com.example.aichat.service.impl.CommunityServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/CommunityServiceTest.java:[50,13] �Ҳ�������
+[ERROR]   ����:   �� CommunityPostMapper
+[ERROR]   λ��: �� com.example.aichat.service.impl.CommunityServiceTest
+[ERROR] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/OAuthRiskIntegrationTest.java:[24,13] �Ҳ�������
+[ERROR]   ����:   �� OAuthService
+[ERROR]   λ��: �� com.example.aichat.OAuthRiskIntegrationTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

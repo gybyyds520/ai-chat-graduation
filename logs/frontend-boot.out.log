@@ -1,0 +1,121 @@
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m703[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5187[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.205.1:[1m5187[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.64.1:[1m5187[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.16.103.84:[1m5187[22m/[39m
+[2m22:56:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue, /src/components/elf/AnimeElfSprite.vue[22m
+[2m22:56:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue, /src/components/elf/AnimeElfSprite.vue[22m
+[2m22:56:42[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue, /src/components/elf/AnimeElfSprite.vue[22m
+[2m22:56:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue, /src/components/elf/AnimeElfSprite.vue[22m
+[2m22:56:57[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue, /src/components/elf/AnimeElfSprite.vue[22m
+[2m22:57:16[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue, /src/components/elf/AnimeElfSprite.vue[22m
+[2m22:57:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/elf/AnimeElfSprite.vue, /src/components/DesktopElfCharacter.vue[22m
+[2m22:57:42[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m22:57:54[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m22:58:43[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m22:58:50[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m22:58:57[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m22:59:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m22:59:23[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m22:59:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m23:00:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m23:00:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m23:00:31[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m23:00:39[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m23:00:45[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m23:00:50[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m23:00:55[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m23:01:00[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m23:01:05[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m23:01:10[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m23:01:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m23:01:20[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m23:01:25[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m23:01:32[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m23:01:39[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m23:01:51[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m23:01:58[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m23:21:43[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/ChatView.vue[22m
+[2m23:21:55[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/ChatView.vue[22m
+[2m23:22:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/ChatView.vue?vue&type=style&index=0&scoped=a497a79e&lang.css[22m
+[2m23:35:41[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m23:35:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m23:35:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m23:36:09[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m23:36:21[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m23:36:31[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m23:49:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue[22m
+[2m23:49:13[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue[22m
+[2m23:49:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue?vue&type=style&index=0&lang.css[22m
+[2m00:06:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/LoginView.vue[22m
+[2m00:07:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/LoginView.vue?vue&type=style&index=0&scoped=45f5edd7&lang.css[22m
+[2m00:08:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ParticleEffect.vue[22m
+[2m00:10:03[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/theme.css[22m
+[2m00:24:11[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:24:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:24:43[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:25:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:25:14[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/DesktopElfCharacter.vue[22m
+[2m00:25:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:25:38[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:26:12[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:27:16[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:27:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:27:55[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:28:16[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m00:30:08[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/router/index.js[22m
+[2m00:30:36[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RegisterView.vue?vue&type=style&index=0&scoped=bf0653ef&lang.css[22m
+[2m00:30:41[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RegisterView.vue?vue&type=style&index=0&scoped=bf0653ef&lang.css[22m
+[2m00:30:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RegisterView.vue?vue&type=style&index=0&scoped=bf0653ef&lang.css[22m
+[2m00:30:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RegisterView.vue?vue&type=style&index=0&scoped=bf0653ef&lang.css[22m
+[2m00:31:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RegisterView.vue?vue&type=style&index=0&scoped=bf0653ef&lang.css[22m
+[2m00:31:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RegisterView.vue?vue&type=style&index=0&scoped=bf0653ef&lang.css[22m
+[2m00:31:12[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RegisterView.vue?vue&type=style&index=0&scoped=bf0653ef&lang.css[22m
+[2m00:31:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RegisterView.vue?vue&type=style&index=0&scoped=bf0653ef&lang.css[22m
+[2m00:31:23[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RegisterView.vue?vue&type=style&index=0&scoped=bf0653ef&lang.css[22m
+[2m00:31:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/RegisterView.vue?vue&type=style&index=0&scoped=bf0653ef&lang.css[22m
+[2m00:31:56[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/theme.css[22m
+[2m00:32:04[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/theme.css[22m
+[2m00:32:20[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/theme.css[22m
+[2m00:33:43[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ParticleEffect.vue[22m
+[2m00:33:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/views/LoginView.vue[22m
+[2m00:44:44[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:44:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:45:00[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:45:12[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:45:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:45:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:45:34[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:45:39[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:45:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:45:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:46:32[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/elf/AnimeElfSprite.vue, /src/components/DesktopElfCharacter.vue[22m
+[2m00:47:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:47:13[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:47:33[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:47:39[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:47:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:48:03[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:48:11[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:48:17[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:48:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:48:39[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:48:55[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m
+[2m00:57:14[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m00:57:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m01:07:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue, /src/views/DesktopElf.vue[22m
+[2m01:07:37[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue, /src/views/DesktopElf.vue[22m
+[2m01:07:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m01:08:06[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m01:08:14[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m01:08:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m01:08:38[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m01:09:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m01:09:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m01:09:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m01:10:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.vue, /src/components/DesktopElfCharacter.vue, /src/views/DesktopElf.vue[22m
+[2m01:10:28[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m01:10:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue[22m
+[2m01:10:50[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/DesktopElfCharacter.vue?vue&type=style&index=0&scoped=b9b31633&lang.css[22m

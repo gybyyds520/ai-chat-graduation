@@ -1,0 +1,19 @@
+==== TC-003 login admin ====
+{"code":10101,"msg":"用户名或密码错误","data":null}
+@@HTTP:401 T:0.027533
+
+==== TC-007 wrong password admin ====
+{"code":10101,"msg":"用户名或密码错误","data":null}
+@@HTTP:401 T:0.009573
+
+==== TC-008 nonexistent ====
+{"code":10101,"msg":"用户名或密码错误","data":null}
+@@HTTP:401 T:0.009471
+
+==== TC-003b login reg_user qa013_4qyeev ====
+{"code":200,"msg":"success","data":{"tokenType":"Bearer","user":{"id":88,"username":"qa013_4qyeev","nickname":"QA013","avatar":null,"avatarUrl":null,"email":null,"bio":null,"interests":null,"location":null,"website":null,"gender":null,"birthday":null,"versionType":"FREE","versionExpireTime":null,"accountStatus":"ACTIVE","membershipLevel":"FREE","membershipExpireAt":null,"phone":null,"phoneVerified":null,"emailVerified":null,"mfaEnabled":null,"lastLoginIp":null,"lastLoginTime":null,"failedLoginCount":null,"lockTime":null,"securityQuestion":null,"createTime":null,"createdAt":"2026-09-30T01:40:35","updatedAt":"2026-09-30T01:40:35","age":25,"isMinor":false,"minorModeEnabled":null,"minorModeUpdatedAt":null,"voicePreference":"default"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkwNzkwMDUyNDMyIiwidXNlcklkIjoiODgiLCJpYXQiOiIxNzkwNzAzNjUyNDMyIiwidXNlcm5hbWUiOiJxYTAxM180cXllZXYifQ==.C6jSYVNI0WxR0QMxI50Td2q_BedII-V8zPonf40SLto="}}
+@@HTTP:200 T:0.065798
+
+==== TC-009 no token membership ====
+{"code":401,"msg":"未登录或登录已过期，请重新登录","data":null}
+@@HTTP:401 T:0.014392

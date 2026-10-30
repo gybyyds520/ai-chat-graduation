@@ -1,0 +1,635 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml
+Progress (1): 255 BProgress (2): 255 B | 234 BProgress (3): 255 B | 234 B | 398 B                                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml (398 B at 22 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml (255 B at 14 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml (234 B at 12 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml
+Progress (1): 249 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml (249 B at 13 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 394 BProgress (2): 394 B | 375 B                           Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml (394 B at 1.4 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml (375 B at 1.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 242 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml (242 B at 846 B/s)
+Progress (1): 3.9 kBProgress (1): 4.0 kBProgress (1): 9.9 kBProgress (1): 10 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (10 kB at 36 kB/s)
+Progress (1): 3.1 kBProgress (1): 3.2 kBProgress (1): 8.9 kBProgress (1): 14 kB Progress (1): 18 kBProgress (1): 20 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 kB at 74 kB/s)
+[INFO] 
+[INFO] -------------------------< com.example:aichat >-------------------------
+[INFO] Building aichat 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.5:run (default-cli) > test-compile @ aichat >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ aichat ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 58 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ aichat ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ aichat ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ aichat ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 141 source files with javac [debug deprecation release 17] to target\test-classes
+[WARNING] Ã»ÓÐ´¦Àí³ÌÐòÒªÊ¹ÓÃÒÔÏÂÈÎºÎ×¢ÊÍ: /org.junit.jupiter.api.AfterAll,/org.junit.jupiter.api.extension.ExtendWith,/org.mockito.Mock,/org.mockito.InjectMocks,/org.springframework.web.bind.annotation.DeleteMapping,/org.springframework.web.bind.annotation.PostMapping,/org.junit.jupiter.api.BeforeEach,/org.springframework.web.bind.annotation.PutMapping,/org.mockito.junit.jupiter.MockitoSettings,/org.mockito.Spy,/org.springframework.web.bind.annotation.GetMapping,/org.springframework.context.annotation.Bean,/org.springframework.test.context.web.WebAppConfiguration,/org.junit.jupiter.api.Test,/org.springframework.web.bind.annotation.RestController,/org.springframework.context.annotation.Import,/org.junit.jupiter.api.BeforeAll,/org.junit.jupiter.api.AfterEach,/org.springframework.web.bind.annotation.PathVariable,/org.springframework.boot.autoconfigure.ImportAutoConfiguration,/org.springframework.boot.test.context.SpringBootTest,/org.springframework.test.context.ContextConfiguration,/org.springframework.context.annotation.Configuration,/org.springframework.beans.factory.annotation.Autowired,/org.springframework.security.access.prepost.PreAuthorize,/org.junit.jupiter.api.io.TempDir
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/config/GlobalExceptionHandlerGapTest.java:[112,46] org.springframework.http.converter.HttpMessageNotReadableExceptionÖÐµÄHttpMessageNotReadableException(java.lang.String)ÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerAuthTest.java:[33,22] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[41,9] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[41,37] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[57,9] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[57,37] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[80,9] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[80,37] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[81,9] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[89,9] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[89,37] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerGapTest.java:[42,13] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerGapTest.java:[42,13] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerGapTest.java:[42,13] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerGapTest.java:[42,13] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerGapTest.java:[42,13] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/websocket/ChatWebSocketHandlerGapTest.java:[59,30] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,13] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,39] com.example.aichat.service.aiÖÐµÄcom.example.aichat.service.ai.OllamaServiceÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/config/PasswordEncoderTest.java:[38,30] org.springframework.security.crypto.passwordÖÐµÄorg.springframework.security.crypto.password.NoOpPasswordEncoderÒÑ¹ýÊ±
+[WARNING] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/SoulEngineServiceImplTest.java:[214,69] ×îºóÒ»¸ö²ÎÊýÊ¹ÓÃÁË²»×¼È·µÄ±äÁ¿ÀàÐÍµÄ varargs ·½·¨µÄ·Ç varargs µ÷ÓÃ; 
+  ¶ÔÓÚ varargs µ÷ÓÃ, Ó¦Ê¹ÓÃ com.example.aichat.entity.AiSoulState
+  ¶ÔÓÚ·Ç varargs µ÷ÓÃ, Ó¦Ê¹ÓÃ com.example.aichat.entity.AiSoulState[], ÕâÑùÒ²¿ÉÒÔÒÖÖÆ´Ë¾¯¸æ
+[INFO] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupChatServiceTest.java: Ä³Ð©ÊäÈëÎÄ¼þÊ¹ÓÃÁËÎ´¾­¼ì²é»ò²»°²È«µÄ²Ù×÷¡£
+[INFO] /C:/Users/¹ùÒ«±ò/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupChatServiceTest.java: ÓÐ¹ØÏêÏ¸ÐÅÏ¢, ÇëÊ¹ÓÃ -Xlint:unchecked ÖØÐÂ±àÒë¡£
+[INFO] 
+[INFO] <<< spring-boot:3.2.5:run (default-cli) < test-compile @ aichat <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.5:run (default-cli) @ aichat ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-10-16 20:09:06.352 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.AichatApplication[0;39m - Starting AichatApplication using Java 17.0.12 with PID 16296 (C:\Users\¹ùÒ«±ò\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes started by ¹ùÒ«±ò in C:\Users\¹ùÒ«±ò\Desktop\gybct\ai-chat-graduation\backend\aichat)
+2026-10-16 20:09:06.357 [restartedMain] [39mDEBUG[0;39m [36mc.example.aichat.AichatApplication[0;39m - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-10-16 20:09:06.357 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.AichatApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2026-10-16 20:09:06.395 [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-16 20:09:06.396 [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-16 20:09:07.648 [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-16 20:09:07.650 [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-16 20:09:07.698 [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 36 ms. Found 0 Redis repository interfaces.
+2026-10-16 20:09:08.733 [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2026-10-16 20:09:08.743 [restartedMain] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-16 20:09:08.747 [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2026-10-16 20:09:08.748 [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-10-16 20:09:08.792 [restartedMain] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2026-10-16 20:09:08.792 [restartedMain] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2396 ms
+2026-10-16 20:09:08.952 [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - HikariPool-1 - Starting...
+2026-10-16 20:09:09.087 [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.pool.HikariPool[0;39m - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@490ea86d
+2026-10-16 20:09:09.089 [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - HikariPool-1 - Start completed.
+2026-10-16 20:09:09.094 [restartedMain] [34mINFO [0;39m [36mo.s.b.a.h.H2ConsoleAutoConfiguration[0;39m - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/ai_chat?useSSL=false&serverTimezone=UTC&characterEncoding=utf8&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true'
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.8 
+2026-10-16 20:09:09.670 [restartedMain] [34mINFO [0;39m [36mo.f.c.i.license.VersionPrinter[0;39m - Flyway Community Edition 9.22.3 by Redgate
+2026-10-16 20:09:09.670 [restartedMain] [34mINFO [0;39m [36mo.f.c.i.license.VersionPrinter[0;39m - See release notes here: https://rd.gt/416ObMi
+2026-10-16 20:09:09.670 [restartedMain] [34mINFO [0;39m [36mo.f.c.i.license.VersionPrinter[0;39m - 
+2026-10-16 20:09:09.724 [restartedMain] [34mINFO [0;39m [36morg.flywaydb.core.FlywayExecutor[0;39m - Database: jdbc:mysql://localhost:3306/ai_chat (MySQL 8.0)
+2026-10-16 20:09:09.806 [restartedMain] [34mINFO [0;39m [36mo.f.core.internal.command.DbMigrate[0;39m - Current version of schema `ai_chat`: 44
+2026-10-16 20:09:09.809 [restartedMain] [34mINFO [0;39m [36mo.f.core.internal.command.DbMigrate[0;39m - Schema `ai_chat` is up to date. No migration necessary.
+2026-10-16 20:09:09.940 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - Filter 'jwtAuthenticationFilter' configured for use
+2026-10-16 20:09:10.791 [restartedMain] [34mINFO [0;39m [36mc.e.a.c.security.OwnershipAspect[0;39m - OwnershipAspect ³õÊ¼»¯Íê³É£¬ÒÑ×¢²áÐ£ÑéÆ÷: [elf]
+2026-10-16 20:09:11.543 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.config.RedisConfig[0;39m - RedisTemplateÅäÖÃÍê³É£¬Ê¹ÓÃString+JSONÐòÁÐ»¯(º¬JavaTimeModule)
+2026-10-16 20:09:11.726 [restartedMain] [34mINFO [0;39m [36mc.e.aichat.service.ai.ModelRouter[0;39m - ModelRouter³õÊ¼»¯Íê³É£¬ÒÑ×¢²áÌá¹©Õß: [openai, ollama]
+2026-10-16 20:09:12.403 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.m.AiModelMapper.selectCount[0;39m - ==>  Preparing: SELECT COUNT( * ) AS total FROM ai_model
+2026-10-16 20:09:12.417 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.m.AiModelMapper.selectCount[0;39m - ==> Parameters: 
+2026-10-16 20:09:12.429 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.m.AiModelMapper.selectCount[0;39m - <==      Total: 1
+2026-10-16 20:09:13.023 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.config.RedisConfig[0;39m - RedisCacheManagerÅäÖÃÍê³É£¬Ä¬ÈÏTTL=5·ÖÖÓ
+2026-10-16 20:09:13.250 [restartedMain] [31mWARN [0;39m [36mo.s.b.a.s.s.UserDetailsServiceAutoConfiguration[0;39m - 
+
+Using generated security password: f72838d1-465c-4d7b-95b9-f98a1d3b2e9b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-10-16 20:09:13.683 [restartedMain] [34mINFO [0;39m [36mo.s.b.a.e.web.EndpointLinksResolver[0;39m - Exposing 3 endpoint(s) beneath base path '/actuator'
+2026-10-16 20:09:13.786 [restartedMain] [34mINFO [0;39m [36mo.s.s.web.DefaultSecurityFilterChain[0;39m - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@366b7b29, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53d510d4, org.springframework.security.web.context.SecurityContextHolderFilter@7672f24c, org.springframework.security.web.header.HeaderWriterFilter@5a9850ac, org.springframework.web.filter.CorsFilter@1449767e, org.springframework.security.web.authentication.logout.LogoutFilter@236123e3, com.example.aichat.common.security.JwtAuthenticationFilter@2f563712, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@294ed9c1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@712d806d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78fa0a9a, org.springframework.security.web.session.SessionManagementFilter@3bb5cf5, org.springframework.security.web.access.ExceptionTranslationFilter@129c5414, org.springframework.security.web.access.intercept.AuthorizationFilter@6969929f]
+2026-10-16 20:09:14.683 [restartedMain] [34mINFO [0;39m [36morg.quartz.impl.StdSchedulerFactory[0;39m - Using default implementation for ThreadExecutor
+2026-10-16 20:09:14.692 [restartedMain] [34mINFO [0;39m [36mo.quartz.core.SchedulerSignalerImpl[0;39m - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2026-10-16 20:09:14.692 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - Quartz Scheduler v.2.3.2 created.
+2026-10-16 20:09:14.692 [restartedMain] [34mINFO [0;39m [36morg.quartz.simpl.RAMJobStore[0;39m - RAMJobStore initialized.
+2026-10-16 20:09:14.693 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2026-10-16 20:09:14.693 [restartedMain] [34mINFO [0;39m [36morg.quartz.impl.StdSchedulerFactory[0;39m - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2026-10-16 20:09:14.693 [restartedMain] [34mINFO [0;39m [36morg.quartz.impl.StdSchedulerFactory[0;39m - Quartz scheduler version: 2.3.2
+2026-10-16 20:09:14.693 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@16a7dedc
+2026-10-16 20:09:14.925 [restartedMain] [34mINFO [0;39m [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2026-10-16 20:09:14.994 [restartedMain] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-16 20:09:15.002 [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path ''
+2026-10-16 20:09:15.003 [restartedMain] [34mINFO [0;39m [36mo.s.s.quartz.SchedulerFactoryBean[0;39m - Starting Quartz Scheduler now
+2026-10-16 20:09:15.003 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2026-10-16 20:09:15.016 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.AichatApplication[0;39m - Started AichatApplication in 9.059 seconds (process running for 9.419)
+2026-10-16 20:09:15.023 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==>  Preparing: UPDATE user_online_status SET status = 'offline', last_active_time = ? WHERE last_active_time < ?
+2026-10-16 20:09:15.023 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - ==> Parameters: 2026-10-16T20:04:15.020486400(LocalDateTime), 2026-10-16T20:04:15.020486400(LocalDateTime)
+2026-10-16 20:09:15.037 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.U.updateOfflineByInactivity[0;39m - <==    Updates: 3
+2026-10-16 20:09:15.037 [scheduling-1] [34mINFO [0;39m [36mc.e.a.s.i.UserOnlineStatusServiceImpl[0;39m - ÇåÀíÀëÏßÓÃ»§×´Ì¬: 3 ¸ö
+2026-10-16 20:09:15.039 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.C.deleteExpired[0;39m - ==>  Preparing: DELETE FROM conversation_context WHERE expire_time <= ?
+2026-10-16 20:09:15.039 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.C.deleteExpired[0;39m - ==> Parameters: 2026-10-16T20:09:15.038325400(LocalDateTime)
+2026-10-16 20:09:15.043 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.C.deleteExpired[0;39m - <==    Updates: 0
+2026-10-16 20:09:19.627 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-16 20:09:19.627 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2026-10-16 20:09:19.629 [http-nio-8080-exec-1] [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 2 ms
+2026-10-16 20:09:19.707 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/actuator/health status=200 elapsedMs=75ms ip=127.0.0.1
+2026-10-16 20:09:31.366 [http-nio-8080-exec-3] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/actuator/health status=200 elapsedMs=8ms ip=127.0.0.1
+2026-10-16 20:09:45.041 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-16 20:09:45.042 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-16T20:09:45.025297700(LocalDateTime)
+2026-10-16 20:09:45.048 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+[WARN] Î´ÅäÖÃ JWT_SECRET_KEY£¬Ê¹ÓÃËæ»úÉú³ÉµÄ»á»°ÃÜÔ¿£¨ÖØÆôºóËùÓÐ token Ê§Ð§£»Éú²ú»·¾³ÇëÎñ±ØÅäÖÃ£©
+2026-10-16 20:09:46.408 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_INVALID] path=/api/user/login
+2026-10-16 20:09:46.480 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (username = ?)
+2026-10-16 20:09:46.480 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: gyb789(String)
+2026-10-16 20:09:46.486 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 1
+2026-10-16 20:09:46.821 [http-nio-8080-exec-9] [34mINFO [0;39m [36mAUDIT[0;39m - [AUDIT] action=LOGIN resource=USER method=UserController.login status=SUCCESS code=200 elapsedMs=352ms userId=null username=null ip=0:0:0:0:0:0:0:1 args=[LoginRequest(username=gyb789, password=123456)]
+2026-10-16 20:09:46.826 [biz-async-1] [39mDEBUG[0;39m [36mc.e.a.mapper.AccessLogMapper.insert[0;39m - ==>  Preparing: INSERT INTO access_log ( access_type, request_method, request_path, request_params, response_status, response_time, ip_address, user_agent, accessed_at ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2026-10-16 20:09:46.828 [biz-async-1] [39mDEBUG[0;39m [36mc.e.a.mapper.AccessLogMapper.insert[0;39m - ==> Parameters: LOGIN(String), POST(String), UserController.login(String), [LoginRequest(username=gyb789, password=123456)](String), 200(Integer), 352(Integer), 0:0:0:0:0:0:0:1(String), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0(String), 2026-10-16T20:09:46.824361800(LocalDateTime)
+2026-10-16 20:09:46.836 [http-nio-8080-exec-9] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=POST uri=/api/user/login status=200 elapsedMs=435ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:09:46.837 [biz-async-1] [39mDEBUG[0;39m [36mc.e.a.mapper.AccessLogMapper.insert[0;39m - <==    Updates: 1
+2026-10-16 20:09:46.861 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:09:46.862 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:09:46.863 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:09:46.864 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:09:46.865 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 58(Long), admin(String)
+2026-10-16 20:09:46.866 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:09:46.867 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=58 role=ROLE_USER path=/ws/chat
+2026-10-16 20:09:46.880 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:09:46.881 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:09:46.881 [http-nio-8080-exec-8] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:09:46.881 [http-nio-8080-exec-8] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:09:46.883 [http-nio-8080-exec-8] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:09:46.883 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:09:46.884 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:09:46.884 [http-nio-8080-exec-8] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:09:46.885 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 58(Long), admin(String)
+2026-10-16 20:09:46.885 [http-nio-8080-exec-8] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 58(Long), admin(String)
+2026-10-16 20:09:46.885 [http-nio-8080-exec-8] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:09:46.886 [http-nio-8080-exec-8] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=58 role=ROLE_USER path=/api/quota/current
+2026-10-16 20:09:46.886 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:09:46.886 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=58 role=ROLE_USER path=/api/character/list/user/58
+2026-10-16 20:09:46.889 [http-nio-8080-exec-8] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:09:46.889 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.C.findSharedCharacterIdsByUserId[0;39m - ==>  Preparing: SELECT character_id FROM character_share WHERE shared_to_user_id = ? AND status = 'ACTIVE'
+2026-10-16 20:09:46.889 [http-nio-8080-exec-8] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:09:46.889 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.C.findSharedCharacterIdsByUserId[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:09:46.891 [http-nio-8080-exec-8] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:09:46.893 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.C.findSharedCharacterIdsByUserId[0;39m - <==      Total: 0
+2026-10-16 20:09:46.894 [http-nio-8080-exec-8] [39mDEBUG[0;39m [36mc.e.a.m.UserQuotaMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,feature_type,used_count,limit_count,bonus_limit,reset_date,created_at,updated_at FROM user_quota WHERE (user_id = ? AND reset_date = ?)
+2026-10-16 20:09:46.894 [http-nio-8080-exec-8] [39mDEBUG[0;39m [36mc.e.a.m.UserQuotaMapper.selectList[0;39m - ==> Parameters: 58(Long), 2026-10-16(LocalDate)
+2026-10-16 20:09:46.896 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,name,avatar,prompt,model,personality,voice_style,emotion_base,expressions,actions,backstory,relationship,is_system,is_shared,use_count,rating,description,category,greeting,example_dialogue,tags,voice_id,enabled_tools,avatar_style FROM ai_character WHERE ((user_id = ? AND is_system = ?) OR (is_system = ?))
+2026-10-16 20:09:46.897 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectList[0;39m - ==> Parameters: 58(Long), false(Boolean), true(Boolean)
+2026-10-16 20:09:46.902 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/ws/chat?userId=58&token=*** status=101 elapsedMs=45ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:09:46.919 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==>  Preparing: SELECT * FROM user_online_status WHERE user_id = ?
+2026-10-16 20:09:46.919 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:09:46.952 [http-nio-8080-exec-8] [39mDEBUG[0;39m [36mc.e.a.m.UserQuotaMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:09:46.952 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - <==      Total: 1
+2026-10-16 20:09:46.957 [http-nio-8080-exec-8] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/quota/current status=200 elapsedMs=78ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:09:46.959 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - ==>  Preparing: UPDATE user_online_status SET user_id=?, status=?, last_active_time=?, session_id=?, created_at=?, updated_at=? WHERE id=?
+2026-10-16 20:09:46.959 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - ==> Parameters: 58(Long), online(String), 2026-10-16T20:09:46.953874700(LocalDateTime), 5754f227-fe50-2d38-4ff9-4265610d450e(String), 2026-08-20T20:50:01(LocalDateTime), 2026-10-16T20:09:15(LocalDateTime), 2(Long)
+2026-10-16 20:09:46.964 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectList[0;39m - <==      Total: 12
+2026-10-16 20:09:46.965 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - <==    Updates: 1
+2026-10-16 20:09:46.965 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==>  Preparing: SELECT * FROM user_online_status WHERE user_id = ?
+2026-10-16 20:09:46.966 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:09:46.967 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - <==      Total: 1
+2026-10-16 20:09:46.974 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/character/list/user/58 status=200 elapsedMs=95ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:09:46.974 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.websocket.ChatWebSocketHandler[0;39m - ÓÃ»§Á¬½Ó - userId: 58, sessionId: 5754f227-fe50-2d38-4ff9-4265610d450e
+2026-10-16 20:09:46.990 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:09:46.991 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:09:46.993 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:09:46.994 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:09:46.995 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 58(Long), admin(String)
+2026-10-16 20:09:46.996 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:09:46.997 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=58 role=ROLE_USER path=/api/soul/1
+2026-10-16 20:09:47.003 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.AiSoulStateMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,character_id,elf_id,current_emotion,mood_score,attitude_score,personality_weights,core_beliefs,self_summary,version,created_at,updated_at FROM ai_soul_state WHERE (user_id = ? AND character_id = ?) LIMIT 1
+2026-10-16 20:09:47.003 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.AiSoulStateMapper.selectList[0;39m - ==> Parameters: 58(Long), 1(Long)
+2026-10-16 20:09:47.006 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.AiSoulStateMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:09:47.006 [http-nio-8080-exec-19] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/uploads/character/be9cab1f-8347-44ea-9031-7b76e40b56c3.png status=200 elapsedMs=18ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:09:47.007 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.A.selectCount[0;39m - ==>  Preparing: SELECT COUNT( * ) AS total FROM ai_soul_experience WHERE (user_id = ? AND character_id = ?)
+2026-10-16 20:09:47.007 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.A.selectCount[0;39m - ==> Parameters: 58(Long), 1(Long)
+2026-10-16 20:09:47.010 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.A.selectCount[0;39m - <==      Total: 1
+2026-10-16 20:09:47.010 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectCount[0;39m - ==>  Preparing: SELECT COUNT( * ) AS total FROM ai_memory WHERE (user_id = ?)
+2026-10-16 20:09:47.011 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectCount[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:09:47.013 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectCount[0;39m - <==      Total: 1
+2026-10-16 20:09:47.015 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectMaps[0;39m - ==>  Preparing: SELECT memory_type AS memoryType, COUNT(*) AS cnt FROM ai_memory WHERE (user_id = ?) GROUP BY memory_type
+2026-10-16 20:09:47.015 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectMaps[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:09:47.017 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectMaps[0;39m - <==      Total: 0
+2026-10-16 20:09:47.018 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectMaps[0;39m - ==>  Preparing: SELECT importance AS importance, COUNT(*) AS cnt FROM ai_memory WHERE (user_id = ?) GROUP BY importance
+2026-10-16 20:09:47.018 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectMaps[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:09:47.019 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectMaps[0;39m - <==      Total: 0
+2026-10-16 20:09:47.021 [http-nio-8080-exec-14] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/soul/1 status=200 elapsedMs=32ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:09:47.036 [http-nio-8080-exec-15] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:09:47.037 [http-nio-8080-exec-15] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:09:47.038 [http-nio-8080-exec-15] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:09:47.039 [http-nio-8080-exec-15] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:09:47.039 [http-nio-8080-exec-15] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 58(Long), admin(String)
+2026-10-16 20:09:47.040 [http-nio-8080-exec-15] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:09:47.040 [http-nio-8080-exec-15] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=58 role=ROLE_USER path=/api/soul/1/experiences
+2026-10-16 20:09:47.045 [http-nio-8080-exec-15] [39mDEBUG[0;39m [36mc.e.a.m.A.selectList[0;39m - ==>  Preparing: SELECT id,user_id,character_id,elf_id,experience,feeling,understanding,memory_ref,impact,created_at FROM ai_soul_experience WHERE (user_id = ? AND character_id = ?) ORDER BY created_at DESC LIMIT 0,5
+2026-10-16 20:09:47.046 [http-nio-8080-exec-15] [39mDEBUG[0;39m [36mc.e.a.m.A.selectList[0;39m - ==> Parameters: 58(Long), 1(Long)
+2026-10-16 20:09:47.047 [http-nio-8080-exec-15] [39mDEBUG[0;39m [36mc.e.a.m.A.selectList[0;39m - <==      Total: 0
+2026-10-16 20:09:47.049 [http-nio-8080-exec-15] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/soul/1/experiences?page=1&size=5 status=200 elapsedMs=14ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:10:42.209 [http-nio-8080-exec-16] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==>  Preparing: SELECT * FROM user_online_status WHERE user_id = ?
+2026-10-16 20:10:42.210 [http-nio-8080-exec-16] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:42.210 [http-nio-8080-exec-16] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - <==      Total: 1
+2026-10-16 20:10:42.211 [http-nio-8080-exec-16] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - ==>  Preparing: UPDATE user_online_status SET user_id=?, status=?, last_active_time=?, session_id=?, created_at=?, updated_at=? WHERE id=?
+2026-10-16 20:10:42.212 [http-nio-8080-exec-16] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - ==> Parameters: 58(Long), offline(String), 2026-10-16T20:10:42.211462300(LocalDateTime), 5754f227-fe50-2d38-4ff9-4265610d450e(String), 2026-08-20T20:50:01(LocalDateTime), 2026-10-16T20:09:15(LocalDateTime), 2(Long)
+2026-10-16 20:10:42.213 [http-nio-8080-exec-16] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - <==    Updates: 1
+2026-10-16 20:10:42.213 [http-nio-8080-exec-16] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==>  Preparing: SELECT * FROM user_online_status WHERE user_id = ?
+2026-10-16 20:10:42.213 [http-nio-8080-exec-16] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:42.214 [http-nio-8080-exec-16] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - <==      Total: 1
+2026-10-16 20:10:42.217 [http-nio-8080-exec-16] [34mINFO [0;39m [36mc.e.a.websocket.ChatWebSocketHandler[0;39m - ÓÃ»§¶Ï¿ªÁ¬½Ó - userId: 58, sessionId: 5754f227-fe50-2d38-4ff9-4265610d450e
+2026-10-16 20:10:42.217 [http-nio-8080-exec-16] [34mINFO [0;39m [36mc.e.a.websocket.ChatWebSocketHandler[0;39m - WebSocketÁ¬½ÓÒÑ¹Ø±Õ: 5754f227-fe50-2d38-4ff9-4265610d450e, ×´Ì¬: CloseStatus[code=1000, reason=null]
+2026-10-16 20:10:42.222 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:10:42.222 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:42.223 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:10:42.224 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:10:42.225 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 58(Long), admin(String)
+2026-10-16 20:10:42.226 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:10:42.227 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=58 role=ROLE_USER path=/api/friend/list
+2026-10-16 20:10:42.229 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:10:42.230 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:42.231 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:10:42.232 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.m.F.getFriendList[0;39m - ==>  Preparing: SELECT f.id, f.user_id, f.friend_id, f.status, f.create_time, f.accept_time, u.username, u.nickname, u.avatar FROM friendship f JOIN user u ON f.friend_id = u.id WHERE f.user_id = ? AND f.status = 'accepted'
+2026-10-16 20:10:42.232 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.m.F.getFriendList[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:42.236 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.m.F.getFriendList[0;39m - <==      Total: 3
+2026-10-16 20:10:42.236 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.s.impl.FriendshipServiceImpl[0;39m - [»ñÈ¡ºÃÓÑÁÐ±í] ÓÃ»§ 58 µÄºÃÓÑÊýÁ¿: 3
+2026-10-16 20:10:42.239 [http-nio-8080-exec-17] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/friend/list?userId=58 status=200 elapsedMs=18ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:10:44.565 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:10:44.565 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:44.566 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:10:44.566 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:44.567 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:10:44.567 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:10:44.568 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:10:44.568 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 58(Long), admin(String)
+2026-10-16 20:10:44.569 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:10:44.569 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 58(Long), admin(String)
+2026-10-16 20:10:44.569 [http-nio-8080-exec-1] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:10:44.569 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:10:44.569 [http-nio-8080-exec-1] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:44.570 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=58 role=ROLE_USER path=/api/friend/list
+2026-10-16 20:10:44.570 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:10:44.570 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=58 role=ROLE_USER path=/ws/chat
+2026-10-16 20:10:44.570 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:10:44.571 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:44.571 [http-nio-8080-exec-1] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:10:44.571 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:10:44.572 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:44.572 [http-nio-8080-exec-1] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:10:44.572 [http-nio-8080-exec-1] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 58(Long), admin(String)
+2026-10-16 20:10:44.572 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:10:44.572 [http-nio-8080-exec-12] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/ws/chat?userId=58&token=*** status=101 elapsedMs=8ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:10:44.573 [http-nio-8080-exec-1] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:10:44.573 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:10:44.573 [http-nio-8080-exec-1] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=58 role=ROLE_USER path=/api/user/status
+2026-10-16 20:10:44.573 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.m.F.getFriendList[0;39m - ==>  Preparing: SELECT f.id, f.user_id, f.friend_id, f.status, f.create_time, f.accept_time, u.username, u.nickname, u.avatar FROM friendship f JOIN user u ON f.friend_id = u.id WHERE f.user_id = ? AND f.status = 'accepted'
+2026-10-16 20:10:44.573 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.m.F.getFriendList[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:44.573 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:10:44.573 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 58(Long), admin(String)
+2026-10-16 20:10:44.574 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==>  Preparing: SELECT * FROM user_online_status WHERE user_id = ?
+2026-10-16 20:10:44.574 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.m.F.getFriendList[0;39m - <==      Total: 3
+2026-10-16 20:10:44.574 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:10:44.574 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.s.impl.FriendshipServiceImpl[0;39m - [»ñÈ¡ºÃÓÑÁÐ±í] ÓÃ»§ 58 µÄºÃÓÑÊýÁ¿: 3
+2026-10-16 20:10:44.574 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:44.574 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=58 role=ROLE_USER path=/api/character/list/user/58
+2026-10-16 20:10:44.575 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - <==      Total: 1
+2026-10-16 20:10:44.575 [http-nio-8080-exec-20] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/friend/list?userId=58 status=200 elapsedMs=11ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:10:44.575 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - ==>  Preparing: UPDATE user_online_status SET user_id=?, status=?, last_active_time=?, session_id=?, created_at=?, updated_at=? WHERE id=?
+2026-10-16 20:10:44.575 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.C.findSharedCharacterIdsByUserId[0;39m - ==>  Preparing: SELECT character_id FROM character_share WHERE shared_to_user_id = ? AND status = 'ACTIVE'
+2026-10-16 20:10:44.575 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.C.findSharedCharacterIdsByUserId[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:44.576 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - ==> Parameters: 58(Long), online(String), 2026-10-16T20:10:44.575733700(LocalDateTime), c9c1d3d3-7ffe-ee4e-70db-f905fef2e448(String), 2026-08-20T20:50:01(LocalDateTime), 2026-10-16T20:09:15(LocalDateTime), 2(Long)
+2026-10-16 20:10:44.576 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.C.findSharedCharacterIdsByUserId[0;39m - <==      Total: 0
+2026-10-16 20:10:44.577 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - <==    Updates: 1
+2026-10-16 20:10:44.577 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==>  Preparing: SELECT * FROM user_online_status WHERE user_id = ?
+2026-10-16 20:10:44.577 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:44.577 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,name,avatar,prompt,model,personality,voice_style,emotion_base,expressions,actions,backstory,relationship,is_system,is_shared,use_count,rating,description,category,greeting,example_dialogue,tags,voice_id,enabled_tools,avatar_style FROM ai_character WHERE ((user_id = ? AND is_system = ?) OR (is_system = ?))
+2026-10-16 20:10:44.577 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectList[0;39m - ==> Parameters: 58(Long), false(Boolean), true(Boolean)
+2026-10-16 20:10:44.578 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - <==      Total: 1
+2026-10-16 20:10:44.581 [http-nio-8080-exec-12] [34mINFO [0;39m [36mc.e.a.websocket.ChatWebSocketHandler[0;39m - ÓÃ»§Á¬½Ó - userId: 58, sessionId: c9c1d3d3-7ffe-ee4e-70db-f905fef2e448
+2026-10-16 20:10:44.581 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:10:44.582 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:44.582 [http-nio-8080-exec-1] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/user/status?userIds= status=200 elapsedMs=14ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:10:44.583 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:10:44.583 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectList[0;39m - <==      Total: 12
+2026-10-16 20:10:44.584 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:10:44.585 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 58(Long), admin(String)
+2026-10-16 20:10:44.585 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:10:44.585 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=58 role=ROLE_USER path=/api/friend/chat/history
+2026-10-16 20:10:44.586 [http-nio-8080-exec-9] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.587 [http-nio-8080-exec-9] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ¿ªÊ¼»ñÈ¡¶Ô»°ÀúÊ·
+2026-10-16 20:10:44.587 [http-nio-8080-exec-9] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ÓÃ»§ID: 58, ºÃÓÑID: 60, ÏÞÖÆÊýÁ¿: 1
+2026-10-16 20:10:44.587 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.m.F.getChatHistory[0;39m - ==>  Preparing: SELECT f.*, su.username as senderName, su.nickname as senderNickname, ru.username as receiverName, ru.nickname as receiverNickname FROM friend_chat_message f JOIN `user` su ON f.sender_id = su.id JOIN `user` ru ON f.receiver_id = ru.id WHERE (f.sender_id = ? AND f.receiver_id = ?) OR (f.sender_id = ? AND f.receiver_id = ?) ORDER BY f.create_time DESC LIMIT ?
+2026-10-16 20:10:44.587 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.m.F.getChatHistory[0;39m - ==> Parameters: 58(Long), 60(Long), 60(Long), 58(Long), 1(Integer)
+2026-10-16 20:10:44.588 [http-nio-8080-exec-3] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/character/list/user/58 status=200 elapsedMs=19ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:10:44.590 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.m.F.getChatHistory[0;39m - <==      Total: 1
+2026-10-16 20:10:44.590 [http-nio-8080-exec-9] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ²éÑ¯½á¹ûÊýÁ¿: 1
+2026-10-16 20:10:44.590 [http-nio-8080-exec-9] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.590 [http-nio-8080-exec-9] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [±ê¼ÇÏûÏ¢ÒÑ¶Á] ¿ªÊ¼±ê¼ÇÏûÏ¢×´Ì¬
+2026-10-16 20:10:44.590 [http-nio-8080-exec-9] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [±ê¼ÇÏûÏ¢ÒÑ¶Á] ÓÃ»§ID: 58, ºÃÓÑID: 60
+2026-10-16 20:10:44.590 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.m.F.markMessagesAsRead[0;39m - ==>  Preparing: UPDATE friend_chat_message SET status = 1 WHERE receiver_id = ? AND sender_id = ? AND status = 0
+2026-10-16 20:10:44.591 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.m.F.markMessagesAsRead[0;39m - ==> Parameters: 58(Long), 60(Long)
+2026-10-16 20:10:44.591 [http-nio-8080-exec-9] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [±ê¼ÇÏûÏ¢ÒÑ¶Á] ±ê¼ÇÍê³É
+2026-10-16 20:10:44.591 [http-nio-8080-exec-9] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.591 [http-nio-8080-exec-9] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ÁÄÌì¼ÇÂ¼ÒÑ°´Ê±¼äÕýÐòÅÅÁÐ
+2026-10-16 20:10:44.591 [http-nio-8080-exec-9] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ÒÑ×Ô¶¯±ê¼ÇÏûÏ¢ÎªÒÑ¶Á
+2026-10-16 20:10:44.591 [http-nio-8080-exec-9] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.593 [http-nio-8080-exec-9] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/friend/chat/history?userId=58&friendId=60&limit=1 status=200 elapsedMs=12ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:10:44.598 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:10:44.598 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:44.604 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:10:44.605 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:10:44.605 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 58(Long), admin(String)
+2026-10-16 20:10:44.606 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:10:44.606 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=58 role=ROLE_USER path=/api/friend/chat/history
+2026-10-16 20:10:44.607 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.607 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ¿ªÊ¼»ñÈ¡¶Ô»°ÀúÊ·
+2026-10-16 20:10:44.607 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ÓÃ»§ID: 58, ºÃÓÑID: 66, ÏÞÖÆÊýÁ¿: 1
+2026-10-16 20:10:44.607 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.F.getChatHistory[0;39m - ==>  Preparing: SELECT f.*, su.username as senderName, su.nickname as senderNickname, ru.username as receiverName, ru.nickname as receiverNickname FROM friend_chat_message f JOIN `user` su ON f.sender_id = su.id JOIN `user` ru ON f.receiver_id = ru.id WHERE (f.sender_id = ? AND f.receiver_id = ?) OR (f.sender_id = ? AND f.receiver_id = ?) ORDER BY f.create_time DESC LIMIT ?
+2026-10-16 20:10:44.607 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.F.getChatHistory[0;39m - ==> Parameters: 58(Long), 66(Long), 66(Long), 58(Long), 1(Integer)
+2026-10-16 20:10:44.609 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.F.getChatHistory[0;39m - <==      Total: 0
+2026-10-16 20:10:44.609 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ²éÑ¯½á¹ûÊýÁ¿: 0
+2026-10-16 20:10:44.609 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.609 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [±ê¼ÇÏûÏ¢ÒÑ¶Á] ¿ªÊ¼±ê¼ÇÏûÏ¢×´Ì¬
+2026-10-16 20:10:44.609 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [±ê¼ÇÏûÏ¢ÒÑ¶Á] ÓÃ»§ID: 58, ºÃÓÑID: 66
+2026-10-16 20:10:44.609 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.F.markMessagesAsRead[0;39m - ==>  Preparing: UPDATE friend_chat_message SET status = 1 WHERE receiver_id = ? AND sender_id = ? AND status = 0
+2026-10-16 20:10:44.609 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.F.markMessagesAsRead[0;39m - ==> Parameters: 58(Long), 66(Long)
+2026-10-16 20:10:44.610 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [±ê¼ÇÏûÏ¢ÒÑ¶Á] ±ê¼ÇÍê³É
+2026-10-16 20:10:44.610 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.610 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ÁÄÌì¼ÇÂ¼ÒÑ°´Ê±¼äÕýÐòÅÅÁÐ
+2026-10-16 20:10:44.610 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ÒÑ×Ô¶¯±ê¼ÇÏûÏ¢ÎªÒÑ¶Á
+2026-10-16 20:10:44.610 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.610 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/friend/chat/history?userId=58&friendId=66&limit=1 status=200 elapsedMs=13ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:10:44.614 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:10:44.615 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:44.616 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:10:44.616 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:10:44.616 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 58(Long), admin(String)
+2026-10-16 20:10:44.617 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:10:44.617 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=58 role=ROLE_USER path=/api/friend/chat/history
+2026-10-16 20:10:44.618 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.618 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ¿ªÊ¼»ñÈ¡¶Ô»°ÀúÊ·
+2026-10-16 20:10:44.618 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ÓÃ»§ID: 58, ºÃÓÑID: 75, ÏÞÖÆÊýÁ¿: 1
+2026-10-16 20:10:44.618 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.F.getChatHistory[0;39m - ==>  Preparing: SELECT f.*, su.username as senderName, su.nickname as senderNickname, ru.username as receiverName, ru.nickname as receiverNickname FROM friend_chat_message f JOIN `user` su ON f.sender_id = su.id JOIN `user` ru ON f.receiver_id = ru.id WHERE (f.sender_id = ? AND f.receiver_id = ?) OR (f.sender_id = ? AND f.receiver_id = ?) ORDER BY f.create_time DESC LIMIT ?
+2026-10-16 20:10:44.618 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.F.getChatHistory[0;39m - ==> Parameters: 58(Long), 75(Long), 75(Long), 58(Long), 1(Integer)
+2026-10-16 20:10:44.619 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.F.getChatHistory[0;39m - <==      Total: 1
+2026-10-16 20:10:44.619 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ²éÑ¯½á¹ûÊýÁ¿: 1
+2026-10-16 20:10:44.619 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.619 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [±ê¼ÇÏûÏ¢ÒÑ¶Á] ¿ªÊ¼±ê¼ÇÏûÏ¢×´Ì¬
+2026-10-16 20:10:44.619 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [±ê¼ÇÏûÏ¢ÒÑ¶Á] ÓÃ»§ID: 58, ºÃÓÑID: 75
+2026-10-16 20:10:44.619 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.F.markMessagesAsRead[0;39m - ==>  Preparing: UPDATE friend_chat_message SET status = 1 WHERE receiver_id = ? AND sender_id = ? AND status = 0
+2026-10-16 20:10:44.619 [http-nio-8080-exec-6] [39mDEBUG[0;39m [36mc.e.a.m.F.markMessagesAsRead[0;39m - ==> Parameters: 58(Long), 75(Long)
+2026-10-16 20:10:44.621 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [±ê¼ÇÏûÏ¢ÒÑ¶Á] ±ê¼ÇÍê³É
+2026-10-16 20:10:44.621 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.621 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ÁÄÌì¼ÇÂ¼ÒÑ°´Ê±¼äÕýÐòÅÅÁÐ
+2026-10-16 20:10:44.621 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ÒÑ×Ô¶¯±ê¼ÇÏûÏ¢ÎªÒÑ¶Á
+2026-10-16 20:10:44.621 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.622 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/friend/chat/history?userId=58&friendId=75&limit=1 status=200 elapsedMs=8ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:10:44.627 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:10:44.627 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:10:44.628 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:10:44.629 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:10:44.629 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 58(Long), admin(String)
+2026-10-16 20:10:44.629 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:10:44.630 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=58 role=ROLE_USER path=/api/friend/chat/history
+2026-10-16 20:10:44.630 [http-nio-8080-exec-14] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.630 [http-nio-8080-exec-14] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ¿ªÊ¼»ñÈ¡¶Ô»°ÀúÊ·
+2026-10-16 20:10:44.630 [http-nio-8080-exec-14] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ÓÃ»§ID: 58, ºÃÓÑID: 66, ÏÞÖÆÊýÁ¿: 50
+2026-10-16 20:10:44.631 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.F.getChatHistory[0;39m - ==>  Preparing: SELECT f.*, su.username as senderName, su.nickname as senderNickname, ru.username as receiverName, ru.nickname as receiverNickname FROM friend_chat_message f JOIN `user` su ON f.sender_id = su.id JOIN `user` ru ON f.receiver_id = ru.id WHERE (f.sender_id = ? AND f.receiver_id = ?) OR (f.sender_id = ? AND f.receiver_id = ?) ORDER BY f.create_time DESC LIMIT ?
+2026-10-16 20:10:44.631 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.F.getChatHistory[0;39m - ==> Parameters: 58(Long), 66(Long), 66(Long), 58(Long), 50(Integer)
+2026-10-16 20:10:44.632 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.F.getChatHistory[0;39m - <==      Total: 0
+2026-10-16 20:10:44.632 [http-nio-8080-exec-14] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ²éÑ¯½á¹ûÊýÁ¿: 0
+2026-10-16 20:10:44.632 [http-nio-8080-exec-14] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.632 [http-nio-8080-exec-14] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [±ê¼ÇÏûÏ¢ÒÑ¶Á] ¿ªÊ¼±ê¼ÇÏûÏ¢×´Ì¬
+2026-10-16 20:10:44.632 [http-nio-8080-exec-14] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [±ê¼ÇÏûÏ¢ÒÑ¶Á] ÓÃ»§ID: 58, ºÃÓÑID: 66
+2026-10-16 20:10:44.632 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.F.markMessagesAsRead[0;39m - ==>  Preparing: UPDATE friend_chat_message SET status = 1 WHERE receiver_id = ? AND sender_id = ? AND status = 0
+2026-10-16 20:10:44.632 [http-nio-8080-exec-14] [39mDEBUG[0;39m [36mc.e.a.m.F.markMessagesAsRead[0;39m - ==> Parameters: 58(Long), 66(Long)
+2026-10-16 20:10:44.633 [http-nio-8080-exec-14] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [±ê¼ÇÏûÏ¢ÒÑ¶Á] ±ê¼ÇÍê³É
+2026-10-16 20:10:44.633 [http-nio-8080-exec-14] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.633 [http-nio-8080-exec-14] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ÁÄÌì¼ÇÂ¼ÒÑ°´Ê±¼äÕýÐòÅÅÁÐ
+2026-10-16 20:10:44.633 [http-nio-8080-exec-14] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - [»ñÈ¡ÁÄÌì¼ÇÂ¼] ÒÑ×Ô¶¯±ê¼ÇÏûÏ¢ÎªÒÑ¶Á
+2026-10-16 20:10:44.633 [http-nio-8080-exec-14] [34mINFO [0;39m [36mc.e.a.s.impl.FriendChatServiceImpl[0;39m - ¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T¨T
+2026-10-16 20:10:44.634 [http-nio-8080-exec-14] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/friend/chat/history?userId=58&friendId=66&limit=50 status=200 elapsedMs=7ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:10:44.636 [http-nio-8080-exec-15] [39mDEBUG[0;39m [36mc.e.a.websocket.ChatWebSocketHandler[0;39m - ÊÕµ½ÏûÏ¢: {"type":"read","senderId":66}
+2026-10-16 20:10:44.646 [http-nio-8080-exec-15] [39mDEBUG[0;39m [36mc.e.a.m.F.update[0;39m - ==>  Preparing: UPDATE friend_chat_message SET is_read=?,read_at=? WHERE (receiver_id = ? AND sender_id = ? AND is_read = ?)
+2026-10-16 20:10:44.647 [http-nio-8080-exec-15] [39mDEBUG[0;39m [36mc.e.a.m.F.update[0;39m - ==> Parameters: true(Boolean), 2026-10-16T20:10:44.642768100(LocalDateTime), 58(Long), 66(Long), false(Boolean)
+2026-10-16 20:10:44.648 [http-nio-8080-exec-15] [39mDEBUG[0;39m [36mc.e.a.m.F.update[0;39m - <==    Updates: 0
+2026-10-16 20:10:44.648 [http-nio-8080-exec-15] [1;31mERROR[0;39m [36mc.e.a.websocket.ChatWebSocketHandler[0;39m - ´¦ÀíÏûÏ¢Ê§°Ü
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:1186)
+	at java.base/java.util.Map.of(Map.java:1445)
+	at com.example.aichat.websocket.ChatWebSocketHandler.handleRead(ChatWebSocketHandler.java:512)
+	at com.example.aichat.websocket.ChatWebSocketHandler.handleTextMessage(ChatWebSocketHandler.java:185)
+	at org.springframework.web.socket.handler.AbstractWebSocketHandler.handleMessage(AbstractWebSocketHandler.java:43)
+	at org.springframework.web.socket.handler.WebSocketHandlerDecorator.handleMessage(WebSocketHandlerDecorator.java:75)
+	at org.springframework.web.socket.handler.LoggingWebSocketHandlerDecorator.handleMessage(LoggingWebSocketHandlerDecorator.java:56)
+	at org.springframework.web.socket.handler.ExceptionWebSocketHandlerDecorator.handleMessage(ExceptionWebSocketHandlerDecorator.java:58)
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter.handleTextMessage(StandardWebSocketHandlerAdapter.java:113)
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter$3.onMessage(StandardWebSocketHandlerAdapter.java:84)
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter$3.onMessage(StandardWebSocketHandlerAdapter.java:81)
+	at org.apache.tomcat.websocket.WsFrameBase.sendMessageText(WsFrameBase.java:390)
+	at org.apache.tomcat.websocket.server.WsFrameServer.sendMessageText(WsFrameServer.java:130)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataText(WsFrameBase.java:484)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:284)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:130)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:85)
+	at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:184)
+	at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:164)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:152)
+	at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:60)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:57)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-10-16 20:10:45.060 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-16 20:10:45.060 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-16T20:10:45.059966800(LocalDateTime)
+2026-10-16 20:10:45.061 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:10:56.914 [http-nio-8080-exec-11] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_INVALID] path=/api/user/login
+2026-10-16 20:10:56.917 [http-nio-8080-exec-11] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (username = ?)
+2026-10-16 20:10:56.917 [http-nio-8080-exec-11] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: gyb01(String)
+2026-10-16 20:10:56.918 [http-nio-8080-exec-11] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 1
+2026-10-16 20:10:57.018 [http-nio-8080-exec-11] [34mINFO [0;39m [36mAUDIT[0;39m - [AUDIT] action=LOGIN resource=USER method=UserController.login status=FAILED code=500 elapsedMs=101ms userId=null username=null ip=0:0:0:0:0:0:0:1 args=[LoginRequest(username=gyb01, password=123456)]
+2026-10-16 20:10:57.018 [http-nio-8080-exec-11] [31mWARN [0;39m [36mAUDIT[0;39m - [AUDIT_ERROR] action=LOGIN method=UserController.login userId=null exception=BusinessException: ÓÃ»§Ãû»òÃÜÂë´íÎó
+2026-10-16 20:10:57.022 [http-nio-8080-exec-11] [31mWARN [0;39m [36mc.e.a.config.GlobalExceptionHandler[0;39m - [BIZ_ERROR] code=10101, message=ÓÃ»§Ãû»òÃÜÂë´íÎó
+2026-10-16 20:10:57.024 [http-nio-8080-exec-11] [31mWARN [0;39m [36mo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver[0;39m - Resolved [com.example.aichat.common.exception.BusinessException: ÓÃ»§Ãû»òÃÜÂë´íÎó]
+2026-10-16 20:10:57.024 [http-nio-8080-exec-11] [31mWARN [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST_CLIENT_ERROR] method=POST uri=/api/user/login status=401 elapsedMs=111ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:11:10.199 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (username = ?)
+2026-10-16 20:11:10.200 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 123(String)
+2026-10-16 20:11:10.201 [http-nio-8080-exec-17] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 1
+2026-10-16 20:11:10.298 [http-nio-8080-exec-17] [34mINFO [0;39m [36mAUDIT[0;39m - [AUDIT] action=LOGIN resource=USER method=UserController.login status=SUCCESS code=200 elapsedMs=100ms userId=null username=null ip=0:0:0:0:0:0:0:1 args=[LoginRequest(username=123, password=123456)]
+2026-10-16 20:11:10.299 [biz-async-2] [39mDEBUG[0;39m [36mc.e.a.mapper.AccessLogMapper.insert[0;39m - ==>  Preparing: INSERT INTO access_log ( access_type, request_method, request_path, request_params, response_status, response_time, ip_address, user_agent, accessed_at ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2026-10-16 20:11:10.300 [http-nio-8080-exec-17] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=POST uri=/api/user/login status=200 elapsedMs=105ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:11:10.300 [biz-async-2] [39mDEBUG[0;39m [36mc.e.a.mapper.AccessLogMapper.insert[0;39m - ==> Parameters: LOGIN(String), POST(String), UserController.login(String), [LoginRequest(username=123, password=123456)](String), 200(Integer), 100(Integer), 0:0:0:0:0:0:0:1(String), Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ai-chat-frontend/1.0.0 Chrome/120.0.6099.291 Electron/28.3.3 Safari/537.36(String), 2026-10-16T20:11:10.298941400(LocalDateTime)
+2026-10-16 20:11:10.302 [biz-async-2] [39mDEBUG[0;39m [36mc.e.a.mapper.AccessLogMapper.insert[0;39m - <==    Updates: 1
+2026-10-16 20:11:10.354 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:11:10.354 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 60(Long)
+2026-10-16 20:11:10.355 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:11:10.356 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:11:10.356 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 60(Long), admin(String)
+2026-10-16 20:11:10.356 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:11:10.357 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=60 role=ROLE_USER path=/ws/chat
+2026-10-16 20:11:10.358 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:11:10.358 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 60(Long)
+2026-10-16 20:11:10.358 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:11:10.359 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 60(Long)
+2026-10-16 20:11:10.359 [http-nio-8080-exec-20] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/ws/chat?userId=60&token=*** status=101 elapsedMs=7ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:11:10.360 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:11:10.360 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:11:10.360 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==>  Preparing: SELECT * FROM user_online_status WHERE user_id = ?
+2026-10-16 20:11:10.360 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==> Parameters: 60(Long)
+2026-10-16 20:11:10.360 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:11:10.360 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:11:10.360 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 60(Long), admin(String)
+2026-10-16 20:11:10.360 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 60(Long), admin(String)
+2026-10-16 20:11:10.361 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - <==      Total: 0
+2026-10-16 20:11:10.361 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:11:10.361 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:11:10.361 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=60 role=ROLE_USER path=/api/quota/current
+2026-10-16 20:11:10.362 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=60 role=ROLE_USER path=/api/character/list/user/60
+2026-10-16 20:11:10.362 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:11:10.362 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 60(Long)
+2026-10-16 20:11:10.362 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.m.U.insert[0;39m - ==>  Preparing: INSERT INTO user_online_status ( user_id, status, last_active_time, session_id, created_at, updated_at ) VALUES ( ?, ?, ?, ?, ?, ? )
+2026-10-16 20:11:10.362 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.m.C.findSharedCharacterIdsByUserId[0;39m - ==>  Preparing: SELECT character_id FROM character_share WHERE shared_to_user_id = ? AND status = 'ACTIVE'
+2026-10-16 20:11:10.362 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.m.U.insert[0;39m - ==> Parameters: 60(Long), online(String), 2026-10-16T20:11:10.361944100(LocalDateTime), 015cb885-9d1d-5cdf-d5c7-ae2fe629b03f(String), 2026-10-16T20:11:10.361944100(LocalDateTime), 2026-10-16T20:11:10.361944100(LocalDateTime)
+2026-10-16 20:11:10.362 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.m.C.findSharedCharacterIdsByUserId[0;39m - ==> Parameters: 60(Long)
+2026-10-16 20:11:10.363 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:11:10.364 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.m.U.insert[0;39m - <==    Updates: 1
+2026-10-16 20:11:10.364 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.m.C.findSharedCharacterIdsByUserId[0;39m - <==      Total: 3
+2026-10-16 20:11:10.364 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.m.UserQuotaMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,feature_type,used_count,limit_count,bonus_limit,reset_date,created_at,updated_at FROM user_quota WHERE (user_id = ? AND reset_date = ?)
+2026-10-16 20:11:10.364 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==>  Preparing: SELECT * FROM user_online_status WHERE user_id = ?
+2026-10-16 20:11:10.364 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,name,avatar,prompt,model,personality,voice_style,emotion_base,expressions,actions,backstory,relationship,is_system,is_shared,use_count,rating,description,category,greeting,example_dialogue,tags,voice_id,enabled_tools,avatar_style FROM ai_character WHERE ((user_id = ? AND is_system = ?) OR (is_system = ?))
+2026-10-16 20:11:10.364 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==> Parameters: 60(Long)
+2026-10-16 20:11:10.364 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectList[0;39m - ==> Parameters: 60(Long), false(Boolean), true(Boolean)
+2026-10-16 20:11:10.364 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.m.UserQuotaMapper.selectList[0;39m - ==> Parameters: 60(Long), 2026-10-16(LocalDate)
+2026-10-16 20:11:10.365 [http-nio-8080-exec-12] [39mDEBUG[0;39m [36mc.e.a.m.UserQuotaMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:11:10.365 [http-nio-8080-exec-20] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - <==      Total: 1
+2026-10-16 20:11:10.365 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectList[0;39m - <==      Total: 7
+2026-10-16 20:11:10.367 [http-nio-8080-exec-12] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/quota/current status=200 elapsedMs=9ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:11:10.368 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,name,avatar,prompt,model,personality,voice_style,emotion_base,expressions,actions,backstory,relationship,is_system,is_shared,use_count,rating,description,category,greeting,example_dialogue,tags,voice_id,enabled_tools,avatar_style FROM ai_character WHERE (id IN (?,?,?) AND is_system = ?)
+2026-10-16 20:11:10.368 [http-nio-8080-exec-20] [34mINFO [0;39m [36mc.e.a.websocket.ChatWebSocketHandler[0;39m - ÓÃ»§Á¬½Ó - userId: 60, sessionId: 015cb885-9d1d-5cdf-d5c7-ae2fe629b03f
+2026-10-16 20:11:10.369 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectList[0;39m - ==> Parameters: 41(Long), 42(Long), 43(Long), false(Boolean)
+2026-10-16 20:11:10.369 [http-nio-8080-exec-4] [39mDEBUG[0;39m [36mc.e.a.m.AiCharacterMapper.selectList[0;39m - <==      Total: 3
+2026-10-16 20:11:10.371 [http-nio-8080-exec-4] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/character/list/user/60 status=200 elapsedMs=12ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:11:10.418 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:11:10.418 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 60(Long)
+2026-10-16 20:11:10.419 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:11:10.420 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:11:10.421 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 60(Long), admin(String)
+2026-10-16 20:11:10.422 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:11:10.422 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=60 role=ROLE_USER path=/api/soul/1
+2026-10-16 20:11:10.424 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.AiSoulStateMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,character_id,elf_id,current_emotion,mood_score,attitude_score,personality_weights,core_beliefs,self_summary,version,created_at,updated_at FROM ai_soul_state WHERE (user_id = ? AND character_id = ?) LIMIT 1
+2026-10-16 20:11:10.424 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.AiSoulStateMapper.selectList[0;39m - ==> Parameters: 60(Long), 1(Long)
+2026-10-16 20:11:10.425 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.AiSoulStateMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:11:10.425 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.A.selectCount[0;39m - ==>  Preparing: SELECT COUNT( * ) AS total FROM ai_soul_experience WHERE (user_id = ? AND character_id = ?)
+2026-10-16 20:11:10.426 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.A.selectCount[0;39m - ==> Parameters: 60(Long), 1(Long)
+2026-10-16 20:11:10.426 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.A.selectCount[0;39m - <==      Total: 1
+2026-10-16 20:11:10.427 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectCount[0;39m - ==>  Preparing: SELECT COUNT( * ) AS total FROM ai_memory WHERE (user_id = ?)
+2026-10-16 20:11:10.427 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectCount[0;39m - ==> Parameters: 60(Long)
+2026-10-16 20:11:10.428 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectCount[0;39m - <==      Total: 1
+2026-10-16 20:11:10.428 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectMaps[0;39m - ==>  Preparing: SELECT memory_type AS memoryType, COUNT(*) AS cnt FROM ai_memory WHERE (user_id = ?) GROUP BY memory_type
+2026-10-16 20:11:10.428 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectMaps[0;39m - ==> Parameters: 60(Long)
+2026-10-16 20:11:10.429 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectMaps[0;39m - <==      Total: 0
+2026-10-16 20:11:10.429 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectMaps[0;39m - ==>  Preparing: SELECT importance AS importance, COUNT(*) AS cnt FROM ai_memory WHERE (user_id = ?) GROUP BY importance
+2026-10-16 20:11:10.429 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectMaps[0;39m - ==> Parameters: 60(Long)
+2026-10-16 20:11:10.430 [http-nio-8080-exec-3] [39mDEBUG[0;39m [36mc.e.a.m.AiMemoryMapper.selectMaps[0;39m - <==      Total: 0
+2026-10-16 20:11:10.431 [http-nio-8080-exec-3] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/soul/1 status=200 elapsedMs=14ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:11:10.472 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE id=?
+2026-10-16 20:11:10.473 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - ==> Parameters: 60(Long)
+2026-10-16 20:11:10.474 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectById[0;39m - <==      Total: 1
+2026-10-16 20:11:10.475 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==>  Preparing: SELECT id,username,password,nickname,avatar,avatar_url,email,bio,interests,location,website,gender,birthday,version_type,version_expire_time,account_status,membership_level,membership_expire_at,phone,phone_verified,email_verified,mfa_enabled,mfa_secret,last_login_ip,last_login_time,failed_login_count,lock_time,security_question,security_answer,created_at,updated_at,age,is_minor,minor_mode_enabled,minor_mode_updated_at,voice_preference FROM user WHERE (id = ? AND username = ?)
+2026-10-16 20:11:10.476 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - ==> Parameters: 60(Long), admin(String)
+2026-10-16 20:11:10.476 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.mapper.UserMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:11:10.476 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - [JWT_AUTH_SUCCESS] userId=60 role=ROLE_USER path=/api/soul/1/experiences
+2026-10-16 20:11:10.485 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.m.A.selectList[0;39m - ==>  Preparing: SELECT id,user_id,character_id,elf_id,experience,feeling,understanding,memory_ref,impact,created_at FROM ai_soul_experience WHERE (user_id = ? AND character_id = ?) ORDER BY created_at DESC LIMIT 0,5
+2026-10-16 20:11:10.487 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.m.A.selectList[0;39m - ==> Parameters: 60(Long), 1(Long)
+2026-10-16 20:11:10.490 [http-nio-8080-exec-9] [39mDEBUG[0;39m [36mc.e.a.m.A.selectList[0;39m - <==      Total: 0
+2026-10-16 20:11:10.496 [http-nio-8080-exec-9] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/api/soul/1/experiences?page=1&size=5 status=200 elapsedMs=23ms ip=0:0:0:0:0:0:0:1
+2026-10-16 20:11:15.017 [scheduling-1] [34mINFO [0;39m [36mc.e.a.s.impl.ElfReminderServiceImpl[0;39m - AI Ö÷¶¯ÏûÏ¢´¥´ï - ÈËÊý: 2
+2026-10-16 20:11:29.862 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==>  Preparing: SELECT * FROM user_online_status WHERE user_id = ?
+2026-10-16 20:11:29.862 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==> Parameters: 60(Long)
+2026-10-16 20:11:29.863 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - <==      Total: 1
+2026-10-16 20:11:29.863 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - ==>  Preparing: UPDATE user_online_status SET user_id=?, status=?, last_active_time=?, session_id=?, created_at=?, updated_at=? WHERE id=?
+2026-10-16 20:11:29.864 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - ==> Parameters: 60(Long), offline(String), 2026-10-16T20:11:29.863135600(LocalDateTime), 015cb885-9d1d-5cdf-d5c7-ae2fe629b03f(String), 2026-10-16T20:11:10(LocalDateTime), 2026-10-16T20:11:10(LocalDateTime), 4(Long)
+2026-10-16 20:11:29.865 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - <==    Updates: 1
+2026-10-16 20:11:29.865 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==>  Preparing: SELECT * FROM user_online_status WHERE user_id = ?
+2026-10-16 20:11:29.865 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==> Parameters: 60(Long)
+2026-10-16 20:11:29.866 [http-nio-8080-exec-7] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - <==      Total: 1
+2026-10-16 20:11:29.870 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.websocket.ChatWebSocketHandler[0;39m - ÓÃ»§¶Ï¿ªÁ¬½Ó - userId: 60, sessionId: 015cb885-9d1d-5cdf-d5c7-ae2fe629b03f
+2026-10-16 20:11:29.870 [http-nio-8080-exec-7] [34mINFO [0;39m [36mc.e.a.websocket.ChatWebSocketHandler[0;39m - WebSocketÁ¬½ÓÒÑ¹Ø±Õ: 015cb885-9d1d-5cdf-d5c7-ae2fe629b03f, ×´Ì¬: CloseStatus[code=1001, reason=null]
+2026-10-16 20:11:31.059 [http-nio-8080-exec-18] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==>  Preparing: SELECT * FROM user_online_status WHERE user_id = ?
+2026-10-16 20:11:31.060 [http-nio-8080-exec-18] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:11:31.061 [http-nio-8080-exec-18] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - <==      Total: 1
+2026-10-16 20:11:31.062 [http-nio-8080-exec-18] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - ==>  Preparing: UPDATE user_online_status SET user_id=?, status=?, last_active_time=?, session_id=?, created_at=?, updated_at=? WHERE id=?
+2026-10-16 20:11:31.062 [http-nio-8080-exec-18] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - ==> Parameters: 58(Long), offline(String), 2026-10-16T20:11:31.061334800(LocalDateTime), c9c1d3d3-7ffe-ee4e-70db-f905fef2e448(String), 2026-08-20T20:50:01(LocalDateTime), 2026-10-16T20:09:15(LocalDateTime), 2(Long)
+2026-10-16 20:11:31.063 [http-nio-8080-exec-18] [39mDEBUG[0;39m [36mc.e.a.m.U.updateById[0;39m - <==    Updates: 1
+2026-10-16 20:11:31.063 [http-nio-8080-exec-18] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==>  Preparing: SELECT * FROM user_online_status WHERE user_id = ?
+2026-10-16 20:11:31.064 [http-nio-8080-exec-18] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - ==> Parameters: 58(Long)
+2026-10-16 20:11:31.064 [http-nio-8080-exec-18] [39mDEBUG[0;39m [36mc.e.a.m.U.findByUserId[0;39m - <==      Total: 1
+2026-10-16 20:11:31.072 [http-nio-8080-exec-18] [34mINFO [0;39m [36mc.e.a.websocket.ChatWebSocketHandler[0;39m - ÓÃ»§¶Ï¿ªÁ¬½Ó - userId: 58, sessionId: c9c1d3d3-7ffe-ee4e-70db-f905fef2e448
+2026-10-16 20:11:31.072 [http-nio-8080-exec-18] [34mINFO [0;39m [36mc.e.a.websocket.ChatWebSocketHandler[0;39m - WebSocketÁ¬½ÓÒÑ¹Ø±Õ: c9c1d3d3-7ffe-ee4e-70db-f905fef2e448, ×´Ì¬: CloseStatus[code=1001, reason=null]
+2026-10-16 20:11:45.077 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==>  Preparing: SELECT id,user_id,title,content,remind_time,triggered,create_time FROM elf_reminder WHERE (triggered = ? AND remind_time <= ?)
+2026-10-16 20:11:45.078 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - ==> Parameters: false(Boolean), 2026-10-16T20:11:45.076789400(LocalDateTime)
+2026-10-16 20:11:45.078 [scheduling-1] [39mDEBUG[0;39m [36mc.e.a.m.ElfReminderMapper.selectList[0;39m - <==      Total: 0
+2026-10-16 20:12:07.033 [http-nio-8080-exec-6] [34mINFO [0;39m [36mc.e.a.common.web.RequestLogAspect[0;39m - [REQUEST] method=GET uri=/actuator/health status=200 elapsedMs=5ms ip=127.0.0.1
+2026-10-16 20:12:21.073 [lettuce-nioEventLoop-4-1] [34mINFO [0;39m [36mi.l.core.protocol.CommandHandler[0;39m - null Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-10-16 20:12:21.091 [lettuce-eventExecutorLoop-2-1] [34mINFO [0;39m [36mi.l.core.protocol.ConnectionWatchdog[0;39m - Reconnecting, last destination was localhost/127.0.0.1:6379
+2026-10-16 20:12:21.096 [lettuce-nioEventLoop-4-2] [31mWARN [0;39m [36mi.l.core.protocol.ConnectionWatchdog[0;39m - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:43 min
+[INFO] Finished at: 2026-10-16T20:12:21+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.5:run (default-cli) on project aichat: Process terminated with exit code: -1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -1,0 +1,314 @@
+# Dimension 9: special nodes and parts
+source: C:\Users\郭耀彬\Desktop\4.学号-姓名-开题报告.docx
+syntax: [NODE<n>] is an inline special node, [RUN<n>] its semantic Run reference, [PART<n>] a comments/notes part, [ENTRY<n>] one part entry, [PROPERTY<n>] document metadata, and [MACRO<n>] a VBA payload.
+text_policy: full text is emitted without truncation.
+omitted: record_type; enclosing part XML duplicated by entry structures; raw Run and drawing XML.
+normalized: OOXML structures use compact prefix:tag(attribute,child) notation.
+
+[NODE1 tag="w:drawing" part="word/document.xml" loc="/w:document/w:body/w:p[1]/w:r/w:drawing"]
+structure=w:drawing(wp:inline(distT="0",distB="0",distL="0",distR="0",wp:extent(cx="4572000",cy="1054100"),wp:effectExtent(l="0",t="0",r="0",b="0"),wp:docPr(id="1",name="图片 1",descr="logo"),wp:cNvGraphicFramePr(a:graphicFrameLocks(noChangeAspect="1")),a:graphic(a:graphicData(uri="http://schemas.openxmlformats.org/drawingml/2006/picture",pic:pic(pic:nvPicPr(pic:cNvPr(id="1",name="图片 1",descr="logo"),pic:cNvPicPr(a:picLocks(noChangeAspect="1",noChangeArrowheads="1"))),pic:blipFill(a:blip(r:embed="rId9",a:extLst(a:ext(uri="{28A0092B-C50C-407E-A947-70E740481C1C}",useLocalDpi(val="0")))),a:srcRect(),a:stretch(a:fillRect())),pic:spPr(a:xfrm(a:off(x="0",y="0"),a:ext(cx="4572000",cy="1054100")),a:prstGeom(prst="rect",a:avLst()),a:noFill(),a:ln(a:noFill())))))))
+
+[NODE2 tag="w:bookmarkStart" part="word/document.xml" loc="/w:document/w:body/w:tbl[1]/w:tr[6]/w:tc[2]/w:p/w:bookmarkStart" attrs={"w:id":"0","w:name":"_GoBack"}]
+structure=w:bookmarkStart(w:id="0",w:name="_GoBack")
+
+[NODE3 tag="w:bookmarkEnd" part="word/document.xml" loc="/w:document/w:body/w:tbl[1]/w:tr[6]/w:tc[2]/w:p/w:bookmarkEnd" attrs={"w:id":"0"}]
+structure=w:bookmarkEnd(w:id="0")
+
+[NODE4 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[1]/w:tr[6]/w:tc[2]/w:p/w:r[2]/w:commentReference" attrs={"w:id":"0"}]
+structure=w:commentReference(w:id="0")
+
+[NODE5 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[1]/w:tr[7]/w:tc[2]/w:p/w:r/w:commentReference" attrs={"w:id":"1"}]
+structure=w:commentReference(w:id="1")
+
+[NODE6 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[1]/w:tr[8]/w:tc[2]/w:p/w:r/w:commentReference" attrs={"w:id":"2"}]
+structure=w:commentReference(w:id="2")
+
+[NODE7 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[1]/w:tc/w:p/w:r[3]/w:commentReference" attrs={"w:id":"3"}]
+structure=w:commentReference(w:id="3")
+
+[NODE8 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[1]/w:tc/w:p/w:r[5]/w:commentReference" attrs={"w:id":"4"}]
+structure=w:commentReference(w:id="4")
+
+[NODE9 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[1]/w:r[3]/w:commentReference" attrs={"w:id":"5"}]
+structure=w:commentReference(w:id="5")
+
+[NODE10 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[3]/w:r[3]/w:commentReference" attrs={"w:id":"6"}]
+structure=w:commentReference(w:id="6")
+
+[NODE11 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[7]/w:r[1]/w:commentReference" attrs={"w:id":"7"}]
+structure=w:commentReference(w:id="7")
+
+[NODE12 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[8]/w:r[2]/w:commentReference" attrs={"w:id":"8"}]
+structure=w:commentReference(w:id="8")
+
+[NODE13 tag="w:fldChar" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[9]/w:r[2]/w:fldChar" attrs={"w:fldCharType":"begin"}]
+structure=w:fldChar(w:fldCharType="begin")
+
+[NODE14 tag="w:instrText" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[9]/w:r[3]/w:instrText" attrs={"space":"preserve"}]
+structure=w:instrText(space="preserve",text=" REF _Ref2762 \\w \\h ")
+
+[NODE15 tag="w:fldChar" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[9]/w:r[4]/w:fldChar" attrs={"w:fldCharType":"separate"}]
+structure=w:fldChar(w:fldCharType="separate")
+
+[NODE16 tag="w:fldChar" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[9]/w:r[5]/w:fldChar" attrs={"w:fldCharType":"end"}]
+structure=w:fldChar(w:fldCharType="end")
+
+[NODE17 tag="w:drawing" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[20]/w:r/w:drawing"]
+structure=w:drawing(wp:inline(distT="0",distB="0",distL="114300",distR="114300",wp:extent(cx="5360035",cy="4161790"),wp:effectExtent(l="0",t="0",r="2540",b="635"),wp:docPr(id="8",name="图片 8",descr="绘图1"),wp:cNvGraphicFramePr(a:graphicFrameLocks(noChangeAspect="1")),a:graphic(a:graphicData(uri="http://schemas.openxmlformats.org/drawingml/2006/picture",pic:pic(pic:nvPicPr(pic:cNvPr(id="8",name="图片 8",descr="绘图1"),pic:cNvPicPr(a:picLocks(noChangeAspect="1"))),pic:blipFill(a:blip(r:embed="rId10"),a:stretch(a:fillRect())),pic:spPr(a:xfrm(a:off(x="0",y="0"),a:ext(cx="5360035",cy="4161790")),a:prstGeom(prst="rect",a:avLst())))))))
+
+[NODE18 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[25]/w:r[3]/w:commentReference" attrs={"w:id":"9"}]
+structure=w:commentReference(w:id="9")
+
+[NODE19 tag="w:commentRangeStart" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:tbl/w:tr[9]/w:tc[2]/w:p/w:commentRangeStart" attrs={"w:id":"10"}]
+structure=w:commentRangeStart(w:id="10")
+
+[NODE20 tag="w:commentRangeEnd" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:tbl/w:tr[9]/w:tc[2]/w:p/w:commentRangeEnd" attrs={"w:id":"10"}]
+structure=w:commentRangeEnd(w:id="10")
+
+[NODE21 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:tbl/w:tr[9]/w:tc[2]/w:p/w:r[2]/w:commentReference" attrs={"w:id":"10"}]
+structure=w:commentReference(w:id="10")
+
+[NODE22 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[27]/w:r[1]/w:commentReference" attrs={"w:id":"11"}]
+structure=w:commentReference(w:id="11")
+
+[NODE23 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[35]/w:r[4]/w:commentReference" attrs={"w:id":"12"}]
+structure=w:commentReference(w:id="12")
+
+[NODE24 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[54]/w:r[1]/w:commentReference" attrs={"w:id":"13"}]
+structure=w:commentReference(w:id="13")
+
+[NODE25 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[54]/w:r[3]/w:commentReference" attrs={"w:id":"14"}]
+structure=w:commentReference(w:id="14")
+
+[NODE26 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[74]/w:r[2]/w:commentReference" attrs={"w:id":"15"}]
+structure=w:commentReference(w:id="15")
+
+[NODE27 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[3]/w:tc/w:p[1]/w:r[2]/w:commentReference" attrs={"w:id":"16"}]
+structure=w:commentReference(w:id="16")
+
+[NODE28 tag="w:commentReference" part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[4]/w:tc[1]/w:p[2]/w:r[3]/w:commentReference" attrs={"w:id":"17"}]
+structure=w:commentReference(w:id="17")
+
+[NODE29 tag="w:sdt" part="word/footer1.xml" loc="/w:ftr/w:sdt"]
+2
+structure=w:sdt(w:sdtPr(w:id(w:val="1131202232"),w:docPartObj(w:docPartGallery(w:val="autotext"))),w:sdtContent(w:p(w14:paraId="1B18B358",w:pPr(w:pStyle(w:val="7"),w:jc(w:val="center")),w:r(w:fldChar(w:fldCharType="begin")),w:r(w:instrText(space="preserve",text="PAGE   \\* MERGEFORMAT")),w:r(w:fldChar(w:fldCharType="separate")),w:r(w:rPr(w:lang(w:val="zh-CN")),w:t(text="2")),w:r(w:fldChar(w:fldCharType="end")))))
+
+[NODE30 tag="w:fldChar" part="word/footer1.xml" loc="/w:ftr/w:sdt/w:sdtContent/w:p/w:r[1]/w:fldChar" attrs={"w:fldCharType":"begin"}]
+structure=w:fldChar(w:fldCharType="begin")
+
+[NODE31 tag="w:instrText" part="word/footer1.xml" loc="/w:ftr/w:sdt/w:sdtContent/w:p/w:r[2]/w:instrText" attrs={"space":"preserve"}]
+structure=w:instrText(space="preserve",text="PAGE   \\* MERGEFORMAT")
+
+[NODE32 tag="w:fldChar" part="word/footer1.xml" loc="/w:ftr/w:sdt/w:sdtContent/w:p/w:r[3]/w:fldChar" attrs={"w:fldCharType":"separate"}]
+structure=w:fldChar(w:fldCharType="separate")
+
+[NODE33 tag="w:fldChar" part="word/footer1.xml" loc="/w:ftr/w:sdt/w:sdtContent/w:p/w:r[5]/w:fldChar" attrs={"w:fldCharType":"end"}]
+structure=w:fldChar(w:fldCharType="end")
+
+[RUN1 part="word/document.xml" loc="/w:document/w:body/w:p[1]/w:r" paragraph_loc="/word/document.xml/w:body/*[1]" paragraph=1 run=1 drawings=[{"relationship_id":"rId9","relationship_ids":["rId9"],"target":"media/image1.png","resolved_target":"word/media/image1.png","targets":[{"relationship_id":"rId9","target":"media/image1.png","resolved_target":"word/media/image1.png","target_mode":null}],"name":"图片 1","alt_text":"logo","size_emu":{"cx":"4572000","cy":"1054100"},"positioning":"wp:inline","location":"/w:document/w:body/w:p[1]/w:r/w:drawing"}]]
+
+[RUN2 part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[9]/w:r[3]" paragraph_loc="/word/document.xml/w:body/*[10]/w:tr[2]/w:tc[1]/*[10]" paragraph=36 run=3 fields=[" REF _Ref2762 \\w \\h "]]
+
+[RUN3 part="word/document.xml" loc="/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[20]/w:r" paragraph_loc="/word/document.xml/w:body/*[10]/w:tr[2]/w:tc[1]/*[21]" paragraph=47 run=1 drawings=[{"relationship_id":"rId10","relationship_ids":["rId10"],"target":"media/image2.jpeg","resolved_target":"word/media/image2.jpeg","targets":[{"relationship_id":"rId10","target":"media/image2.jpeg","resolved_target":"word/media/image2.jpeg","target_mode":null}],"name":"图片 8","alt_text":"绘图1","size_emu":{"cx":"5360035","cy":"4161790"},"positioning":"wp:inline","location":"/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc/w:p[20]/w:r/w:drawing"}]]
+
+[PART1 part="word/comments.xml" entries=18]
+专升本专业在专业名称后面加上（专升本）
+普本为2023级，专升本为2025级
+电子版提供电子签；纸质版手签;有第二指导老师的加第二指导老师签名
+特别注意：论文题目与题目审核表中保持完全一致，包括英文大小写、是否有空格、是否有“的”都要完全相同。
+开题报告应包括下列主要内容：
+研究背景及研究的目的和意义；2．国内外在该方向的研究现状及分析；3．主要研究内容；4．研究方案及进度安排，预期达到的目标；5．为完成课题已具备和所需的条件；6．预计研究过程中可能遇到的困难和问题，以及解决的措施；7．主要参考文献。
+
+一级节标题（序号为1.2.3.……，序号后用.不用、
+）：首行缩进2字符，黑体四号；段前0.5倍，段后0.5倍；行距：多倍行距1.25倍
+字母数字的字体为TimeNewRomans
+正文内容（下同）：宋体小4号，首行缩进2格，段前、段后距为0；行距：固定值1.25倍。
+字母数字的字体为TimeNewRomans
+二级节标题：缩进2字符，黑体小4号；段前0.5行，段后0.5行；行距：多倍行距1.25倍
+字母数字的字体为TimeNewRomans
+开题报告里面文中引用的参考文献不用加角标
+进度起讫时间安排已固定，填写工作内容即可
+
+表格里面的空白部分要写和自己课题相关内容，其他部分已固定，不要修改或删除
+此处不代表标题，应使用正文格式
+此处不代表标题，应使用正文格式
+参考文献内容：悬挂缩进1字符；宋体5号，段前3磅，段后0行；行距：固定值1.25倍；参考文献中的标点符号均在英文状态下输入
+字母数字的字体为TimeNewRomans
+注意不要在一篇参考文献段落的中间换页。
+
+每篇开题报告至少要有12个及以上的参考文献，包括2篇及以上外文文献，近五年文献占比三分之二以上，以期刊为宜。
+
+参考文献根据撰写规范格式书写，并按顺序编号，即按文中引用的顺序将参考文献附于文末。
+作者姓名写到第三位，英文状态下逗号分隔“,”，余者写“,等”或“,et al．”。所以有期刊类参考文献（包括外文期刊）要写到页码
+英文单词中间原则上不允许换行，但细节处可自行判断是否美观来进行细微调整。
+可打字输入，不少于150字。
+教师评语应对课题内容进行简单描述，并分析其深度、广度，工作量是否合适，学生对课题的理解是否到位，学生能否在规定时间内完成课题研究。
+
+“同意开题”四个字必须写在评语的末尾。
+电子版电子签，纸质版手签
+root=w:comments attrs={"mc:Ignorable":"w14 w15 wp14"}
+[ENTRY1 tag="w:comment" loc="/w:comments/w:comment[1]" attrs={"w:id":"0","w:author":"Serenity_张","w:date":"2025-07-20T11:13:36Z"}]
+专升本专业在专业名称后面加上（专升本）
+structure=w:comment(w:id="0",w:author="Serenity_张",w:date="2025-07-20T11:13:36Z",w:initials="",w:p(w14:paraId="487C0BE5",w:pPr(w:pStyle(w:val="3")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="专升本专业在专业名称后面加上（专升本）"))))
+[ENTRY2 tag="w:comment" loc="/w:comments/w:comment[2]" attrs={"w:id":"1","w:author":"Serenity_张","w:date":"2025-07-20T11:14:15Z"}]
+普本为2023级，专升本为2025级
+structure=w:comment(w:id="1",w:author="Serenity_张",w:date="2025-07-20T11:14:15Z",w:initials="",w:p(w14:paraId="5D3A06C9",w:pPr(w:pStyle(w:val="3"),w:rPr(w:rFonts(w:hint="default",w:eastAsiaTheme="minorEastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="普本为2023级，专升本为2025级"))))
+[ENTRY3 tag="w:comment" loc="/w:comments/w:comment[3]" attrs={"w:id":"2","w:author":"Serenity_张","w:date":"2025-07-20T11:15:37Z"}]
+电子版提供电子签；纸质版手签;有第二指导老师的加第二指导老师签名
+structure=w:comment(w:id="2",w:author="Serenity_张",w:date="2025-07-20T11:15:37Z",w:initials="",w:p(w14:paraId="393D622B",w:pPr(w:pStyle(w:val="3"),w:rPr(w:rFonts(w:hint="eastAsia",w:eastAsiaTheme="minorEastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="电子版提供电子签；纸质版")),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="手签")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text=";有第二指导老师的加第二指导老师签名"))))
+[ENTRY4 tag="w:comment" loc="/w:comments/w:comment[4]" attrs={"w:id":"3","w:author":"Serenity_张","w:date":"2025-07-20T19:49:30Z"}]
+特别注意：论文题目与题目审核表中保持完全一致，包括英文大小写、是否有空格、是否有“的”都要完全相同。
+structure=w:comment(w:id="3",w:author="Serenity_张",w:date="2025-07-20T19:49:30Z",w:initials="",w:p(w14:paraId="529B0F58",w:pPr(w:pStyle(w:val="3"),w:rPr(w:rFonts(w:hint="default",w:eastAsiaTheme="minorEastAsia"),w:highlight(w:val="yellow"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:highlight(w:val="yellow"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="特别注意：论文题目与题目审核表中保持完全一致，包括英文大小写、是否有空格、是否有“的”都要完全相同。"))))
+[ENTRY5 tag="w:comment" loc="/w:comments/w:comment[5]" attrs={"w:id":"4","w:author":"Serenity_张","w:date":"2025-07-20T11:17:31Z"}]
+开题报告应包括下列主要内容：
+研究背景及研究的目的和意义；2．国内外在该方向的研究现状及分析；3．主要研究内容；4．研究方案及进度安排，预期达到的目标；5．为完成课题已具备和所需的条件；6．预计研究过程中可能遇到的困难和问题，以及解决的措施；7．主要参考文献。
+
+structure=w:comment(w:id="4",w:author="Serenity_张",w:date="2025-07-20T11:17:31Z",w:initials="",w:p(w14:paraId="142B0F5A",w:pPr(w:keepNext(w:val="0"),w:keepLines(w:val="0"),w:pageBreakBefore(w:val="0"),w:kinsoku(),w:wordWrap(),w:overflowPunct(),w:topLinePunct(w:val="0"),w:autoSpaceDE(),w:autoSpaceDN(),w:bidi(w:val="0"),w:adjustRightInd(),w:snapToGrid(w:val="0"),w:spacing(w:line="360",w:lineRule="auto"),w:textAlignment(w:val="auto"),w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="宋体"),w:sz(w:val="24"),w:szCs(w:val="24"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="宋体"),w:sz(w:val="24"),w:szCs(w:val="24")),w:t(text="开题报告应包括下列主要内容："))),w:p(w14:paraId="1D553556",w:pPr(w:keepNext(w:val="0"),w:keepLines(w:val="0"),w:pageBreakBefore(w:val="0"),w:numPr(w:ilvl(w:val="0"),w:numId(w:val="1")),w:kinsoku(),w:wordWrap(),w:overflowPunct(),w:topLinePunct(w:val="0"),w:autoSpaceDE(),w:autoSpaceDN(),w:bidi(w:val="0"),w:adjustRightInd(),w:snapToGrid(w:val="0"),w:spacing(w:line="360",w:lineRule="auto"),w:ind(w:firstLine="420"),w:textAlignment(w:val="auto"),w:rPr(w:rFonts(w:hint="eastAsia",w:eastAsia="宋体"),w:lang(w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="宋体"),w:sz(w:val="24"),w:szCs(w:val="24"),w:lang(w:eastAsia="zh-CN")),w:t(text="研究")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="宋体"),w:sz(w:val="24"),w:szCs(w:val="24")),w:t(text="背景及研究的目的和意义；2．国内外在该方向的研究现状及分析；3．主要研究内容；4．研究方案及进度安排，预期达到的目标；5．为完成课题已具备和所需的条件；6．预计研究过程中可能遇到的困难和问题，以及解决的措施；7．主要参考文献。"))),w:p(w14:paraId="57FD18BC",w:pPr(w:pStyle(w:val="3"))))
+[ENTRY6 tag="w:comment" loc="/w:comments/w:comment[6]" attrs={"w:id":"5","w:author":"Serenity_张","w:date":"2025-07-20T11:20:10Z"}]
+一级节标题（序号为1.2.3.……，序号后用.不用、
+）：首行缩进2字符，黑体四号；段前0.5倍，段后0.5倍；行距：多倍行距1.25倍
+字母数字的字体为TimeNewRomans
+structure=w:comment(w:id="5",w:author="Serenity_张",w:date="2025-07-20T11:20:10Z",w:initials="",w:p(w14:paraId="25BE677F",w:pPr(w:pStyle(w:val="10"),w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="Times New Roman"),w:b(),w:bCs(),w:kern(w:val="2"),w:sz(w:val="24"),w:szCs(w:val="24"),w:highlight(w:val="yellow"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar")),w:t(text="一级节标题（")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="Times New Roman"),w:b(),w:bCs(),w:kern(w:val="2"),w:sz(w:val="24"),w:szCs(w:val="24"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar")),w:t(text="序号为1.2.3.……，")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:cs="Times New Roman"),w:b(),w:bCs(),w:kern(w:val="2"),w:sz(w:val="24"),w:szCs(w:val="24"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar")),w:t(text="序")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:b(),w:sz(w:val="21"),w:szCs(w:val="21")),w:t(text="号后用.不用、"))),w:p(w14:paraId="31735339",w:pPr(w:pStyle(w:val="3"),w:rPr(w:rFonts(w:hint="default",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="Times New Roman"),w:kern(w:val="2"),w:sz(w:val="24"),w:szCs(w:val="24"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="Times New Roman"),w:b(),w:bCs(),w:kern(w:val="2"),w:sz(w:val="24"),w:szCs(w:val="24"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar")),w:t(text="）：")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="Times New Roman"),w:kern(w:val="2"),w:sz(w:val="24"),w:szCs(w:val="24"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar")),w:t(text="首行缩进2字符，黑体四号；段前0.5倍，段后0.5倍；行距：多倍行距1.25倍"))),w:p(w14:paraId="17DBDE44",w:pPr(w:spacing(w:line="400",w:lineRule="exact"),w:ind(w:firstLine="480",w:firstLineChars="200")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(w:val="0"),w:bCs(),w:sz(w:val="24")),w:t(text="字母数字的字体为TimeNewRomans"))))
+[ENTRY7 tag="w:comment" loc="/w:comments/w:comment[7]" attrs={"w:id":"6","w:author":"Serenity_张","w:date":"2025-07-20T11:25:42Z"}]
+正文内容（下同）：宋体小4号，首行缩进2格，段前、段后距为0；行距：固定值1.25倍。
+字母数字的字体为TimeNewRomans
+structure=w:comment(w:id="6",w:author="Serenity_张",w:date="2025-07-20T11:25:42Z",w:initials="",w:p(w14:paraId="71059E2B",w:pPr(w:spacing(w:line="400",w:lineRule="exact"),w:ind(w:firstLine="482",w:firstLineChars="200"),w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:b(),w:bCs(),w:highlight(w:val="yellow"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="正文内容")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:b(),w:bCs(),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="（下同）：")),w:r(w:rPr(w:rFonts(w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24")),w:t(text="宋体小4号")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:color(w:val="000000"),w:sz(w:val="24")),w:t(text="，")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24")),w:t(text="首行缩进2格，段前、段后距为0；行距：")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="Times New Roman"),w:kern(w:val="2"),w:sz(w:val="24"),w:szCs(w:val="24"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar")),w:t(text="固定值1.25倍")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24")),w:t(text="。"))),w:p(w14:paraId="0205144D",w:pPr(w:pStyle(w:val="3")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:eastAsia="宋体"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="字母数字")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="的字体为")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:eastAsia="宋体"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="TimeNewRomans"))))
+[ENTRY8 tag="w:comment" loc="/w:comments/w:comment[8]" attrs={"w:id":"7","w:author":"Serenity_张","w:date":"2025-07-20T11:25:49Z"}]
+二级节标题：缩进2字符，黑体小4号；段前0.5行，段后0.5行；行距：多倍行距1.25倍
+字母数字的字体为TimeNewRomans
+structure=w:comment(w:id="7",w:author="Serenity_张",w:date="2025-07-20T11:25:49Z",w:initials="",w:p(w14:paraId="45950F81",w:pPr(w:pStyle(w:val="3"),w:rPr(w:rFonts(w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:lang(w:bidi="ar"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:sz(w:val="24"),w:highlight(w:val="yellow"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar")),w:t(text="二")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:sz(w:val="24"),w:highlight(w:val="yellow"),w:lang(w:bidi="ar")),w:t(text="级节标题")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:sz(w:val="24"),w:lang(w:bidi="ar")),w:t(text="：")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:lang(w:bidi="ar")),w:t(text="缩进2字符，")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar")),w:t(text="黑体")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:lang(w:bidi="ar")),w:t(text="小4号；段前")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar")),w:t(text="0.5行")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:lang(w:bidi="ar")),w:t(text="，段后")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar")),w:t(text="0.5行")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:lang(w:bidi="ar")),w:t(text="；行距：")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="Times New Roman"),w:kern(w:val="2"),w:sz(w:val="24"),w:szCs(w:val="24"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar")),w:t(text="多倍行距1.25倍"))),w:p(w14:paraId="4724D4E1",w:pPr(w:spacing(w:line="400",w:lineRule="exact"),w:ind(w:firstLine="480",w:firstLineChars="200")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:bCs(),w:sz(w:val="24")),w:t(text="字母数字的字体为TimeNewRomans"))))
+[ENTRY9 tag="w:comment" loc="/w:comments/w:comment[9]" attrs={"w:id":"8","w:author":"test","w:date":"2022-09-20T16:21:26Z"}]
+开题报告里面文中引用的参考文献不用加角标
+structure=w:comment(w:id="8",w:author="test",w:date="2022-09-20T16:21:26Z",w:initials="",w:p(w14:paraId="162B72E2",w:pPr(w:pStyle(w:val="3")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="开题报告里面文中引用的参考文献不用加角标"))))
+[ENTRY10 tag="w:comment" loc="/w:comments/w:comment[10]" attrs={"w:id":"9","w:author":"Serenity_张","w:date":"2025-07-20T12:05:07Z"}]
+进度起讫时间安排已固定，填写工作内容即可
+
+structure=w:comment(w:id="9",w:author="Serenity_张",w:date="2025-07-20T12:05:07Z",w:initials="",w:p(w14:paraId="27DD5F73",w:pPr(w:rPr(w:rFonts(w:hint="default",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="宋体"),w:b(w:val="0"),w:bCs(w:val="0"),w:color(w:val="auto"),w:sz(w:val="24"),w:lang(w:val="en-US",w:eastAsia="zh-CN"),w14:textOutline(w14:w="11112",w14:cap="flat",w14:cmpd="sng",w14:algn="ctr",w14:solidFill(w14:srgbClr(w14:val="FF0000")),w14:prstDash(w14:val="solid"),w14:round()))),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="宋体"),w:b(w:val="0"),w:bCs(w:val="0"),w:color(w:val="auto"),w:sz(w:val="24"),w14:textOutline(w14:w="11112",w14:cap="flat",w14:cmpd="sng",w14:algn="ctr",w14:solidFill(w14:srgbClr(w14:val="FF0000")),w14:prstDash(w14:val="solid"),w14:round())),w:t(text="进度")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="宋体"),w:b(w:val="0"),w:bCs(w:val="0"),w:color(w:val="auto"),w:sz(w:val="24"),w:lang(w:val="en-US",w:eastAsia="zh-CN"),w14:textOutline(w14:w="11112",w14:cap="flat",w14:cmpd="sng",w14:algn="ctr",w14:solidFill(w14:srgbClr(w14:val="FF0000")),w14:prstDash(w14:val="solid"),w14:round())),w:t(text="起讫时间")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="宋体"),w:b(w:val="0"),w:bCs(w:val="0"),w:color(w:val="auto"),w:sz(w:val="24"),w14:textOutline(w14:w="11112",w14:cap="flat",w14:cmpd="sng",w14:algn="ctr",w14:solidFill(w14:srgbClr(w14:val="FF0000")),w14:prstDash(w14:val="solid"),w14:round())),w:t(text="安排")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="宋体"),w:b(w:val="0"),w:bCs(w:val="0"),w:color(w:val="auto"),w:sz(w:val="24"),w:lang(w:val="en-US",w:eastAsia="zh-CN"),w14:textOutline(w14:w="11112",w14:cap="flat",w14:cmpd="sng",w14:algn="ctr",w14:solidFill(w14:srgbClr(w14:val="FF0000")),w14:prstDash(w14:val="solid"),w14:round())),w:t(text="已固定，填写工作内容即可"))),w:p(w14:paraId="08F601DC",w:pPr(w:pStyle(w:val="3"))))
+[ENTRY11 tag="w:comment" loc="/w:comments/w:comment[11]" attrs={"w:id":"10","w:author":"姨咆拘诩角","w:date":"2025-08-27T21:42:26Z"}]
+表格里面的空白部分要写和自己课题相关内容，其他部分已固定，不要修改或删除
+structure=w:comment(w:id="10",w:author="姨咆拘诩角",w:date="2025-08-27T21:42:26Z",w:initials="",w:p(w14:paraId="4A269F1C",w:pPr(w:pStyle(w:val="3"),w:rPr(w:rFonts(w:hint="default",w:eastAsiaTheme="minorEastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="表格里面的空白部分要写和自己课题相关内容，其他部分已固定，不要修改或删除"))))
+[ENTRY12 tag="w:comment" loc="/w:comments/w:comment[12]" attrs={"w:id":"11","w:author":"Serenity_张","w:date":"2025-07-20T11:41:32Z"}]
+此处不代表标题，应使用正文格式
+structure=w:comment(w:id="11",w:author="Serenity_张",w:date="2025-07-20T11:41:32Z",w:initials="",w:p(w14:paraId="66C10849",w:pPr(w:pStyle(w:val="3")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="此处不代表标题，应使用正文格式"))))
+[ENTRY13 tag="w:comment" loc="/w:comments/w:comment[13]" attrs={"w:id":"12","w:author":"Serenity_张","w:date":"2025-07-20T11:41:24Z"}]
+此处不代表标题，应使用正文格式
+structure=w:comment(w:id="12",w:author="Serenity_张",w:date="2025-07-20T11:41:24Z",w:initials="",w:p(w14:paraId="65F9ED7E",w:pPr(w:pStyle(w:val="3")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="此处不代表标题，应使用正文格式"))))
+[ENTRY14 tag="w:comment" loc="/w:comments/w:comment[14]" attrs={"w:id":"13","w:author":"Serenity_张","w:date":"2025-07-20T11:43:45Z"}]
+参考文献内容：悬挂缩进1字符；宋体5号，段前3磅，段后0行；行距：固定值1.25倍；参考文献中的标点符号均在英文状态下输入
+字母数字的字体为TimeNewRomans
+注意不要在一篇参考文献段落的中间换页。
+
+structure=w:comment(w:id="13",w:author="Serenity_张",w:date="2025-07-20T11:43:45Z",w:initials="",w:p(w14:paraId="7C21A79C",w:pPr(w:pStyle(w:val="3"),w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:highlight(w:val="yellow"),w:lang(w:bidi="ar"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:sz(w:val="24"),w:lang(w:bidi="ar")),w:t(text="参考文献内容：")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:sz(w:val="24"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar")),w:t(text="悬挂缩进1字符；")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:lang(w:bidi="ar")),w:t(text="宋体5号，段前3磅，段后0行；行距：固定值")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar")),w:t(text="1.25倍")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:lang(w:bidi="ar")),w:t(text="；")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:highlight(w:val="yellow"),w:lang(w:bidi="ar")),w:t(text="参考文献中的标点符号")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:highlight(w:val="yellow"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar")),w:t(text="均")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:highlight(w:val="yellow"),w:lang(w:bidi="ar")),w:t(text="在英文状态下输入"))),w:p(w14:paraId="1CD6B3A0",w:pPr(w:pStyle(w:val="3"),w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:sz(w:val="24"),w:highlight(w:val="yellow"),w:lang(w:bidi="ar"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:eastAsia="宋体"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="字母数字")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="的字体为")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:eastAsia="宋体"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="TimeNewRomans"))),w:p(w14:paraId="275ACA05",w:pPr(w:adjustRightInd(w:val="0"),w:snapToGrid(w:val="0"),w:spacing(w:line="400",w:lineRule="exact"),w:ind(w:firstLine="482",w:firstLineChars="200"),w:jc(w:val="left")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:color(w:val="FF0000"),w:sz(w:val="24")),w:t(text="注意不要在一篇参考文献段落的中间换页。"))),w:p(w14:paraId="326B9D10",w:pPr(w:pStyle(w:val="3"))))
+[ENTRY15 tag="w:comment" loc="/w:comments/w:comment[15]" attrs={"w:id":"14","w:author":"Serenity_张","w:date":"2025-07-20T11:48:13Z"}]
+每篇开题报告至少要有12个及以上的参考文献，包括2篇及以上外文文献，近五年文献占比三分之二以上，以期刊为宜。
+
+参考文献根据撰写规范格式书写，并按顺序编号，即按文中引用的顺序将参考文献附于文末。
+作者姓名写到第三位，英文状态下逗号分隔“,”，余者写“,等”或“,et al．”。所以有期刊类参考文献（包括外文期刊）要写到页码
+structure=w:comment(w:id="14",w:author="Serenity_张",w:date="2025-07-20T11:48:13Z",w:initials="",w:p(w14:paraId="41A6B906",w:pPr(w:keepNext(w:val="0"),w:keepLines(w:val="0"),w:pageBreakBefore(w:val="0"),w:widowControl(w:val="0"),w:kinsoku(),w:wordWrap(),w:overflowPunct(),w:topLinePunct(w:val="0"),w:autoSpaceDE(),w:autoSpaceDN(),w:bidi(w:val="0"),w:adjustRightInd(w:val="0"),w:snapToGrid(w:val="0"),w:spacing(w:line="400",w:lineRule="exact"),w:ind(w:firstLine="482",w:firstLineChars="200"),w:jc(w:val="left"),w:textAlignment(w:val="auto"),w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:color(w:val="auto"),w:sz(w:val="24"),w:highlight(w:val="none"),w:u(w:val="single"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:color(w:val="auto"),w:sz(w:val="24"),w:highlight(w:val="none"),w:u(w:val="single")),w:t(text="每篇")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:color(w:val="auto"),w:sz(w:val="24"),w:highlight(w:val="none"),w:u(w:val="single"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="开题报告")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:color(w:val="auto"),w:sz(w:val="24"),w:highlight(w:val="none"),w:u(w:val="single")),w:t(text="至少要有1")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:color(w:val="auto"),w:sz(w:val="24"),w:highlight(w:val="none"),w:u(w:val="single"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="2")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:color(w:val="auto"),w:sz(w:val="24"),w:highlight(w:val="none"),w:u(w:val="single")),w:t(text="个")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:color(w:val="auto"),w:sz(w:val="24"),w:highlight(w:val="none"),w:u(w:val="single"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="及")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:color(w:val="auto"),w:sz(w:val="24"),w:highlight(w:val="none"),w:u(w:val="single")),w:t(text="以上的参考文献")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:color(w:val="auto"),w:sz(w:val="24"),w:highlight(w:val="none"),w:u(w:val="single"),w:lang(w:eastAsia="zh-CN")),w:t(text="，包括2篇及以上外文文献，")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:color(w:val="auto"),w:sz(w:val="24"),w:highlight(w:val="none"),w:u(w:val="single"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="近五年文献占比三分之二以上，以期刊为宜")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(),w:color(w:val="auto"),w:sz(w:val="24"),w:highlight(w:val="none"),w:u(w:val="single")),w:t(text="。"))),w:p(w14:paraId="4C99DDBC",w:pPr(w:keepNext(w:val="0"),w:keepLines(w:val="0"),w:pageBreakBefore(w:val="0"),w:widowControl(w:val="0"),w:kinsoku(),w:wordWrap(),w:overflowPunct(),w:topLinePunct(w:val="0"),w:autoSpaceDE(),w:autoSpaceDN(),w:bidi(w:val="0"),w:adjustRightInd(w:val="0"),w:snapToGrid(w:val="0"),w:spacing(w:line="400",w:lineRule="exact"),w:ind(w:firstLine="482",w:firstLineChars="200"),w:jc(w:val="left"),w:textAlignment(w:val="auto"),w:rPr(w:rFonts(w:hint="default",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体"),w:b(),w:bCs(),w:color(w:val="auto"),w:sz(w:val="24"),w:highlight(w:val="none"),w:u(w:val="single"),w:lang(w:val="en-US",w:eastAsia="zh-CN")))),w:p(w14:paraId="7F0D6E0F",w:pPr(w:pStyle(w:val="3"),w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:bCs(),w:sz(w:val="24"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(w:val="0"),w:color(w:val="FF0000"),w:sz(w:val="24")),w:t(text="参考文献")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:bCs(),w:sz(w:val="24")),w:t(text="根据撰写规范格式书写，并按顺序编号，即")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:b(),w:bCs(w:val="0"),w:color(w:val="FF0000"),w:sz(w:val="24")),w:t(text="按文中引用的顺序将参考文献附于文末")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:bCs(),w:sz(w:val="24")),w:t(text="。"))),w:p(w14:paraId="2610BFE4",w:pPr(w:pStyle(w:val="3")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体"),w:bCs(),w:sz(w:val="24")),w:t(text="作者姓名写到第三位，")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:cs="Times New Roman"),w:b(w:val="0"),w:bCs(),w:sz(w:val="24"),w:highlight(w:val="yellow"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="英文状态下逗号分隔“")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="Times New Roman",w:hAnsi="Times New Roman",w:eastAsia="宋体",w:cs="Times New Roman"),w:kern(w:val="2"),w:sz(w:val="24"),w:szCs(w:val="32"),w:highlight(w:val="yellow"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar-SA")),w:t(text=",")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:cs="Times New Roman"),w:b(w:val="0"),w:bCs(),w:sz(w:val="24"),w:highlight(w:val="yellow"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="”，")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="Times New Roman"),w:b(w:val="0"),w:bCs(),w:sz(w:val="24"),w:highlight(w:val="yellow"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="余者写“")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="Times New Roman",w:hAnsi="Times New Roman",w:eastAsia="宋体",w:cs="Times New Roman"),w:kern(w:val="2"),w:sz(w:val="24"),w:szCs(w:val="32"),w:highlight(w:val="yellow"),w:lang(w:val="en-US",w:eastAsia="zh-CN",w:bidi="ar-SA")),w:t(text=",")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="Times New Roman"),w:b(w:val="0"),w:bCs(),w:sz(w:val="24"),w:highlight(w:val="yellow"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="等”或“")),w:r(w:rPr(w:rFonts(w:hint="default",w:ascii="Times New Roman",w:hAnsi="Times New Roman",w:cs="Times New Roman"),w:b(w:val="0"),w:bCs(),w:sz(w:val="24"),w:highlight(w:val="yellow"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text=",")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:eastAsia="宋体",w:cs="Times New Roman"),w:b(w:val="0"),w:bCs(),w:sz(w:val="24"),w:highlight(w:val="yellow"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="et al．”")),w:r(w:rPr(w:rFonts(w:hint="eastAsia",w:ascii="宋体",w:hAnsi="宋体",w:cs="Times New Roman"),w:b(w:val="0"),w:bCs(),w:sz(w:val="24"),w:highlight(w:val="yellow"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="。")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:color(w:val="FF0000"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="所以有")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:color(w:val="FF0000")),w:t(text="期刊")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:color(w:val="FF0000"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="类参考文献（包括外文期刊）")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:color(w:val="FF0000")),w:t(text="要写到页码"))))
+[ENTRY16 tag="w:comment" loc="/w:comments/w:comment[16]" attrs={"w:id":"15","w:author":"test","w:date":"2022-10-07T10:00:06Z"}]
+英文单词中间原则上不允许换行，但细节处可自行判断是否美观来进行细微调整。
+structure=w:comment(w:id="15",w:author="test",w:date="2022-10-07T10:00:06Z",w:initials="",w:p(w14:paraId="51D01B58",w:pPr(w:pStyle(w:val="3")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="英文")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="单词中间原则上不允许换行，但细节处可自行判断是否美观来进行细微调整。"))))
+[ENTRY17 tag="w:comment" loc="/w:comments/w:comment[17]" attrs={"w:id":"16","w:author":"Serenity_张","w:date":"2025-07-20T11:49:05Z"}]
+可打字输入，不少于150字。
+教师评语应对课题内容进行简单描述，并分析其深度、广度，工作量是否合适，学生对课题的理解是否到位，学生能否在规定时间内完成课题研究。
+
+“同意开题”四个字必须写在评语的末尾。
+structure=w:comment(w:id="16",w:author="Serenity_张",w:date="2025-07-20T11:49:05Z",w:initials="",w:p(w14:paraId="3CAD2FDC",w:pPr(w:pStyle(w:val="3"),w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:val="en-US",w:eastAsia="zh-CN")),w:t(text="可打字输入，不少于150字。"))),w:p(w14:paraId="2808A502",w:pPr(w:pStyle(w:val="3"),w:rPr(w:rFonts(w:hint="eastAsia"))),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="教师评语应对课题内容进行简单描述，并分析其深度、广度，工作量是否合适，学生对课题的理解是否到位，学生能否在规定时间内完成课题研究。"))),w:p(w14:paraId="648B442D",w:pPr(w:pStyle(w:val="3"),w:rPr(w:rFonts(w:hint="eastAsia")))),w:p(w14:paraId="0110A327",w:pPr(w:pStyle(w:val="3")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:b(),w:bCs(),w:highlight(w:val="yellow")),w:t(text="“同意开题”四个字必须写在评语的末尾。"))))
+[ENTRY18 tag="w:comment" loc="/w:comments/w:comment[18]" attrs={"w:id":"17","w:author":"test","w:date":"2022-10-06T13:47:57Z"}]
+电子版电子签，纸质版手签
+structure=w:comment(w:id="17",w:author="test",w:date="2022-10-06T13:47:57Z",w:initials="",w:p(w14:paraId="43224028",w:pPr(w:pStyle(w:val="3")),w:r(w:rPr(w:rFonts(w:hint="eastAsia"),w:lang(w:eastAsia="zh-CN")),w:t(text="电子版电子签，纸质版")),w:r(w:rPr(w:rFonts(w:hint="eastAsia")),w:t(text="手签"))))
+
+[PART2 part="word/commentsExtended.xml" entries=18]
+root=w15:commentsEx attrs={"mc:Ignorable":"w14 w15 wp14"}
+[ENTRY1 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[1]" attrs={"w15:paraId":"487C0BE5","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="487C0BE5",w15:done="0")
+[ENTRY2 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[2]" attrs={"w15:paraId":"5D3A06C9","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="5D3A06C9",w15:done="0")
+[ENTRY3 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[3]" attrs={"w15:paraId":"393D622B","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="393D622B",w15:done="0")
+[ENTRY4 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[4]" attrs={"w15:paraId":"529B0F58","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="529B0F58",w15:done="0")
+[ENTRY5 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[5]" attrs={"w15:paraId":"57FD18BC","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="57FD18BC",w15:done="0")
+[ENTRY6 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[6]" attrs={"w15:paraId":"17DBDE44","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="17DBDE44",w15:done="0")
+[ENTRY7 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[7]" attrs={"w15:paraId":"0205144D","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="0205144D",w15:done="0")
+[ENTRY8 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[8]" attrs={"w15:paraId":"4724D4E1","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="4724D4E1",w15:done="0")
+[ENTRY9 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[9]" attrs={"w15:paraId":"162B72E2","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="162B72E2",w15:done="0")
+[ENTRY10 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[10]" attrs={"w15:paraId":"08F601DC","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="08F601DC",w15:done="0")
+[ENTRY11 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[11]" attrs={"w15:paraId":"4A269F1C","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="4A269F1C",w15:done="0")
+[ENTRY12 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[12]" attrs={"w15:paraId":"66C10849","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="66C10849",w15:done="0")
+[ENTRY13 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[13]" attrs={"w15:paraId":"65F9ED7E","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="65F9ED7E",w15:done="0")
+[ENTRY14 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[14]" attrs={"w15:paraId":"326B9D10","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="326B9D10",w15:done="0")
+[ENTRY15 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[15]" attrs={"w15:paraId":"2610BFE4","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="2610BFE4",w15:done="0")
+[ENTRY16 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[16]" attrs={"w15:paraId":"51D01B58","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="51D01B58",w15:done="0")
+[ENTRY17 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[17]" attrs={"w15:paraId":"0110A327","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="0110A327",w15:done="0")
+[ENTRY18 tag="w15:commentEx" loc="/w15:commentsEx/w15:commentEx[18]" attrs={"w15:paraId":"43224028","w15:done":"0"}]
+structure=w15:commentEx(w15:paraId="43224028",w15:done="0")
+
+[PART3 part="word/endnotes.xml" entries=2]
+
+
+root=w:endnotes attrs={"mc:Ignorable":"w14 w15 wp14"}
+[ENTRY1 tag="w:endnote" loc="/w:endnotes/w:endnote[1]" attrs={"w:type":"separator","w:id":"0"}]
+structure=w:endnote(w:type="separator",w:id="0",w:p(w:pPr(w:spacing(w:line="240",w:lineRule="auto")),w:r(w:separator())))
+[ENTRY2 tag="w:endnote" loc="/w:endnotes/w:endnote[2]" attrs={"w:type":"continuationSeparator","w:id":"1"}]
+structure=w:endnote(w:type="continuationSeparator",w:id="1",w:p(w:pPr(w:spacing(w:line="240",w:lineRule="auto")),w:r(w:continuationSeparator())))
+
+[PART4 part="word/footnotes.xml" entries=2]
+
+
+root=w:footnotes attrs={"mc:Ignorable":"w14 w15 wp14"}
+[ENTRY1 tag="w:footnote" loc="/w:footnotes/w:footnote[1]" attrs={"w:type":"separator","w:id":"0"}]
+structure=w:footnote(w:type="separator",w:id="0",w:p(w:pPr(w:spacing(w:line="240",w:lineRule="auto")),w:r(w:separator())))
+[ENTRY2 tag="w:footnote" loc="/w:footnotes/w:footnote[2]" attrs={"w:type":"continuationSeparator","w:id":"1"}]
+structure=w:footnote(w:type="continuationSeparator",w:id="1",w:p(w:pPr(w:spacing(w:line="240",w:lineRule="auto")),w:r(w:continuationSeparator())))
+
+[PART5 part="word/people.xml" entries=3]
+root=w15:people attrs={"mc:Ignorable":"w14 w15 wp14"}
+[ENTRY1 tag="w15:person" loc="/w15:people/w15:person[1]" attrs={"w15:author":"Serenity_张"}]
+structure=w15:person(w15:author="Serenity_张",w15:presenceInfo(w15:providerId="WPS Office",w15:userId="1816942667"))
+[ENTRY2 tag="w15:person" loc="/w15:people/w15:person[2]" attrs={"w15:author":"test"}]
+structure=w15:person(w15:author="test",w15:presenceInfo(w15:providerId="WPS Office",w15:userId="11680228338"))
+[ENTRY3 tag="w15:person" loc="/w15:people/w15:person[3]" attrs={"w15:author":"姨咆拘诩角"}]
+structure=w15:person(w15:author="姨咆拘诩角",w15:presenceInfo(w15:providerId="WPS Office",w15:userId="10138891225"))
+
+[PROPERTY1 part="docProps/app.xml"]
+ep:Template="Normal"
+ep:Pages="9"
+ep:Words="3550"
+ep:Characters="6376"
+ep:Lines="3"
+ep:Paragraphs="1"
+ep:TotalTime="5"
+ep:ScaleCrop="false"
+ep:LinksUpToDate="false"
+ep:CharactersWithSpaces="6589"
+ep:Application="WPS Office_12.1.0.28043_F1E327BC-269C-435d-A152-05C5408002CA"
+ep:DocSecurity="0"
+structure=ep:Properties(ep:Template(text="Normal"),ep:Pages(text="9"),ep:Words(text="3550"),ep:Characters(text="6376"),ep:Lines(text="3"),ep:Paragraphs(text="1"),ep:TotalTime(text="5"),ep:ScaleCrop(text="false"),ep:LinksUpToDate(text="false"),ep:CharactersWithSpaces(text="6589"),ep:Application(text="WPS Office_12.1.0.28043_F1E327BC-269C-435d-A152-05C5408002CA"),ep:DocSecurity(text="0"))
+
+[PROPERTY2 part="docProps/core.xml"]
+dcterms:created="2020-10-27T14:37:00Z"
+dc:creator="ASUS"
+cp:lastModifiedBy="无为。"
+dcterms:modified="2026-09-02T01:40:39Z"
+cp:revision="5"
+structure=cp:coreProperties(dcterms:created(type="dcterms:W3CDTF",text="2020-10-27T14:37:00Z"),dc:creator(text="ASUS"),cp:lastModifiedBy(text="无为。"),dcterms:modified(type="dcterms:W3CDTF",text="2026-09-02T01:40:39Z"),cp:revision(text="5"))
+
+[PROPERTY3 part="docProps/custom.xml"]
+KSOProductBuildVer="2052-12.1.0.28043"
+ICV="D8A905FA58AB4C79BAAC8C28B28CEE5B"
+KSOTemplateDocerSaveRecord="eyJoZGlkIjoiMmMyNTAwZGI2M2RmNjMwNDRlODZhNTk3NDI3OGYzMzQiLCJ1c2VySWQiOiIyNDIxNDYyMTYifQ=="
+structure=Properties(property(fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}",pid="2",name="KSOProductBuildVer",lpwstr(text="2052-12.1.0.28043")),property(fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}",pid="3",name="ICV",lpwstr(text="D8A905FA58AB4C79BAAC8C28B28CEE5B")),property(fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}",pid="4",name="KSOTemplateDocerSaveRecord",lpwstr(text="eyJoZGlkIjoiMmMyNTAwZGI2M2RmNjMwNDRlODZhNTk3NDI3OGYzMzQiLCJ1c2VySWQiOiIyNDIxNDYyMTYifQ==")))

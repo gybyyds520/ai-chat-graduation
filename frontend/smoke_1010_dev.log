@@ -1,0 +1,11 @@
+﻿
+> ai-chat-frontend@1.0.0 dev
+> vite --port 5187
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m644[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5187[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.16.40.93:[1m5187[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.205.1:[1m5187[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.64.1:[1m5187[22m/[39m

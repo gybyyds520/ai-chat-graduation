@@ -1,0 +1,16 @@
+﻿.\mvnw.cmd : Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because boots
+trap classpath has been appended
+所在位置 行:1 字符: 68
++ ... nd\aichat"; .\mvnw.cmd -q test "-Dtest=AiMemoryServiceTest,AiMemoryCo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Java HotSpot(TM...s been appended:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+17:59:47.960 [main] INFO com.example.aichat.service.impl.AiElfServiceImpl -- [��������] �û� 1 �뾫�� 1 ����(chat) +�ø�5 �ȼ�1 �ƺ�İ��
+17:59:48.030 [main] INFO com.example.aichat.service.impl.AiElfServiceImpl -- [��������] �û� 1 �뾫�� 1 ����(feed) +�ø�20 �ȼ�3 �ƺ�����
+17:59:48.059 [main] INFO com.example.aichat.service.impl.AiElfServiceImpl -- [��������] �û� 1 �뾫�� 1 ����(play) +�ø�20 �ȼ�6 �ƺ�ֿ��
+17:59:48.159 [main] INFO com.example.aichat.service.impl.AiMemoryServiceImpl -- [AI����] �û� 1 �������� id=null type=other
+17:59:48.169 [main] INFO com.example.aichat.service.impl.AiMemoryServiceImpl -- [AI����] �û� 1 �������� id=null type=other
+17:59:48.169 [main] INFO com.example.aichat.service.impl.AiMemoryServiceImpl -- [AI����] �û� 1 �������� id=null type=other
+17:59:48.246 [main] INFO com.example.aichat.service.impl.AiMemoryServiceImpl -- [AI����] �û� 1 ɾ������ id=10
+17:59:48.285 [main] INFO com.example.aichat.service.impl.AiMemoryServiceImpl -- [AI����] �û� 1 �������� id=null type=preference

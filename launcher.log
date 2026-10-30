@@ -1,0 +1,17 @@
+
+[2026/06/22 ��һ 12:50:11.17] User selected option 1: Start Full Application 
+[2026/06/22 ��һ 12:50:11.17] === Starting Full Application === 
+[2026/06/22 ��һ 12:50:11.19] Step 1/4: Stopping existing services first 
+[2026/06/22 ��һ 12:50:12.46] Step 3/4: Starting frontend service 
+[2026/06/22 ��һ 12:51:13.23] Step 4/4: Verifying services and opening browser 
+[2026/06/22 ��һ 12:51:13.24] Checking service status... 
+[2026/06/22 ��һ 12:51:13.28] Frontend stopped on port 5173 
+[2026/06/22 ��һ 12:51:13.32] Frontend stopped on port 5174 
+[2026/06/22 ��һ 12:51:13.35] Frontend stopped on port 5175 
+[2026/06/22 ��һ 12:51:13.38] Frontend stopped on port 5176 
+[2026/06/22 ��һ 12:51:13.42] Backend stopped on port 8080 
+[2026/06/22 ��һ 12:51:13.57] All services stopped 
+[2026/06/22 ��һ 12:51:13.58] All services started successfully 
+[2026/06/22 ��һ 12:51:13.66] Browser opened to http://localhost:5175 
+[2026/06/22 ��һ 12:58:50.33] User selected option 0: Exit 
+[2026/06/22 ��һ 12:58:50.33] === Exiting Launcher === 

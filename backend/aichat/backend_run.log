@@ -1,0 +1,197 @@
+﻿[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml
+Progress (1): 234 B
+Progress (2): 234 B | 255 B
+Progress (3): 234 B | 255 B | 249 B
+Progress (4): 234 B | 255 B | 249 B | 398 B
+                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml (398 B at 383 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml (249 B at 236 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml (234 B at 218 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml (255 B at 235 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 375 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml (375 B at 1.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 394 B
+Progress (2): 394 B | 242 B
+                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml (394 B at 1.4 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml (242 B at 909 B/s)
+Progress (1): 4.0 kB
+Progress (1): 7.7 kB
+Progress (1): 10 kB 
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (10 kB at 31 kB/s)
+Progress (1): 3.2 kB
+Progress (1): 6.9 kB
+Progress (1): 12 kB 
+Progress (1): 18 kB
+Progress (1): 20 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 kB at 74 kB/s)
+[INFO] 
+[INFO] -------------------------< com.example:aichat >-------------------------
+[INFO] Building aichat 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.5:run (default-cli) > test-compile @ aichat >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ aichat ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 58 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ aichat ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ aichat ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ aichat ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 120 source files with javac [debug deprecation release 17] to target\test-classes
+[WARNING] û�д������Ҫʹ�������κ�ע��: /org.junit.jupiter.api.AfterAll,/org.junit.jupiter.api.extension.ExtendWith,/org.mockito.Mock,/org.mockito.InjectMocks,/org.springframework.web.bind.annotation.DeleteMapping,/org.springframework.web.bind.annotation.PostMapping,/org.junit.jupiter.api.BeforeEach,/org.springframework.web.bind.annotation.PutMapping,/org.mockito.Spy,/org.springframework.web.bind.annotation.GetMapping,/org.springframework.context.annotation.Bean,/org.springframework.test.context.web.WebAppConfiguration,/org.junit.jupiter.api.Test,/org.springframework.web.bind.annotation.RestController,/org.springframework.context.annotation.Import,/org.junit.jupiter.api.BeforeAll,/org.junit.jupiter.api.AfterEach,/org.springframework.web.bind.annotation.PathVariable,/org.springframework.boot.autoconfigure.ImportAutoConfiguration,/org.springframework.boot.test.context.SpringBootTest,/org.springframework.test.context.ContextConfiguration,/org.springframework.context.annotation.Configuration,/org.springframework.beans.factory.annotation.Autowired,/org.junit.jupiter.api.Disabled,/org.junit.jupiter.api.io.TempDir
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[41,9] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[41,37] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[57,9] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[57,37] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[80,9] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[80,37] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[81,9] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[89,9] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/ai/OllamaServiceTest.java:[89,37] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[94,16] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,13] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/controller/AiSystemControllerSecurityTest.java:[95,39] com.example.aichat.service.ai�е�com.example.aichat.service.ai.OllamaService�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/config/PasswordEncoderTest.java:[38,30] org.springframework.security.crypto.password�е�org.springframework.security.crypto.password.NoOpPasswordEncoder�ѹ�ʱ
+[WARNING] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/SoulEngineServiceImplTest.java:[214,69] ���һ������ʹ���˲�׼ȷ�ı������͵� varargs �����ķ� varargs ����; 
+  ���� varargs ����, Ӧʹ�� com.example.aichat.entity.AiSoulState
+  ���ڷ� varargs ����, Ӧʹ�� com.example.aichat.entity.AiSoulState[], ����Ҳ�������ƴ˾���
+[INFO] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupChatServiceTest.java: ĳЩ�����ļ�ʹ����δ�����򲻰�ȫ�Ĳ�����
+[INFO] /C:/Users/��ҫ��/Desktop/gybct/ai-chat-graduation/backend/aichat/src/test/java/com/example/aichat/service/impl/GroupChatServiceTest.java: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+[INFO] 
+[INFO] <<< spring-boot:3.2.5:run (default-cli) < test-compile @ aichat <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.5:run (default-cli) @ aichat ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-09-30 00:18:46.326 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.AichatApplication[0;39m - Starting AichatApplication using Java 17.0.12 with PID 21216 (C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat\target\classes started by ��ҫ�� in C:\Users\��ҫ��\Desktop\gybct\ai-chat-graduation\backend\aichat)
+2026-09-30 00:18:46.328 [restartedMain] [39mDEBUG[0;39m [36mc.example.aichat.AichatApplication[0;39m - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-09-30 00:18:46.328 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.AichatApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2026-09-30 00:18:46.364 [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-30 00:18:46.364 [restartedMain] [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-30 00:18:47.993 [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-30 00:18:47.996 [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-09-30 00:18:48.057 [restartedMain] [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - Finished Spring Data repository scanning in 50 ms. Found 0 Redis repository interfaces.
+2026-09-30 00:18:49.216 [restartedMain] [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2026-09-30 00:18:49.227 [restartedMain] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-30 00:18:49.228 [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2026-09-30 00:18:49.228 [restartedMain] [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-09-30 00:18:49.279 [restartedMain] [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2026-09-30 00:18:49.279 [restartedMain] [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 2915 ms
+2026-09-30 00:18:49.480 [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - HikariPool-1 - Starting...
+2026-09-30 00:18:49.648 [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.pool.HikariPool[0;39m - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3dbc9ce9
+2026-09-30 00:18:49.649 [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - HikariPool-1 - Start completed.
+2026-09-30 00:18:49.656 [restartedMain] [34mINFO [0;39m [36mo.s.b.a.h.H2ConsoleAutoConfiguration[0;39m - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/ai_chat?useSSL=false&serverTimezone=UTC&characterEncoding=utf8&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true'
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.8 
+2026-09-30 00:18:50.308 [restartedMain] [34mINFO [0;39m [36mo.f.c.i.license.VersionPrinter[0;39m - Flyway Community Edition 9.22.3 by Redgate
+2026-09-30 00:18:50.308 [restartedMain] [34mINFO [0;39m [36mo.f.c.i.license.VersionPrinter[0;39m - See release notes here: https://rd.gt/416ObMi
+2026-09-30 00:18:50.308 [restartedMain] [34mINFO [0;39m [36mo.f.c.i.license.VersionPrinter[0;39m - 
+2026-09-30 00:18:50.322 [restartedMain] [34mINFO [0;39m [36morg.flywaydb.core.FlywayExecutor[0;39m - Database: jdbc:mysql://localhost:3306/ai_chat (MySQL 8.0)
+2026-09-30 00:18:50.392 [restartedMain] [34mINFO [0;39m [36mo.f.core.internal.command.DbMigrate[0;39m - Current version of schema `ai_chat`: 44
+2026-09-30 00:18:50.396 [restartedMain] [34mINFO [0;39m [36mo.f.core.internal.command.DbMigrate[0;39m - Schema `ai_chat` is up to date. No migration necessary.
+2026-09-30 00:18:50.546 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.c.s.JwtAuthenticationFilter[0;39m - Filter 'jwtAuthenticationFilter' configured for use
+2026-09-30 00:18:51.639 [restartedMain] [34mINFO [0;39m [36mc.e.a.c.security.OwnershipAspect[0;39m - OwnershipAspect ��ʼ����ɣ���ע��У����: [elf]
+2026-09-30 00:18:52.570 [restartedMain] [34mINFO [0;39m [36mc.e.aichat.service.ai.ModelRouter[0;39m - ModelRouter��ʼ����ɣ���ע���ṩ��: [openai, ollama]
+2026-09-30 00:18:53.447 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.m.AiModelMapper.selectCount[0;39m - ==>  Preparing: SELECT COUNT( * ) AS total FROM ai_model
+2026-09-30 00:18:53.454 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.m.AiModelMapper.selectCount[0;39m - ==> Parameters: 
+2026-09-30 00:18:53.462 [restartedMain] [39mDEBUG[0;39m [36mc.e.a.m.AiModelMapper.selectCount[0;39m - <==      Total: 1
+2026-09-30 00:18:54.236 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.config.RedisConfig[0;39m - RedisTemplate������ɣ�ʹ��String+JSON���л�(��JavaTimeModule)
+2026-09-30 00:18:54.578 [restartedMain] [34mINFO [0;39m [36mc.example.aichat.config.RedisConfig[0;39m - RedisCacheManager������ɣ�Ĭ��TTL=5����
+2026-09-30 00:18:54.880 [restartedMain] [31mWARN [0;39m [36mo.s.b.a.s.s.UserDetailsServiceAutoConfiguration[0;39m - 
+
+Using generated security password: 48335a21-c5cd-4182-92f6-3051615c04b0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-09-30 00:18:55.506 [restartedMain] [34mINFO [0;39m [36mo.s.b.a.e.web.EndpointLinksResolver[0;39m - Exposing 3 endpoint(s) beneath base path '/actuator'
+2026-09-30 00:18:55.645 [restartedMain] [34mINFO [0;39m [36mo.s.s.web.DefaultSecurityFilterChain[0;39m - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@228d49c2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a1608b0, org.springframework.security.web.context.SecurityContextHolderFilter@45987ba6, org.springframework.security.web.header.HeaderWriterFilter@3be4ab3e, org.springframework.web.filter.CorsFilter@507f8e30, org.springframework.security.web.authentication.logout.LogoutFilter@63fbb17a, com.example.aichat.common.security.JwtAuthenticationFilter@4220abe5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c7c1963, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@48ad088e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39ca312b, org.springframework.security.web.session.SessionManagementFilter@26578e72, org.springframework.security.web.access.ExceptionTranslationFilter@777b40a6, org.springframework.security.web.access.intercept.AuthorizationFilter@2f362b35]
+2026-09-30 00:18:57.004 [restartedMain] [34mINFO [0;39m [36morg.quartz.impl.StdSchedulerFactory[0;39m - Using default implementation for ThreadExecutor
+2026-09-30 00:18:57.014 [restartedMain] [34mINFO [0;39m [36mo.quartz.core.SchedulerSignalerImpl[0;39m - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2026-09-30 00:18:57.014 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - Quartz Scheduler v.2.3.2 created.
+2026-09-30 00:18:57.015 [restartedMain] [34mINFO [0;39m [36morg.quartz.simpl.RAMJobStore[0;39m - RAMJobStore initialized.
+2026-09-30 00:18:57.016 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2026-09-30 00:18:57.016 [restartedMain] [34mINFO [0;39m [36morg.quartz.impl.StdSchedulerFactory[0;39m - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2026-09-30 00:18:57.016 [restartedMain] [34mINFO [0;39m [36morg.quartz.impl.StdSchedulerFactory[0;39m - Quartz scheduler version: 2.3.2
+2026-09-30 00:18:57.016 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2945d1fe
+2026-09-30 00:18:57.559 [restartedMain] [31mWARN [0;39m [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - Unable to start LiveReload server
+2026-09-30 00:18:57.674 [restartedMain] [34mINFO [0;39m [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-30 00:18:57.695 [restartedMain] [31mWARN [0;39m [36mo.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext[0;39m - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-09-30 00:18:57.698 [restartedMain] [34mINFO [0;39m [36mo.s.s.quartz.SchedulerFactoryBean[0;39m - Shutting down Quartz Scheduler
+2026-09-30 00:18:57.698 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2026-09-30 00:18:57.698 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2026-09-30 00:18:57.698 [restartedMain] [34mINFO [0;39m [36morg.quartz.core.QuartzScheduler[0;39m - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2026-09-30 00:18:57.705 [restartedMain] [34mINFO [0;39m [36mc.e.aichat.controller.ChatController[0;39m - ���ڹر������̳߳�...
+2026-09-30 00:18:57.711 [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - HikariPool-1 - Shutdown initiated...
+2026-09-30 00:18:57.716 [restartedMain] [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - HikariPool-1 - Shutdown completed.
+2026-09-30 00:18:57.742 [restartedMain] [34mINFO [0;39m [36mo.s.b.a.l.ConditionEvaluationReportLogger[0;39m - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-30 00:18:57.764 [restartedMain] [1;31mERROR[0;39m [36mo.s.b.d.LoggingFailureAnalysisReporter[0;39m - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  31.976 s
+[INFO] Finished at: 2026-09-30T00:18:59+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.5:run (default-cli) on project aichat: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

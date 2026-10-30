@@ -1,0 +1,1 @@
+function n(){const n=function(){try{const n=localStorage.getItem("user");if(!n)return null;const t=JSON.parse(n);return t&&"object"==typeof t?t:null}catch(n){return null}}(),t=n&&(void 0!==n.id&&null!==n.id?n.id:n.userId);return null!=t?Number(t):null}export{n as g};

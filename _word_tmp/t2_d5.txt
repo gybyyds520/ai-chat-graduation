@@ -1,0 +1,273 @@
+# Dimension 5: table structure
+source: C:\Users\郭耀彬\Desktop\gybct\ai-chat-graduation\4.2301132013-XXX-开题报告（填写版）.docx
+location_base: /word/document.xml/w:body/
+syntax: [T<n>] starts a table, [R<n>] a row, and [C<n>] a cell; listed defaults apply when omitted; null means unset/inherited.
+table_defaults: borders=w:tblBorders(w:top(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:left(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:bottom(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:right(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:insideH(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:insideV(w:val="single",w:color="auto",w:sz="4",w:space="0")), cell_margin=w:tblCellMar(w:top(w:w="0",w:type="dxa"),w:left(w:w="108",w:type="dxa"),w:bottom(w:w="0",w:type="dxa"),w:right(w:w="108",w:type="dxa")), nesting_level=0, part="word/document.xml", section_index=1, style="11"
+row_defaults: none
+cell_defaults: paragraphs=1
+definitions: @v1 row.height={"val":"757","hRule":"atLeast"}; @v2 cell.width={"w":"2327","type":"dxa"}; @v3 cell.borders=w:tcBorders(w:top(w:val="nil"),w:left(w:val="nil"),w:bottom(w:val="nil"),w:right(w:val="nil")); @v4 cell.width={"w":"5930","type":"dxa"}; @v5 cell.borders=w:tcBorders(w:top(w:val="nil"),w:left(w:val="nil"),w:bottom(w:val="single",w:color="auto",w:sz="12",w:space="0"),w:right(w:val="nil")); @v6 cell.borders=w:tcBorders(w:top(w:val="single",w:color="auto",w:sz="12",w:space="0"),w:left(w:val="nil"),w:bottom(w:val="single",w:color="auto",w:sz="12",w:space="0"),w:right(w:val="nil")); @v7 cell.width={"w":"9036","type":"dxa"}; @v8 cell.borders=w:tcBorders(w:top(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:left(w:val="single",w:color="auto",w:sz="12",w:space="0"),w:bottom(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:right(w:val="single",w:color="auto",w:sz="12",w:space="0")); @v9 cell.borders=w:tcBorders(w:bottom(w:val="single",w:color="auto",w:sz="12",w:space="0")); @v10 cell.width={"w":"3107","type":"dxa"}; @v11 cell.width={"w":"5688","type":"dxa"}
+text_policy: full text is emitted without truncation.
+omitted: record_type=table; repeated defaults; table text because it is the ordered concatenation of cell text; raw table XML.
+normalized: loc is relative to location_base; @v references definitions; border and margin XML are losslessly compacted by tag and attributes.
+
+[T1 loc=7 width={"w":"8257","type":"dxa"} grid=[{"w":"2327"},{"w":"5930"}]]
+
+[R1 height=@v1]
+[C1 width=@v2 borders=@v3 valign="bottom"]
+题        目：
+[C2 width=@v4 borders=@v5 valign="bottom"]
+<empty/>
+
+[R2 height=@v1]
+[C1 width=@v2 borders=@v3 valign="bottom"]
+<empty/>
+[C2 width=@v4 borders=@v5 valign="bottom"]
+（若题目一行够写，请将此空行删除）
+
+[R3 height=@v1]
+[C1 width=@v2 borders=@v3 valign="bottom"]
+姓        名：
+[C2 width=@v4 borders=@v6 valign="bottom"]
+字体使用默认字体
+
+[R4 height=@v1]
+[C1 width=@v2 borders=@v3 valign="bottom"]
+学        号：
+[C2 width=@v4 borders=@v6 valign="bottom"]
+<empty/>
+
+[R5 height=@v1]
+[C1 width=@v2 borders=@v3 valign="bottom"]
+学        院：
+[C2 width=@v4 borders=@v6 valign="bottom"]
+计算与信息科学学院
+
+[R6 height=@v1]
+[C1 width=@v2 borders=@v3 valign="bottom"]
+专        业：
+[C2 width=@v4 borders=w:tcBorders(w:top(w:val="single",w:color="auto",w:sz="12",w:space="0"),w:left(w:val="nil"),w:bottom(w:val="single",w:color="000000",w:sz="12",w:space="0"),w:right(w:val="nil")) valign="bottom"]
+	Xxxx
+
+[R7 height=@v1]
+[C1 width=@v2 borders=@v3 valign="bottom"]
+年        级：
+[C2 width=@v4 borders=w:tcBorders(w:top(w:val="single",w:color="000000",w:sz="12",w:space="0"),w:left(w:val="nil"),w:bottom(w:val="single",w:color="000000",w:sz="12",w:space="0"),w:right(w:val="nil")) valign="bottom"]
+	
+
+[R8 height=@v1]
+[C1 width=@v2 borders=@v3 valign="bottom"]
+指导教师签名：
+[C2 width=@v4 borders=w:tcBorders(w:top(w:val="nil"),w:left(w:val="nil"),w:bottom(w:val="single",w:color="000000",w:sz="12",w:space="0"),w:right(w:val="nil")) valign="bottom"]
+<empty/>
+
+[R9 height=@v1]
+[C1 width=@v2 borders=@v3 valign="bottom"]
+时        间：
+[C2 width=@v4 borders=@v5 valign="bottom"]
+2026年10月11日
+
+[T2 loc=10 width={"w":"9036","type":"dxa"} grid=[{"w":"1657"},{"w":"2799"},{"w":"1260"},{"w":"3320"}]]
+
+[R1 height={"val":"551","hRule":"atLeast"} cant_split=true]
+[C1 width=@v7 colspan="4" borders=w:tcBorders(w:top(w:val="single",w:color="auto",w:sz="12",w:space="0"),w:left(w:val="single",w:color="auto",w:sz="12",w:space="0"),w:bottom(w:val="single",w:color="auto",w:sz="4",w:space="0"),w:right(w:val="single",w:color="auto",w:sz="12",w:space="0")) valign="center"]
+论文题目：基于IPv4和IPv6双栈技术的大型企业园区网络规划与设计
+
+[R2 height={"val":"9070","hRule":"atLeast"}]
+[C1 paragraphs=105 width=@v7 colspan="4" borders=@v8 valign="top"]
+1. 选题背景及研究的目的和意义
+1.1选题背景
+随着信息技术的飞速发展，互联网已经成为现代社会不可或缺的一部分。然而，传统的IPv4协议所面临的地址空间有限的问题日益突出，这不仅限制了互联网的进一步扩张，也给企业和个人带来了不便。IPv4地址资源的枯竭促使全球范围内的网络工程师和研究人员开始寻找新的解决方案，IPv6协议应运而生。IPv6不仅提供了几乎无限的地址空间，还改进了安全性、移动性和服务质量等功能。因此，如何在现有的IPv4基础上平稳过渡到IPv6，成为了当前网络建设中的一个重要议题。
+1.2研究目的
+在上述背景下，基于IPv4和IPv6双栈技术的大型企业园区网络规划与设计的研究显得尤为重要。该课题旨在探索一种既能充分利用现有IPv4资源，又能逐步过渡至IPv6环境的方法。首先，确保网络的平滑迁移。这意味着在不中断现有服务的前提下，逐步引入IPv6功能，使园区网络能够同时支持IPv4和IPv6协议，从而为用户提供无缝的服务体验。其次，提高网络性能。......
+1.3研究意义
+本课题的研究不仅有助于解决当前IPv4地址不足的问题，还能为未来的网络技术发展奠定坚实的基础。通过科学合理的规划与设计，企业不仅能顺利过渡到IPv6时代，还能借此机会提升自身的信息化水平，增强市场竞争力。......
+2. 国内外在该方向的研究现状及分析
+近年来，随着IPv4地址资源的日益紧缺以及IPv6在全球范围内的推广，基于IPv4和IPv6双栈技术的大型企业园区网络规划与设计成为学术界和工业界的热点话题。在国际上，发达国家早已开始探索并实施IPv6技术，尤其是在高性能计算、数据中心、云服务等领域，IPv6的应用已相当普遍。欧美等国不仅在理论研究方面积累了丰富经验，还在实际部署中取得了显著成效，尤其是在性能化防火墙设计等方面，展现了先进的技术水平。
+......
+......
+......
+在国内，随着国家层面的大力推动和支持，IPv6技术的应用得到了快速发展。政府部门、科研机构和高等院校纷纷投入到IPv6的研究与实践中，推出了一系列促进IPv6发展的政策措施和技术标准。与此同时，国内的一些大型企业也开始尝试在园区网络中部署IPv4/IPv6双栈技术......
+......
+综上所述，国内外在IPv4/IPv6双栈技术方面的研究仍然存在一定的差异。一方面，国外在某些细分方向上具有领先优势，特别是在技术的深度探索和大规模应用方面；另一方面，国内虽然在基础科学研究和部分关键技术上取得了突破，但在实际应用落地以及技术创新方面仍有较大的发展空间。
+3. 主要研究内容
+基于IPv4和IPv6双栈技术的大型企业园区网络规划与设计主要聚焦于如何平稳地从现有的IPv4网络过渡到支持IPv6的新一代互联网协议。
+该研究将涵盖网络基础架构的设计与优化，旨在确保在IPv4和IPv6共存期间网络服务的连续性和可靠性。研究内容包括评估企业当前的网络状况，确定支持IPv6所需的硬件和软件升级；制定双栈部署策略，终端DHCP自动获取IPv6，采用OSPFv3保持网络通畅，探索并实施过渡技术，隧道技术和NAT-PT（Network Address Translation - Protocol Translation，网络地址转换）以促进两种协议之间的互操作；强化网络安全机制，防范IPv6带来的新威胁；以及建立全面的监控和管理系统，保证网络性能和服务质量。
+通过上述研究，企业能够构建一个既支持现有IPv4应用又能面向未来的IPv6网络环境，设计的网络方案如图1所示。 
+
+图1 基于IPv4和IPv6双栈技术的大型企业园区网络设计方案
+4. 研究方案及进度安排，预期达到的目标
+4.1 研究方案
+本课题旨在通过双栈技术实现园区网络的平滑过渡，确保新旧系统兼容，同时为未来全面转向IPv6网络奠定基础。基于双栈技术，设计大型企业园区网络架构。核心层设备采用支持IPv4和IPv6双协议栈的交换机和路由器，确保网络层能够同时处理IPv4和IPv6流量。汇聚层和接入层设备根据实际需求逐步升级，支持双栈技术。同时，考虑网络的安全性和可扩展性，设计合理的网络拓扑结构，包括VLAN划分、路由协议选择（如OSPFv3）、链路聚合等......
+4.2 进度安排
+起讫时间
+工作内容
+2025年8月~2025年10月
+
+2025年10月
+开题答辩
+2025年10月~2025年12月
+
+2025年12月
+中期检查
+2025年12月~2026年3月
+
+2026年3月
+毕业设计（论文）评审
+2026年3月~2026年4月
+
+2026年4月
+档案提交
+4.3 预期达到的目标
+（1）通过分析目标项目的网络特点以及相关规模和具体业务，确保企业园区网络能够同时支持IPv4和IPv6协议，实现两种协议在网络中的无缝共存与互操作。
+（2）分析实际需求，从网络拓扑的设计，点位的部署规划、设备选型等方面对该项目进行宏观设计。
+（3）实现VRRP+MSTP低层次的网络基本冗余稳定保证，核心部分使用OSPFv3的方式保证核心网络的快速网络收敛与交换，采用DHCPv6技术，终端能够获取IPv6地址，企业内网使用双栈技术。
+（4）总公司与分公司之间使用GRE隧道方式实现网络拓扑信息的安全传输，借助 GRE，公司可以将 IPv6 数据包封装在 IPv4 数据包中，然后便可通过此网络传输流量。
+（5）使用防火墙进行多区域划分，由于模拟器限制搭建FTP、WEB和DNS服务器进行普遍性服务开放测试。
+（6）进行网络测试与调试，确保功能的可行性、完整性。
+......
+5. 为完成课题已具备和所需的条件 
+（1）具有专业知识储备
+（2）校图书馆藏书丰富，查阅检索方便....
+（3）已查阅大量知网文献，对课题有初步规划
+（4）了解XX产品或设备的技术文档...
+............
+6. 预计研究过程中可能遇到的困难和问题，以及解决的措施
+6.1 困难及问题
+（1）IPv4和IPv6在协议栈、地址格式、路由策略等方面存在显著差异，导致现有网络设备和应用系统可能不完全支持双栈技术。
+（2）IPv6提供了极大的地址空间，但是这也意味着需要更复杂的地址规划来有效地管理和分配这些地址。相较于IPv4，IPv6的自动配置特性可能带来新的管理挑战。
+（3）为了实现双栈网络，可能需要对现有网络架构进行重大调整，包括路由策略、网络拓扑等方面的变化。
+...........
+6.2 解决措施
+（1）对网络设备进行升级或更换，确保设备支持双栈技术。同时，对应用系统进行改造，使其能够同时处理IPv4和IPv6流量。
+（2）用层次化的地址规划方法，根据业务类型、物理位置等因素进行地址划分。同时，使用自动化的地址管理工具来简化地址分配和管理过程。.
+......
+7. 主要参考文献
+[1]
+[2]
+[3]
+……
+[12]
+（黄色突出显示的内容仅供参考，在正式提交时一定要删除）
+参考文献表根据下述格式书写，并按顺序编号，即按文中引用的顺序将参考文献附于文末。作者姓名写到第三位，英文状态下逗号分隔“,”，余者写“,等”或“,et al．”(所有用到的标点符号均在英文状态下输入）。
+
+常用的电子文献及载体类型标识：
+M—专著;C—论文集；G—汇编；N—报纸；J—期刊;D—学位论文；R—报告；S—标准文献；P—专利；DB—数据库;CP—计算机程序；A—档案;CM—舆图；DS—数据集；CP/DK—磁盘软件；J/OL—电子期刊;EB/OL—电子公告；M/OL—电子专著；D/OL—电子学位论文；P/OL—电子专利；Z—其他
+参考文献著录新格式（GB／T7714‐2015）示例
+（1）普通图书
+[1]陈登原.国史旧闻:第1卷[M].北京:中华书局,2000:29.
+[2]库恩.科学革命的结构:第4版[M].金吾伦,胡新和译.第2版.北京:北京大学出版社,2012.
+[3]同济大学土木工程防灾国家重点实验室.汶川地震震害研究[M/OL].上海:同济大学出版社,2011:5-6[2013-05-09].http://apabi.lib.pku.edu.cn/usp/pku/pub.mvc?pid=book.detail&metaid=m.20120406-YPT-889-0010(“[ ]”内为引用日期,电子资源应注明获取和访问路径)
+[4]BALDOCK P.Developing early childhood services: past,present and future [M/OL].[S.l.]:Open University Press,2011:105[2012-11-27].http://lib.myilibra ry.com/Open.aspx?id=312377([S.l.]表示出版地不明)
+[5]O’BRIEN J A.Introduction to information systems[M].7th ed.Burr Ridgem III:Irwin,1994.
+[6]由书农.植物开花研究[M]//李承森.植物科学进展.北京:高等教育出版社,1988:146-163.(//表示专著析出文献)
+（2）期刊
+[1]VATSALA A,NOVA R,SRINIVASA MURTHY B R.Elastoplastic model for cemented soils[J].Journal of Geotechnical and Geo-environmental Engineering,2001,127(8): 679-687.
+[2]朱冬林,任光明,聂得新,等.库水位变化下对水库滑坡稳定性影响的预测[J].水文地质工程地质,2002,29(3):6-9.
+[3]PARK J R,TOSAKA Y.Metadata quality control in digital repositories and collections:criteria,
+semantics,and mechanisms[J/OL].Cataloging and Classification Quarterly,2010,48(8):696-715[2013-09-
+05].http://www.tandfon_line.com/doi/pdf/10.1080/01639374.2010.508711(电子资源注明获取和访问路径)
+（3）会议论文集
+[1]GRUBER P,THEI F J,TOME A M,et al.Automatic denoising using local independent component analysis [C]//Proceedings of EIS 2004.Portugal:[s.n.],2004:255-260.([s.n.]表示出版者不明)
+[2]HRUSKA K,KINDL V,PECHANEK R.Evaluation of different approaches of mathematical modeling of thermal phenomena applied to induction motors[C]//2014 ELEKTRO Annual Conference of IEEE. Moscow:IEEE,2014:358-362.
+（4）学位论文
+[1]马欢.人类活动影响下海河典型水循环变化分析[D].北京:清华大学,2011.
+[2]CALMS R B.Infrared spectroscopic studies on solid oxygen[D].Berkeley:University of California,1965.
+（5）科技报告
+[1]中华人民共和国国务院新闻办公室.国防白皮书:中国武装力量的多样化运用[R/OL].(2013-04-16)[2014-06-11].http://www.mod.gov.cn/affair/2013-04/16/content_44428398.htm
+[2]汤万金,杨跃翔,刘文,等.人体安全重要技术标准研制最终报告:7178999X-2006BAK04A10/10.2013
+[R/OL].(2013-09-30)[2014-06-24].http://www.nstrs.org.cn/xiangxiBG.aspx?id=41707
+[3]U.S.Department of Transportation,Federal Highway Administration.Guidelines for handling excavated acid-producing materials:PB 91-194001[R].Springfield:U.S. Department of Commerce National Information Service,1990.
+（6）专利文献
+[1]张凯军.轨道火车及高速归到火车紧急安全制动辅助装置:201220158825.2[P].2012-04-05.
+[2]河北绿洲生活环境科技有限公司.一种荒漠化地区生态植被综合培育种植方法:01129210.5[P/OL].2001-10-24[2002-05-28].http://211.152.9.47/sipoasp/zlijs/hyjs-yx-new.asp?recid=01129210.5&leixin=0
+（7）报纸中析出的文献
+[1]丁文祥.数字革命与竞争国际化[N].中国青年报,2000-11-20(15).
+[2]刘裕国,杨柳,张洋,等.雾霾来袭,如何突围[N/OL].人民日报,2013-01-12[2013-11-06].http://paper.people.
+com.cn/rmrb/html/2013-01/12/nw.D110000renmrb_20130112_2-04.htm
+（8）标准文献
+[1]全国信息与文献标准化技术委员会.文献著录:第4部分非书资料:GB/T 3792.4—2009[S].北京:中国标准出版社,2010:3.
+[2]国家环境保护局科技标准司.土壤环境质量标准:GB15616-1995[S/OL].北京:中国标准出版社,1996:2-3[2013-10-14].http://wenku.baidu.com/view/b950a34b767f5acfa1c7cd49.html
+（9）计算机程序
+[1]Scitor corporation.Project scheduler [CP/DK].Sunnyvale,Calif:Scitor Corporation,c1983.
+（10）电子资源（不包括电子著作、电子连续出版物、电子学位论文、电子专利）
+[1]KNOWLEN C,WILLIAMS J,MATTICK AT,et al.Quasi-isothermal expansion engines for liquid 
+nitrogen automotive propulsion[EB/OL].[2002-10-08].http://www.aa.Washington.edu/AERP/CRYOCAR/
+Papers/sae97.pdf
+[2]李强.化解医患矛盾需釜底抽薪[EB/OL].(2012-05-03)[2013-03-25].http://wenku.baidu.com/view/47e4f206b52acfc789ebc92f.html
+（11）汇编
+[1]韩吉人.论职工教育的特点[G]//中国职工教育研究会.职工教育研究论文集.北京:人民教育出版社,1985:90-99.
+
+
+[R3 height={"val":"2264","hRule":"atLeast"} cant_split=true]
+[C1 paragraphs=4 width=@v7 colspan="4" borders=@v8]
+指导教师评语：
+……
+……
+综上所述，同意开题。
+
+[R4 height={"val":"676","hRule":"atLeast"} cant_split=true]
+[C1 paragraphs=2 width={"w":"1657","type":"dxa"} borders=w:tcBorders(w:left(w:val="single",w:color="auto",w:sz="12",w:space="0"),w:bottom(w:val="single",w:color="auto",w:sz="12",w:space="0")) valign="center"]
+指导教师
+（签字）
+[C2 width={"w":"2799","type":"dxa"} borders=@v9 valign="center"]
+<empty/>
+[C3 width={"w":"1260","type":"dxa"} borders=@v9 valign="center"]
+签字时间
+[C4 width={"w":"3320","type":"dxa"} borders=w:tcBorders(w:bottom(w:val="single",w:color="auto",w:sz="12",w:space="0"),w:right(w:val="single",w:color="auto",w:sz="12",w:space="0")) valign="center"]
+2026年 10月 11日
+
+[T3 loc=*[10]/w:tr[2]/w:tc[1]/*[27] parent_table_index=2 nesting_level=1 style="12" width={"w":"8795","type":"dxa"} grid=[{"w":"3107"},{"w":"5688"}]]
+
+[R1]
+[C1 width=@v10]
+起讫时间
+[C2 width=@v11]
+工作内容
+
+[R2]
+[C1 width=@v10]
+2025年8月~2025年10月
+[C2 width=@v11]
+<empty/>
+
+[R3]
+[C1 width=@v10]
+2025年10月
+[C2 width=@v11]
+开题答辩
+
+[R4]
+[C1 width=@v10]
+2025年10月~2025年12月
+[C2 width=@v11]
+<empty/>
+
+[R5]
+[C1 width=@v10]
+2025年12月
+[C2 width=@v11]
+中期检查
+
+[R6]
+[C1 width=@v10]
+2025年12月~2026年3月
+[C2 width=@v11]
+<empty/>
+
+[R7]
+[C1 width=@v10]
+2026年3月
+[C2 width=@v11]
+毕业设计（论文）评审
+
+[R8]
+[C1 width=@v10]
+2026年3月~2026年4月
+[C2 width=@v11]
+<empty/>
+
+[R9]
+[C1 width=@v10]
+2026年4月
+[C2 width=@v11]
+档案提交
