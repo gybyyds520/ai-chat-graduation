@@ -1,0 +1,1198 @@
+{
+  "timestamp": "2026-09-30 00:46:46",
+  "base": "http://127.0.0.1:8080",
+  "total": 91,
+  "pass": 91,
+  "fail": 0,
+  "slow": 1,
+  "user_login_ok": true,
+  "admin_login_ok": true,
+  "items": [
+    {
+      "module": "健康",
+      "method": "GET",
+      "path": "/api/health",
+      "role": "none",
+      "status": 200,
+      "elapsed_ms": 4.0,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "认证",
+      "method": "POST",
+      "path": "/api/user/login",
+      "role": "none",
+      "status": 200,
+      "elapsed_ms": 90.9,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "用户",
+      "method": "GET",
+      "path": "/api/user/me",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 16.8,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "用户",
+      "method": "GET",
+      "path": "/api/user/profile?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 12.6,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "用户",
+      "method": "GET",
+      "path": "/api/user/membership",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 18.0,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "用户",
+      "method": "GET",
+      "path": "/api/user/stats?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 13.0,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "用户",
+      "method": "GET",
+      "path": "/api/user/status?userIds=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 18.9,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "用户",
+      "method": "GET",
+      "path": "/api/user/minor-mode/status",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 10.7,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "用户",
+      "method": "GET",
+      "path": "/api/user/voice-preference",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 13.0,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "认证设备",
+      "method": "GET",
+      "path": "/api/auth/devices",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 10.5,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "认证告警",
+      "method": "GET",
+      "path": "/api/auth/alerts",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 9.0,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "认证徽章",
+      "method": "GET",
+      "path": "/api/auth/badges",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 9.8,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "认证标签",
+      "method": "GET",
+      "path": "/api/auth/tags",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 10.9,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "好友",
+      "method": "GET",
+      "path": "/api/friend/list?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 11.7,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "好友",
+      "method": "GET",
+      "path": "/api/friend/requests?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 9.7,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "好友",
+      "method": "GET",
+      "path": "/api/friend/search?username=demo_bob",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 9.4,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "好友分组",
+      "method": "GET",
+      "path": "/api/friend/group/list?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 9.0,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "私聊",
+      "method": "GET",
+      "path": "/api/friend/chat/list?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 13.9,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "私聊",
+      "method": "GET",
+      "path": "/api/friend/chat/unread?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 16.8,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "私聊",
+      "method": "GET",
+      "path": "/api/friend/chat/history?userId=82&friendId=83",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 19.7,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "群聊",
+      "method": "GET",
+      "path": "/api/group/my-groups?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 10.3,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "群聊",
+      "method": "GET",
+      "path": "/api/group/public",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 7.6,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "群聊",
+      "method": "GET",
+      "path": "/api/group/activity-ranking",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 9.3,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "社群",
+      "method": "GET",
+      "path": "/api/community/list",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 9.5,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "社群",
+      "method": "GET",
+      "path": "/api/community/search?keyword=a",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 8.4,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "广场",
+      "method": "GET",
+      "path": "/api/plaza/list",
+      "role": "none",
+      "status": 200,
+      "elapsed_ms": 9.9,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "广场",
+      "method": "GET",
+      "path": "/api/plaza/hot",
+      "role": "none",
+      "status": 200,
+      "elapsed_ms": 15.8,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "广场",
+      "method": "GET",
+      "path": "/api/plaza/categories",
+      "role": "none",
+      "status": 200,
+      "elapsed_ms": 7.3,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "广场",
+      "method": "GET",
+      "path": "/api/plaza/search?keyword=旅行",
+      "role": "none",
+      "status": 200,
+      "elapsed_ms": 9.2,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "记忆",
+      "method": "GET",
+      "path": "/api/memory/list",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 79.3,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "记忆",
+      "method": "GET",
+      "path": "/api/memory/stats",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 11.9,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "通知",
+      "method": "GET",
+      "path": "/api/notification/list?userId=82&page=1&size=5",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 16.9,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "通知",
+      "method": "GET",
+      "path": "/api/notification/unread/count?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 7.5,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "通知",
+      "method": "GET",
+      "path": "/api/notification/settings?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 7.8,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "投喂",
+      "method": "GET",
+      "path": "/api/feed/history",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 12.5,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "投喂",
+      "method": "GET",
+      "path": "/api/feed/stats",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 17.2,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "社交",
+      "method": "GET",
+      "path": "/api/social/posts/public",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 15.1,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "社交",
+      "method": "GET",
+      "path": "/api/social/posts/user/82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 13.0,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "推荐",
+      "method": "GET",
+      "path": "/api/recommendation/posts?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 15.3,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "推荐",
+      "method": "GET",
+      "path": "/api/recommendation/users?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 128.8,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "AI角色",
+      "method": "GET",
+      "path": "/api/character/list",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 7.1,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "AI角色",
+      "method": "GET",
+      "path": "/api/character/shared-with-me?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 7.3,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "AI精灵",
+      "method": "GET",
+      "path": "/api/elf/get?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 11.1,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "AI精灵",
+      "method": "GET",
+      "path": "/api/elf/alarms?elfId=2",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 12.2,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "AI精灵",
+      "method": "GET",
+      "path": "/api/elf/schedules?elfId=2",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 9.5,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "知识库",
+      "method": "GET",
+      "path": "/api/knowledge/list",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 10.6,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "知识库",
+      "method": "GET",
+      "path": "/api/knowledge/history",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 10.9,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "搜索",
+      "method": "GET",
+      "path": "/api/search/users?keyword=a",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 8.9,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "搜索",
+      "method": "GET",
+      "path": "/api/search/posts?keyword=a",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 7.8,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "搜索",
+      "method": "GET",
+      "path": "/api/search/quick?query=a",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 5316.1,
+      "ok": true,
+      "slow": true,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "模型",
+      "method": "GET",
+      "path": "/api/model/list",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 9.0,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "工具",
+      "method": "GET",
+      "path": "/api/tool/list",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 6.4,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "工具",
+      "method": "GET",
+      "path": "/api/tool/history",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 11.5,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "配额",
+      "method": "GET",
+      "path": "/api/quota/current",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 8.0,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "风险",
+      "method": "GET",
+      "path": "/api/risk/history?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 6.6,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "隐私",
+      "method": "GET",
+      "path": "/api/privacy/settings?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 10.2,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "资料",
+      "method": "GET",
+      "path": "/api/profile/82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 9.5,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "资料",
+      "method": "GET",
+      "path": "/api/profile/statistics/82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 10.4,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "举报拉黑",
+      "method": "GET",
+      "path": "/api/block-report/blocked?userId=82",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 7.8,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "语音",
+      "method": "GET",
+      "path": "/api/voice/health",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 6.2,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200,
+        503
+      ]
+    },
+    {
+      "module": "图片",
+      "method": "GET",
+      "path": "/api/image/health",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 101.4,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200,
+        503
+      ]
+    },
+    {
+      "module": "外部API",
+      "method": "GET",
+      "path": "/api/external/health",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 9.5,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "外部API",
+      "method": "GET",
+      "path": "/api/external/providers",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 5.7,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "外部API",
+      "method": "GET",
+      "path": "/api/external/status",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 7.2,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "爬虫",
+      "method": "GET",
+      "path": "/api/crawler/stats",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 13.4,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "爬虫",
+      "method": "GET",
+      "path": "/api/crawler/health",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 5.7,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "深度研究",
+      "method": "GET",
+      "path": "/api/research/list",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 5.8,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "聊天",
+      "method": "GET",
+      "path": "/api/chat/health",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 9.2,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "聊天",
+      "method": "GET",
+      "path": "/api/chat/models",
+      "role": "user",
+      "status": 200,
+      "elapsed_ms": 9.4,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "广告",
+      "method": "GET",
+      "path": "/api/advertisement/active/home",
+      "role": "none",
+      "status": 200,
+      "elapsed_ms": 6.2,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200,
+        404
+      ]
+    },
+    {
+      "module": "公告",
+      "method": "GET",
+      "path": "/api/admin/announcements/public/active",
+      "role": "none",
+      "status": 200,
+      "elapsed_ms": 6.9,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "管理",
+      "method": "POST",
+      "path": "/api/admin/login",
+      "role": "none",
+      "status": 200,
+      "elapsed_ms": 6.4,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "管理",
+      "method": "GET",
+      "path": "/api/admin/users",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 13.3,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "管理",
+      "method": "GET",
+      "path": "/api/admin/stats",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 20.3,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "管理",
+      "method": "GET",
+      "path": "/api/admin/users/count",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 9.6,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "管理",
+      "method": "GET",
+      "path": "/api/admin/characters",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 10.4,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "管理公告",
+      "method": "GET",
+      "path": "/api/admin/announcements/active",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 9.0,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "数据池",
+      "method": "GET",
+      "path": "/api/admin/data-pool/records",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 17.9,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "数据池",
+      "method": "GET",
+      "path": "/api/admin/data-pool/config",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 9.0,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "数据池",
+      "method": "GET",
+      "path": "/api/admin/data-pool/stats",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 11.5,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "数据池",
+      "method": "GET",
+      "path": "/api/admin/data-pool/types",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 8.0,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "数据池",
+      "method": "GET",
+      "path": "/api/admin/data-pool/auto-save/status",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 6.4,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "AI系统",
+      "method": "GET",
+      "path": "/api/aisystem/list",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 8.3,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "AI系统",
+      "method": "GET",
+      "path": "/api/aisystem/ollama/status",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 11.5,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "AI系统",
+      "method": "GET",
+      "path": "/api/aisystem/config",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 10.6,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "AI系统",
+      "method": "GET",
+      "path": "/api/aisystem/stats",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 8.1,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "内容审核",
+      "method": "GET",
+      "path": "/api/audit/logs",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 14.1,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "内容审核",
+      "method": "GET",
+      "path": "/api/audit/stats",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 12.8,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "备份",
+      "method": "GET",
+      "path": "/api/admin/backup/list",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 10.3,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "备份",
+      "method": "GET",
+      "path": "/api/admin/backup/stats",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 9.2,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    },
+    {
+      "module": "支付",
+      "method": "GET",
+      "path": "/api/payment/pending",
+      "role": "admin",
+      "status": 200,
+      "elapsed_ms": 8.4,
+      "ok": true,
+      "slow": false,
+      "expected": [
+        200
+      ]
+    }
+  ]
+}

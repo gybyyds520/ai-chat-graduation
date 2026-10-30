@@ -1,0 +1,525 @@
+{
+  "testDataset": {
+    "version": "1.0",
+    "createdDate": "2026-07-09",
+    "description": "AI Chat系统测试数据集，包含管理员账户、普通用户账户、业务数据样本和配置参数组合",
+    "adminAccounts": [
+      {
+        "id": "admin-001",
+        "username": "super_admin",
+        "password": "Admin@2026",
+        "email": "superadmin@aichat.com",
+        "role": "super_admin",
+        "permissions": ["all"],
+        "status": "active",
+        "description": "超级管理员，拥有所有权限"
+      },
+      {
+        "id": "admin-002",
+        "username": "data_admin",
+        "password": "Data@2026",
+        "email": "dataadmin@aichat.com",
+        "role": "data_admin",
+        "permissions": ["data_manage", "user_view", "log_view"],
+        "status": "active",
+        "description": "数据管理员，负责数据池管理"
+      },
+      {
+        "id": "admin-003",
+        "username": "user_admin",
+        "password": "User@2026",
+        "email": "useradmin@aichat.com",
+        "role": "user_admin",
+        "permissions": ["user_manage", "user_view"],
+        "status": "active",
+        "description": "用户管理员，负责用户管理"
+      },
+      {
+        "id": "admin-004",
+        "username": "disabled_admin",
+        "password": "Disabled@2026",
+        "email": "disabled@aichat.com",
+        "role": "super_admin",
+        "permissions": ["all"],
+        "status": "disabled",
+        "description": "禁用状态的管理员账户"
+      }
+    ],
+    "userAccounts": [
+      {
+        "id": "user-001",
+        "username": "test_user_01",
+        "password": "Test@123456",
+        "email": "testuser01@example.com",
+        "phone": "13800138001",
+        "nickname": "测试用户01",
+        "avatar": "",
+        "status": "active",
+        "role": "normal",
+        "description": "正常活跃用户"
+      },
+      {
+        "id": "user-002",
+        "username": "test_user_02",
+        "password": "Test@123456",
+        "email": "testuser02@example.com",
+        "phone": "13800138002",
+        "nickname": "测试用户02",
+        "avatar": "",
+        "status": "active",
+        "role": "vip",
+        "description": "VIP用户"
+      },
+      {
+        "id": "user-003",
+        "username": "locked_user",
+        "password": "Test@123456",
+        "email": "locked@example.com",
+        "phone": "13800138003",
+        "nickname": "锁定用户",
+        "avatar": "",
+        "status": "locked",
+        "role": "normal",
+        "description": "账户锁定用户"
+      },
+      {
+        "id": "user-004",
+        "username": "disabled_user",
+        "password": "Test@123456",
+        "email": "disabled@example.com",
+        "phone": "13800138004",
+        "nickname": "禁用用户",
+        "avatar": "",
+        "status": "disabled",
+        "role": "normal",
+        "description": "账户禁用用户"
+      },
+      {
+        "id": "user-005",
+        "username": "test_user_05",
+        "password": "Test@123456",
+        "email": "testuser05@example.com",
+        "phone": "",
+        "nickname": "无手机号用户",
+        "avatar": "",
+        "status": "active",
+        "role": "normal",
+        "description": "未绑定手机号的用户"
+      }
+    ],
+    "boundaryTestCases": {
+      "username": {
+        "minLength": "a",
+        "maxLength": "a".repeat(50),
+        "empty": "",
+        "specialChars": "test@#$%user",
+        "spaces": "test user",
+        "chinese": "测试用户"
+      },
+      "password": {
+        "minLength": "Aa1!",
+        "maxLength": "A".repeat(128),
+        "weak": "123456",
+        "noUpperCase": "test123!",
+        "noLowerCase": "TEST123!",
+        "noNumber": "Test@test",
+        "noSpecial": "Test1234"
+      },
+      "email": {
+        "valid": "test@example.com",
+        "invalidFormat": "testexample.com",
+        "noDomain": "test@",
+        "noLocal": "@example.com",
+        "empty": "",
+        "longEmail": "test.user.name@sub.domain.example.com"
+      },
+      "phone": {
+        "valid": "13800138000",
+        "invalidLength": "138001380",
+        "nonNumeric": "138abc13800",
+        "empty": ""
+      },
+      "chatMessage": {
+        "empty": "",
+        "minLength": "a",
+        "maxLength": "a".repeat(10000),
+        "specialChars": "@#$%^&*()_+-=[]{}|;':\",./<>?",
+        "emoji": "Hello 😊🎉✨",
+        "html": "<script>alert('xss')</script>"
+      },
+      "searchQuery": {
+        "empty": "",
+        "minLength": "a",
+        "maxLength": "a".repeat(200),
+        "specialChars": "@#$%^&*",
+        "multiWord": "人工智能 chatbot"
+      }
+    },
+    "businessData": {
+      "aiCharacters": [
+        {
+          "id": "char-001",
+          "name": "智能助手",
+          "description": "一个友好的AI助手",
+          "personality": "friendly",
+          "baseColor": "#4f46e5",
+          "shape": "humanoid",
+          "category": "basic",
+          "status": "active"
+        },
+        {
+          "id": "char-002",
+          "name": "十二生肖-鼠",
+          "description": "生肖鼠角色",
+          "personality": "cute",
+          "baseColor": "#8b5cf6",
+          "shape": "humanoid",
+          "category": "zodiac",
+          "emoji": "🐭",
+          "status": "active"
+        },
+        {
+          "id": "char-003",
+          "name": "山海经-九尾狐",
+          "description": "山海经九尾狐角色",
+          "personality": "mysterious",
+          "baseColor": "#ec4899",
+          "shape": "humanoid",
+          "category": "myth",
+          "emoji": "🦊",
+          "status": "active"
+        },
+        {
+          "id": "char-004",
+          "name": "球体角色",
+          "description": "基础球体形状角色",
+          "personality": "playful",
+          "baseColor": "#10b981",
+          "shape": "sphere",
+          "category": "basic",
+          "status": "active"
+        }
+      ],
+      "chatMessages": [
+        {
+          "id": "msg-001",
+          "userId": "user-001",
+          "characterId": "char-001",
+          "content": "你好，我想了解一下AI技术",
+          "role": "user",
+          "status": "sent"
+        },
+        {
+          "id": "msg-002",
+          "userId": "user-001",
+          "characterId": "char-001",
+          "content": "您好！AI（人工智能）是计算机科学的一个分支，致力于研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统。",
+          "role": "assistant",
+          "status": "received"
+        },
+        {
+          "id": "msg-003",
+          "userId": "user-002",
+          "characterId": "char-002",
+          "content": "今天天气怎么样？",
+          "role": "user",
+          "status": "sent"
+        }
+      ],
+      "alarms": [
+        {
+          "id": "alarm-001",
+          "time": "08:00",
+          "label": "工作日闹钟",
+          "repeat": "weekdays",
+          "ringtone": "classic",
+          "volume": 80,
+          "enabled": true,
+          "snoozeEnabled": true,
+          "snoozeInterval": 5
+        },
+        {
+          "id": "alarm-002",
+          "time": "07:30",
+          "label": "周末闹钟",
+          "repeat": "weekend",
+          "ringtone": "digital",
+          "volume": 60,
+          "enabled": false,
+          "snoozeEnabled": false,
+          "snoozeInterval": 10
+        },
+        {
+          "id": "alarm-003",
+          "time": "09:00",
+          "label": "自定义闹钟",
+          "repeat": "custom",
+          "repeatDays": ["mon", "wed", "fri"],
+          "ringtone": "birds",
+          "volume": 100,
+          "enabled": true,
+          "snoozeEnabled": true,
+          "snoozeInterval": 15
+        }
+      ],
+      "musicTracks": [
+        {
+          "id": "music-001",
+          "name": "测试音乐01",
+          "artist": "测试艺术家",
+          "album": "测试专辑",
+          "duration": 180,
+          "filePath": "/music/test01.mp3"
+        },
+        {
+          "id": "music-002",
+          "name": "测试音乐02",
+          "artist": "测试艺术家",
+          "album": "测试专辑",
+          "duration": 240,
+          "filePath": "/music/test02.mp3"
+        }
+      ],
+      "dataPool": [
+        {
+          "id": "dp-001",
+          "title": "AI技术文档",
+          "content": "人工智能技术概述...",
+          "type": "document",
+          "importance": "high",
+          "status": "active",
+          "source": "web_crawler"
+        },
+        {
+          "id": "dp-002",
+          "title": "机器学习入门",
+          "content": "机器学习基础概念...",
+          "type": "document",
+          "importance": "medium",
+          "status": "active",
+          "source": "manual"
+        },
+        {
+          "id": "dp-003",
+          "title": "过时文档",
+          "content": "过时的技术文档...",
+          "type": "document",
+          "importance": "low",
+          "status": "deprecated",
+          "source": "web_crawler"
+        }
+      ],
+      "friendships": [
+        {
+          "id": "friend-001",
+          "userId": "user-001",
+          "friendId": "user-002",
+          "status": "accepted",
+          "createdAt": "2026-07-01"
+        },
+        {
+          "id": "friend-002",
+          "userId": "user-001",
+          "friendId": "user-003",
+          "status": "pending",
+          "createdAt": "2026-07-05"
+        },
+        {
+          "id": "friend-003",
+          "userId": "user-002",
+          "friendId": "user-004",
+          "status": "rejected",
+          "createdAt": "2026-07-03"
+        }
+      ],
+      "payAccounts": [
+        {
+          "id": "pay-001",
+          "userId": "user-002",
+          "accountType": "alipay",
+          "accountNumber": "test@alipay.com",
+          "status": "active"
+        },
+        {
+          "id": "pay-002",
+          "userId": "user-002",
+          "accountType": "wechat",
+          "accountNumber": "13800138002",
+          "status": "active"
+        }
+      ],
+      "paymentRecords": [
+        {
+          "id": "payment-001",
+          "userId": "user-002",
+          "amount": 99.00,
+          "paymentType": "vip_monthly",
+          "status": "success",
+          "payTime": "2026-07-01 10:00:00"
+        },
+        {
+          "id": "payment-002",
+          "userId": "user-002",
+          "amount": 199.00,
+          "paymentType": "vip_yearly",
+          "status": "pending",
+          "payTime": "2026-07-08 15:30:00"
+        }
+      ],
+      "announcements": [
+        {
+          "id": "ann-001",
+          "title": "系统维护通知",
+          "content": "系统将于2026-07-10 00:00-02:00进行维护升级，请提前保存数据。",
+          "status": "published",
+          "createdAt": "2026-07-08"
+        },
+        {
+          "id": "ann-002",
+          "title": "新功能上线",
+          "content": "桌面精灵模块新增闹钟和音乐功能，欢迎体验！",
+          "status": "published",
+          "createdAt": "2026-07-09"
+        },
+        {
+          "id": "ann-003",
+          "title": "草稿通知",
+          "content": "即将发布的通知内容...",
+          "status": "draft",
+          "createdAt": "2026-07-09"
+        }
+      ],
+      "advertisements": [
+        {
+          "id": "ad-001",
+          "title": "VIP会员广告",
+          "content": "开通VIP会员，享受更多AI功能！",
+          "position": "homepage",
+          "status": "active",
+          "priority": 1
+        },
+        {
+          "id": "ad-002",
+          "title": "新功能推广",
+          "content": "体验全新桌面精灵！",
+          "position": "sidebar",
+          "status": "active",
+          "priority": 2
+        }
+      ],
+      "accessLogs": [
+        {
+          "id": "log-001",
+          "userId": "user-001",
+          "action": "login",
+          "module": "auth",
+          "ip": "192.168.1.100",
+          "timestamp": "2026-07-09 08:00:00",
+          "status": "success"
+        },
+        {
+          "id": "log-002",
+          "userId": "user-001",
+          "action": "chat",
+          "module": "chat",
+          "ip": "192.168.1.100",
+          "timestamp": "2026-07-09 08:30:00",
+          "status": "success"
+        },
+        {
+          "id": "log-003",
+          "userId": "user-003",
+          "action": "login",
+          "module": "auth",
+          "ip": "192.168.1.101",
+          "timestamp": "2026-07-09 09:00:00",
+          "status": "failed",
+          "error": "Account locked"
+        }
+      ]
+    },
+    "configParameters": {
+      "system": [
+        { "key": "app.name", "value": "AI Chat", "description": "应用名称", "required": true },
+        { "key": "app.version", "value": "1.0.0", "description": "应用版本", "required": true },
+        { "key": "app.debug", "value": "false", "description": "调试模式", "required": false },
+        { "key": "app.theme", "value": "dark", "description": "默认主题", "required": false },
+        { "key": "app.maxUploadSize", "value": "50", "description": "最大上传大小(MB)", "required": true },
+        { "key": "app.sessionTimeout", "value": "3600", "description": "会话超时时间(秒)", "required": true }
+      ],
+      "ai": [
+        { "key": "ai.defaultModel", "value": "phi3:mini", "description": "默认AI模型", "required": true },
+        { "key": "ai.maxTokens", "value": "2048", "description": "最大token数", "required": true },
+        { "key": "ai.temperature", "value": "0.7", "description": "温度参数", "required": true },
+        { "key": "ai.topP", "value": "0.9", "description": "topP参数", "required": true },
+        { "key": "ai.maxRetries", "value": "3", "description": "最大重试次数", "required": true },
+        { "key": "ai.responseTimeout", "value": "60", "description": "响应超时时间(秒)", "required": true }
+      ],
+      "notification": [
+        { "key": "notify.enabled", "value": "true", "description": "通知开关", "required": true },
+        { "key": "notify.soundEnabled", "value": "true", "description": "声音通知", "required": true },
+        { "key": "notify.desktopEnabled", "value": "true", "description": "桌面通知", "required": true },
+        { "key": "notify.badgeEnabled", "value": "true", "description": "角标通知", "required": true }
+      ],
+      "security": [
+        { "key": "security.loginAttempts", "value": "5", "description": "登录尝试次数", "required": true },
+        { "key": "security.lockDuration", "value": "300", "description": "锁定时长(秒)", "required": true },
+        { "key": "security.passwordMinLength", "value": "8", "description": "密码最小长度", "required": true },
+        { "key": "security.passwordExpireDays", "value": "90", "description": "密码过期天数", "required": true },
+        { "key": "security.tokenExpireHours", "value": "24", "description": "token过期时间(小时)", "required": true }
+      ]
+    },
+    "edgeCases": [
+      {
+        "name": "空数据提交",
+        "description": "所有表单字段为空时的提交处理",
+        "expected": "前端验证阻止提交，显示错误提示"
+      },
+      {
+        "name": "超大文件上传",
+        "description": "上传超过最大限制的文件",
+        "expected": "上传被拒绝，显示文件大小超限提示"
+      },
+      {
+        "name": "网络超时",
+        "description": "模拟网络请求超时场景",
+        "expected": "显示加载失败提示，提供重试按钮"
+      },
+      {
+        "name": "并发登录",
+        "description": "同一账户在多个设备同时登录",
+        "expected": "后登录的设备生效，前一设备可能被强制下线"
+      },
+      {
+        "name": "大量数据渲染",
+        "description": "一次性加载大量聊天消息或列表数据",
+        "expected": "分页加载或虚拟滚动，保证性能流畅"
+      },
+      {
+        "name": "特殊字符输入",
+        "description": "输入包含特殊字符和HTML标签的内容",
+        "expected": "内容被正确转义，防止XSS攻击"
+      },
+      {
+        "name": "快速连续操作",
+        "description": "快速连续点击按钮或提交表单",
+        "expected": "防止重复提交，操作被节流或防抖"
+      },
+      {
+        "name": "系统时间错误",
+        "description": "系统时间与服务器时间不一致",
+        "expected": "使用服务器时间，显示正确的时间信息"
+      },
+      {
+        "name": "低分辨率屏幕",
+        "description": "在低分辨率屏幕上显示界面",
+        "expected": "响应式布局，界面元素自适应调整"
+      },
+      {
+        "name": "高DPI屏幕",
+        "description": "在高DPI/Retina屏幕上显示界面",
+        "expected": "界面清晰，无模糊或拉伸现象"
+      }
+    ]
+  }
+}

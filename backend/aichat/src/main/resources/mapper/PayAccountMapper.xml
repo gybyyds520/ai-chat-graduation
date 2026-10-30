@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.aichat.mapper.PayAccountMapper">
+
+    <select id="selectByUserId" resultType="com.example.aichat.entity.PayAccount">
+        SELECT * FROM pay_account WHERE user_id = #{userId} AND status = 'VERIFIED'
+    </select>
+
+    <select id="selectByUserIdAndType" resultType="com.example.aichat.entity.PayAccount">
+        SELECT * FROM pay_account WHERE user_id = #{userId} AND account_type = #{accountType}
+    </select>
+
+    <select id="countByUserId" resultType="java.lang.Integer">
+        SELECT COUNT(*) FROM pay_account WHERE user_id = #{userId} AND status = 'VERIFIED'
+    </select>
+
+</mapper>

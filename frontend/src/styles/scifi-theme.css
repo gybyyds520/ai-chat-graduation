@@ -1,0 +1,755 @@
+/* ========================================
+   科幻主题样式 - Sci-Fi Theme
+   大气简约的科幻视觉风格
+   ======================================== */
+
+/* 基础重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 字体系统 */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* 字体变量 */
+  --font-family-display: 'Orbitron', sans-serif;
+  --font-family-body: 'Rajdhani', sans-serif;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
+
+/* ========================================
+   亮色主题 - Light Sci-Fi
+   ======================================== */
+
+:root,
+[data-theme="light"],
+.light {
+  /* 背景色 */
+  --bg-primary: #0a0e1a;
+  --bg-secondary: #111827;
+  --bg-tertiary: #1a2234;
+  --bg-hover: #243044;
+  --bg-active: #2d3a52;
+  
+  /* 卡片背景 */
+  --card-bg: #151d2d;
+  --card-hover: #1e2a3d;
+  
+  /* 文字颜色 */
+  --text-primary: #e0e7ff;
+  --text-secondary: #a5b4fc;
+  --text-tertiary: #6366f1;
+  --text-muted: #64748b;
+  --text-inverse: #0a0e1a;
+  
+  /* 边框颜色 */
+  --border-primary: #334155;
+  --border-secondary: #1e293b;
+  --border-focus: #60a5fa;
+  --border-glow: rgba(99, 102, 241, 0.5);
+  
+  /* 品牌色 - 科幻蓝紫渐变 */
+  --color-primary: #6366f1;
+  --color-primary-hover: #818cf8;
+  --color-primary-active: #4f46e5;
+  --color-primary-light: rgba(99, 102, 241, 0.1);
+  --color-primary-glow: rgba(99, 102, 241, 0.3);
+  
+  /* 功能色 */
+  --color-success: #10b981;
+  --color-success-light: rgba(16, 185, 129, 0.1);
+  --color-warning: #f59e0b;
+  --color-warning-light: rgba(245, 158, 11, 0.1);
+  --color-error: #ef4444;
+  --color-error-light: rgba(239, 68, 68, 0.1);
+  --color-info: #06b6d4;
+  --color-info-light: rgba(6, 182, 212, 0.1);
+  
+  /* 霓虹色 */
+  --color-neon-blue: #00d4ff;
+  --color-neon-purple: #a855f7;
+  --color-neon-cyan: #22d3ee;
+  --color-neon-pink: #ec4899;
+  
+  /* 阴影 */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 20px rgba(99, 102, 241, 0.2);
+  --shadow-neon: 0 0 30px rgba(99, 102, 241, 0.3);
+  
+  /* 渐变 */
+  --gradient-primary: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
+  --gradient-secondary: linear-gradient(180deg, #0a0e1a 0%, #1a2234 100%);
+  --gradient-card: linear-gradient(145deg, #1a2234 0%, #151d2d 100%);
+  --gradient-glow: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, transparent 50%);
+  
+  /* 侧边栏 */
+  --sidebar-bg: #0f1624;
+  --sidebar-hover: #1a2234;
+  
+  /* 导航栏 */
+  --navbar-bg: rgba(10, 14, 26, 0.95);
+  
+  /* 模态框 */
+  --modal-bg: #151d2d;
+  --tooltip-bg: #1a2234;
+  --tooltip-text: #e0e7ff;
+  
+  /* Feed模块 */
+  --feed-bg-gradient: linear-gradient(135deg, #0a0e1a 0%, #1a2234 50%, #0a0e1a 100%);
+  --feed-text-color: #e0e7ff;
+  --feed-btn-bg: rgba(99, 102, 241, 0.2);
+  --feed-btn-hover-bg: rgba(99, 102, 241, 0.3);
+  
+  /* 动画 */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+/* ========================================
+   暗色主题 - Dark Sci-Fi (更深层次)
+   ======================================== */
+
+[data-theme="dark"],
+.dark {
+  /* 背景色 */
+  --bg-primary: #05070a;
+  --bg-secondary: #0a0e14;
+  --bg-tertiary: #0f141c;
+  --bg-hover: #1a2230;
+  --bg-active: #243040;
+  
+  /* 卡片背景 */
+  --card-bg: #0d121a;
+  --card-hover: #151d2a;
+  
+  /* 文字颜色 */
+  --text-primary: #f1f5f9;
+  --text-secondary: #cbd5e1;
+  --text-tertiary: #94a3b8;
+  --text-muted: #64748b;
+  --text-inverse: #05070a;
+  
+  /* 边框颜色 */
+  --border-primary: #1e293b;
+  --border-secondary: #0f172a;
+  --border-focus: #3b82f6;
+  --border-glow: rgba(59, 130, 246, 0.5);
+  
+  /* 品牌色 */
+  --color-primary: #818cf8;
+  --color-primary-hover: #a5b4fc;
+  --color-primary-active: #6366f1;
+  --color-primary-light: rgba(129, 140, 248, 0.1);
+  --color-primary-glow: rgba(129, 140, 248, 0.4);
+  
+  /* 霓虹色增强 */
+  --color-neon-blue: #00e5ff;
+  --color-neon-purple: #c084fc;
+  --color-neon-cyan: #22d3ee;
+  --color-neon-pink: #f472b6;
+  
+  /* 阴影增强 */
+  --shadow-glow: 0 0 25px rgba(129, 140, 248, 0.25);
+  --shadow-neon: 0 0 35px rgba(129, 140, 248, 0.4);
+}
+
+/* ========================================
+   全局样式
+   ======================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family-body);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* 标题样式 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-display);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #ffffff, #cbd5e1, #e2e8f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+
+/* 段落样式 */
+p {
+  font-family: var(--font-family-body);
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+/* 链接样式 */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--color-primary-hover);
+}
+
+/* 按钮基础样式 */
+button {
+  font-family: var(--font-family-body);
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transition: left var(--transition-slow);
+}
+
+button:hover::before {
+  left: 100%;
+}
+
+/* 主按钮 */
+.btn-primary {
+  background: var(--gradient-primary);
+  color: white;
+  box-shadow: var(--shadow-glow);
+}
+
+.btn-primary:hover {
+  box-shadow: var(--shadow-neon);
+  transform: translateY(-2px);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+/* 次要按钮 */
+.btn-secondary {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-primary);
+}
+
+.btn-secondary:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  box-shadow: var(--shadow-glow);
+}
+
+/* 危险按钮 */
+.btn-danger {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+}
+
+.btn-danger:hover {
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.4);
+}
+
+/* ========================================
+   科幻风格组件
+   ======================================== */
+
+/* 卡片 */
+.card {
+  background: var(--gradient-card);
+  border: 1px solid var(--border-primary);
+  border-radius: 16px;
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+  transition: all var(--transition-normal);
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--gradient-primary);
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+}
+
+.card:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-neon);
+  transform: translateY(-4px);
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+/* 输入框 */
+.input-field {
+  width: 100%;
+  padding: 12px 16px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-primary);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-family: var(--font-family-body);
+  font-size: 1rem;
+  transition: all var(--transition-fast);
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-glow);
+}
+
+.input-field::placeholder {
+  color: var(--text-muted);
+}
+
+/* 科技感边框 */
+.sci-fi-border {
+  position: relative;
+  border: 1px solid var(--border-primary);
+  border-radius: 8px;
+}
+
+.sci-fi-border::before,
+.sci-fi-border::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-color: var(--color-primary);
+  border-style: solid;
+  border-width: 0;
+}
+
+.sci-fi-border::before {
+  top: -1px;
+  left: -1px;
+  border-top-width: 2px;
+  border-left-width: 2px;
+}
+
+.sci-fi-border::after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+}
+
+/* 发光效果 */
+.glow-effect {
+  box-shadow: var(--shadow-glow);
+}
+
+.glow-effect:hover {
+  box-shadow: var(--shadow-neon);
+}
+
+/* ========================================
+   动画效果
+   ======================================== */
+
+/* 脉冲动画 */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: var(--shadow-glow);
+  }
+  50% {
+    opacity: 0.8;
+    box-shadow: var(--shadow-neon);
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* 扫描线动画 */
+@keyframes scanline {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.animate-scanline::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--gradient-primary);
+  animation: scanline 3s linear infinite;
+}
+
+/* 打字机效果 */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.animate-typing {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(40, end);
+}
+
+/* 浮动动画 */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* 旋转动画 */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* 渐入动画 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* 缩放动画 */
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-scaleIn {
+  animation: scaleIn 0.3s ease-out forwards;
+}
+
+/* ========================================
+   滚动条样式
+   ======================================== */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-primary);
+  border-radius: 4px;
+  transition: background var(--transition-fast);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+/* ========================================
+   响应式设计
+   ======================================== */
+
+/* 大屏幕 */
+@media (min-width: 1200px) {
+  h1 { font-size: 3rem; }
+  h2 { font-size: 2.25rem; }
+}
+
+/* 平板设备 */
+@media (max-width: 992px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.25rem; }
+  
+  .card {
+    padding: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 0.875rem;
+  }
+}
+
+/* 手机设备 */
+@media (max-width: 768px) {
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.375rem; }
+  h3 { font-size: 1.125rem; }
+  
+  body {
+    font-size: 14px;
+  }
+  
+  .card {
+    padding: 12px;
+    border-radius: 12px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 0.75rem;
+  }
+  
+  .input-field {
+    padding: 10px 14px;
+  }
+}
+
+/* 小屏手机 */
+@media (max-width: 480px) {
+  h1 { font-size: 1.25rem; }
+  h2 { font-size: 1.125rem; }
+  
+  .card {
+    padding: 10px;
+  }
+}
+
+/* ========================================
+   Element Plus 组件适配
+   ======================================== */
+
+/* 暗色模式下的 Element Plus 组件 */
+.dark .el-button--primary {
+  background: var(--gradient-primary);
+  border: none;
+}
+
+.dark .el-button--primary:hover {
+  box-shadow: var(--shadow-neon);
+}
+
+.dark .el-input__inner {
+  background: var(--bg-tertiary);
+  border-color: var(--border-primary);
+  color: var(--text-primary);
+}
+
+.dark .el-input__inner:focus {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-glow);
+}
+
+.dark .el-card {
+  background: var(--card-bg);
+  border-color: var(--border-primary);
+}
+
+.dark .el-dialog {
+  background: var(--modal-bg);
+  border-color: var(--border-primary);
+}
+
+.dark .el-dialog__header {
+  border-color: var(--border-secondary);
+}
+
+.dark .el-select-dropdown {
+  background: var(--card-bg);
+  border-color: var(--border-primary);
+}
+
+.dark .el-option:hover {
+  background: var(--bg-hover);
+}
+
+.dark .el-menu {
+  background: var(--sidebar-bg);
+  border-right: none;
+}
+
+.dark .el-menu-item {
+  color: var(--text-secondary);
+}
+
+.dark .el-menu-item:hover {
+  background: var(--sidebar-hover);
+  color: var(--text-primary);
+}
+
+.dark .el-menu-item.is-active {
+  color: var(--color-primary);
+  background: var(--color-primary-light);
+}
+
+.dark .el-table {
+  background: var(--card-bg);
+}
+
+.dark .el-table th,
+.dark .el-table td {
+  border-color: var(--border-secondary);
+  color: var(--text-secondary);
+}
+
+.dark .el-table thead {
+  background: var(--bg-tertiary);
+}
+
+.dark .el-pagination button {
+  color: var(--text-secondary);
+  background: transparent;
+  border-color: var(--border-primary);
+}
+
+.dark .el-pagination button:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.dark .el-pagination .el-pager li.active {
+  background: var(--color-primary);
+  color: white;
+}
+
+.dark .el-badge__content {
+  background: var(--color-error);
+}
+
+.dark .el-message-box {
+  background: var(--modal-bg);
+  border-color: var(--border-primary);
+}
+
+.dark .el-message-box__header {
+  border-color: var(--border-secondary);
+}
+
+/* ========================================
+   科幻主题工具类
+   ======================================== */
+
+/* 文本渐变 */
+.text-gradient {
+  background: linear-gradient(135deg, #ffffff, #c7d2fe, #a5b4fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 20px rgba(199, 210, 254, 0.3);
+}
+
+/* 边框渐变 */
+.border-gradient {
+  border: 2px solid transparent;
+  background: linear-gradient(var(--card-bg), var(--card-bg)) padding-box,
+              var(--gradient-primary) border-box;
+}
+
+/* 霓虹文字 */
+.text-neon {
+  text-shadow: 0 0 10px currentColor,
+               0 0 20px currentColor,
+               0 0 30px currentColor;
+}
+
+/* 玻璃效果 */
+.glass-effect {
+  background: rgba(26, 34, 52, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* 网格背景 */
+.grid-bg {
+  background-image: 
+    linear-gradient(rgba(99, 102, 241, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* 扫描线覆盖 */
+.scanline-overlay {
+  position: relative;
+}
+
+.scanline-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.1) 2px,
+    rgba(0, 0, 0, 0.1) 4px
+  );
+  pointer-events: none;
+  opacity: 0.5;
+}

@@ -1,0 +1,288 @@
+﻿Post  /api/admin/login                                     adminLogin               @RequestBody Map<String, String> request
+Post  /api/admin/change-password                           changePassword           @RequestBody Map<String, String> request
+Post  /api/admin/update-profile                            updateProfile            @RequestBody Map<String, String> request
+Get   /api/admin/users                                     getAllUsers              
+Delete /api/admin/users/{id}                                deleteUser               @PathVariable Long id
+Get   /api/admin/stats                                     getStats                 
+Get   /api/admin/characters                                getAllCharacters         
+Post  /api/admin/users                                     createUser               @RequestBody Map<String, String> request
+Put   /api/admin/users/{id}                                updateUser               @PathVariable Long id, @RequestBody Map<String, String> request
+Get   /api/admin/users/version/{versionType}               getUsersByVersion        @PathVariable String versionType
+Put   /api/admin/users/{id}/version                        updateUserVersion        @PathVariable Long id, @RequestBody Map<String, Object> request
+Get   /api/admin/users/count                               getUserCountByVersion    
+Get   /api/admin/ai-chat-messages                          getAiChatMessages        @RequestParam(defaultValue = "1"
+Get   /api/admin/ai-chat-messages/session                  getSessionChatMessages   @RequestParam String sessionId
+Get   /api/admin/sessions                                  getSessions              
+Get   /api/admin/friend-chat-messages                      getFriendChatMessages    @RequestParam(defaultValue = "1"
+Delete /api/admin/ai-chat-messages/{id}                     deleteAiChatMessage      @PathVariable Long id
+Delete /api/admin/friend-chat-messages/{id}                 deleteFriendChatMessage  @PathVariable Long id
+Get   /api/advertisement/{id}                              getById                  @PathVariable Long id
+Get   /api/advertisement                                   getAll                   
+Get   /api/advertisement/position/{position}               getByPosition            @PathVariable String position
+Get   /api/advertisement/active/{position}                 getActive                @PathVariable String position
+Post  /api/advertisement/{id}/click                        trackClick               @PathVariable Long id
+Get   /api/character/list                                  getAllCharacters         
+Get   /api/character/list/user/{userId}                    getCharactersByUserId    @PathVariable Long userId
+Get   /api/character/{id}                                  getCharacterById         @PathVariable Long id, @RequestParam Long userId
+Get   /api/character/{id}/shared-users                     getSharedUsers           @PathVariable Long id, @RequestParam Long userId
+Get   /api/character/shared-with-me                        getSharedWithMe          @RequestParam Long userId
+Get   /api/character/check-access                          checkAccess              @RequestParam Long userId, @RequestParam Long characterId
+Post  /api/character/upload-avatar                         uploadAvatar             @RequestParam("file"
+Get   /api/elf/get                                         getElf                   @RequestParam Long userId
+Post  /api/elf/create                                      createElf                @RequestBody Map<String, Object> request
+Put   /api/elf/{elfId}                                     updateElf                @PathVariable Long elfId, @RequestBody Map<String, Object> updates
+Post  /api/elf/{elfId}/experience                          addExperience            @PathVariable Long elfId, @RequestBody Map<String, Integer> request
+Post  /api/elf/alarm                                       createAlarm              @RequestBody Map<String, Object> request
+Get   /api/elf/alarms                                      getAlarms                @RequestParam Long elfId
+Put   /api/elf/alarm/{alarmId}                             updateAlarm              @PathVariable Long alarmId, @RequestBody Map<String, Object> updates
+Delete /api/elf/alarm/{alarmId}                             deleteAlarm              @PathVariable Long alarmId
+Post  /api/elf/schedule                                    createSchedule           @RequestBody Map<String, Object> request
+Get   /api/elf/schedules                                   getSchedules             @RequestParam Long elfId
+Put   /api/elf/schedule/{scheduleId}                       updateSchedule           @PathVariable Long scheduleId, @RequestBody Map<String, Object> updates
+Delete /api/elf/schedule/{scheduleId}                       deleteSchedule           @PathVariable Long scheduleId
+Post  /api/elf/sleep                                       recordSleep              @RequestBody Map<String, Object> request
+Get   /api/elf/sleep/records                               getSleepRecords          @RequestParam Long elfId
+Get   /api/elf/sleep/summary                               getSleepSummary          @RequestParam Long elfId
+Post  /api/elf/smart-alarm                                 createSmartAlarm         @RequestBody Map<String, Object> request
+Post  /api/elf/smart-alarm/adjust                          adjustAlarmBySleepQuality @RequestBody Map<String, Object> request
+Post  /api/elf/voice/command                               processVoiceCommand      @RequestBody Map<String, Object> request
+Get   /api/elf/voice/commands                              getVoiceCommands         @RequestParam Long elfId
+Post  /api/elf/health/report                               generateHealthReport     @RequestBody Map<String, Object> request
+Get   /api/elf/health/reports                              getHealthReports         @RequestParam Long elfId, @RequestParam(defaultValue = "7"
+Get   /api/elf/health/summary                              getHealthSummary         @RequestParam Long elfId
+Post  /api/elf/{elfId}/interact                            interact                 @PathVariable Long elfId, @RequestBody Map<String, Object> request
+Get   /api/elf/{elfId}/relationship                        relationship             @PathVariable Long elfId
+Get   /api/elf/{elfId}/interactions                        interactions             @PathVariable Long elfId, @RequestParam(defaultValue = "1"
+Post  /api/elf/{elfId}/daily-reward                        dailyReward              @PathVariable Long elfId
+Post  /api/memory                                          create                   @RequestBody Map<String, Object> request
+Put   /api/memory/{memoryId}                               update                   @PathVariable Long memoryId, @RequestBody Map<String, Object> request
+Delete /api/memory/{memoryId}                               delete                   @PathVariable Long memoryId
+Get   /api/memory/list                                     list                     @RequestParam(defaultValue = "1"
+Get   /api/memory/stats                                    stats                    
+Get   /api/memory/{memoryId}                               detail                   @PathVariable Long memoryId
+Post  /api/memory/{memoryId}/toggle                        toggle                   @PathVariable Long memoryId
+Post  /api/aisystem/authenticate                           authenticate             @RequestHeader("X-API-Key"
+Get   /api/aisystem/list                                   getAllSystems            
+Get   /api/aisystem/{id}                                   getSystemById            @PathVariable Long id
+Get   /api/aisystem/{id}/permissions                       getSystemPermissions     @PathVariable Long id
+Post  /api/auth/sms/send                                   sendSmsCode              @RequestBody Map<String, String> request
+Post  /api/auth/sms/login                                  loginByPhone             @RequestBody Map<String, Object> request
+Post  /api/block-report/block                              blockUser                @RequestBody Map<String, Object> request
+Post  /api/block-report/unblock                            unblockUser              @RequestBody Map<String, Object> request
+Get   /api/block-report/blocked                            getBlockedUsers          @RequestParam Long userId
+Get   /api/block-report/is-blocked                         isBlocked                @RequestParam Long userId, @RequestParam Long targetUserId
+Post  /api/block-report/report                             createReport             @RequestBody Map<String, Object> request
+Get   /api/block-report/reports/user                       getReportsByUser         @RequestParam Long userId
+Post  /api/character/generate                              generateCharacter        @RequestBody Map<String, String> request
+Post  /api/character/generate/batch                        generateMultipleCharacters @RequestBody Map<String, Object> request
+Post  /api/character/import/upload                         uploadChatData           @RequestParam("file"
+Post  /api/character/import/analyze                        analyzeCharacters        @RequestBody Map<String, Object> request
+Post  /api/character/import/generate                       generateCharacter        @RequestBody Map<String, Object> request
+Post  /api/character/import/preview                        previewCharacter         @RequestBody Map<String, Object> request
+Post  /api/character/import/save                           saveCharacter            @RequestBody Map<String, Object> request
+Post  /api/character/import/batch-generate                 batchGenerateCharacters  @RequestBody Map<String, Object> request
+Get   /api/plaza/list                                      list                     @RequestParam(defaultValue = "1"
+Get   /api/plaza/search                                    search                   @RequestParam String keyword, @RequestParam(defaultValue = "1"
+Get   /api/plaza/hot                                       hot                      @RequestParam(defaultValue = "10"
+Get   /api/plaza/categories                                categories               
+Get   /api/plaza/{characterId}                             detail                   @PathVariable Long characterId, @RequestParam(required = false
+Post  /api/plaza/{characterId}/use                         use                      @PathVariable Long characterId
+Get   /api/chat/health                                     checkHealth              
+Get   /api/chat/models                                     listModels               
+Get   /api/chat/history                                    getChatHistory           @RequestParam String sessionId, @RequestParam(defaultValue = "50"
+Get   /api/chat/context/compress                           compressContext          @RequestParam String sessionId, @RequestParam(defaultValue = "10"
+Get   /api/chat/multimodal/images/{sessionId}              getImagesBySession       @PathVariable String sessionId
+Get   /api/chat/multimodal/files/{sessionId}               getFilesBySession        @PathVariable String sessionId
+Post  /api/community/create                                createCommunity          @RequestBody Map<String, Object> request
+Get   /api/community/{communityId}                         getCommunity             @PathVariable Long communityId
+Get   /api/community/list                                  getCommunities           @RequestParam(required = false
+Get   /api/community/search                                searchCommunities        @RequestParam String keyword
+Post  /api/community/join                                  joinCommunity            @RequestBody Map<String, Object> request
+Post  /api/community/leave                                 leaveCommunity           @RequestBody Map<String, Object> request
+Get   /api/community/members/{communityId}                 getMembers               @PathVariable Long communityId
+Post  /api/community/post                                  createPost               @RequestBody Map<String, Object> request
+Get   /api/community/posts/{communityId}                   getPosts                 @PathVariable Long communityId, @RequestParam(defaultValue = "20"
+Post  /api/community/post/{postId}/like                    likePost                 @PathVariable Long postId
+Delete /api/community/post/{postId}                         deletePost               @PathVariable Long postId
+Delete /api/community/{communityId}                         deleteCommunity          @PathVariable Long communityId
+Get   /api/audit/logs                                      getLogs                  @RequestParam(defaultValue = "1"
+Post  /api/admin/backup/full                               performFullBackup        
+Post  /api/admin/backup/incremental                        performIncrementalBackup 
+Get   /api/admin/backup/list                               listBackups              
+Post  /api/admin/backup/restore/{filename}                 restoreBackup            @PathVariable String filename
+Get   /api/admin/backup/stats                              getBackupStats           
+Post  /api/admin/data-pool/upload                          uploadUserData           @RequestBody Map<String, Object> request
+Get   /api/admin/data-pool/records                         getUserDataRecords       @RequestParam(defaultValue = "1"
+Post  /api/admin/data-pool/records                         addRecord                @RequestBody Map<String, Object> request
+Get   /api/admin/data-pool/records/{id}                    getRecordById            @PathVariable Long id
+Put   /api/admin/data-pool/records/{id}                    updateRecord             @PathVariable Long id, @RequestBody Map<String, Object> request
+Get   /api/admin/data-pool/config                          getConfig                
+Post  /api/admin/data-pool/config                          saveConfig               @RequestBody Map<String, Object> request
+Post  /api/admin/data-pool/import                          importData               @RequestBody Map<String, Object> request
+Get   /api/admin/data-pool/export                          exportData               
+Get   /api/admin/data-pool/stats                           getDataStats             
+Get   /api/admin/data-pool/types                           getDataTypes             
+Delete /api/admin/data-pool/records/{id}                    deleteRecord             @PathVariable Long id
+Delete /api/admin/data-pool/records/batch                   deleteBatchRecords       @RequestBody List<Long> ids
+Get   /api/admin/data-pool/analysis                        analyzeUserData          @RequestParam(required = false
+Get   /api/admin/data-pool/auto-save/status                getAutoSaveStatus        
+Post  /api/admin/data-pool/auto-save/toggle                toggleAutoSave           @RequestBody Map<String, Boolean> request
+Get   /api/admin/data-pool/duplicates/check                checkDuplicates          
+Post  /api/admin/data-pool/duplicates/remove               removeDuplicates         
+Get   /api/research/{researchId}/result                    result                   @PathVariable String researchId
+Post  /api/external/proxy                                  proxyRequest             @RequestBody Map<String, Object> requestBody
+Get   /api/external/download                               downloadFile             @RequestParam String url
+Post  /api/feed/upload                                     uploadFile               @RequestParam("file"
+Post  /api/feed/submit                                     submitFeed               @RequestBody Map<String, Object> request
+Get   /api/feed/history                                    getFeedHistory           @RequestParam(defaultValue = "1"
+Get   /api/feed/stats                                      getStats                 
+Get   /api/feed/task/{taskId}                              getTaskDetail            @PathVariable String taskId
+Post  /api/friend/chat/send                                sendMessage              @RequestBody Map<String, Object> request
+Get   /api/friend/chat/history                             getChatHistory           @RequestParam Long userId, @RequestParam Long friendId, @RequestParam(defaultValue = "20"
+Get   /api/friend/chat/unread                              countUnreadMessages      @RequestParam Long userId
+Post  /api/friend/chat/read                                markAsRead               @RequestBody Map<String, Long> request
+Get   /api/friend/chat/list                                getRecentChats           @RequestParam Long userId
+Post  /api/friend/chat/send/file                           sendFileMessage          @RequestParam("file"
+Post  /api/friend/chat/share                               shareToFriend            @RequestBody Map<String, Object> request
+Post  /api/friend/chat/import                              importChatData           @RequestParam("file"
+Post  /api/friend/group/create                             createGroup              @RequestBody Map<String, Object> request
+Get   /api/friend/group/{groupId}                          getGroup                 @PathVariable Long groupId
+Get   /api/friend/group/list                               getGroups                @RequestParam Long userId
+Put   /api/friend/group/{groupId}                          updateGroup              @PathVariable Long groupId, @RequestBody Map<String, String> request
+Delete /api/friend/group/{groupId}                          deleteGroup              @PathVariable Long groupId
+Get   /api/friend/group/members/{groupId}                  getMembers               @PathVariable Long groupId
+Post  /api/friend/group/member/add                         addMember                @RequestBody Map<String, Object> request
+Post  /api/friend/group/member/remove                      removeMember             @RequestBody Map<String, Object> request
+Post  /api/friend/group/member/remark                      updateRemark             @RequestBody Map<String, Object> request
+Post  /api/friend/request                                  sendFriendRequest        @RequestBody Map<String, Long> request
+Post  /api/friend/accept                                   acceptFriendRequest      @RequestBody Map<String, Long> request
+Post  /api/friend/reject                                   rejectFriendRequest      @RequestBody Map<String, Long> request
+Post  /api/friend/remove                                   removeFriend             @RequestBody Map<String, Long> request
+Get   /api/friend/list                                     getFriendList            @RequestParam Long userId
+Get   /api/friend/requests                                 getPendingRequests       @RequestParam Long userId
+Get   /api/friend/search                                   searchUser               @RequestParam String username
+Get   /api/friend/status                                   checkFriendStatus        @RequestParam Long userId, @RequestParam Long targetId
+Post  /api/group/create                                    createGroup              @RequestBody Map<String, Object> request
+Get   /api/group/{groupId}                                 getGroup                 @PathVariable Long groupId
+Get   /api/group/my-groups                                 getUserGroups            @RequestParam Long userId
+Get   /api/group/public                                    getPublicGroups          
+Post  /api/group/join                                      joinGroup                @RequestBody Map<String, Object> request
+Post  /api/group/leave                                     leaveGroup               @RequestBody Map<String, Object> request
+Get   /api/group/members/{groupId}                         getGroupMembers          @PathVariable Long groupId
+Post  /api/group/message                                   sendMessage              @RequestBody Map<String, Object> request
+Get   /api/group/messages/{groupId}                        getGroupMessages         @PathVariable Long groupId, @RequestParam(defaultValue = "20"
+Delete /api/group/{groupId}                                 deleteGroup              @PathVariable Long groupId
+Get   /api/group/recommend-friends                         recommendFriends         @RequestParam Long userId
+Put   /api/group/{groupId}/announcement                    updateAnnouncement       @PathVariable Long groupId, @RequestBody Map<String, String> request
+Put   /api/group/{groupId}/settings                        updateSettings           @PathVariable Long groupId, @RequestBody Map<String, String> request
+Get   /api/group/{groupId}/details                         getGroupWithDetails      @PathVariable Long groupId
+Get   /api/group/activity-ranking                          getCommunityActivityRanking @RequestParam(defaultValue = "10"
+Post  /api/group/{groupId}/activity-score                  updateActivityScore      @PathVariable Long groupId
+Post  /api/group/bot                                       createGroupBot           @RequestBody Map<String, Object> request
+Get   /api/group/bots/{groupId}                            getGroupBots             @PathVariable Long groupId
+Put   /api/group/bot/{botId}                               updateGroupBot           @PathVariable Long botId, @RequestBody Map<String, Object> updates
+Delete /api/group/bot/{botId}                               deleteGroupBot           @PathVariable Long botId
+Post  /api/group/bot/response                              processBotResponse       @RequestBody Map<String, Object> request
+Get   /api/group/recommend-friends/advanced                recommendFriendsAdvanced @RequestParam Long userId
+Post  /api/group/{groupId}/ai-members                      addAiMember              @PathVariable Long groupId, @RequestBody Map<String, Object> request
+Delete /api/group/{groupId}/ai-members/{characterId}        removeAiMember           @PathVariable Long groupId, @PathVariable Long characterId
+Get   /api/group/{groupId}/ai-members                      listAiMembers            @PathVariable Long groupId
+Post  /api/group/{groupId}/ai-round                        triggerAiRound           @PathVariable Long groupId, @RequestBody Map<String, Object> request
+Post  /api/image/generate                                  generateImage            @RequestBody Map<String, String> request
+Post  /api/image/detect                                    detectIntent             @RequestBody Map<String, String> request
+Get   /api/image/health                                    checkHealth              
+Post  /api/knowledge/upload                                upload                   @RequestParam("file"
+Get   /api/knowledge/list                                  list                     @RequestParam(defaultValue = "1"
+Get   /api/knowledge/history                               history                  @RequestParam(defaultValue = "1"
+Get   /api/knowledge/{documentId}                          getDocument              @PathVariable Long documentId
+Get   /api/knowledge/{documentId}/chunks                   chunks                   @PathVariable Long documentId
+Delete /api/knowledge/{documentId}                          delete                   @PathVariable Long documentId
+Post  /api/knowledge/{documentId}/ask                      ask                      @PathVariable Long documentId, @RequestBody AskRequest request
+Get   /api/model/list                                      getAvailableModels       
+Get   /api/model/category/{category}                       getModelsByCategory      @PathVariable String category
+Get   /api/model/{modelKey}                                getModelByKey            @PathVariable String modelKey
+Post  /api/model/add                                       addModel                 @RequestBody AiModel model
+Put   /api/model/{id}                                      updateModel              @PathVariable Long id, @RequestBody AiModel model
+Delete /api/model/{id}                                      deleteModel              @PathVariable Long id
+Post  /api/model/{id}/toggle                               toggleModelStatus        @PathVariable Long id, @RequestBody Boolean available
+Post  /api/multimodal/image/upload                         uploadImage              @RequestParam("file"
+Post  /api/multimodal/image/process                        processImage             @RequestBody Map<String, Object> request
+Get   /api/multimodal/images/{sessionId}                   getImagesBySession       @PathVariable String sessionId
+Post  /api/multimodal/file/upload                          uploadFile               @RequestParam("file"
+Get   /api/multimodal/files/{sessionId}                    getFilesBySession        @PathVariable String sessionId
+Get   /api/notification/list                               getNotifications         @RequestParam Long userId, @RequestParam(defaultValue = "20"
+Get   /api/notification/unread/count                       countUnread              @RequestParam Long userId
+Post  /api/notification/read/{notificationId}              markAsRead               @PathVariable Long notificationId
+Post  /api/notification/read/all                           markAllAsRead            @RequestBody Map<String, Long> request
+Delete /api/notification/{notificationId}                   deleteNotification       @PathVariable Long notificationId
+Post  /api/oauth/wechat/login                              wechatLogin              @RequestBody Map<String, Object> request
+Get   /api/oauth/wechat/callback                           wechatCallback           @RequestParam String code, @RequestParam(required = false
+Post  /api/oauth/wechat/bind                               bindWechat               @RequestBody Map<String, Object> request
+Post  /api/oauth/wechat/unbind                             unbindWechat             @RequestBody Map<String, Object> request
+Get   /api/oauth/wechat/status                             checkWechatBindStatus    @RequestParam(required = false
+Post  /api/pay-account/bind                                bindAccount              @RequestBody Map<String, Object> request
+Post  /api/pay-account/verify                              verifyAccount            @RequestBody Map<String, Object> request
+Delete /api/pay-account/{id}                                unbindAccount            @PathVariable Long id
+Get   /api/pay-account/user/{userId}                       getAccountsByUser        @PathVariable Long userId
+Get   /api/pay-account/user/{userId}/has-any               hasAnyAccount            @PathVariable Long userId
+Get   /api/privacy/settings                                getSettings              @RequestParam Long userId
+Get   /api/privacy/setting                                 getSetting               @RequestParam Long userId, @RequestParam String key
+Post  /api/privacy/setting                                 updateSetting            @RequestBody Map<String, Object> request
+Delete /api/privacy/setting                                 deleteSetting            @RequestParam Long userId, @RequestParam String key
+Get   /api/profile/{userId}                                getProfile               @PathVariable Long userId
+Put   /api/profile/{userId}                                updateProfile            @PathVariable Long userId, @RequestBody Map<String, Object> updates
+Post  /api/profile/upload-avatar                           uploadAvatar             @RequestParam("file"
+Get   /api/profile/statistics/{userId}                     getStatistics            @PathVariable Long userId
+Post  /api/profile/statistics/increment                    incrementStatistic       @RequestBody Map<String, Object> request
+Get   /api/quota/current                                   current                  
+Post  /api/quota/reset                                     reset                    
+Get   /api/recommendation/posts                            getRecommendedPosts      @RequestParam Long userId, @RequestParam(defaultValue = "20"
+Get   /api/recommendation/users                            getRecommendedUsers      @RequestParam Long userId, @RequestParam(defaultValue = "10"
+Post  /api/recommendation/track/view                       trackView                @RequestBody Map<String, Object> request
+Post  /api/recommendation/track/like                       trackLike                @RequestBody Map<String, Object> request
+Post  /api/recommendation/track/comment                    trackComment             @RequestBody Map<String, Object> request
+Post  /api/risk/assess                                     assessRisk               @RequestBody Map<String, Object> request
+Get   /api/risk/history                                    getRiskHistory           @RequestParam Long userId, @RequestParam(defaultValue = "10"
+Get   /api/risk/check                                      checkHighRisk            @RequestParam Long userId, @RequestParam String ipAddress
+Get   /api/search/users                                    searchUsers              @RequestParam String keyword, @RequestParam(defaultValue = "20"
+Get   /api/search/posts                                    searchPosts              @RequestParam String keyword, @RequestParam(defaultValue = "20"
+Get   /api/search/tags                                     searchTags               @RequestParam(required = false
+Get   /api/search/posts/tag                                getPostsByTag            @RequestParam String tagName, @RequestParam(defaultValue = "20"
+Post  /api/social/post                                     createPost               @RequestBody Map<String, Object> request
+Get   /api/social/post/{postId}                            getPost                  @PathVariable Long postId
+Get   /api/social/posts/public                             getPublicPosts           @RequestParam(defaultValue = "20"
+Get   /api/social/posts/user/{userId}                      getUserPosts             @PathVariable Long userId, @RequestParam(defaultValue = "20"
+Post  /api/social/posts/friends                            getFriendsPosts          @RequestBody Map<String, Object> request
+Delete /api/social/post/{postId}                            deletePost               @PathVariable Long postId, @RequestParam Long userId
+Post  /api/social/comment                                  createComment            @RequestBody Map<String, Object> request
+Get   /api/social/comments/{postId}                        getComments              @PathVariable Long postId
+Get   /api/social/replies/{parentId}                       getReplies               @PathVariable Long parentId
+Delete /api/social/comment/{commentId}                      deleteComment            @PathVariable Long commentId, @RequestParam Long userId
+Post  /api/social/like                                     toggleLike               @RequestBody Map<String, Object> request
+Get   /api/social/like/check                               checkLike                @RequestParam String targetType, @RequestParam Long targetId, @RequestParam Long userId
+Post  /api/social/share                                    sharePost                @RequestBody Map<String, Object> request
+Post  /api/social/upload/image                             uploadImage              @RequestParam("file"
+Post  /api/social/upload/video                             uploadVideo              @RequestParam("file"
+Get   /api/tool/list                                       list                     
+Post  /api/tool/call                                       call                     @RequestBody Map<String, Object> body
+Get   /api/tool/history                                    history                  @RequestParam(defaultValue = "1"
+Post  /api/user/register                                   register                 @Valid @RequestBody RegisterRequest request
+Get   /api/user/{id}                                       getUserById              @PathVariable Long id
+Post  /api/user/forgot-password                            forgotPassword           @RequestBody Map<String, String> request
+Post  /api/user/reset-password                             resetPassword            @RequestBody Map<String, String> request
+Get   /api/user/profile                                    getUserProfile           @RequestParam("userId"
+Put   /api/user/profile                                    updateUserProfile        @RequestBody Map<String, Object> request
+Put   /api/user/change-password                            changePassword           @RequestBody Map<String, String> request
+Post  /api/user/send-verification-code                     sendVerificationCode     @RequestBody Map<String, String> request
+Post  /api/user/verify-code                                verifyCode               @RequestBody Map<String, String> request
+Post  /api/user/reset-password-by-code                     resetPasswordByCode      @RequestBody Map<String, String> request
+Post  /api/user/status/update                              updateUserStatus         @RequestBody Map<String, Object> request
+Post  /api/voice-call/{sessionId}/end                      end                      @PathVariable String sessionId
+Post  /api/voice/stt                                       speechToText             @RequestParam("file"
+Post  /api/voice/tts                                       textToSpeech             @RequestBody Map<String, String> request
+Get   /api/voice/health                                    checkHealth              
+Get   /api/crawler/search                                  searchData               @RequestParam(required = false
+Get   /api/search/quick                                    quickSearch              @RequestParam String query, @RequestParam(defaultValue = "10"
+Post  /api/search/keywords                                 generateKeywords         @RequestBody Map<String, Object> requestBody
+Post  /api/search/verify                                   verifyResults            @RequestBody Map<String, Object> requestBody
+TOTAL: 287

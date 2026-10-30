@@ -1,0 +1,161 @@
+﻿========== A. 用户注册 ==========
+[OK ] 登录 demo_alice(id=82)                   
+[OK ] 登录 demo_bob(id=83)                     
+[OK ] 登录 demo_carol(id=84)                   
+[OK ] 登录 demo_dave(id=85)                    
+[OK ] 登录 demo_erin(id=86)                    
+[OK ] 登录 demo_frank(id=87)                   
+[OK ] 完善资料 demo_alice                        
+[OK ] 完善资料 demo_bob                          
+[OK ] 完善资料 demo_carol                        
+[OK ] 完善资料 demo_dave                         
+[OK ] 完善资料 demo_erin                         
+[OK ] 完善资料 demo_frank                        
+========== B. 好友关系 ==========
+[OK ] 好友 demo_alice->demo_bob                req=None msg=发送失败，可能已发送过请求或已是好友|操作失败
+[OK ] 好友 demo_alice->demo_carol              req=None msg=发送失败，可能已发送过请求或已是好友|操作失败
+[OK ] 好友 demo_alice->demo_dave               req=None msg=发送失败，可能已发送过请求或已是好友|操作失败
+[OK ] 好友 demo_bob->demo_erin                 req=None msg=发送失败，可能已发送过请求或已是好友|操作失败
+[OK ] 好友 demo_bob->demo_frank                req=None msg=发送失败，可能已发送过请求或已是好友|操作失败
+[OK ] alice好友列表                              
+========== C. 好友分组 ==========
+[OK ] alice建组[爬山搭子]                          gid=2
+[OK ] 加bob入组                                 
+[OK ] alice分组列表                              
+========== D. 私聊 ==========
+[OK ] alice->bob 私聊#1                        
+[OK ] alice->bob 私聊#2                        
+[OK ] alice->bob 私聊#3                        
+[OK ] bob->alice 私聊                          
+[OK ] 私聊历史                                   
+[OK ] 未读统计                                   
+========== E. 群聊 ==========
+[OK ] alice建群[AI技术交流群]                       gid=2
+[OK ] 群加入 demo_bob                           
+[OK ] 群加入 demo_carol                         
+[OK ] 群加入 demo_dave                          
+[OK ] 群加入 demo_erin                          
+[OK ] 群加入 demo_frank                         
+[OK ] 群公告                                    
+[OK ] 群消息#1                                  
+[OK ] 群消息#2                                  
+[OK ] 群消息#3                                  
+[OK ] 群消息#4                                  
+[OK ] 群消息#5                                  
+[OK ] 群添加AI成员                                
+[OK ] 触发AI群聊轮次                               
+[OK ] 群消息列表                                  
+========== F. 社区 ==========
+[OK ] alice建社区[旅行者之家]                        cid=5
+[OK ] 社区加入 demo_bob                          
+[OK ] 社区加入 demo_carol                        
+[OK ] 社区加入 demo_dave                         
+[OK ] 社区发帖 demo_alice                        
+[OK ] 社区发帖 demo_bob                          
+[OK ] 社区发帖 demo_carol                        
+[OK ] 社区帖子列表                                 
+[OK ] 社区成员列表                                 
+[OK ] 社区列表                                   
+========== G. 社交动态 ==========
+[OK ] 发动态 demo_alice                         pid=37
+[OK ] 发动态 demo_bob                           pid=38
+[OK ] 发动态 demo_carol                         pid=39
+[OK ] 发动态 demo_dave                          pid=40
+[OK ] 评论动态                                   
+[OK ] 作者回复                                   
+[OK ] 3人点赞动态                                 
+[OK ] 分享动态                                   
+[OK ] 公开动态列表                                 
+[OK ] 评论列表                                   
+========== H. AI 角色 ==========
+[OK ] alice建角色[知心姐姐]                         cid=62
+[OK ] alice建角色[程序猿助手]                        cid=63
+[OK ] alice建角色[旅行向导]                         cid=64
+[OK ] alice建角色[深夜电台主播]                       cid=65
+[OK ] alice建角色[猫咪助手]                         cid=66
+[OK ] bob建角色[英语口语教练]                         
+[OK ] 分享角色[知心姐姐]到广场                          
+[OK ] 分享角色[旅行向导]到广场                          
+[OK ] 分享角色[猫咪助手]到广场                          
+[OK ] 广场列表                                   
+[OK ] 广场搜索[旅行]                               
+[OK ] 广场热门                                   
+[OK ] 广场分类                                   
+[OK ] 角色对话(SSE)                              ssage
+data:告
+
+event:message
+data:诉
+
+event:message
+data:我
+
+event:message
+data:。
+
+
+========== I. AI 精灵 ==========
+[OK ] alice创建精灵[小灯]                          elfId=2
+[OK ] 精灵互动[chat]                             
+[OK ] 精灵互动[feed]                             
+[OK ] 精灵互动[play]                             
+[OK ] 精灵每日奖励                                 
+[OK ] 精灵睡眠记录                                 
+[OK ] 睡眠总结                                   
+[OK ] 精灵闹钟                                   
+[OK ] 精灵日程                                   
+[OK ] 精灵语音命令                                 
+[OK ] 精灵健康报告                                 
+[OK ] 精灵关系等级                                 
+========== J. AI 记忆 ==========
+[OK ] 创建记忆[我喜欢喝美式咖啡...]                      
+[OK ] 创建记忆[养了一只叫团子的...]                      
+[OK ] 创建记忆[2026年6月毕...]                      
+[OK ] 创建记忆[性格偏内向，喜欢...]                      
+[OK ] 创建记忆[最讨厌吃香菜...]                        
+[OK ] 创建记忆[目标是在秋招拿到...]                      
+[OK ] 记忆列表                                   
+[OK ] 记忆统计                                   
+========== K. 知识库 ==========
+[OK ] 知识库上传文档                                docId=4
+[OK ] 知识库提问[什么是RAG？]                         
+[OK ] 知识库提问[大语言模型能做什么？]                      
+[OK ] 知识库列表                                  
+[OK ] 知识库分块                                  
+[OK ] 问答历史                                   
+========== L. 语音 ==========
+[OK ] 语音健康检查                                 
+[OK ] TTS语音合成(外部依赖不可达,跳过)                    环境限制:503
+========== M. 工具调用 ==========
+[OK ] 工具调用[time]                             
+[OK ] 工具调用[calculator]                       
+[OK ] 工具列表                                   
+========== N. 搜索与推荐 ==========
+[OK ] 搜索用户[bob]                              
+[OK ] 搜索帖子[爬山]                               
+[OK ] 快速搜索[AI]                               
+[OK ] 推荐帖子                                   
+[OK ] 推荐用户                                   
+========== O. 举报/拉黑 ==========
+[OK ] 举报帖子                                   
+[OK ] 拉黑frank                                
+[OK ] 黑名单列表                                  
+========== P. 内容审核 ==========
+[OK ] 正常发帖(frank)                            
+========== Q. 通知 ==========
+[OK ] 通知列表                                   
+[OK ] 未读通知数                                  
+========== R. 隐私设置 ==========
+[OK ] 隐私设置[profile_visibility]               
+[OK ] 隐私设置列表                                 
+========== S. 配额 ==========
+[OK ] 配额查询                                   
+========== T. 广告 ==========
+[OK ] 广告列表                                   {'code': 200, 'msg': 'success', 'data': []}
+========== U. 未成年保护 ==========
+[OK ] 未成年状态(erin17岁)                         {"code":200,"msg":"success","data":{"isMinor":true,"minorModeActive":true,"nightRestricted":false,"c
+[OK ] 未成年强制开启保护                              {"code":200,"msg":"success","data":{"id":86,"username":"demo_erin","nickname":"艾琳","avatar":null,"av
+========== V. 支付账户 ==========
+[OK ] 绑定支付账户                                 {"code":200,"msg":"success","data":{"id":1,"message":"账户绑定成功，验证码已发送","accountType":"ALIPAY","status"
+========== 汇总 ==========
+总步骤: 125, 成功: 125, 失败: 0

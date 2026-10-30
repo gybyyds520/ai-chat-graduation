@@ -1,0 +1,41 @@
+# 测试环境配置 - 使用 H2 内存数据库，避免依赖本地 MySQL。
+# 重构目的：原测试默认使用主 application.yml 的 MySQL 配置，依赖本地数据库实例，
+# 这导致 CI/CD 环境无法运行集成测试。改为 H2 + MySQL 兼容模式后，测试可独立运行。
+
+spring:
+  main:
+    allow-circular-references: false
+  flyway:
+    # 测试环境禁用 Flyway：原 V1 脚本含 MySQL 同名跨表索引（idx_user_id），
+    # H2 不支持，导致迁移失败。集成测试默认禁用，由本地 MySQL 兜底。
+    enabled: false
+  datasource:
+    # H2 内存数据库（启用 MySQL 兼容模式），用于纯单元测试场景
+    url: jdbc:h2:mem:ai_chat_test;MODE=MySQL;DB_CLOSE_DELAY=-1;DATABASE_TO_LOWER=TRUE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  data:
+    redis:
+      # 测试环境不依赖 Redis，让 CacheService 走降级路径
+      host: localhost
+      port: 6399  # 不存在的端口，强制走降级
+      timeout: 100ms
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+  global-config:
+    db-config:
+      id-type: auto
+
+logging:
+  level:
+    org.springframework: WARN
+    com.example.aichat: DEBUG
+
+# M3-A5：测试环境关闭配额扣减，避免每日限额阻断集成/控制器用例。
+# 配额逻辑本身由 QuotaServiceImplTest（纯 Mockito，不读此配置）单独覆盖。
+aichat:
+  quota:
+    enabled: false

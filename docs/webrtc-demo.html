@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--
+  WebRTC 全双工语音通话 - 本地演示骨架（永久免费/开源）
+  ------------------------------------------------------------------
+  用途：本地打通 麦克风 -> WebRTC(P2P) -> 对端播放，信令走后端 /ws/voice/signaling。
+  这是一个独立参考页面，不接入前端构建，不影响 npm 测试基线。
+  运行：先启动后端(8080)，用浏览器打开本文件(file:// 或本地静态服务)，
+        开两个标签页，输入相同房间号，一方"加入通话"作为主叫发起 offer。
+
+  免费/开源选型：
+   - STT 语音识别：浏览器原生 Web Speech API（webkitSpeechRecognition，免费）。
+     如需纯本地离线，可替换为 Vosk / whisper.cpp（均开源），无调用费用。
+   - TTS 语音合成：复用后端已接入的 Edge TTS（免费，EdgeTtsAdapter）。
+   - WebRTC 信令：自建 /ws/voice/signaling，零成本。
+   - STUN：使用 Google 公开免费 stun:stun.l.google.com:19302。
+     若跨网 NAT 对称型打不通，需自备免费开源 TURN（如 coturn），属可选。
+-->
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>WebRTC 语音通话 Demo（免费）</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 24px auto; }
+    button { margin: 4px; padding: 6px 12px; }
+    #log { background:#111; color:#0f0; font-family: monospace; height: 220px; overflow:auto; padding:8px; }
+  </style>
+</head>
+<body>
+  <h2>WebRTC 全双工语音 Demo</h2>
+  <p>房间号：<input id="room" value="demo-room-013gyb" />
+     <button id="joinBtn">加入通话</button>
+     <button id="leaveBtn">挂断</button></p>
+  <p>STT(浏览器免费识别)：<button id="sttBtn">开始识别</button> <span id="sttText">（识别文本显示在这里）</span></p>
+  <audio id="remoteAudio" autoplay controls></audio>
+  <div id="log"></div>
+
+<script>
+const SIGNAL_URL = (location.protocol === 'https:' ? 'wss://' : 'ws://') +
+                   (location.host || 'localhost:8080') + '/ws/voice/signaling';
+
+let ws, pc, localStream, isInitiator = false;
+const config = { iceServers: [{ urls: 'stun:stun.l.google.com:19302' }] }; // 免费公开 STUN
+
+const log = (msg) => { const el = document.getElementById('log'); el.textContent += msg + '\n'; el.scrollTop = el.scrollHeight; };
+
+async function startLocalMedia() {
+  localStream = await navigator.mediaDevices.getUserMedia({ audio: true, video: false });
+  log('本地麦克风已采集');
+}
+
+function createPeerConnection() {
+  pc = new RTCPeerConnection(config);
+  pc.onicecandidate = (e) => {
+    if (e.candidate) ws.send(JSON.stringify({ type: 'candidate', room: room(), candidate: e.candidate }));
+  };
+  pc.ontrack = (e) => {
+    document.getElementById('remoteAudio').srcObject = e.streams[0];
+    log('收到对端音频流');
+  };
+  localStream.getTracks().forEach(t => pc.addTrack(t, localStream));
+}
+
+function room() { return document.getElementById('room').value; }
+
+async function join() {
+  await startLocalMedia();
+  ws = new WebSocket(SIGNAL_URL);
+  ws.onopen = () => { log('信令已连接'); ws.send(JSON.stringify({ type: 'join', room: room() })); };
+  ws.onmessage = async (ev) => {
+    const msg = JSON.parse(ev.data);
+    switch (msg.type) {
+      case 'connected': log('信令 connected, you=' + msg.you); break;
+      case 'joined': log('已加入房间 ' + msg.room + ' hasPeer=' + msg.hasPeer); break;
+      case 'peer-joined':
+        createPeerConnection();
+        if (msg.initiator) { const offer = await pc.createOffer(); await pc.setLocalDescription(offer);
+          ws.send(JSON.stringify({ type: 'offer', room: room(), sdp: pc.localDescription })); }
+        break;
+      case 'offer': await pc.setRemoteDescription(new RTCSessionDescription(msg.sdp));
+        const ans = await pc.createAnswer(); await pc.setLocalDescription(ans);
+        ws.send(JSON.stringify({ type: 'answer', room: room(), sdp: pc.localDescription })); break;
+      case 'answer': await pc.setRemoteDescription(new RTCSessionDescription(msg.sdp)); break;
+      case 'candidate': await pc.addIceCandidate(new RTCIceCandidate(msg.candidate)); break;
+      case 'error': log('错误: ' + msg.message); break;
+    }
+  };
+}
+
+function leave() {
+  if (ws) ws.send(JSON.stringify({ type: 'leave', room: room() }));
+  if (pc) pc.close();
+  if (localStream) localStream.getTracks().forEach(t => t.stop());
+  log('已挂断');
+}
+
+// STT：浏览器原生 Web Speech API（免费、无需任何密钥）
+function startStt() {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) { alert('当前浏览器不支持 Web Speech API，建议用 Chrome'); return; }
+  const rec = new SR();
+  rec.lang = 'zh-CN';
+  rec.onresult = (e) => {
+    const text = e.results[0][0].transcript;
+    document.getElementById('sttText').textContent = text;
+    log('STT 识别: ' + text);
+  };
+  rec.start();
+  log('STT 开始（浏览器免费识别）');
+}
+
+document.getElementById('joinBtn').onclick = join;
+document.getElementById('leaveBtn').onclick = leave;
+document.getElementById('sttBtn').onclick = startStt;
+</script>
+</body>
+</html>

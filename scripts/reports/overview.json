@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-10-10 23:08:32",
+  "steps": {
+    "check_ports": 1,
+    "smoke_api": 1,
+    "check_modules": 0
+  },
+  "ports": {
+    "timestamp": "2026-10-10 23:08:32",
+    "all_ok": false,
+    "total": 4,
+    "healthy": 3,
+    "items": [
+      {
+        "port": 5187,
+        "name": "Vite 前端",
+        "listening": true,
+        "pid": "29348",
+        "health_status": 200,
+        "health_ok": true,
+        "elapsed_ms": 19.9,
+        "body": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n  <head>\n    <script type=\"module\" src=\"/@vite/client\"></script>\n\n    <meta charset=",
+        "ok": true
+      },
+      {
+        "port": 8080,
+        "name": "后端 API",
+        "listening": true,
+        "pid": "8332",
+        "health_status": 200,
+        "health_ok": true,
+        "elapsed_ms": 3.5,
+        "body": "{\"status\":\"UP\",\"db\":\"UP\",\"timestamp\":1791644910498}",
+        "ok": true
+      },
+      {
+        "port": 11434,
+        "name": "Ollama 推理",
+        "listening": false,
+        "pid": null,
+        "health_status": null,
+        "health_ok": false,
+        "elapsed_ms": null,
+        "body": "端口未监听",
+        "ok": false
+      },
+      {
+        "port": 3306,
+        "name": "MySQL",
+        "listening": true,
+        "pid": "6608",
+        "health_status": "TCP",
+        "health_ok": true,
+        "elapsed_ms": 15.7,
+        "body": "",
+        "ok": true
+      }
+    ]
+  },
+  "smoke": {
+    "timestamp": "2026-09-30 00:46:46",
+    "base": "http://127.0.0.1:8080",
+    "total": 91,
+    "pass": 91,
+    "fail": 0,
+    "slow": 1,
+    "user_login_ok": true,
+    "admin_login_ok": true
+  },
+  "modules": {
+    "timestamp": "2026-10-10 23:08:32",
+    "mobile": {
+      "media_query_files": 48,
+      "breakpoint_hits": {
+        "768px": 13,
+        "480px": 11,
+        "320px": 7
+      },
+      "all_present": true
+    },
+    "electron": {
+      "main_cjs_exists": true,
+      "preload_exists": true,
+      "tray_exists": true,
+      "has_BrowserWindow": true,
+      "has_frameless": true,
+      "has_tray": true,
+      "has_elf_sprite": true,
+      "loads_url_or_file": true,
+      "ok": true
+    },
+    "api_layer": {
+      "api_dir_exists": true,
+      "request_wrapper_files": [
+        "frontend\\src\\utils\\request.js"
+      ],
+      "baseurl_files": [
+        "frontend\\src\\utils\\request.js"
+      ],
+      "ok": true
+    },
+    "ok": true
+  }
+}

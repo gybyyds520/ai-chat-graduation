@@ -1,0 +1,576 @@
+{
+  "timestamp": "2026-09-24 23:43:57",
+  "base": "http://127.0.0.1:8080",
+  "total": 56,
+  "pass": 56,
+  "fail": 0,
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "alice_id": 82,
+  "bob_id": 83,
+  "items": [
+    {
+      "profile": "恶意型",
+      "module": "SQL注入",
+      "step": "/api/search/users payload=' OR 1=1--",
+      "expect": "非5xx且无SQL错误回显",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":[]}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "SQL注入",
+      "step": "/api/friend/search payload=' OR 1=1--",
+      "expect": "非5xx且无SQL错误回显",
+      "status": 200,
+      "body": "{\"code\":500,\"msg\":\"用户不存在\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "SQL注入",
+      "step": "/api/community/search payload=' OR 1=1--",
+      "expect": "非5xx且无SQL错误回显",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":[]}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "SQL注入",
+      "step": "/api/search/users payload=' OR '1'='1",
+      "expect": "非5xx且无SQL错误回显",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":[]}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "SQL注入",
+      "step": "/api/friend/search payload=' OR '1'='1",
+      "expect": "非5xx且无SQL错误回显",
+      "status": 200,
+      "body": "{\"code\":500,\"msg\":\"用户不存在\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "SQL注入",
+      "step": "/api/community/search payload=' OR '1'='1",
+      "expect": "非5xx且无SQL错误回显",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":[]}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "SQL注入",
+      "step": "/api/search/users payload=1; DROP TABLE user--",
+      "expect": "非5xx且无SQL错误回显",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":[]}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "SQL注入",
+      "step": "/api/friend/search payload=1; DROP TABLE user--",
+      "expect": "非5xx且无SQL错误回显",
+      "status": 200,
+      "body": "{\"code\":500,\"msg\":\"用户不存在\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "SQL注入",
+      "step": "/api/community/search payload=1; DROP TABLE user--",
+      "expect": "非5xx且无SQL错误回显",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":[]}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "SQL注入",
+      "step": "/api/search/users payload=' UNION SELECT 1,2,3--",
+      "expect": "非5xx且无SQL错误回显",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":[]}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "SQL注入",
+      "step": "/api/friend/search payload=' UNION SELECT 1,2,3--",
+      "expect": "非5xx且无SQL错误回显",
+      "status": 200,
+      "body": "{\"code\":500,\"msg\":\"用户不存在\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "SQL注入",
+      "step": "/api/community/search payload=' UNION SELECT 1,2,3--",
+      "expect": "非5xx且无SQL错误回显",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":[]}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "XSS",
+      "step": "发帖 content=<script>alert(1)</script>",
+      "expect": "非5xx，脚本不被当作可执行HTML回显",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":{\"id\":60,\"userId\":82,\"userName\":\"爱丽丝\",\"content\":\"安全测试 <script>alert(1)</script>\",\"mediaType\":\"text\",\"mediaUrls\":null,\"videoUrl\":null,\"videoCover\":null,\"location\":null,\"visibility\":\"public\",\"likeCount\":0,\"commentCount\":0,\"shareCount\":0,\"isDeleted\":false,\"createdAt\":",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "XSS",
+      "step": "取回帖子 id=60 检查原始script是否原样存储",
+      "expect": "前端需转义；后端记录存储形态",
+      "status": 401,
+      "body": "{\"code\":401,\"msg\":\"未登录或登录已过期，请重新登录\",\"data\":null}",
+      "severity": "P2",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "越权IDOR",
+      "step": "alice查bob(userId=83)的私聊历史",
+      "expect": "401/403 拒绝",
+      "status": 401,
+      "body": "{\"code\":10105,\"msg\":\"令牌无效或已过期\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "越权IDOR",
+      "step": "alice查bob(userId=83)的通知列表",
+      "expect": "401/403 拒绝",
+      "status": 401,
+      "body": "{\"code\":10105,\"msg\":\"令牌无效或已过期\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "越权IDOR",
+      "step": "alice查bob(userId=83)的举报记录",
+      "expect": "401/403 拒绝",
+      "status": 401,
+      "body": "{\"code\":10105,\"msg\":\"令牌无效或已过期\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "越权IDOR",
+      "step": "alice token 删除 bob(userId=83) 的帖子",
+      "expect": "401/403 拒绝",
+      "status": 401,
+      "body": "{\"code\":10105,\"msg\":\"令牌无效或已过期\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "越权IDOR",
+      "step": "普通用户alice访问 /api/admin/users",
+      "expect": "403",
+      "status": 403,
+      "body": "{\"code\":403,\"msg\":\"权限不足，无法访问该资源\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "越权IDOR",
+      "step": "普通用户alice审核支付单",
+      "expect": "403",
+      "status": 403,
+      "body": "{\"code\":403,\"msg\":\"权限不足，需要管理员权限\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "敏感词绕过",
+      "step": "发帖=这是草泥马谐音测试",
+      "expect": "记录审核策略（拦截或放行）",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":{\"id\":61,\"userId\":82,\"userName\":\"爱丽丝\",\"content\":\"这是草泥马谐音测试\",\"mediaType\":\"text\",\"mediaUrls\":null,\"videoUrl\":null,\"videoCover\":null,\"location\":null,\"visibility\":\"public\",\"likeCount\":0,\"commentCount\":0,\"shareCount\":0,\"isDeleted\":false,\"createdAt\":\"2026-09-24T23:43:56.",
+      "severity": "P2",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "敏感词绕过",
+      "step": "发帖=敏感词拆字测试操+艹",
+      "expect": "记录审核策略（拦截或放行）",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":{\"id\":62,\"userId\":82,\"userName\":\"爱丽丝\",\"content\":\"敏感词拆字测试操+艹\",\"mediaType\":\"text\",\"mediaUrls\":null,\"videoUrl\":null,\"videoCover\":null,\"location\":null,\"visibility\":\"public\",\"likeCount\":0,\"commentCount\":0,\"shareCount\":0,\"isDeleted\":false,\"createdAt\":\"2026-09-24T23:43:56",
+      "severity": "P2",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "敏感词绕过",
+      "step": "发帖=你个傻逼🎭🤖😡",
+      "expect": "记录审核策略（拦截或放行）",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":{\"id\":63,\"userId\":82,\"userName\":\"爱丽丝\",\"content\":\"你个傻逼\\uD83C\\uDFAD\\uD83E\\uDD16\\uD83D\\uDE21\",\"mediaType\":\"text\",\"mediaUrls\":null,\"videoUrl\":null,\"videoCover\":null,\"location\":null,\"visibility\":\"public\",\"likeCount\":0,\"commentCount\":0,\"shareCount\":0,\"isDeleted\":false,\"c",
+      "severity": "P2",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "伪造JWT",
+      "step": "篡改payload为admin+伪造签名访问管理端",
+      "expect": "401（签名校验失败）",
+      "status": 401,
+      "body": "{\"code\":401,\"msg\":\"未登录或登录已过期，请重新登录\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "伪造JWT",
+      "step": "篡改payload为bob+伪造签名访问 /api/user/me",
+      "expect": "401",
+      "status": 401,
+      "body": "{\"code\":401,\"msg\":\"未登录或登录已过期，请重新登录\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "伪造JWT",
+      "step": "alg=none 攻击",
+      "expect": "401",
+      "status": 401,
+      "body": "{\"code\":401,\"msg\":\"未登录或登录已过期，请重新登录\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "伪造JWT",
+      "step": "垃圾token访问 /api/user/me",
+      "expect": "401",
+      "status": 401,
+      "body": "{\"code\":401,\"msg\":\"未登录或登录已过期，请重新登录\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "路径穿越",
+      "step": "头像上传 filename=../../etc/passwd",
+      "expect": "不5xx，不回显服务器路径/文件内容",
+      "status": 200,
+      "body": "{\"code\":400,\"msg\":\"请上传有效的图片文件（支持JPG、PNG、GIF、WebP格式）\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "批量注册",
+      "step": "6次连续注册，状态码=[400, 400, 400, 400, 400, 400]",
+      "expect": "出现429限流 或 至少不全部成功刷号",
+      "status": null,
+      "body": "[400, 400, 400, 400, 400, 400]",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "恶意型",
+      "module": "举报滥用",
+      "step": "alice连续5次举报bob，状态码=[400, 400, 400, 400, 400]",
+      "expect": "重复举报被拒(400/409) 或 有上限",
+      "status": null,
+      "body": "[400, 400, 400, 400, 400]",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "技术型",
+      "module": "无token",
+      "step": "GET /api/user/me",
+      "expect": "401",
+      "status": 401,
+      "body": "{\"code\":401,\"msg\":\"未登录或登录已过期，请重新登录\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "技术型",
+      "module": "无token",
+      "step": "GET /api/memory/list",
+      "expect": "401",
+      "status": 401,
+      "body": "{\"code\":401,\"msg\":\"未登录或登录已过期，请重新登录\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "技术型",
+      "module": "无token",
+      "step": "GET /api/quota/current",
+      "expect": "401",
+      "status": 401,
+      "body": "{\"code\":401,\"msg\":\"未登录或登录已过期，请重新登录\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "技术型",
+      "module": "无token",
+      "step": "POST /api/social/post",
+      "expect": "401",
+      "status": 401,
+      "body": "{\"code\":401,\"msg\":\"未登录或登录已过期，请重新登录\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "技术型",
+      "module": "错token",
+      "step": "GET /api/user/me",
+      "expect": "401",
+      "status": 401,
+      "body": "{\"code\":401,\"msg\":\"未登录或登录已过期，请重新登录\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "技术型",
+      "module": "错token",
+      "step": "GET /api/memory/list",
+      "expect": "401",
+      "status": 401,
+      "body": "{\"code\":401,\"msg\":\"未登录或登录已过期，请重新登录\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "技术型",
+      "module": "参数篡改",
+      "step": "postId传字符串 'notanint'",
+      "expect": "400/404 不500",
+      "status": 400,
+      "body": "{\"code\":400,\"msg\":\"参数 'postId' 的类型不正确，期望类型: Long\",\"data\":{\"message\":\"参数 'postId' 的类型不正确，期望类型: Long\",\"timestamp\":1790264637115}}",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "技术型",
+      "module": "参数篡改",
+      "step": "userId=-1 负数",
+      "expect": "4xx/不500",
+      "status": 404,
+      "body": "{\"code\":10102,\"msg\":\"用户不存在\",\"data\":null}",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "技术型",
+      "module": "参数篡改",
+      "step": "空数组userIds + limit=-5",
+      "expect": "4xx/空结果 不500",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":[]}",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "技术型",
+      "module": "并发请求",
+      "step": "alice 10并发 /api/user/me codes=[200, 200, 200, 200, 200, 200, 200, 200, 200, 200]",
+      "expect": "无500，不串号",
+      "status": null,
+      "body": "oks=10/10 codes=[200, 200, 200, 200, 200, 200, 200, 200, 200, 200]",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "边界型",
+      "module": "空值",
+      "step": "发帖 body={'userId': 82, 'content': ''}",
+      "expect": "4xx业务拒绝 不500",
+      "status": 200,
+      "body": "{\"code\":500,\"msg\":\"参数错误\",\"data\":null}",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "边界型",
+      "module": "空值",
+      "step": "发帖 body={'userId': 82, 'content': '   '}",
+      "expect": "4xx业务拒绝 不500",
+      "status": 200,
+      "body": "{\"code\":500,\"msg\":\"参数错误\",\"data\":null}",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "边界型",
+      "module": "空值",
+      "step": "发帖 body={'content': None}",
+      "expect": "4xx业务拒绝 不500",
+      "status": 200,
+      "body": "{\"code\":500,\"msg\":\"参数错误\",\"data\":null}",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "边界型",
+      "module": "超长",
+      "step": "发帖 2000字符",
+      "expect": "4xx友好提示 或 截断 不500/不裸SQL",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":{\"id\":64,\"userId\":82,\"userName\":\"爱丽丝\",\"content\":\"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "边界型",
+      "module": "特殊字符",
+      "step": "发帖 <>&'\"/\\=`",
+      "expect": "不500",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":{\"id\":65,\"userId\":82,\"userName\":\"爱丽丝\",\"content\":\"特殊字符测试 <>&'\\\"/\\\\=`\",\"mediaType\":\"text\",\"mediaUrls\":null,\"videoUrl\":null,\"videoCover\":null,\"location\":null,\"visibility\":\"public\",\"likeCount\":0,\"commentCount\":0,\"shareCount\":0,\"isDeleted\":false,\"createdAt\":\"2026-09-24T",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "边界型",
+      "module": "Emoji",
+      "step": "发帖 🎭🤖😊🔥🎉",
+      "expect": "不500不乱码",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":{\"id\":66,\"userId\":82,\"userName\":\"爱丽丝\",\"content\":\"emoji \\uD83C\\uDFAD\\uD83E\\uDD16\\uD83D\\uDE0A\\uD83D\\uDD25\\uD83C\\uDF89\",\"mediaType\":\"text\",\"mediaUrls\":null,\"videoUrl\":null,\"videoCover\":null,\"location\":null,\"visibility\":\"public\",\"likeCount\":0,\"commentCount\":0,\"shareCou",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "边界型",
+      "module": "中英文混排",
+      "step": "发帖混排",
+      "expect": "不500",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":{\"id\":67,\"userId\":82,\"userName\":\"爱丽丝\",\"content\":\"Hello你好世界 ChatGPT人工智能 test123\",\"mediaType\":\"text\",\"mediaUrls\":null,\"videoUrl\":null,\"videoCover\":null,\"location\":null,\"visibility\":\"public\",\"likeCount\":0,\"commentCount\":0,\"shareCount\":0,\"isDeleted\":false,\"createdAt\":\"",
+      "severity": "P2",
+      "pass": true
+    },
+    {
+      "profile": "边界型",
+      "module": "数值",
+      "step": "notification page=0&size=0",
+      "expect": "4xx/空结果 不500",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":{\"total\":19,\"size\":1,\"records\":[{\"id\":32,\"userId\":82,\"type\":\"share\",\"targetType\":\"post\",\"targetId\":37,\"actorId\":83,\"actorName\":\"鲍勃\",\"message\":\"鲍勃 分享了你的动态\",\"isRead\":true,\"isDeleted\":false,\"createdAt\":\"2026-09-14T20:32:38\"}],\"hasMore\":true,\"page\":1}}",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "边界型",
+      "module": "数值",
+      "step": "notification page=-1&size=999999",
+      "expect": "4xx/空结果 不500",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":{\"total\":19,\"size\":100,\"records\":[{\"id\":28,\"userId\":82,\"type\":\"comment\",\"targetType\":\"post\",\"targetId\":37,\"actorId\":83,\"actorName\":\"鲍勃\",\"message\":\"鲍勃 评论了你的动态\",\"isRead\":true,\"isDeleted\":false,\"createdAt\":\"2026-09-14T20:32:38\"},{\"id\":29,\"userId\":82,\"type\":\"like\",\"tar",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "边界型",
+      "module": "数值",
+      "step": "notification page=abc&size=xyz",
+      "expect": "4xx/空结果 不500",
+      "status": 400,
+      "body": "{\"code\":400,\"msg\":\"参数 'page' 的类型不正确，期望类型: int\",\"data\":{\"message\":\"参数 'page' 的类型不正确，期望类型: int\",\"timestamp\":1790264637216}}",
+      "severity": "P1",
+      "pass": true
+    },
+    {
+      "profile": "高消费型",
+      "module": "订单越权",
+      "step": "alice GET /api/payment/1",
+      "expect": "403/业务拒绝 他人订单",
+      "status": 200,
+      "body": "{\"code\":401,\"msg\":\"无权查看该充值记录\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "高消费型",
+      "module": "订单越权",
+      "step": "alice GET /api/payment/2",
+      "expect": "403/业务拒绝 他人订单",
+      "status": 200,
+      "body": "{\"code\":500,\"msg\":\"充值记录不存在\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "高消费型",
+      "module": "订单越权",
+      "step": "alice GET /api/payment/99999",
+      "expect": "403/业务拒绝 他人订单",
+      "status": 200,
+      "body": "{\"code\":500,\"msg\":\"充值记录不存在\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "高消费型",
+      "module": "订单越权",
+      "step": "alice GET /api/payment 全部订单列表",
+      "expect": "403",
+      "status": 403,
+      "body": "{\"code\":403,\"msg\":\"权限不足，需要管理员权限\",\"data\":null}",
+      "severity": "P0",
+      "pass": true
+    },
+    {
+      "profile": "高消费型",
+      "module": "重复购买",
+      "step": "连续2次 payment/create -> [(400, '{\"code\":40004,\"msg\":\"订单金额不合法\",\"data\":null}'), (400, '{\"code\":40004,\"msg\":\"订单金额不合法\",\"data\":null}')]",
+      "expect": "幂等/不重复开单/缺账户时友好403",
+      "status": null,
+      "body": "[(400, '{\"code\":40004,\"msg\":\"订单金额不合法\",\"data\":null}'), (400, '{\"code\":40004,\"msg\":\"订单金额不合法\",\"data\":null}')]",
+      "severity": "P2",
+      "pass": true
+    },
+    {
+      "profile": "高消费型",
+      "module": "额度",
+      "step": "GET /api/quota/current",
+      "expect": "200",
+      "status": 200,
+      "body": "{\"code\":200,\"msg\":\"success\",\"data\":{\"userId\":82,\"membershipLevel\":\"FREE\",\"membershipLabel\":\"免费版\",\"advanced\":false,\"membershipExpireAt\":null,\"resetDate\":\"2026-09-24\",\"features\":{\"ai_chat\":{\"used\":0,\"limit\":20,\"available\":true,\"remaining\":20},\"voice_call\":{\"used\":0,\"limit\":5,\"available\":true,\"remainin",
+      "severity": "P2",
+      "pass": true
+    }
+  ],
+  "p0_items": [],
+  "p1_items": []
+}

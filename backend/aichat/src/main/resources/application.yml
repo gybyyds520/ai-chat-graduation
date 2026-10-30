@@ -1,0 +1,356 @@
+server:
+  port: 8080
+  # ===== HTTPS 配置（默认关闭，prod profile 开启）=====
+  # 本地开发保持 HTTP(8080) 不影响现有环境；生产环境通过 application-prod.yml 覆盖为：
+  #   server.port=8443 / server.ssl.enabled=true，并将 keystore.p12 放入 resources 或外部目录。
+  # 自签名证书生成与生产部署步骤见 docs/HTTPS部署指南.md
+  ssl:
+    enabled: false
+    key-store: classpath:keystore.p12
+    key-store-password: changeit
+    key-store-type: PKCS12
+    key-alias: ai-chat
+  tomcat:
+    threads:
+      max: 200
+      min-spare: 20
+    connection-timeout: 20000
+
+spring:
+  main:
+    # 重构修复：原显式开启 allow-circular-references: true 是循环依赖的"补丁"，
+    # 隐藏了 NotificationService 与业务 Service 互注等架构问题。现关闭以强制解除循环依赖，
+    # 后续重构将以 @Lazy 或事件机制替代。若启动报循环依赖错误，再单独处理该路径。
+    allow-circular-references: false
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+    baseline-version: 0
+    sql-migration-prefix: V
+    sql-migration-separator: __
+    sql-migration-suffixes: .sql
+    validate-on-migrate: false
+    clean-disabled: true
+  datasource:
+    # 重构修复：数据库密码外置环境变量，避免源码泄漏导致数据库被入侵。
+    # 本地开发可在系统环境变量或 .env 文件设置 DB_PASSWORD。
+    # 同时启用 useSSL=true（生产推荐），保留 allowPublicKeyRetrieval 仅用于本地 MySQL 8 客户端握手。
+    url: ${DB_URL:jdbc:mysql://localhost:3306/ai_chat?useSSL=false&serverTimezone=UTC&characterEncoding=utf8&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 5
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+  mvc:
+    contentnegotiation:
+      favor-parameter: false
+      favor-path-extension: false
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 50MB
+      max-request-size: 100MB
+  application:
+    name: ai-chat
+  # Redis缓存配置 - 提升性能并支持多实例部署
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
+      database: ${REDIS_DB:0}
+      timeout: 5000ms
+      lettuce:
+        pool:
+          max-active: 16
+          max-idle: 8
+          min-idle: 2
+          max-wait: 3000ms
+  # 缓存配置
+  cache:
+    type: redis
+    redis:
+      time-to-live: 300000  # 5分钟默认TTL
+      cache-null-values: false
+      use-key-prefix: true
+
+mybatis-plus:
+  configuration:
+    # 重构修复：生产环境关闭 StdOutImpl（控制台打印 SQL），改用 Slf4j 实现，
+    # 由 logback 配置统一管理日志级别（DEBUG 级别在 dev profile 单独开启）。
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+    cache-enabled: true
+    lazy-loading-enabled: false
+    aggressive-lazy-loading: false
+    multiple-result-sets-enabled: true
+    use-column-label: true
+    use-generated-keys: true
+    auto-mapping-behavior: full
+    map-underscore-to-camel-case: true
+    call-setters-on-nulls: true
+  global-config:
+    db-config:
+      id-type: auto
+      table-underline: true
+      logic-delete-field: isDeleted
+      logic-delete-value: true
+      logic-not-delete-value: false
+
+springdoc:
+  api-docs:
+    # 阶段二 P1：将 OpenAPI JSON 文档统一收敛到 /docs/ 前缀下，便于与静态文档、
+    # Nginx 反代按 /docs/** 整段放行，避免与业务 /api/** 路径混淆。
+    # 访问入口：GET /docs/api-docs（JSON）、/docs/swagger-ui.html（Swagger UI）
+    path: /docs/api-docs
+  swagger-ui:
+    path: /docs/swagger-ui
+    # 按 tag 分组排序，便于在 UI 中按模块浏览
+    operations-sorter: alpha
+    tags-sorter: alpha
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,metrics,prometheus
+  endpoint:
+    health:
+      # 安全加固：健康检查详情仅认证后可查看，避免向匿名用户泄露
+      # Redis/数据库连接等内部状态
+      show-details: when-authorized
+  health:
+    redis:
+      # 兼容性修复：Lettuce(Spring Boot 3.2) 用 Properties.load 解析 Redis INFO，
+      # Redis 5.0.14(Windows) 的 INFO 含反斜杠路径被误判为 \uXXXX 转义，抛
+      # "Malformed \uxxxx encoding" 导致 health 恒 DOWN。Redis 功能本身正常，
+      # 故关闭 Redis 健康指示器（缓存/锁定等不受影响，仅 health 聚合不再含 Redis）。
+      enabled: false
+
+# 网络搜索配置
+search:
+  # 代理配置
+  proxy:
+    # 是否启用代理服务器（true启用，false禁用）
+    enabled: false
+    # 代理服务器主机地址（示例：127.0.0.1 或 proxy.example.com）
+    host: ""
+    # 代理服务器端口（示例：8080, 1080, 3128）
+    port: 0
+    # 代理认证用户名（如果需要认证）
+    username: ""
+    # 代理认证密码（如果需要认证）
+    password: ""
+    # 代理类型：HTTP, HTTPS, SOCKS（当前实现支持HTTP/HTTPS）
+    type: HTTP
+    # 连接超时时间（秒）
+    connect-timeout: 15
+    # 读取超时时间（秒）
+    read-timeout: 30
+  
+  # 代理池配置 - 用于故障转移和负载均衡
+  proxy-pool:
+    # 是否启用代理池
+    enabled: false
+    # 备用代理列表（支持多个代理自动切换）
+    proxies:
+      # - host: proxy1.example.com
+      #   port: 8080
+      #   username: user1
+      #   password: pass1
+      # - host: proxy2.example.com
+      #   port: 8080
+      #   username: user2
+      #   password: pass2
+    # 代理健康检查间隔（秒）
+    health-check-interval: 60
+    # 连续失败次数阈值（超过此值标记代理不健康）
+    fail-threshold: 3
+    # 不健康代理恢复时间（秒）
+    recovery-time: 300
+  
+  # 搜索引擎配置
+  engines:
+    - name: baidu
+      url: https://www.baidu.com/s
+      enabled: true
+    - name: bing
+      url: https://www.bing.com/search
+      enabled: true
+    - name: duckduckgo
+      url: https://duckduckgo.com/html/
+      enabled: true
+  
+  # 请求配置
+  request:
+    timeout: 20
+    max-retries: 3
+    user-agent-rotation: true
+    # 请求间隔（毫秒），防止被限流
+    interval: 1000
+  
+  # 结果配置
+  result:
+    max-count: 100
+    min-relevance: 0.1
+    verify-enabled: false
+
+# 外部API配置
+external:
+  api:
+    # 代理配置
+    proxy:
+      enabled: false
+      host: ""
+      port: 0
+      username: ""
+      password: ""
+    
+    # AI服务商配置
+    providers:
+      doubao:
+        name: 豆包
+        base-url: https://api.doubao.com/v1
+        api-key-header: Authorization
+        enabled: true
+        models:
+          - id: doubao-3
+            name: 豆包3
+            description: 豆包最新AI模型
+          - id: doubao-3-128k
+            name: 豆包3-128k
+            description: 豆包大上下文模型
+      
+      deepseek:
+        name: DeepSeek
+        base-url: https://api.deepseek.com/v1
+        api-key-header: Authorization
+        enabled: true
+        models:
+          - id: deepseek-chat
+            name: DeepSeek Chat
+            description: DeepSeek对话模型
+          - id: deepseek-coder
+            name: DeepSeek Coder
+            description: DeepSeek代码模型
+      
+      openai:
+        name: OpenAI
+        base-url: https://api.openai.com/v1
+        api-key-header: Authorization
+        enabled: true
+        models:
+          - id: gpt-4o
+            name: GPT-4o
+            description: OpenAI最新模型
+          - id: gpt-3.5-turbo
+            name: GPT-3.5 Turbo
+            description: GPT-3.5对话模型
+      
+      anthropic:
+        name: Anthropic
+        base-url: https://api.anthropic.com/v1
+        api-key-header: x-api-key
+        enabled: false
+        models:
+          - id: claude-3-opus-20240229
+            name: Claude 3 Opus
+            description: Anthropic最强模型
+          - id: claude-3-sonnet-20240229
+            name: Claude 3 Sonnet
+            description: Anthropic平衡模型
+      
+      google:
+        name: Google
+        base-url: https://generativelanguage.googleapis.com/v1beta
+        api-key-header: x-goog-api-key
+        enabled: false
+        models:
+          - id: gemini-pro
+            name: Gemini Pro
+            description: Google Gemini模型
+
+# AI图像生成配置
+image:
+  generation:
+    # 提供者：stable-diffusion(本地) / openai-dall-e(云端) / disabled
+    provider: ${IMAGE_PROVIDER:stable-diffusion}
+    # Stable Diffusion WebUI API地址
+    sd-api-url: ${SD_API_URL:http://localhost:7860}
+    # OpenAI DALL-E API Key
+    openai-api-key: ${OPENAI_API_KEY:}
+    # 默认图片尺寸
+    default-width: 512
+    default-height: 512
+    # 默认采样步数
+    default-steps: 20
+    # 图片保存目录
+  upload-dir: ./uploads/generated/
+
+# CORS 白名单（多端访问：Web / Electron 桌面 / 局域网移动端）
+cors:
+  allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173,http://localhost:4173,http://127.0.0.1:5173,http://localhost:8080,http://localhost:5187,http://127.0.0.1:5187,http://172.25.9.115:5187,http://172.16.188.50:5187}
+
+# 语音对话配置（STT语音识别 + TTS语音合成）
+voice:
+  # STT语音识别配置
+  stt:
+    # 提供者：openai-whisper(云端) / disabled
+    provider: ${STT_PROVIDER:openai-whisper}
+    # OpenAI Whisper API Key（与图像生成共用）
+    openai-api-key: ${OPENAI_API_KEY:}
+    # Whisper模型
+    model: whisper-1
+  # TTS语音合成配置
+  tts:
+    # 提供者：google-translate(免费无需Key) / openai-tts(云端) / disabled
+    provider: ${TTS_PROVIDER:google-translate}
+    # OpenAI TTS API Key
+    openai-api-key: ${OPENAI_API_KEY:}
+    # 默认语音（openai: alloy/echo/fable/onyx/nova/shimmer）
+    default-voice: alloy
+    # 默认语言（google-translate: zh-CN/en-US/ja-JP等）
+    default-lang: zh-CN
+  # LLM 对话模型配置（语音通话回复生成）
+  llm:
+    ollama:
+      # 使用本地 Ollama 大模型（llama3.2:3b）生成回复；Ollama 不可用时自动降级 Mock
+      enabled: ${VOICE_LLM_OLLAMA_ENABLED:true}
+
+# 支付说明：毕设演示阶段维持"模拟支付 + 管理员审核制"，不接入真实微信/支付宝商户。
+# （客观限制：真实支付渠道商户号申请免费，但每笔交易约 0.6% 为行业通道费率，无永久免费渠道。）
+
+# 知识库向量检索配置（C4：免费/开源 ChromaDB + Ollama nomic-embed-text）
+# 开关默认 false：关闭时走原有 2-gram 关键词检索（离线可测，877 基线不回退）。
+# 开启时由 KnowledgeBaseService 旁路写入/查询本地向量 sidecar（scripts/vector_service.py），
+# sidecar 不可用自动降级回 2-gram。详见 docs/向量检索优化方案.md。
+aichat:
+  vector:
+    enabled: ${VECTOR_ENABLED:false}
+    endpoint: ${VECTOR_ENDPOINT:http://127.0.0.1:11435}
+  # AI 记忆市场级升级：记忆语义召回开关。默认 false（离线基线，降级关键词召回）；
+  # 开启后记忆写入时向量化入库，对话时语义召回 top-K 并融合时间衰减+重要度排序。
+  memory:
+    vector:
+      enabled: ${MEMORY_VECTOR_ENABLED:false}
+  # M4 ⑫ 视觉理解：调用本地 Ollama llava 对图片生成描述。
+  # 默认 false 保持离线基线（接口可达但返回未启用提示）；
+  # 前置条件：本机已安装 Ollama 并执行 `ollama pull llava`。
+  vision:
+    enabled: ${VISION_ENABLED:false}
+    base-url: ${OLLAMA_BASE_URL:http://localhost:11434}
+    model: ${VISION_MODEL:llava}
+# 日志级别配置（输出位置 / 滚动策略由 logback-spring.xml 统一管理）
+logging:
+  level:
+    com.example.aichat.config.SearchLogger: DEBUG
+    com.example.aichat.service.impl.WebSearchServiceImpl: INFO
+    com.example.aichat.service.impl.ExternalApiServiceImpl: INFO

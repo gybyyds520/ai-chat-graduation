@@ -1,0 +1,26 @@
+﻿========== A. 用户注册 ==========
+[OK ] 注册 demo_alice(id=82)                   
+[OK ] 注册 demo_bob(id=83)                     
+[OK ] 注册 demo_carol(id=84)                   
+[OK ] 注册 demo_dave(id=85)                    
+[FAIL] 注册 demo_erin                           无法注册/登录
+[FAIL] 注册 demo_frank                          无法注册/登录
+[OK ] 完善资料 demo_alice                        
+[OK ] 完善资料 demo_bob                          
+[OK ] 完善资料 demo_carol                        
+[OK ] 完善资料 demo_dave                         
+========== B. 好友关系 ==========
+[OK ] 好友 demo_alice->demo_bob                req=None msg=发送失败，可能已发送过请求或已是好友|操作失败
+[OK ] 好友 demo_alice->demo_carol              req=None msg=发送失败，可能已发送过请求或已是好友|操作失败
+[OK ] 好友 demo_alice->demo_dave               req=None msg=发送失败，可能已发送过请求或已是好友|操作失败
+python : Traceback (most recent call last):
+所在位置 行:1 字符: 66
++ ... end\aichat; python -X utf8 tmp_seed_data.py > tmp_seed_out3.txt 2>&1; ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\郭耀彬\Desktop\gybct\ai-chat-graduation\backend\aichat\tmp_seed_data.py", line 145, in <module>
+    s, r = call("POST", "/api/friend/request", {"userId": tokens[a]["id"], "friendId": tokens[b]["id"]},
+                                                                                       ~~~~~~^^^
+KeyError: 'demo_erin'

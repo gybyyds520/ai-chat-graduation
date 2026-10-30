@@ -1,0 +1,1 @@
+ALTER TABLE friend_chat_message ADD COLUMN IF NOT EXISTS type VARCHAR(50) DEFAULT 'text' COMMENT '消息类型(text/image/file/audio/video)';

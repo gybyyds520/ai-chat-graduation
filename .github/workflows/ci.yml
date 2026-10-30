@@ -1,0 +1,62 @@
+# ============================================================
+# GitHub Actions CI 流水线 —— AI Chat 毕业项目
+# 触发：push 到 main/master，或向 main/master 提 Pull Request
+# 步骤：后端编译 -> 后端测试 -> 前端测试 -> 前端构建
+# 说明：run_all_checks.py 依赖运行中的实例，不在 CI 容器内执行，
+#       改由部署后环境（ops 服务器 / docker-compose）触发。
+# ============================================================
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  backend:
+    name: Backend Build & Test
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend/aichat
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+          cache: maven
+
+      - name: Backend compile
+        run: ./mvnw -B -q compile
+
+      - name: Backend test
+        run: ./mvnw -B -q test
+
+  frontend:
+    name: Frontend Test & Build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Frontend test
+        run: npm run test
+
+      - name: Frontend build (verify route lazy-load split)
+        run: npm run build

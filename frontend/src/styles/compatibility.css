@@ -1,0 +1,206 @@
+/**
+ * 兼容性样式增强
+ * 针对不同浏览器和设备的兼容性处理
+ */
+
+/* ============ 基础兼容性 ============ */
+
+/* IE 11 兼容 */
+_:-ms-lang(x), .miniprogram-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* IE 10/11 触摸事件兼容 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .content-area {
+    -ms-overflow-style: scrollbar;
+  }
+}
+
+/* ============ 滚动条样式兼容 ============ */
+
+/* WebKit 浏览器 */
+.content-area::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.content-area::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.content-area::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+.content-area::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Firefox */
+.content-area {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+/* IE 10+ */
+.content-area {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+/* ============ 触摸事件兼容 ============ */
+
+/* 移动端触摸优化 */
+.ios-scroll {
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+
+/* 点击高亮移除 */
+* {
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+}
+
+/* ============ 动画兼容 ============ */
+
+/* 旧版浏览器动画前缀 */
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; -webkit-transform: translateY(10px); }
+  to { opacity: 1; -webkit-transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ============ 响应式兼容 ============ */
+
+/* 超小屏幕设备 */
+@media screen and (max-width: 320px) {
+  .miniprogram-container {
+    font-size: 12px;
+  }
+}
+
+/* 大屏幕设备 */
+@media screen and (min-width: 1024px) {
+  .miniprogram-container {
+    max-width: 480px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* ============ 高对比度模式 ============ */
+
+@media (prefers-contrast: high) {
+  .message-bubble {
+    border: 2px solid currentColor;
+  }
+}
+
+/* ============ 减少动画模式 ============ */
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============ 暗黑模式兼容 ============ */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #ffffff;
+    --bg-color: #1a1a2e;
+  }
+}
+
+/* ============ 字体渲染优化 ============ */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+
+/* ============ 弹性布局兼容 ============ */
+
+.flex-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/* ============ 安全区域兼容 ============ */
+
+.safe-area-bottom {
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.safe-area-top {
+  padding-top: constant(safe-area-inset-top);
+  padding-top: env(safe-area-inset-top);
+}
+
+/* ============ 视口单位兼容 ============ */
+
+/* vh 单位在移动端的问题修复 */
+.vh-100 {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+/* ============ 边框圆角兼容 ============ */
+
+.rounded {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.rounded-circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}

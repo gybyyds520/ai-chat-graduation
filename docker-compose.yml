@@ -1,0 +1,150 @@
+# =====================================================================
+# Docker Compose 编排 - Phase 3 (P3) 引入
+# =====================================================================
+# 目的：一键启动 MySQL + Redis + App 完整环境，支持本地开发与生产部署。
+#
+# 使用方式：
+#   1. 本地开发：docker compose up -d mysql redis（仅启动依赖服务）
+#   2. 完整启动：docker compose up -d --build
+#   3. 停止：docker compose down
+#   4. 清理卷：docker compose down -v
+#
+# 环境变量优先级：.env 文件 > docker-compose.yml 默认值 > 系统环境变量
+# =====================================================================
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: aichat-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD:-aichat_root_2026}
+      MYSQL_DATABASE: ai_chat
+      MYSQL_USER: ${DB_USERNAME:-aichat}
+      MYSQL_PASSWORD: ${DB_PASSWORD:-aichat_2026}
+      TZ: Asia/Shanghai
+    ports:
+      # 安全加固：数据库仅绑定本机回环地址，避免局域网内裸奔
+      - "127.0.0.1:${DB_PORT:-3306}:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./backend/aichat/src/main/resources/db/migration:/docker-entrypoint-initdb.d:ro
+    command: >
+      --default-authentication-plugin=mysql_native_password
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_unicode_ci
+      --max-connections=200
+      --innodb-buffer-pool-size=512M
+      --slow-query-log=ON
+      --long-query-time=2
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${DB_PASSWORD:-aichat_root_2026}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    networks:
+      - aichat-net
+
+  redis:
+    image: redis:7-alpine
+    container_name: aichat-redis
+    restart: unless-stopped
+    ports:
+      # 安全加固：Redis 仅绑定本机回环地址
+      - "127.0.0.1:${REDIS_PORT:-6379}:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    networks:
+      - aichat-net
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aichat-app
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      # 数据库配置（指向 docker 网络内的 mysql 容器）
+      DB_URL: jdbc:mysql://mysql:3306/ai_chat?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true
+      DB_USERNAME: ${DB_USERNAME:-aichat}
+      DB_PASSWORD: ${DB_PASSWORD:-aichat_2026}
+      # Redis 配置（指向 docker 网络内的 redis 容器）
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      REDIS_PASSWORD: ${REDIS_PASSWORD:-}
+      # AI 服务 API Key（按需配置）
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      IMAGE_PROVIDER: ${IMAGE_PROVIDER:-disabled}
+      STT_PROVIDER: ${STT_PROVIDER:-disabled}
+      TTS_PROVIDER: ${TTS_PROVIDER:-disabled}
+      # JVM 参数
+      JAVA_OPTS: "-Xms512m -Xmx1024m -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -Dfile.encoding=UTF-8"
+      TZ: Asia/Shanghai
+    ports:
+      - "${SERVER_PORT:-8080}:8080"
+    volumes:
+      - app_uploads:/app/uploads
+      - app_logs:/app/logs
+    networks:
+      - aichat-net
+
+  # Prometheus 监控（可选，开启后访问 localhost:9090）
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: aichat-prometheus
+    restart: unless-stopped
+    profiles: ["monitoring"]  # 仅在 --profile monitoring 启动
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./ops/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    networks:
+      - aichat-net
+
+  # Grafana 监控可视化（可选）
+  grafana:
+    image: grafana/grafana:latest
+    container_name: aichat-grafana
+    restart: unless-stopped
+    profiles: ["monitoring"]
+    ports:
+      - "3000:3000"
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-admin}
+    volumes:
+      - grafana_data:/var/lib/grafana
+    depends_on:
+      - prometheus
+    networks:
+      - aichat-net
+
+volumes:
+  mysql_data:
+    driver: local
+  redis_data:
+    driver: local
+  app_uploads:
+    driver: local
+  app_logs:
+    driver: local
+  prometheus_data:
+    driver: local
+  grafana_data:
+    driver: local
+
+networks:
+  aichat-net:
+    driver: bridge

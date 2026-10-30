@@ -1,0 +1,196 @@
+{
+  "timestamp": "2026-10-10 23:08:32",
+  "routes": {
+    "total": 26,
+    "missing": [],
+    "items": [
+      {
+        "route": "/",
+        "component": "LandingPage.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\LandingPage.vue"
+      },
+      {
+        "route": "/login",
+        "component": "LoginView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\LoginView.vue"
+      },
+      {
+        "route": "/forgot-password",
+        "component": "ForgotPasswordView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\ForgotPasswordView.vue"
+      },
+      {
+        "route": "/register",
+        "component": "RegisterView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\RegisterView.vue"
+      },
+      {
+        "route": "/chat",
+        "component": "ChatView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\ChatView.vue"
+      },
+      {
+        "route": "/friends",
+        "component": "FriendView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\FriendView.vue"
+      },
+      {
+        "route": "/friend-chat",
+        "component": "FriendChatView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\FriendChatView.vue"
+      },
+      {
+        "route": "/character-import",
+        "component": "CharacterImportView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\CharacterImportView.vue"
+      },
+      {
+        "route": "/create-character",
+        "component": "CreateCharacterView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\CreateCharacterView.vue"
+      },
+      {
+        "route": "/admin",
+        "component": "AdminView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\AdminView.vue"
+      },
+      {
+        "route": "/datapool",
+        "component": "DataPoolView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\DataPoolView.vue"
+      },
+      {
+        "route": "/feed",
+        "component": "FeedView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\FeedView.vue"
+      },
+      {
+        "route": "/desktop-elf",
+        "component": "DesktopElf.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\DesktopElf.vue"
+      },
+      {
+        "route": "/miniprogram",
+        "component": "miniprogram\\MiniProgram.vue",
+        "exists": true,
+        "path": "frontend\\src\\miniprogram\\MiniProgram.vue"
+      },
+      {
+        "route": "/profile",
+        "component": "ProfileView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\ProfileView.vue"
+      },
+      {
+        "route": "/upgrade",
+        "component": "UpgradeView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\UpgradeView.vue"
+      },
+      {
+        "route": "/admin-profile",
+        "component": "AdminProfileView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\AdminProfileView.vue"
+      },
+      {
+        "route": "/announcements",
+        "component": "AnnouncementView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\AnnouncementView.vue"
+      },
+      {
+        "route": "/social-feed",
+        "component": "SocialFeedView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\SocialFeedView.vue"
+      },
+      {
+        "route": "/notifications",
+        "component": "NotificationView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\NotificationView.vue"
+      },
+      {
+        "route": "/privacy",
+        "component": "PrivacyView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\PrivacyView.vue"
+      },
+      {
+        "route": "/elf",
+        "component": "AiElfView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\AiElfView.vue"
+      },
+      {
+        "route": "/community",
+        "component": "CommunityView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\CommunityView.vue"
+      },
+      {
+        "route": "/plaza",
+        "component": "PlazaView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\PlazaView.vue"
+      },
+      {
+        "route": "/research",
+        "component": "ResearchView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\ResearchView.vue"
+      },
+      {
+        "route": "/memory",
+        "component": "MemoryView.vue",
+        "exists": true,
+        "path": "frontend\\src\\views\\MemoryView.vue"
+      }
+    ]
+  },
+  "mobile": {
+    "media_query_files": 48,
+    "breakpoint_hits": {
+      "768px": 13,
+      "480px": 11,
+      "320px": 7
+    },
+    "all_present": true
+  },
+  "electron": {
+    "main_cjs_exists": true,
+    "preload_exists": true,
+    "tray_exists": true,
+    "has_BrowserWindow": true,
+    "has_frameless": true,
+    "has_tray": true,
+    "has_elf_sprite": true,
+    "loads_url_or_file": true,
+    "ok": true
+  },
+  "api_layer": {
+    "api_dir_exists": true,
+    "request_wrapper_files": [
+      "frontend\\src\\utils\\request.js"
+    ],
+    "baseurl_files": [
+      "frontend\\src\\utils\\request.js"
+    ],
+    "ok": true
+  },
+  "ok": true
+}

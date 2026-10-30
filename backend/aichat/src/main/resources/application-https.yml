@@ -1,0 +1,12 @@
+# 本地自签名 HTTPS 验证 profile（毕设演示用）
+# 激活方式：$env:SPRING_PROFILES_ACTIVE="https"
+# 前置：已用 openssl/keytool 生成 src/main/resources/keystore.p12（见 docs/HTTPS部署指南.md 第一节）
+# 主 application.yml 保持 ssl.enabled=false，故激活本 profile 才开 8443，不影响测试基线。
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-store: classpath:keystore.p12
+    key-store-password: changeit
+    key-store-type: PKCS12
+    key-alias: ai-chat
